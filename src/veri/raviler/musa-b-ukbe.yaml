@@ -1,0 +1,39 @@
+isim: Mûsâ b. Ukbe
+tam_isim: Ebû Muhammed Mûsâ b. Ukbe b. Ebî Ayyâş el-Kureşî el-Esedî el-Medenî
+arapca: موسى بن عقبة
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Mûsâ
+  nesep: Mûsâ b. Ukbe b. Ebî Ayyâş, mevlâ Âl-i Zübeyr
+  nesep_arapca: موسى بن عقبة بن أبي عياش الأسدي المدني
+  nisbeler: [el-Kureşî, el-Esedî, el-Medenî]
+  aciklama: Zübeyr b. el-Avvâm ailesinin mevlâsı bir aileden geldiği için "el-Kureşî el-Esedî" nisbeleriyle anılır.
+dogum: {not: "55 (675) veya 60 (679) civarı"}
+vefat: {hicri: 141, miladi: 758}
+vefat_yeri: Medine
+bolge: medine
+eserleri: ["Kitâbü'l-Megāzî (tek ciltlik muhtasar; günümüze ulaşmadı)"]
+rical:
+  tehzibul_kemal: "XXIX, 118-121"
+  tehzibut_tehzib: "V, 556-557"
+  rumuz: "ع"
+  sozler:
+    - {kim: İmam Mâlik, soz: "Meğāzînin en doğrusu Mûsâ b. Ukbe'ninkidir.", kaynak: "DİA, \"Mûsâ b. Ukbe\""}
+ozet: Meğāzî alanında eser yazan ilk müelliflerden; Mâlik'in "en doğru meğāzî" dediği eserin sahibi.
+biyografi: |
+  Ebû Muhammed Mûsâ b. Ukbe el-Esedî, 55 veya 60 civarında doğduğu tahmin edilir; ailesi Zübeyr b. el-Avvâm'ın mevlâsıdır. Abdullah b. Ömer, Enes b. Mâlik ve Sehl b. Sa'd ile görüştü; Ümmü Hâlid, A'rec, Ebû Seleme, Ebü'z-Zinâd, Zührî, Nâfi' ve Urve'den rivayet etti.
+
+  Medine'de yaşadı ve iki ağabeyiyle birlikte Mescid-i Nebevî'de fıkıh ve hadis okuttu; saraya yakınlık göstermedi. İbnü'l-Mübârek, İbn Cüreyc, Mâlik, iki Süfyân ve Şu'be ondan rivayet etti. Mâlik, Ahmed b. Hanbel, Yahyâ b. Maîn ve Nesâî onu sika saymıştır.
+
+  Zehebî onu megāzî alanında eser yazan ilk kişi olarak gösterir. Günümüze ulaşmayan el-Megāzî'si büyük ölçüde Zührî'nin rivayetlerine dayanır; ilk müslümanlar, Habeşistan muhacirleri, Akabe biatına katılanlar ve Bedir ehli gibi listeleriyle önem taşır. Mâlik, megāzî öğrenmek isteyenlere onun kitabını önermiştir; İbn Sa'd ve İbn Abdilber de ondan yararlanmıştır. 141'de Medine'de vefat etti.
+hocalari:
+  - kisi: zuhri
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Mûsâ b. Ukbe\"", url: "https://islamansiklopedisi.org.tr/musa-b-ukbe"}
+  - kisi: nafi
+    kaynak: *tdv
+  - kisi: urve-b-ez-zubeyr
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

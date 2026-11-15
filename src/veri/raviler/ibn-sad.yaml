@@ -1,0 +1,45 @@
+isim: İbn Sa'd
+tam_isim: Ebû Abdillâh Muhammed b. Sa'd b. Menî' el-Kâtib el-Hâşimî el-Basrî el-Bağdâdî
+arapca: محمد بن سعد بن منيع كاتب الواقدي
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Muhammed
+  nesep: Muhammed b. Sa'd b. Menî', mevlâ Benî Hâşim
+  nesep_arapca: محمد بن سعد بن منيع الهاشمي مولاهم البصري البغدادي
+  nisbeler: [el-Hâşimî (mevlâ), el-Kureşî, el-Basrî, el-Bağdâdî]
+  lakap: Kâtibü'l-Vâkıdî
+  aciklama: Ailesi Hz. Abbâs'ın âzatlısı olduğu için "Mevlâ Benî Hâşim" diye anılır. Hocası Vâkıdî'nin yakın dostu ve kâtibi olduğu için "Kâtibü'l-Vâkıdî" lakabıyla tanınır.
+dogum: {hicri: 160, miladi: 777}
+vefat: {hicri: 230, miladi: 845}
+dogum_yeri: Basra
+vefat_yeri: Bağdat
+bolge: bagdat
+diger_bolgeler: [basra]
+eserleri: ["et-Tabakātü'l-kübrâ", "Kitâbü't-Tabakāti's-sağîr"]
+rical:
+  tehzibul_kemal: "XXV, 255-258"
+  tehzibut_tehzib: "V, 118-119"
+ozet: et-Tabakātü'l-kübrâ'nın müellifi; tabakāt türünün en önemli erken eserini yazan Vâkıdî'nin kâtibi.
+biyografi: |
+  Ebû Abdillâh Muhammed b. Sa'd, 160'ta Basra'da doğdu; babası veya dedesi Hz. Abbas ailesinin âzatlısı olduğu için "Mevlâ Benî Hâşim" diye anılır. Basra'da Hüşeym, Vekî', Ebû Âsım en-Nebîl ve İbn Uleyye'den dinî ilimler ile Arap dili öğrendi. Genç yaşta Kûfe, Medine ve Mekke'ye giderek Hz. Peygamber'in gazvelerinin geçtiği yerleri inceledi; sonra Rakka ve Dımaşk'tan Bağdat'a geçip orada yerleşti.
+
+  200 civarında Bağdat'ta Vâkıdî'nin kâtibi oldu ve hocasının 207'deki vefatına kadar yanından ayrılmadı; bu yüzden "Kâtibü'l-Vâkıdî" diye anıldı. Medâinî, İbnü'l-Kelbî ve Mus'ab ez-Zübeyrî'den de faydalandı; hadisi Süfyân b. Uyeyne, Vekî' ve Ebû Nuaym'dan aldı. Belâzürî, İbn Ebi'd-Dünyâ ve Hâris b. Ebî Üsâme ondan rivayet etti.
+
+  218'de Me'mûn'un emriyle sorgulanan yedi âlim arasındaydı; istenen cevabı verip serbest bırakıldı. Ahmed b. Hanbel bu tavrını makul bulmuş, aralarındaki ilmî ilişki sürmüştür. Ebû Hâtim doğru sözlü olduğunu söylemiş; Hatîb, Zehebî ve İbn Hacer onu güvenilir kabul etmiştir.
+
+  En meşhur eseri et-Tabakātü'l-kübrâ, siyer-megāzî ve tabakāt bölümlerinden oluşur. Sahâbîleri beş tabakaya, tâbiîni yerleşim yerleri ve yaşlarına göre sınıflandırır; son cildi kadın sahâbîlere ayrılmıştır. 4 Cemâziyelâhir 230'da Bağdat'ta vefat etti ve Bâbüşşam Kabristanı'na defnedildi.
+hocalari:
+  - kisi: sufyan-b-uyeyne
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Sa'd\"", url: "https://islamansiklopedisi.org.tr/ibn-sad"}
+  - kisi: huseym-b-besir
+    kaynak: *tdv
+  - kisi: veki-b-cerrah
+    kaynak: *tdv
+  - kisi: ebu-nuaym
+    kaynak: *tdv
+  - kisi: ibn-uleyye
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

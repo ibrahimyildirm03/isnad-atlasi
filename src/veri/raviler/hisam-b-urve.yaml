@@ -1,0 +1,40 @@
+isim: Hişâm b. Urve
+tam_isim: Ebü'l-Münzir Hişâm b. Urve b. ez-Zübeyr el-Kureşî el-Esedî
+arapca: هشام بن عروة
+cerh_tadil: Sika, fakih; bazen tedlîs yapardı (İbn Hacer, Takrîb; 5. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Hişâm
+  kunye: Ebü'l-Münzir (Ebû Abdillâh ve Ebû Bekr de denmiştir)
+  nesep: Hişâm b. Urve b. ez-Zübeyr b. el-Avvâm
+  nesep_arapca: هشام بن عروة بن الزبير بن العوام الأسدي
+  nisbeler:
+    - el-Esedî
+    - el-Kureşî
+    - el-Medenî
+rical:
+  tehzibul_kemal: XXX, 232
+  tehzibut_tehzib: 4/275 (Şâmile neşri)
+  takrib: Sika, fakih; bazen tedlîs yapmıştır (5. tabaka)
+dogum: {hicri: 61, miladi: 680}
+vefat: {hicri: 146, miladi: 763, not: "145 ve 147 de denmiştir"}
+bolge: medine
+diger_bolgeler: [kufe, bagdat]
+ozet: Urve b. ez-Zübeyr'in oğlu; babasının rivayetlerini Mâlik, Leys, Sevrî ve Uyeyne'ye aktaran Medineli muhaddis.
+biyografi: |
+  Hişâm b. Urve b. ez-Zübeyr b. el-Avvâm, Muharrem 61'de Medine'de doğdu. Abdullah b. Ömer, Sehl b. Sa'd, Câbir b. Abdullah ve Enes b. Mâlik'i gördü; on yaşlarındayken İbn Ömer'in yanına götürülmüş, İbn Ömer başını okşayıp ona dua etmiştir. Hadisi başta babası Urve olmak üzere amcası Abdullah b. ez-Zübeyr, İbnü'l-Münkedir, Zührî ve hanımı Fâtıma bint el-Münzir'den aldı.
+
+  Eyyûb es-Sahtiyânî, Ma'mer, İbn Cüreyc, Şu'be, Süfyân es-Sevrî, Leys b. Sa'd, Mâlik, İbnü'l-Mübârek, Süfyân b. Uyeyne ve Yahyâ el-Kattân ondan rivayet etti. Halife Mansûr ona büyük değer verdi; onun yanına üç defa Kûfe'ye gitmesi Kûfeli talebelerin de ondan faydalanmasını sağladı. Borcunu ödemek için yardım istediğinde Mansûr borcunu kapatıp üstüne ilave para vermiştir.
+
+  İbn Sa'd, Yahyâ b. Maîn ve Ebû Hâtim onu sika saymıştır. Ya'kūb b. Şeybe, kitaplarını yanında götürmediği için Irak'taki rivayetlerinde gevşeklik gösterdiğini ileri sürmüş; bu yüzden Medinelilerin ondan rivayetleri daha makbul sayılmıştır. İleri yaşta rivayetleri karıştırdığı iddiasını Zehebî ve İbn Hacer reddetmiştir.
+
+  146'da Mansûr'un yanına gittiği Bağdat'ta vefat etti; cenaze namazını Mansûr kıldırdı ve Hayzürân Kabristanı'na defnedildi.
+hocalari:
+  - kisi: urve-b-ez-zubeyr
+    not: babasıdır
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hişâm b. Urve\"", url: "https://islamansiklopedisi.org.tr/hisam-b-urve"}
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/6702"}
+  - {ad: "Buhârî, es-Sahîh, \"Bed'ü'l-vahy\", 2", url: "https://sunnah.com/bukhari:2"}
+dogrulandi: true

@@ -1,0 +1,71 @@
+isim: Eyyûb es-Sahtiyânî
+tam_isim: Ebû Bekr Eyyûb b. Ebî Temîme Keysân es-Sahtiyânî el-Basrî
+arapca: أيوب السختياني
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Eyyûb
+  nesep: Eyyûb b. Ebî Temîme Keysân el-Anezî (mevlâ)
+  nesep_arapca: أيوب بن أبي تميمة كيسان السختياني البصري
+  nisbeler: [es-Sahtiyânî, el-Anezî, el-Basrî]
+  aciklama: '"es-Sahtiyânî" nisbesi sahtiyan (deri) ticaretiyle uğraşmasından gelir. Babası Aneze kabilesinin mevâlîsindendir.'
+dogum: {hicri: 68, miladi: 687}
+vefat: {hicri: 131, miladi: 749, not: "Ramazan 131, vebadan"}
+dogum_yeri: Basra
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "III, 457-464"
+  tehzibut_tehzib: "I, 397-399"
+  rumuz: "ع"
+  sozler:
+    - kim: Şu'be b. el-Haccâc
+      soz: Fakihlerin efendisi.
+      kaynak: DİA, "Eyyûb es-Sahtiyânî"
+ozet: Basra'nın sünnet imamı; Mâlik, Şu'be, iki Hammâd ve Ma'mer'in hocası.
+biyografi: |
+  Ebû Bekr Eyyûb b. Ebî Temîme Keysân, 68'de Basra'da doğdu. Babası Aneze kabilesinin mevâlîsindendir; sahtiyan (deri) ticaretiyle uğraştığı için "es-Sahtiyânî" diye anıldı. Küçük yaşta ilme yöneldi; dört yıl dersine katıldığı Hasan-ı Basrî onu "Basra gençlerinin efendisi" diye övdü.
+
+  Atâ b. Ebî Rebâh, Hişâm b. Urve, İbn Sîrîn, İkrime, Katâde, Mücâhid, Nâfi', Saîd b. Cübeyr ve Sâlim b. Abdullah'tan rivayet etti. Hammâd b. Seleme, Hammâd b. Zeyd, Mâlik, Ma'mer, iki Süfyân ve Şu'be ondan hadis aldı. Mâlik, Iraklı âlimlerden yalnızca ondan nakilde bulunmuştur. Süfyân b. Uyeyne, görüştüğü seksen altı tâbiî arasında onun gibisine rastlamadığını söylemiştir; Kütüb-i Sitte müelliflerinin hepsi ondan rivayet eder.
+
+  Hadiste delilini bilmediği konularda hata korkusuyla ictihad etmezdi. Âbid ve zâhid bir âlimdi; zühdün gizli yaşanmasını makbul görür, riyadan korktuğu için giyiminde aşırı sadelikten kaçınırdı. Kırk kez hac yaptığı rivayet edilir. Siyasetten uzak durdu; arkadaşı III. Yezîd halife olunca onunla ilişkisini kesti.
+
+  İbn Mehdî ona "Basra ehlinin hücceti" demiştir. Ramazan 131'de bir cuma günü Basra'da vebadan vefat etti.
+hocalari:
+  - kisi: hasan-el-basri
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Eyyûb es-Sahtiyânî\"", url: "https://islamansiklopedisi.org.tr/eyyub-es-sahtiyani"}
+  - kisi: muhammed-b-sirin
+    kaynak: *tdv
+  - kisi: ikrime
+    kaynak: *tdv
+  - kisi: ata-b-ebi-rebah
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    kaynak: *tdv
+  - kisi: katade-b-diame
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    ihtilafli: true
+    not: Enes'ten bizzat dinlediği şüphelidir
+    kaynak: *tdv
+  - kisi: nafi
+    kaynak: &id001
+      ad: TDV İslâm Ansiklopedisi, "Eyyûb es-Sahtiyânî"
+      url: https://islamansiklopedisi.org.tr/eyyub-es-sahtiyani
+  - kisi: zeyd-b-eslem
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Zeyd b. Eslem"
+      url: https://islamansiklopedisi.org.tr/zeyd-b-eslem
+  - kisi: said-b-cubeyr
+    kaynak: *id001
+  - kisi: ebu-osman-en-nehdi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Osmân en-Nehdî"
+      url: https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi
+  - kisi: ibn-ebi-muleyke
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Müleyke"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke
+kaynaklar:
+  - *tdv
+dogrulandi: true

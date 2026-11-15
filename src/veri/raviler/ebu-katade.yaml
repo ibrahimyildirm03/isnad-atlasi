@@ -1,0 +1,29 @@
+isim: Ebû Katâde el-Ensârî
+tam_isim: Ebû Katâde el-Hâris b. Rib'î b. Beldeme el-Ensârî el-Hazrecî es-Selemî
+arapca: أبو قتادة الأنصاري
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Katâde
+  ism: el-Hâris
+  nesep: el-Hâris b. Rib'î b. Beldeme el-Ensârî
+  nesep_arapca: الحارث بن ربعي بن بلدمة الأنصاري السلمي
+  nisbeler: [el-Ensârî, el-Hazrecî, es-Selemî]
+  lakap: Fârisü Resûlillâh (Hz. Peygamber'in süvarisi)
+  aciklama: Künyesiyle tanınır; adının Nu'mân, Amr, Avn veya Beldeme olduğu da rivayet edilmiştir. Hazrec'in Selimeoğulları kolundandır.
+vefat: {hicri: 54, miladi: 674, not: "Kûfe'de 38'de öldüğü rivayeti zayıf görülmüştür"}
+vefat_yeri: Medine
+bolge: medine
+hadis_sayisi: {sayi: 170, kaynak: "Bakī b. Mahled (DİA)"}
+rical:
+  tehzibut_tehzib: "XII, 204-205"
+  rumuz: "ع"
+ozet: '"Süvarilerimizin en hayırlısı" övgüsünü alan Ensârî sahâbî.'
+biyografi: |
+  Hazrec'in Selimeoğulları kolundandır. Gābe gazvesindeki başarısı üzerine Hz. Peygamber onun için "Süvarilerimizin en hayırlısı Ebû Katâde'dir" buyurdu. Hz. Ali onu bir süre Mekke valiliğine tayin etti.
+
+  Ondan Enes b. Mâlik, Câbir b. Abdullah, Saîd b. el-Müseyyeb, Atâ b. Yesâr ve oğulları Abdullah ile Sâbit rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Katâde\"", url: "https://islamansiklopedisi.org.tr/ebu-katade"}
+  - "İbn Hacer, el-İsâbe, IV, 158-159"
+dogrulandi: true

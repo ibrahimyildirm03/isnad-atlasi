@@ -1,0 +1,44 @@
+isim: Saîd b. Mansûr
+tam_isim: Ebû Osmân Saîd b. Mansûr b. Şu'be el-Horasânî el-Mekkî
+arapca: سعيد بن منصور
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Osmân
+  ism: Saîd
+  nesep: Saîd b. Mansûr b. Şu'be
+  nesep_arapca: سعيد بن منصور بن شعبة الخراساني المكي
+  nisbeler: [el-Horasânî, el-Cûzcânî, el-Belhî, el-Mervezî, et-Tâlekānî, el-Mekkî]
+dogum: {hicri: 137, miladi: 754, not: "yaklaşık"}
+vefat: {hicri: 227, miladi: 842, not: "Ramazan 227"}
+dogum_yeri: Cûzcân (Belh)
+vefat_yeri: Mekke
+bolge: mekke
+diger_bolgeler: [horasan]
+eserleri: ["es-Sünen (el-Musannef)", Tefsîrü'l-Kur'ân, es-Siyer, ez-Zühd]
+rical:
+  rumuz: "ع"
+ozet: es-Sünen'in müellifi Horasanlı hâfız; Mâlik ve Leys'in talebesi, Ahmed b. Hanbel ve Müslim'in hocası.
+biyografi: |
+  137 civarında Horasan'da Belh'in Cûzcan kasabasında doğdu; küçük yaşta Belh'e göçerek öğrenimine orada başladı. Talebesi Müslim onu "Bezzâz" lakabıyla anmıştır, bu da ailesinin kumaş ticaretiyle uğraştığını düşündürür.
+
+  Nîşâbur, Merv ve Tâlekān'da hadis dinledikten sonra Irak, Cezîre, Humus, Şam, Filistin ve Mısır'ı dolaştı, sonra Hicaz'a geçip Mekke'ye yerleşti. Leys b. Sa'd, Mâlik, Hammâd b. Zeyd, İbnü'l-Mübârek, Hüşeym, İbn Uleyye, İbn Vehb ve Süfyân b. Uyeyne başta olmak üzere yüz onu aşkın hocası tespit edilmiştir. Ahmed b. Hanbel, Dârimî, Zühlî, Müslim, Ebû Dâvûd, Ebû Zür'a ve Ebû Hâtim ondan rivayet etti.
+
+  219'dan sonra telif ettiği es-Sünen (el-Musannef), hadis ve âsârı fıkıh bablarına göre toplayan erken eserlerdendir; bir kısmı A'zamî, daha geniş bir nüshası da 1993'te Riyad'da beş cilt olarak yayımlanmıştır. Tefsîrü'l-Kur'ân, es-Siyer ve ez-Zühd adlı eserleri de kaydedilir.
+
+  Hâfız, hüccet ve "şeyhü'l-harem" sıfatlarıyla anıldı; Ahmed b. Hanbel onu övmüş, Ebû Hâtim titiz ve güvenilir olduğunu belirtmiştir. Ezberinden yaklaşık on bin hadis yazdırdığı aktarılır ve rivayetlerinde daima kendi kitabını esas alırdı. Ramazan 227'de Mekke'de vefat etti.
+hocalari:
+  - kisi: malik-b-enes
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Mansûr\"", url: "https://islamansiklopedisi.org.tr/said-b-mansur"}
+  - kisi: leys-b-sad
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak: *tdv
+  - kisi: ibnul-mubarek
+    kaynak: *tdv
+  - kisi: huseym-b-besir
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

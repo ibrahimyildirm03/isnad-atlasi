@@ -1,0 +1,42 @@
+isim: Ebû Vâil Şakīk b. Seleme
+tam_isim: Ebû Vâil Şakīk b. Seleme el-Esedî el-Kûfî
+arapca: أبو وائل شقيق بن سلمة
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Vâil
+  ism: Şakīk
+  nesep: Şakīk b. Seleme
+  nesep_arapca: شقيق بن سلمة الأسدي الكوفي
+  nisbeler: [el-Esedî, el-Kûfî]
+  aciklama: Kaynaklarda çoğunlukla künyesiyle "Ebû Vâil" diye anılır. Câhiliye devrini idrak ettiği hâlde Hz. Peygamber'i müslüman olarak göremediği için muhadramdır.
+dogum: {miladi: 600, not: "tahminî; 100 yaşında öldüğü rivayetine göre"}
+vefat: {hicri: 82, miladi: 701, not: "99 rivayeti isabetli görülmemiştir"}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  tehzibul_kemal: "XII, 548-555"
+  tehzibut_tehzib: "II, 508-509 (Beyrut 1996)"
+  rumuz: "ع"
+ozet: İbn Mes'ûd'un önde gelen muhadram talebesi; A'meş, Mansûr ve Hammâd b. Ebî Süleymân'ın hocası.
+biyografi: |
+  Hz. Ebû Bekir döneminde İslâm'a bağlandı, Hz. Ali'nin yanında Sıffîn ve Nehrevan'da bulundu. Zâhidâne bir hayat sürdü; "sika" ve "kesîrü'l-hadîs" olarak nitelendi, rivayetleri Kütüb-i Sitte'de yer alır.
+
+  Ömer, Osman, Ali, İbn Mes'ûd, Ebû Mûsâ, Âişe ve Ebû Hüreyre'den rivayet etti. Mesrûk, A'meş, Hammâd b. Ebî Süleymân ve Âsım b. Behdele ondan rivayet etti.
+hocalari:
+  - kisi: abdullah-b-mesud
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Şakīk b. Seleme\"", url: "https://islamansiklopedisi.org.tr/sakik-b-seleme"}
+  - kisi: omer
+    kaynak: *tdv
+  - kisi: ali
+    kaynak: *tdv
+  - kisi: ebu-musa-el-esari
+    kaynak: *tdv
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: huzeyfe-b-yeman
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Huzeyfe b. Yemân\"", url: "https://islamansiklopedisi.org.tr/huzeyfe-b-yeman"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

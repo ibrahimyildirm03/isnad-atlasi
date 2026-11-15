@@ -1,0 +1,30 @@
+isim: Ümmü Seleme
+tam_isim: Ümmü Seleme Hind bint Ebî Ümeyye el-Kureşiyye el-Mahzûmiyye
+arapca: أم سلمة هند بنت أبي أمية
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ümmü Seleme
+  ism: Hind
+  nesep: Hind bint Ebî Ümeyye Süheyl (Huzeyfe) b. el-Mugîre b. Abdillâh b. Ömer b. Mahzûm
+  nesep_arapca: هند بنت أبي أمية حذيفة بن المغيرة المخزومية
+  nisbeler: [el-Kureşiyye, el-Mahzûmiyye]
+  aciklama: İsminden çok künyesiyle tanınır; adının Remle olduğu rivayeti doğru görülmemiştir. Babası Ebû Ümeyye cömertliği sebebiyle "Zâdü'r-rekb" (yolcuların azığı) diye anılırdı. Annesi Âtike bint Âmir el-Kinâniyye'dir.
+dogum: {miladi: 597, not: "nübüvvetten yaklaşık 13 yıl önce"}
+vefat: {hicri: 62, miladi: 681, not: "59 ve 61 de denmiştir"}
+dogum_yeri: Mekke
+vefat_yeri: Medine (Bakī')
+bolge: medine
+hadis_sayisi: {sayi: 378, kaynak: "Bakī b. Mahled, el-Müsned (DİA, \"Ashâbü'l-miîn\")"}
+rical:
+  tehzibut_tehzib: "XII, 455-457"
+  rumuz: "ع"
+ozet: Hz. Peygamber'in hanımı; Âişe'den sonra en çok hadis rivayet eden kadın sahâbî.
+biyografi: |
+  Kureyş'in Mahzûmoğulları kolundandır. İlk eşi Ebû Seleme ile Habeşistan'a, sonra Medine'ye hicret etti; ailesi bir süre hicretine engel olup onu oğlundan ayırdı. Ebû Seleme'nin 4/625'te vefatından sonra Hz. Peygamber ile evlendi.
+
+  Hudeybiye'de Hz. Peygamber'e verdiği isabetli tavsiyesiyle bilinir. 378 hadis rivayet etti; ondan sahâbeden İbn Abbâs, Âişe ve Ebû Saîd el-Hudrî, tâbiînden Saîd b. el-Müseyyeb, Esved b. Yezîd, Mesrûk, Şa'bî ve Süleymân b. Yesâr rivayet etti. Ezvâc-ı tâhirâtın en son vefat edenidir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ümmü Seleme\"", url: "https://islamansiklopedisi.org.tr/ummu-seleme"}
+  - "İbn Hacer, el-İsâbe (Bicâvî), VIII, 150-152, 221-225"
+dogrulandi: true

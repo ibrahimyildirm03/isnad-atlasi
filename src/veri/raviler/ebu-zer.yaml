@@ -1,0 +1,29 @@
+isim: Ebû Zer el-Gıfârî
+tam_isim: Ebû Zerr Cündeb b. Cünâde b. Süfyân el-Gıfârî
+arapca: أبو ذر الغفاري
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Zer
+  ism: Cündeb
+  nesep: Cündeb b. Cünâde b. Süfyân b. Ubeyd el-Gıfârî
+  nesep_arapca: جندب بن جنادة بن سفيان الغفاري
+  nisbeler: [el-Gıfârî]
+  aciklama: Adının Berîr, Büreyr, Yezîd veya Yüreyr olduğu da söylenmiştir; babasının adı için Seken ve Abdullah rivayetleri de vardır. Gıfâr kabilesindendir.
+vefat: {hicri: 32, miladi: 653, not: "Zilhicce 32"}
+vefat_yeri: Rebeze
+bolge: medine
+diger_bolgeler: [sam]
+hadis_sayisi: {sayi: 281, kaynak: "Ahmed b. Hanbel, el-Müsned (DİA); Bakī b. Mahled'de de 281"}
+rical:
+  tehzibut_tehzib: "XII, 90-91"
+  rumuz: "ع"
+ozet: '"Ebû Zer\''den daha doğru sözlü kimse yoktur" övgüsüne mazhar olan zâhid sahâbî.'
+biyografi: |
+  Gıfâr kabilesindendir; ilk müslümanlardandır. Hz. Peygamber onun hakkında gökkubbenin altında ondan daha doğru sözlü kimse bulunmadığını söylemiştir.
+
+  İhtiyaç fazlası malın Allah yolunda harcanması gerektiğini savundu. Hz. Osman döneminde Şam'da Muâviye'nin harcamalarını eleştirmesi yönetimle ihtilafa dönüştü. Medine'den Rebeze'ye gönderildi ve 32 yılında orada vefat etti. Ondan Enes, İbn Abbâs, İbn Ömer, Zir b. Hubeyş, Saîd b. el-Müseyyeb ve Atâ b. Yesâr rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Zer el-Gıfârî\"", url: "https://islamansiklopedisi.org.tr/ebu-zer-el-gifari"}
+  - "İbn Hacer, el-İsâbe, IV, 62-64"
+dogrulandi: true

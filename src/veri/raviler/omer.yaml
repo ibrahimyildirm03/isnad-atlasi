@@ -1,0 +1,35 @@
+isim: Ömer b. el-Hattâb
+tam_isim: Ebû Hafs Ömer b. el-Hattâb
+tabaka: sahabe
+isim_bilgisi:
+  ism: Ömer
+  kunye: Ebû Hafs
+  lakap: el-Fârûk
+  nesep: Ömer b. el-Hattâb b. Nüfeyl b. Abdiluzzâ b. Riyâh b. Abdillâh b. Kurt b. Rezâh b. Adî b. Ka'b
+  nesep_arapca: عمر بن الخطاب بن نفيل بن عبد العزى العدوي القرشي
+  nisbeler:
+    - el-Kureşî
+    - el-Adevî
+  aciklama: Hakkı batıldan ayırdığı için "el-Fârûk" lakabıyla anıldı; "Emîrü'l-mü'minîn" unvanını ilk alan halifedir. Nesebi Ka'b b. Lüey'de Hz. Peygamber'le birleşir.
+vefat: {hicri: 23, miladi: 644}
+vefat_yeri: Medine
+dogum_yeri: Mekke
+rical:
+  sozler:
+    - kim: Hz. Peygamber
+      soz: Allah hakkı Ömer'in diline ve kalbine yerleştirmiştir.
+      kaynak: DİA, "Ömer"
+bolge: medine
+ozet: "İkinci halife; Kûfe'ye İbn Mes'ûd'u muallim, Şüreyh'i kadı olarak gönderen sahâbî."
+biyografi: |
+  Fil yılından yaklaşık on üç yıl sonra Mekke'de doğdu ve 616 civarında müslüman oldu. Medine'ye hicret etti ve Hz. Peygamber'in gazvelerine katıldı. Hz. Ebû Bekir döneminde onun danışmanlığını ve Medine kadılığını yaptı.
+
+  13/634'te halife oldu. Halifeliği döneminde Kādisiye, Yermük ve Mısır başta olmak üzere büyük fetihler gerçekleşti. Devlet gelirlerinin dağıtımı için divanı kurdu, hicrî takvimi benimsedi ve ilk hapishaneyi yaptırdı. Fethedilen bölgelere kadılar ve muallimler gönderdi: Abdullah b. Mes'ûd'u Kûfe'ye, Muâz b. Cebel, Ubâde b. es-Sâmit ve Ebü'd-Derdâ'yı Şam'a, Ebû Mûsâ el-Eş'arî ile İmrân b. Husayn'ı Basra'ya yolladı. Bu tayinler sonraki bölgesel ilim merkezlerinin temelini oluşturdu.
+
+  Hüküm verirken önce Kur'an'a, sonra sünnete, sonra re'ye başvurdu ve şûrayı esas aldı; hem re'y hem hadis ekollerinin gelişimiyle irtibatlandırılır. Hadis rivayetinde son derece ihtiyatlıydı ve rivayet edenlerden şahit isterdi; 539 rivayeti bulunur.
+
+  23/644'te sabah namazı kıldırırken bir İranlı köle tarafından hançerlendi ve üç gün sonra, 26 Zilhicce 23'te vefat etti. Hz. Peygamber ve Hz. Ebû Bekir'in yanına defnedildi.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ömer\"", url: "https://islamansiklopedisi.org.tr/omer"}
+dogrulandi: true

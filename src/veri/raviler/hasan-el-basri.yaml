@@ -1,0 +1,68 @@
+isim: Hasan el-Basrî
+tam_isim: Ebû Saîd el-Hasen b. Ebi'l-Hasen Yesâr el-Basrî
+arapca: الحسن البصري
+cerh_tadil: Sika, fakih, fâzıl, meşhur; çok irsâl ve tedlîs yapardı (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Hasan
+  kunye: Ebû Saîd
+  nesep: el-Hasan b. Ebi'l-Hasan Yesâr, mevlâ el-Ensâr
+  nesep_arapca: الحسن بن أبي الحسن يسار البصري
+  nisbeler:
+    - el-Basrî
+    - el-Ensârî (mevlâ)
+    - el-Meysânî
+  aciklama: Babası Yesâr, Meysân'dan esir alınmış ve Ensâr'dan Zeyd b. Sâbit'in âzatlısı olmuştur; "el-Ensârî" nisbesi bu velâdan gelir. Annesi Hayre, Ümmü Seleme'nin âzatlısıdır.
+rical:
+  tehzibul_kemal: VI, 95
+  tehzibut_tehzib: 1/388 (Şâmile neşri)
+  takrib: Sika, fakih, fâzıl, meşhur; çok irsal ve tedlîs yapardı (3. tabaka)
+  sozler:
+    - kim: Hasan el-Basrî
+      soz: Ölerek rahata kavuşan ölü değildir; asıl ölü, yaşayanların ölüsüdür.
+      kaynak: DİA, "Hasan-ı Basrî"
+dogum: {hicri: 21, miladi: 642}
+vefat: {hicri: 110, miladi: 728}
+vefat_yeri: Basra
+dogum_yeri: Medine
+bolge: basra
+imam: {mezheb: Hasan el-Basrî, yasayan: false}
+ozet: Basra'nın zühd, vaaz ve fıkıh önderi; "Basralıların imamı" diye anılan tâbiî.
+biyografi: |
+  21/642'de Medine'de doğdu. Babası Yesâr, Irak'ın fethinde esir alınıp Medine'ye getirilmişti; annesi Hayre, Ümmü Seleme'nin hizmetindeydi ve Hasan onun evinde yetişti. On iki yaşında Kur'an'ı ezberledi.
+
+  Yetmişi Bedir gazisi olmak üzere yüz yirmi kadar sahâbî ile görüştüğü rivayet edilir. Vâdilkurâ'da ilme yöneldi ve Hz. Ali'nin halifeliğinden sonra Basra'ya yerleşti. Muâviye döneminde Rebî' b. Ziyâd'ın seferinde kâtiplik yaptı ve Kâbil seferine katıldı.
+
+  Ömrünü Basra'da vaaz ve ibadetle geçirdi; bir süre ücretsiz kadılık yaptıktan sonra istifa etti. Haccâc'ın Saîd b. Cübeyr'i öldürmesini büyük felaket saydı, fakat isyanın fitneye yol açacağı endişesiyle ona karşı ayaklanmayı doğru bulmadı. Abdülmelik'e yazdığı kader risalesinde insanın irade ve sorumluluğunu ortadan kaldıran katı cebir anlayışını eleştirdi.
+
+  Allah korkusunu esas alan Basra zühd okulunun önderidir; ölçülü bir zühd anlayışını savundu ve dünyadan tamamen kopmadı. Sûfîler onu öncü kabul eder ve tarikat silsilelerinde ona yer verir.
+
+  Enes b. Mâlik, Ebû Hüreyre, İmrân b. Husayn ve başka sahâbîlerden rivayet etti. Bazı rivayetlerinde aradaki râviyi düşürdüğü (irsal) için eleştirildiyse de Yahyâ b. Saîd ve Ebû Zür'a bunların çoğunun zayıf sayılmayacağını belirtmiştir. Katâde, Eyyûb es-Sahtiyânî, Humeyd et-Tavîl ve Mansûr b. el-Mu'temir onun talebelerindendir. 110/728'de Basra'da vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    not: istifade ettiği sahâbîlerin başındadır
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hasan-ı Basrî\"", url: "https://islamansiklopedisi.org.tr/hasan-i-basri"}
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: imran-b-husayn
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İmrân b. Husayn"
+      url: https://islamansiklopedisi.org.tr/imran-b-husayn
+  - kisi: ebu-said-el-hudri
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Saîd el-Hudrî"
+      url: https://islamansiklopedisi.org.tr/ebu-said-el-hudri
+  - kisi: ibn-omer
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Abdullah b. Ömer"
+      url: https://islamansiklopedisi.org.tr/abdullah-b-omer-b-hattab
+  - kisi: ebu-musa-el-esari
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Mûsâ el-Eş'arî"
+      url: https://islamansiklopedisi.org.tr/ebu-musa-el-esari
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/1389"}
+dogrulandi: true

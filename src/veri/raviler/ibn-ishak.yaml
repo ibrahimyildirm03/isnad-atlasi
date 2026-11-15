@@ -1,0 +1,33 @@
+isim: İbn İshâk
+tam_isim: Ebû Bekr (Ebû Abdillâh) Muhammed b. İshâk b. Yesâr el-Muttalibî el-Medenî
+arapca: محمد بن إسحاق بن يسار
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr (Ebû Abdillâh da denmiştir)
+  ism: Muhammed
+  nesep: Muhammed b. İshâk b. Yesâr b. Hıyâr, mevlâ Kays b. Mahreme
+  nesep_arapca: محمد بن إسحاق بن يسار المطلبي مولاهم المدني
+  nisbeler: [el-Muttalibî (mevlâ), el-Medenî]
+  aciklama: Dedesi Yesâr, Aynüttemr'de esir alınıp Muttalib oğullarından Kays b. Mahreme'nin âzatlısı olmuştur; nisbesi bu velâdan gelir.
+dogum: {hicri: 80, miladi: 699}
+vefat: {hicri: 151, miladi: 768, not: "başka tarihler de verilmiştir"}
+dogum_yeri: Medine
+vefat_yeri: Bağdat
+bolge: medine
+diger_bolgeler: [bagdat]
+eserleri: ["Kitâbü'l-Megāzî (es-Sîre); İbn Hişâm'ın es-Sîretü'n-nebeviyye'si yoluyla ulaştı"]
+ozet: Siyer ve meğāzînin imamı; es-Sîre'nin müellifi, Halife Mansûr'un oğlu Mehdî'nin hocası.
+biyografi: |
+  Medine'de doğdu; Zührî, Nâfi' ve Âsım b. Ömer b. Katâde başta olmak üzere birçok hocadan hadis ve siyer-meğāzî okudu. İskenderiye'ye yolculuk etti; yüz kadar Medineli râviden rivayet ettiği söylenir.
+
+  Medine'den ayrılarak el-Cezîre, Kûfe ve Hîre'de bulundu. Halife Mansûr onu oğlu Mehdî'ye hoca tayin etti ve ondan bir genel tarih yazmasını istedi. 146/763 civarında Bağdat'a yerleşti ve vefatına kadar orada ders verdi.
+
+  Kitâbü'l-Megāzî'si sağlığında şöhret buldu; Hz. Peygamber'in hayatını insanlık tarihi içinde ele alan bu eser bugün parçalar hâlinde ve özellikle İbn Hişâm'ın muhtasarı yoluyla bilinir. Zührî meğāzîdeki hâkimiyetini övmüş, Şâfiî bu alanda derinleşmek isteyenin ona muhtaç olduğunu söylemiştir. Hadis tenkidi açısından başlıca zaafı tedlîstir; Hişâm b. Urve ve Mâlik, Yahudi asıllı müslümanlardan bilgi almasını ve şiire yer vermesini eleştirmiştir. Buna rağmen Müslim ve sünen müellifleri ondan rivayet etmiştir.
+hocalari:
+  - kisi: zuhri
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn İshak\"", url: "https://islamansiklopedisi.org.tr/ibn-ishak"}
+  - kisi: nafi
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

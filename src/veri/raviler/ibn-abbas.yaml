@@ -1,0 +1,35 @@
+isim: Abdullah b. Abbâs
+tam_isim: Ebü'l-Abbâs Abdullah b. Abbâs b. Abdilmuttalib
+tabaka: sahabe
+isim_bilgisi:
+  ism: Abdullah
+  kunye: Ebü'l-Abbâs
+  lakap: Hibrü'l-ümme, Tercümânü'l-Kur'ân
+  nesep: Abdullah b. Abbâs b. Abdilmuttalib b. Hâşim
+  nesep_arapca: عبد الله بن عباس بن عبد المطلب الهاشمي
+  nisbeler:
+    - el-Kureşî
+    - el-Hâşimî
+  aciklama: Hz. Peygamber'in amcasının oğludur. İlmi sebebiyle "ümmetin âlimi" ve "Kur'an'ın tercümanı" diye anıldı; Hz. Peygamber onun için dinde derin anlayış duası etmiştir.
+vefat: {hicri: 68, miladi: 687, not: "mîlâdî 687-88"}
+vefat_yeri: Tâif
+dogum_yeri: Mekke
+bolge: mekke
+eserleri:
+  - Tefsîru İbn Abbâs (nisbet edilen)
+  - Garîbü'l-Kur'ân
+  - Mesâilü Nâfi' b. el-Ezrak
+diger_bolgeler: [medine]
+ozet: "\"Tercümânü'l-Kur'ân\"; Mekke tefsir ve fıkıh ekolünün kaynağı."
+biyografi: |
+  Hz. Peygamber'in amcası Abbâs'ın oğludur; hicretten yaklaşık üç yıl önce Mekke'de doğdu. Teyzesi Meymûne'nin Hz. Peygamber'in hanımı olması sebebiyle küçük yaşta onun yanında bulundu. Hz. Peygamber onun için Kitab'ın öğretilmesi ve dinde derin anlayış verilmesi için dua etti.
+
+  Hz. Osman 35/656'da ona hac emirliği verdi. Hz. Ali ile birlikte Cemel ve Sıffîn'de bulundu, 39/659'da Basra valisi oldu ve tahkimi savunarak Hâricîlerle tartıştı. Basra'dan ayrılırken hazineden mal aldığı iddiaları zayıf rivayetlere ve siyasî rekabete dayanır. Hz. Hüseyin'e Kûfe'ye gitmemesini tavsiye etti. İbnü'z-Zübeyr'in Harem'i üs edinmesine karşı çıkıp ona biat etmedi ve Tâif'e çekilerek orada vefat etti.
+
+  "Hibrü'l-ümme" ve "Tercümânü'l-Kur'ân" diye anıldı; Mekke tefsir ve fıkıh ekolünün kaynağıdır. Mekke'nin önde gelen fakihi kabul edildi ve fetvalarının çokluğuyla tanındı. Yaklaşık 1660 hadis rivayet etti; bunların 75'i Sahîhayn'da ortaktır. Ona nisbet edilen tefsir rivayetlerinin sıhhat bakımından farklı dereceleri vardır.
+
+  İkrime, Mücâhid, Atâ b. Ebî Rebâh, Saîd b. Cübeyr, Tâvûs ve Saîd b. el-Müseyyeb onun talebeleri arasındadır.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Abbas\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-abbas"}
+dogrulandi: true

@@ -1,0 +1,54 @@
+isim: Muhammed b. Sîrîn
+tam_isim: Ebû Bekr Muhammed b. Sîrîn el-Basrî
+arapca: محمد بن سيرين
+cerh_tadil: Sika, sebt, âbid, kadri büyük; hadisin mana ile rivayetini caiz görmezdi (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Muhammed
+  kunye: Ebû Bekr
+  nesep: Muhammed b. Ebî Amra Sîrîn, mevlâ Enes b. Mâlik
+  nesep_arapca: محمد بن سيرين أبي عمرة البصري الأنصاري مولاهم
+  nisbeler:
+    - el-Basrî
+    - el-Ensârî (mevlâ)
+  aciklama: Babası Sîrîn (künyesi Ebû Amra), Enes b. Mâlik'in âzatlısıdır; annesi Safiyye, Hz. Ebû Bekir'in âzatlısıdır.
+rical:
+  tehzibul_kemal: XXV, 344
+  tehzibut_tehzib: 3/585 (Şâmile neşri)
+  takrib: Sika, sebt, âbid, kadri yüce; hadisin mana ile rivayetini caiz görmezdi (3. tabaka)
+dogum: {hicri: 34, miladi: 654, not: "31 ve 33 de denmiştir"}
+vefat: {hicri: 110, miladi: 729}
+bolge: basra
+ozet: Rivayetteki titizliğiyle tanınan Basralı muhaddis ve fakih; sonraki asırlarda rüya tabiriyle meşhur oldu.
+biyografi: |
+  Muhammed b. Sîrîn 34'te Basra'da doğdu. Babası Sîrîn, Aynüttemr'in fethinde esir alınmış ve Enes b. Mâlik tarafından mükâtebe yoluyla âzat edilmişti; annesi Safiyye Hz. Ebû Bekir'in âzatlısıydı. Kardeşleri Yahyâ, Ma'bed, Enes ve Hafsa da güvenilir râvilerdir.
+
+  Zeyd b. Sâbit, Hasan b. Ali, İmrân b. Husayn ve Ebû Hüreyre dahil otuz sahâbîden ilim aldığı kaydedilir; tâbiîlerden Abîde es-Selmânî ve Kādî Şüreyh'ten faydalandı. Şa'bî, Katâde, Eyyûb es-Sahtiyânî, İbn Avn, İbn Ebî Arûbe ve Evzâî ondan istifade etti.
+
+  "İmam" ve "hâfız" unvanlarıyla anılır; hadis rivayetinde titizliği ve güvenilirliği üzerinde ittifak edilmiştir, rivayetleri Kütüb-i Sitte'de yer alır. Asıl kimliği hadisçilik ve fıkıhtır. Sonraki asırlarda ilk rüya tabircilerinden biri olarak meşhur olduysa da ona nisbet edilen tabirnâmelerin kendisine ait olması mümkün görülmez.
+
+  Geçimini ticaretle sağladı; satın aldığı yağa fare düşünce tamamını döktüğü ve borcunu ödeyemeyip hapsedildiği rivayet edilir. Yumuşak huylu, mütevazı ve takvâ sahibiydi. 9 Şevval 110'da vefat etti; borcunu oğlu Abdullah ödedi.
+hocalari:
+  - kisi: ebu-hureyre
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Sîrîn\"", url: "https://islamansiklopedisi.org.tr/ibn-sirin"}
+  - kisi: zeyd-b-sabit
+    kaynak: *tdv
+  - kisi: kadi-sureyh
+    kaynak: *tdv
+  - kisi: ebul-aliye
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebü’l-Âliye er-Riyâhî\"", url: "https://islamansiklopedisi.org.tr/ebul-aliye-er-riyahi"}
+  - kisi: alkame-b-kays
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Alkame b. Kays\"", url: "https://islamansiklopedisi.org.tr/alkame-b-kays"}
+  - kisi: amir-es-sabi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şa'bî\"", url: "https://islamansiklopedisi.org.tr/sabi"}
+  - kisi: enes-b-malik
+    not: Fars'ta onun kâtibiydi; Ahmed b. Hanbel'e göre ondan hadis işitti
+    kaynak: {ad: "Mizzî, Tehzîbü'l-Kemâl, 25/344 (Muhammed b. Sîrîn)", url: "https://shamela.ws/narrator/5657"}
+  - kisi: imran-b-husayn
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İmrân b. Husayn"
+      url: https://islamansiklopedisi.org.tr/imran-b-husayn
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/5657"}
+dogrulandi: true

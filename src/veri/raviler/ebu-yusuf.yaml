@@ -1,0 +1,46 @@
+isim: Ebû Yûsuf
+tam_isim: Ebû Yûsuf Ya'kūb b. İbrâhîm b. Habîb el-Ensârî el-Kûfî
+arapca: أبو يوسف يعقوب بن إبراهيم
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Yûsuf
+  ism: Ya'kūb
+  nesep: Ya'kūb b. İbrâhîm b. Habîb b. Sa'd b. Büceyr (Habte)
+  nesep_arapca: يعقوب بن إبراهيم بن حبيب بن سعد الأنصاري الكوفي
+  nisbeler: [el-Ensârî, el-Becelî, el-Kûfî, el-Bağdâdî]
+  lakap: Kādi'l-kudât
+  aciklama: Büyük dedesi Sa'd b. Büceyr (annesine nisbetle Sa'd b. Habte) sahâbîdir. İslâm tarihinde "kādi'l-kudât" unvanını taşıyan ilk kişidir.
+dogum: {hicri: 113, miladi: 731}
+vefat: {hicri: 182, miladi: 798}
+dogum_yeri: Kûfe
+vefat_yeri: Bağdat
+bolge: bagdat
+diger_bolgeler: [kufe]
+eserleri: [Kitâbü'l-Harâc, Kitâbü'l-Âsâr, İhtilâfü Ebî Hanîfe ve İbn Ebî Leylâ]
+ozet: Ebû Hanîfe'nin en büyük talebesi, ilk kādi'l-kudât; Hanefî mezhebinin yayılmasında başlıca rol.
+rical:
+  sozler:
+    - kim: Ebû Hanîfe
+      soz: Talebelerimin en âlimi Ebû Yûsuf'tur.
+      kaynak: DİA, "Ebû Yûsuf"
+biyografi: |
+  113'te Kûfe'de yoksul ve kalabalık bir ailede doğdu. Evlendikten sonra geçim sıkıntısı yüzünden derslerden uzak kalınca Ebû Hanîfe onun nafakasını üstlenerek tahsilini sürdürmesini sağladı.
+
+  Önce hadis öğrendi; A'meş, Hişâm b. Urve ve Ebû İshâk eş-Şeybânî'den rivayet etti. Ardından dokuz yıl İbn Ebî Leylâ'dan fıkıh okudu, sonra Ebû Hanîfe'nin halkasına geçerek yaklaşık on yedi yıl ara vermeden derslerine devam etti. Medine'de Mâlik'ten de hadis aldı.
+
+  Mehdî döneminde Bağdat'a yerleşip kadı oldu. Hârûnürreşîd zamanında İslâm tarihinde ilk defa "kādi'l-kudât" unvanını aldı; Irak, Horasan, Şam ve Mısır'da onun onayı olmadan kadı tayin edilmediği kaydedilir.
+
+  Hârûnürreşîd'in isteği üzerine yazdığı Kitâbü'l-Harâc, devletin malî politikasını ele alan ve malî hukuk alanında günümüze ulaşan ilk önemli eserdir; vergi, ekonomi ve sosyal hayata dair zengin bilgiler içerir. Bazı meselelerde hocasından ve diğer talebelerden ayrıldı; Hanefî mezhebindeki görüş çeşitliliğinde payı büyüktür. Muhammed b. el-Hasen, Ahmed b. Hanbel ve Yahyâ b. Maîn onun talebeleridir. 182'de Bağdat'ta vefat etti.
+hocalari:
+  - kisi: ebu-hanife
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Yûsuf\"", url: "https://islamansiklopedisi.org.tr/ebu-yusuf"}
+  - kisi: ames
+    kaynak: *tdv
+  - kisi: hisam-b-urve
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - "Nevevî, Tehzîbü'l-esmâ, II, 285"
+dogrulandi: true

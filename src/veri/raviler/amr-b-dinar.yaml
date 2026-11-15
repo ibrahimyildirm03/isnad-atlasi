@@ -1,0 +1,64 @@
+isim: Amr b. Dînâr
+tam_isim: Ebû Muhammed Amr b. Dînâr el-Mekkî el-Cumahî
+arapca: عمرو بن دينار
+cerh_tadil: Sika, sebt (İbn Hacer, Takrîb; 4. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Amr
+  kunye: Ebû Muhammed
+  lakap: el-Esrem
+  nesep: Amr b. Dînâr, mevlâ Benî Cumah
+  nesep_arapca: عمرو بن دينار المكي الأثرم الجمحي مولاهم
+  nisbeler:
+    - el-Mekkî
+    - el-Cumahî (mevlâ)
+  aciklama: Cumahoğullarının âzatlısıdır; Mahzûmoğullarının veya Mezhic'den Bâzân oğullarının mevlâsı olduğu da söylenmiştir.
+rical:
+  tehzibul_kemal: XXII, 5
+  tehzibut_tehzib: 3/268 (Şâmile neşri)
+  takrib: Sika, sebt (4. tabaka)
+dogum: {hicri: 45, miladi: 665, not: "46 da denmiştir"}
+vefat: {hicri: 126, miladi: 744, not: "125 de denmiştir"}
+bolge: mekke
+ozet: Atâ'dan sonra Mekke'nin fetva mercii; iki Süfyân'ın ve İmam Mâlik'in hocası.
+biyografi: |
+  Ebû Muhammed Amr b. Dînâr el-Mekkî, aslen İranlı olup 45 veya 46'da doğdu. Cumah kabilesinin himayesine girdiği için mevâlîdendir; biri dışında bütün dişleri döküldüğü için "el-Esrem" lakabıyla anıldı.
+
+  Abâdile başta olmak üzere Câbir b. Abdullah, Ebû Hüreyre ve Berâ b. Âzib'den hadis dinledi. Saîd b. el-Müseyyeb, Saîd b. Cübeyr, Tâvûs, Mücâhid, İkrime ve Atâ b. Ebî Rebâh'tan da rivayet etti. Ca'fer es-Sâdık, Mâlik, Şu'be, Katâde, İbn Cüreyc, Eyyûb, iki Süfyân ve iki Hammâd ondan hadis aldı.
+
+  Atâ b. Ebî Rebâh'tan sonra Mekke'nin fetva mercii oldu. Hadis otoriteleri güvenilirliği üzerinde birleşmiştir; Ali b. el-Medînî onu hadiste eser veren ilk altı kişiden biri sayar. Süfyân b. Uyeyne, ondan duyduğu bir hadisi başkasından duyacağı yirmi hadise tercih ettiğini söylemiştir.
+
+  Hadisin eksiltilmemek şartıyla mânen nakledilebileceğini kabul etti; görüşlerinin ise sonradan değiştirebileceği endişesiyle yazılmasını istemezdi. 126'da (125 de denir) seksen yaşlarında vefat etti.
+hocalari:
+  - kisi: tavus-b-keysan
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Amr b. Dînâr\"", url: "https://islamansiklopedisi.org.tr/amr-b-dinar"}
+  - kisi: ikrime
+    kaynak: *tdv
+  - kisi: vehb-b-munebbih
+    kaynak: *tdv
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    kaynak: *tdv
+  - kisi: ata-b-ebi-rebah
+    kaynak: *tdv
+  - kisi: said-b-el-museyyeb
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Müseyyeb\"", url: "https://islamansiklopedisi.org.tr/said-b-museyyeb"}
+  - kisi: suleyman-b-yesar
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Süleyman b. Yesâr\"", url: "https://islamansiklopedisi.org.tr/suleyman-b-yesar"}
+  - kisi: ebu-bekr-b-abdirrahman
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Bekir b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/ebu-bekir-b-abdurrahman"}
+  - kisi: said-b-cubeyr
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Saîd b. Cübeyr"
+      url: https://islamansiklopedisi.org.tr/said-b-cubeyr
+  - kisi: ibn-ebi-muleyke
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Müleyke"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/4822"}
+dogrulandi: true

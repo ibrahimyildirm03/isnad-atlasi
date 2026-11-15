@@ -1,0 +1,37 @@
+isim: Ömer b. Abdülazîz
+tam_isim: Ebû Hafs Ömer b. Abdilazîz b. Mervân el-Kureşî el-Ümevî
+arapca: عمر بن عبد العزيز
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Hafs
+  ism: Ömer
+  nesep: Ömer b. Abdilazîz b. Mervân b. el-Hakem b. Ebi'l-Âs b. Ümeyye
+  nesep_arapca: عمر بن عبد العزيز بن مروان بن الحكم الأموي
+  nisbeler: [el-Kureşî, el-Ümevî, el-Medenî, ed-Dımaşkī]
+  lakap: Beşinci râşid halife olarak da anılır
+  aciklama: Babası Mısır valisi Abdülazîz b. Mervân, annesi Hz. Ömer'in torunu Ümmü Âsım'dır.
+dogum: {hicri: 61, miladi: 680, not: "yaklaşık"}
+vefat: {hicri: 101, miladi: 720}
+dogum_yeri: Medine
+vefat_yeri: Deyrisem'ân (Hıms yakını)
+bolge: sam
+diger_bolgeler: [medine]
+ozet: Hadislerin resmî tedvinini başlatan Emevî halifesi; Medine valiliğinde fakihlerle şûra kurdu.
+biyografi: |
+  61'de Medine'de doğdu. Babası Mısır valisi Abdülazîz b. Mervân, annesi Hz. Ömer'in torunu Ümmü Âsım'dır. Babası onu Medine'de Sâlih b. Keysân'a emanet etti; Enes b. Mâlik ve Abdullah b. Ömer gibi sahâbîlerden hadis dinledi, Ubeydullah b. Abdullah, Saîd b. el-Müseyyeb ve Urve'nin derslerine katıldı.
+
+  87'de Hicaz valisi oldu ve yaklaşık yedi yıl bu görevde kaldı; Mescid-i Nebevî'yi genişletti. Haccâc'ı sert biçimde eleştirdiği için 93'te azledildi. Halife Süleyman onu veliaht tayin etti ve 99'da ısrarlar üzerine halifeliği kabul etti.
+
+  Zalim valileri görevden alıp yerlerine dindar ve dürüst kişiler atadı, haksız yere el konulan malları iade ettirdi, hutbelerde Hz. Ali'ye lânet etme geleneğini kaldırdı ve müslüman olan mevâlîden cizye alınmasına son verdi. Halifelik için maaş almadı, Hunâsıra'da sade bir hayat sürdü.
+
+  Sahih hadislerin tedvinini resmen başlattı; Zührî'ye hadis derletip mecmuaları bölgelere gönderdi ve Medine valisinden özellikle Kāsım b. Muhammed'in rivayetlerini toplamasını istedi. Kendisi de çok hadis rivayet eden güvenilir bir muhaddis ve fakihti. Adaletiyle Hz. Ömer'e, zühdüyle Hasan-ı Basrî'ye, ilmiyle Zührî'ye benzetilir. Receb 101'de Humus'a bağlı Deyrsem'ân'da vefat etti.
+hocalari:
+  - kisi: said-b-el-museyyeb
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Müseyyeb\"", url: "https://islamansiklopedisi.org.tr/said-b-museyyeb"}
+    not: Medine valiliğinde ona danışmadan hüküm vermezdi
+  - kisi: ubeydullah-b-abdullah
+    kaynak: {ad: "Tabakât Atlası, \"Ubeydullah b. Abdullah\" kaydı (TDV'ye dayanır)"}
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ömer b. Abdülazîz\"", url: "https://islamansiklopedisi.org.tr/omer-b-abdulaziz"}
+dogrulandi: kismi
+dogrulama_notu: Hayatı TDV'den alındı; hocaları Saîd b. el-Müseyyeb ve Ubeydullah b. Abdullah maddelerinden çıkarıldı.

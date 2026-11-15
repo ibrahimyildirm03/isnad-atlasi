@@ -1,0 +1,42 @@
+isim: Hammâd b. Zeyd
+tam_isim: Ebû İsmâîl Hammâd b. Zeyd b. Dirhem el-Ezdî el-Ezrak el-Basrî
+arapca: حماد بن زيد
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû İsmâîl
+  ism: Hammâd
+  nesep: Hammâd b. Zeyd b. Dirhem
+  nesep_arapca: حماد بن زيد بن درهم الأزدي البصري
+  nisbeler: [el-Ezdî, el-Cehdamî, el-Basrî]
+  lakap: el-Ezrak
+  aciklama: Dedesi Sîstan'dan esir alınmış, babası âzatlıdır. "el-Ezrak" lakabı gözlerindeki beyazlıktan gelir. Aynı dönemde yaşayan Hammâd b. Seleme ile karıştırılmaması için ikisi "iki Hammâd" diye birlikte anılır.
+dogum: {hicri: 98, miladi: 717, not: "97 ve 99 da denmiştir"}
+vefat: {hicri: 179, miladi: 795, not: "19 Ramazan 179"}
+vefat_yeri: Basra
+bolge: basra
+rical:
+  rumuz: "ع"
+  sozler:
+    - kim: Abdurrahman b. Mehdî
+      soz: Sünnet ve fıkıh bilgisinde ondan üstününü görmedim.
+      kaynak: DİA, "Hammâd b. Zeyd"
+ozet: Eyyûb'un yirmi yıllık talebesi Basralı hâfız; İbn Mehdî, Vekî' ve Ali b. el-Medînî'nin hocası.
+biyografi: |
+  Kaynakların çoğuna göre 98'de Basra'da doğdu. Dedesi Dirhem Sîstanlı esirlerdendir; babası Zeyd âzat edilmiş bir köleydi. "el-Ezdî" nisbesi Ezdoğulları'nın mevlâsı olmasından gelir.
+
+  Sâbit el-Bünânî, Enes b. Sîrîn ve Amr b. Dînâr'dan hadis öğrendi; Eyyûb es-Sahtiyânî'nin halkasına yirmi yıl devam etti. Âsım b. Behdele ve Ebû Amr b. el-Alâ'dan kıraat vecihleri de rivayet etti. Süfyân es-Sevrî, Şu'be, Süfyân b. Uyeyne, İbnü'l-Mübârek, Vekî', Abdurrahman b. Mehdî ve Ali b. el-Medînî ondan rivayette bulundu; rivayetleri Kütüb-i Sitte'de yer alır.
+
+  Gözleri görmediği halde hadisleri ezberden rivayet etti; ezberinde yaklaşık 4000 hadis bulunduğu ve tedlîs yapmadığı kaydedilir. Yahyâ b. Maîn, Eyyûb'dan gelen en sağlam rivayetlerin onunkiler olduğunu söylemiş; Basra'daki itibarı Kûfe'de Sevrî, Hicaz'da Mâlik ve Şam'da Evzâî'ninkiyle denk tutulmuştur.
+
+  Hammâd b. Seleme ile birlikte "Hammâdân" diye anılır; âlimler onu hadiste daha sağlam, Hammâd b. Seleme'yi daha dindar bulmuştur. 19 Ramazan 179'da Basra'da vefat etti; cenaze namazını Basra valisi kıldırdı.
+hocalari:
+  - kisi: eyyub-es-sahtiyani
+    not: yaklaşık yirmi yıl derslerine devam etti
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Zeyd\"", url: "https://islamansiklopedisi.org.tr/hammad-b-zeyd"}
+  - kisi: sabit-el-bunani
+    kaynak: *tdv
+  - kisi: amr-b-dinar
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

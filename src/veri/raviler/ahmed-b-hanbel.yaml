@@ -1,0 +1,113 @@
+isim: Ahmed b. Hanbel
+tam_isim: Ebû Abdillâh Ahmed b. Muhammed b. Hanbel eş-Şeybânî
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  ism: Ahmed
+  kunye: Ebû Abdillâh
+  lakap: İmâmü Ehli's-sünne
+  nesep: Ahmed b. Muhammed b. Hanbel b. Hilâl b. Esed
+  nesep_arapca: أحمد بن محمد بن حنبل بن هلال الشيباني المروزي البغدادي
+  nisbeler:
+    - eş-Şeybânî
+    - ez-Zühlî
+    - el-Mervezî
+    - el-Bağdâdî
+  aciklama: Babası Muhammed genç yaşta öldüğü için dedesi Hanbel'e nisbetle "İbn Hanbel" diye tanındı. Ailesi Merv'den Bağdat'a göçmüştür.
+dogum: {hicri: 164, miladi: 780}
+vefat: {hicri: 241, miladi: 855}
+kutub_i_tisa: "Kütüb-i Tis'a: el-Müsned"
+vefat_yeri: Bağdat
+dogum_yeri: Bağdat
+bolge: bagdat
+eserleri:
+  - el-Müsned (yaklaşık 30.000 hadis)
+  - Kitâbü's-Sünne
+  - Kitâbü'z-Zühd
+  - er-Red ale'z-zenâdıka ve'l-Cehmiyye
+  - Kitâbü'l-İlel ve ma'rifeti'r-ricâl
+imam: {mezheb: Hanbelî, yasayan: true}
+ozet: Hanbelî mezhebinin imamı; el-Müsned'in müellifi.
+biyografi: |
+  164/780'de Bağdat'ta doğdu; babasını erken yaşta kaybetti ve annesinin himayesinde büyüdü. 179/795'te Hüşeym b. Beşîr'in yanında hadis öğrenimine başladı; ardından Kûfe, Basra, Hicaz, Şam ve Yemen'e uzun yolculuklar yaptı. Abdürrezzâk'tan hadis yazmak için San'a'ya kadar gitti. Hüşeym, Vekî', Yahyâ el-Kattân, Abdurrahmân b. Mehdî, Süfyân b. Uyeyne ve Şâfiî hocaları arasındadır. Kırk yaşından sonra hadis okutmaya başladı.
+
+  Me'mûn, Mu'tasım ve Vâsık dönemlerinde yürütülen mihnede Kur'an'ın mahlûk olduğunu kabul etmeyi reddetti; kırbaçlandı, uzun süre hapsedildi, Vâsık döneminde ev hapsinde tutuldu. Bu direnişi onu Ehl-i sünnetin sembol ismi hâline getirdi.
+
+  Zâhid ve mütevazı bir hayat sürdü; geçimini dokumacılık ve istinsah gibi işlerle sağladı, hediye ve yardımları çoğunlukla geri çevirdi. Yaklaşık 30.000 hadis ihtiva eden el-Müsned'i Kütüb-i Tis'a arasında sayılır.
+
+  Fıkıhta öncelikle nassı, sahâbe kavlini ve zayıf hadisi esas aldı, kıyası son çare olarak kullandı. Fıkhî görüşlerini kendisi yazmadı; oğulları Abdullah ve Sâlih ile talebeleri derledi, mezhep özellikle Hallâl ile sistemleşti. Buhârî, Müslim ve Ebû Dâvûd talebeleri arasındadır. 241/855'te Bağdat'ta vefat etti.
+hocalari:
+  - kisi: safii
+    not: ondan fıkıh ve usûl-i fıkıh öğrendi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ahmed b. Hanbel\"", url: "https://islamansiklopedisi.org.tr/ahmed-b-hanbel"}
+  - kisi: sufyan-b-uyeyne
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ahmed b. Hanbel\"", url: "https://islamansiklopedisi.org.tr/ahmed-b-hanbel"}
+  - kisi: abdurrezzak
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Abdürrezzâk es-San‘ânî\"", url: "https://islamansiklopedisi.org.tr/abdurrezzak-es-sanani"}
+  - kisi: kuteybe-b-said
+    not: 216'da Bağdat'a geldiğinde ondan hadis dinledi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Kuteybe b. Saîd\"", url: "https://islamansiklopedisi.org.tr/kuteybe-b-said"}
+  - kisi: ebu-yusuf
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Yûsuf"
+      url: https://islamansiklopedisi.org.tr/ebu-yusuf
+  - kisi: veki-b-cerrah
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Vekî' b. Cerrâh"
+      url: https://islamansiklopedisi.org.tr/veki-b-cerrah
+  - kisi: yahya-b-said-el-kattan
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yahyâ b. Saîd el-Kattân"
+      url: https://islamansiklopedisi.org.tr/yahya-b-said-el-kattan
+  - kisi: abdurrahman-b-mehdi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Abdurrahman b. Mehdî"
+      url: https://islamansiklopedisi.org.tr/abdurrahman-b-mehdi
+  - kisi: huseym-b-besir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hüşeym b. Beşîr"
+      url: https://islamansiklopedisi.org.tr/huseym-b-besir
+  - kisi: ishak-b-rahuye
+    not: "akranıdır; birbirlerinden rivayet etmişlerdir"
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Râhûye"
+      url: https://islamansiklopedisi.org.tr/ibn-rahuye
+  - kisi: yezid-b-harun
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yezîd b. Hârûn"
+      url: https://islamansiklopedisi.org.tr/yezid-b-harun
+  - kisi: ibn-uleyye
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Uleyye"
+      url: https://islamansiklopedisi.org.tr/ibn-uleyye
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+  - kisi: tayalisi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Tayâlisî"
+      url: https://islamansiklopedisi.org.tr/tayalisi
+  - kisi: ebu-ubeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Ubeyd el-Kāsım b. Sellâm"
+      url: https://islamansiklopedisi.org.tr/ebu-ubeyd-kasim-b-sellam
+  - kisi: ebu-nuaym
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Nuaym, Fazl b. Dükeyn"
+      url: https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn
+  - kisi: said-b-mansur
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Saîd b. Mansûr"
+      url: https://islamansiklopedisi.org.tr/said-b-mansur
+  - kisi: mekki-b-ibrahim
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 541
+      url: https://shamela.ws/book/1994/537
+  - kisi: ebu-muaviye
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 423
+      url: https://shamela.ws/book/1994/419
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ahmed b. Hanbel\"", url: "https://islamansiklopedisi.org.tr/ahmed-b-hanbel"}
+  - {ad: "TDV İslâm Ansiklopedisi, \"Abdürrezzâk es-San‘ânî\"", url: "https://islamansiklopedisi.org.tr/abdurrezzak-es-sanani"}
+dogrulandi: true

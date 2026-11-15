@@ -1,0 +1,58 @@
+isim: Ebû Hanîfe
+tam_isim: Ebû Hanîfe en-Nu'mân b. Sâbit
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Nu'mân
+  kunye: Ebû Hanîfe
+  lakap: İmâm-ı A'zam
+  nesep: en-Nu'mân b. Sâbit b. Zûtâ (Zûtî)
+  nesep_arapca: النعمان بن ثابت بن زوطى التيمي الكوفي
+  nisbeler:
+    - et-Teymî (mevlâ)
+    - el-Kûfî
+  aciklama: Dedesi Zûtâ'nın Kâbil'den esir alınıp Teymullah b. Sa'lebe oğullarına mevlâ olduğu rivayet edilir; "et-Teymî" nisbesi bu velâdan gelir. "Ebû Hanîfe" künyesinin bir kızına değil, "hanîf" (hakka yönelen) anlamına dayandığı söylenir.
+dogum: {hicri: 80, miladi: 699}
+vefat: {hicri: 150, miladi: 767}
+vefat_yeri: Bağdat
+dogum_yeri: Kûfe
+bolge: kufe
+diger_bolgeler: [bagdat]
+eserleri:
+  - el-Fıkhü'l-ekber
+  - el-Fıkhü'l-ebsat
+  - el-Âlim ve'l-müteallim
+  - er-Risâle (Osmân el-Bettî'ye)
+  - el-Vasiyye
+  - el-Müsned (talebelerinin derlediği rivayetler)
+imam: {mezheb: Hanefî, yasayan: true}
+ozet: Hanefî mezhebinin imamı.
+biyografi: |
+  80/699'da Kûfe'de doğdu; ailesinin aslı hakkında farklı rivayetler vardır. Gençliğinde kumaş ticaretiyle uğraştı, ardından kendini ilme verdi. Yaklaşık on sekiz yıl Hammâd b. Ebî Süleymân'ın derslerine devam etti ve onun vefatından sonra Kûfe'deki fıkıh halkasını devraldı. Atâ b. Ebî Rebâh, İkrime, Şa'bî ve A'meş gibi hocalardan da ilim aldı.
+
+  Emevîler'in teklif ettiği kadılık ve hazine görevlerini kabul etmediği için hapsedilip dövüldü. Abbâsî halifesi Mansûr'un Bağdat kadılığı teklifini de reddetti; bu yüzden hapse atıldı ve Bağdat'ta vefat etti.
+
+  Hükümlerini Kur'an, sünnet, sahâbenin icmâı, kıyas ve istihsana dayandırdı. Meseleleri talebeleriyle birlikte tartışıp sonuca bağlayan kolektif bir ders halkası yürüttü; bu usul Hanefî fıkhının sistemli gelişmesini sağladı. Ebû Yûsuf, Muhammed b. el-Hasen, Züfer b. Hüzeyl ve Abdullah b. el-Mübârek talebeleri arasındadır; mezhebi özellikle Ebû Yûsuf ile İmam Muhammed'in eserleri taşıdı.
+
+  Ehl-i sünnet akidesinin şekillenmesine katkı veren erken kelâmcılardan sayılır; kendisine nisbet edilen akaid risalelerinin bir kısmının aidiyeti tartışmalıdır. Hakkında övgü yanında eleştiriler de vardır: Şâfiî'nin fıkıhta herkesin ona muhtaç olduğunu söylediği nakledilir; Buhârî ve İbn Hibbân gibi muhaddisler ise bazı görüşlerini eleştirmiştir.
+hocalari:
+  - kisi: katade-b-diame
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Katâde b. Diâme\"", url: "https://islamansiklopedisi.org.tr/katade-b-diame"}
+  - kisi: hammad-b-ebi-suleyman
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Hanîfe\"", url: "https://islamansiklopedisi.org.tr/ebu-hanife"}
+  - kisi: ata-b-ebi-rebah
+    not: seyahatlerinde bizzat hadis dinledi
+    kaynak: *tdv
+  - kisi: ikrime
+    not: seyahatlerinde bizzat hadis dinledi
+    kaynak: *tdv
+  - kisi: ames
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "A'meş"
+      url: https://islamansiklopedisi.org.tr/ames
+  - kisi: ibnul-munkedir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Münkedir"
+      url: https://islamansiklopedisi.org.tr/ibnul-munkedir
+kaynaklar:
+  - *tdv
+dogrulandi: true

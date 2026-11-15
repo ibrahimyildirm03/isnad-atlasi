@@ -1,0 +1,37 @@
+isim: el-Ka'nebî
+tam_isim: Ebû Abdirrahmân Abdullah b. Mesleme b. Ka'neb el-Hârisî el-Ka'nebî
+arapca: عبد الله بن مسلمة القعنبي
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Abdullah
+  nesep: Abdullah b. Mesleme b. Ka'neb
+  nesep_arapca: عبد الله بن مسلمة بن قعنب الحارثي القعنبي
+  nisbeler: [el-Hârisî, el-Ka'nebî, el-Medenî, el-Basrî]
+  aciklama: Dedesi Ka'neb'e nisbetle "el-Ka'nebî" diye tanınır.
+dogum: {not: "130/747'den sonra"}
+vefat: {hicri: 221, miladi: 836, not: "Muharrem veya Safer 221"}
+vefat_yeri: Mekke
+bolge: basra
+diger_bolgeler: [medine, mekke]
+ozet: Muvatta'ın en güvenilir râvilerinden; Buhârî, Müslim ve Ebû Dâvûd'un hocası.
+biyografi: |
+  130'dan sonra doğdu; dedesine nisbetle "Ka'nebî" diye meşhur oldu. Aslen Medineli olup Basra'da, daha sonra Mekke'de yaşadı. Babası Mesleme, dayısı ve kardeşleri de muhaddistir.
+
+  Otuz yıldan fazla talebelik ettiği Mâlik b. Enes başta olmak üzere İbn Ebî Zi'b, Şu'be ve Hammâd b. Seleme'den hadis aldı. Mâlik, kıraat yoluyla rivayeti semâdan üstün gördüğü için el-Muvatta'ın ilk yarısını ona okumuş, ikinci yarısını ise Ka'nebî hocasına okumuştur; bu rivayet neşredilmiştir.
+
+  Buhârî, Müslim, Ebû Dâvûd, Ebû Hâtim, Ebû Zür'a, Abd b. Humeyd ve Dârimî ondan rivayet etti. Mâlik onu övmüş, Ebû Hâtim "sika, hüccet" demiştir. Rivayetleri İbn Mâce dışında Kütüb-i Sitte'de yer alır; Buhârî'de 123, Müslim'de yetmiş rivayeti vardır. Muharrem veya Safer 221'de Mekke'de vefat etti.
+
+  Safedî'nin naklettiğine göre ibadeti ve faziletinden dolayı "er-Râhib" diye anılırdı ve duası makbul bir kişiydi. Muvatta'ı başkasının okumasıyla yetinmeyip kendisi okumak istemiştir. Müslim'in en yaşlı hocası olduğu kaydedilir.
+hocalari:
+  - kisi: malik-b-enes
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ka'nebî\"", url: "https://islamansiklopedisi.org.tr/kanebi"}
+  - kisi: sube-b-haccac
+    kaynak: *tdv
+  - kisi: hammad-b-seleme
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - ad: Safedî, el-Vâfî bi'l-vefeyât, XVII/331 (Şâmile)
+    url: https://shamela.ws/book/6677/4768
+dogrulandi: true

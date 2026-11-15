@@ -1,0 +1,76 @@
+isim: Yahyâ b. Maîn
+tam_isim: Ebû Zekeriyyâ Yahyâ b. Maîn b. Avn el-Mürrî el-Gatafânî el-Bağdâdî
+arapca: يحيى بن معين
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Zekeriyyâ
+  ism: Yahyâ
+  nesep: Yahyâ b. Maîn b. Avn b. Ziyâd
+  nesep_arapca: يحيى بن معين بن عون المري البغدادي
+  nisbeler: [el-Mürrî, el-Gatafânî, el-Bağdâdî]
+dogum: {hicri: 158, miladi: 775}
+vefat: {hicri: 233, miladi: 848}
+dogum_yeri: Nikyâ (Enbâr yakını)
+vefat_yeri: Medine
+bolge: bagdat
+eserleri: [et-Târîh (Dûrî rivayeti), Ma'rifetü'r-ricâl, Su'âlât]
+rical:
+  tehzibul_kemal: "XXXI, 543-568"
+  tehzibut_tehzib: "XI, 280-288"
+  rumuz: "ع"
+  sozler:
+    - kim: Ali b. el-Medînî
+      soz: Âdem'den beri İbn Maîn kadar çok hadis yazan birini bilmiyorum.
+      kaynak: DİA, "Yahyâ b. Maîn"
+    - kim: Yahyâ b. Maîn (ölüm döşeğinde)
+      soz: Beytün hâlî ve isnâdün âlî (boş bir ev ve yüksek bir isnad).
+      kaynak: DİA, "Yahyâ b. Maîn"
+ozet: Cerh ve ta'dîlin imamı; Buhârî, Müslim ve Ebû Dâvûd'un hocası, Ahmed b. Hanbel'in akranı.
+biyografi: |
+  158/775'te Bağdat yakınındaki Enbâr'ın Nikyâ köyünde doğdu. Rey'in haracını toplamakla görevli babası varlıklı biriydi; babasından kalan yaklaşık bir milyon dirhemin tamamını hadis tahsiline harcadı.
+
+  Bağdat çevresinden başlayarak Kûfe, Basra, Hicaz, Horasan, Yemen ve Mısır'a yolculuklar yaptı. İbnü'l-Mübârek, Vekî', İbn Uyeyne, Abdurrahmân b. Mehdî, Yahyâ el-Kattân ve Abdürrezzâk'tan hadis aldı. Mükerrerleriyle birlikte bir milyon kadar rivayet yazdığı nakledilir; Ali b. el-Medînî onun kadar çok hadis yazan birini bilmediğini söylemiştir.
+
+  Râviler hakkında titiz ve sert hükümler verdiği için cerh-ta'dîlde "müteşeddid" münekkitler arasında sayılır. Ahmed b. Hanbel hadislerdeki hataları öğrenmek için ona başvurur ve onun nüshasını esas alırdı. Mihnede baskı altında Kur'an'ın mahlûk olduğunu kabul ettiğini söylemesi, bu konuda direnmeyenlerden rivayeti hoş görmeyen Ahmed ile aralarının açılmasına yol açtı.
+
+  et-Târîh, Su'âlâtü İbni'l-Cüneyd ve Ma'rifetü'r-ricâl gibi eserleri büyük ölçüde talebelerinin derlemeleriyle günümüze ulaşmıştır; bunlar ricâl ilminin en eski kaynaklarındandır. Buhârî, Müslim ve Ebû Dâvûd onun talebeleridir. 233'te hac yolculuğu sırasında Medine'de vefat etti; cenaze namazını Medine valisi kıldırdı ve Bakī'e defnedildi.
+hocalari:
+  - kisi: ibnul-mubarek
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Maîn\"", url: "https://islamansiklopedisi.org.tr/yahya-b-main"}
+  - kisi: veki-b-cerrah
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: abdurrahman-b-mehdi
+    kaynak: *tdv
+  - kisi: yahya-b-said-el-kattan
+    kaynak: *tdv
+  - kisi: abdurrezzak
+    kaynak: *tdv
+  - kisi: huseym-b-besir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hüşeym b. Beşîr\"", url: "https://islamansiklopedisi.org.tr/huseym-b-besir"}
+  - kisi: ebu-yusuf
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Yûsuf\"", url: "https://islamansiklopedisi.org.tr/ebu-yusuf"}
+  - kisi: ibn-uleyye
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Uleyye"
+      url: https://islamansiklopedisi.org.tr/ibn-uleyye
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+  - kisi: ebu-nuaym
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Nuaym, Fazl b. Dükeyn"
+      url: https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn
+  - kisi: mekki-b-ibrahim
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 541
+      url: https://shamela.ws/book/1994/537
+  - kisi: ebu-muaviye
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 423
+      url: https://shamela.ws/book/1994/419
+kaynaklar:
+  - *tdv
+dogrulandi: true

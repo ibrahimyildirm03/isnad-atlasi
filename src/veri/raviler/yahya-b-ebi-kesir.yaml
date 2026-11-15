@@ -1,0 +1,53 @@
+isim: Yahyâ b. Ebî Kesîr
+tam_isim: Ebû Nasr Yahyâ b. Ebî Kesîr Sâlih et-Tâî el-Yemâmî
+arapca: يحيى بن أبي كثير
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Nasr
+  ism: Yahyâ
+  nesep: Yahyâ b. Ebî Kesîr Sâlih, mevlâ Tayyi'
+  nesep_arapca: يحيى بن أبي كثير صالح الطائي مولاهم اليمامي
+  nisbeler: [et-Tâî (mevlâ), el-Yemâmî]
+  aciklama: Babası Ebû Kesîr'in adı Sâlih'tir. Basra'da yetişip Yemâme'ye yerleştiği için "el-Yemâmî" diye anılır.
+vefat: {hicri: 129, miladi: 747}
+vefat_yeri: Yemâme
+bolge: basra
+rical:
+  rumuz: "ع"
+  sozler:
+    - {kim: Şu'be, soz: "Hadisi Zührî'nin hadisinden daha güzeldir.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206"}
+    - {kim: Ahmed b. Hanbel, soz: "Zührî ona muhalefet ederse söz Yahyâ'nın sözüdür.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206"}
+    - {kim: Ebû Hâtim, soz: "Sika, imamdır; ancak sika olandan rivayet eder.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206"}
+ozet: Yemâme'nin imamı; Şu'be'nin hadisini Zührî'ninkinden üstün tuttuğu, Evzâî ve Hişâm ed-Destuvâî'nin hocası.
+biyografi: |
+  Ebû Nasr Yahyâ b. Ebî Kesîr et-Tâî el-Yemâmî'nin babasının adı Sâlih b. el-Mütevekkil olarak kaydedilir; Yesâr, Neşît veya Dînâr dendiği de olur. Enes b. Mâlik'i Mescid-i Harâm'da namaz kılarken gördü ama ondan hadis dinlemedi. Sâib b. Yezîd'den hadis dinlediğini Ahmed b. Hanbel belirtmiştir. On yıl Medine'de kaldığı nakledilir.
+
+  Tayyi' kabilesinin mevlâsıdır; Basra'da yetişip Yemâme'ye yerleşti. Ebû Seleme b. Abdirrahmân, Ebû Kılâbe, İmrân b. Hıttân ve Hilâl b. Ebî Meymûne'den rivayet etti. Ebû Ümâme'den rivayeti Müslim'de, Enes'ten rivayeti Nesâî'de geçer; ancak bunlar mürseldir.
+
+  Şu'be onun hadisini Zührî'nin hadisinden daha güzel bulmuş, Ahmed b. Hanbel ikisi arasında ihtilaf olursa Yahyâ'nın sözünün tercih edileceğini söylemiştir. Ebû Hâtim onu yalnız güvenilir kimselerden rivayet eden sika bir imam saydı; Eyyûb es-Sahtiyânî "Yeryüzünde Yahyâ b. Ebî Kesîr'in benzeri kalmadı" demiştir. Dârekutnî ise tedlîsle tanındığını kaydeder.
+
+  Oğlu Abdullah, İkrime b. Ammâr, Ma'mer, Hişâm ed-Destuvâî ve Evzâî ondan rivayet etti. 129 yılında vefat etti.
+
+  Eyyûb es-Sahtiyânî ve Yahyâ b. Saîd el-Ensârî akranı olmakla birlikte ondan rivayet etmiştir. Eyyûb, Zührî'den sonra Medine ehlinin hadisini ondan daha iyi bilen birini tanımadığını söylemiştir. Ahmed b. Hanbel onu "insanların en sağlamlarından" sayıp Zührî ve Yahyâ b. Saîd ile birlikte anmış, ona en sağlam râvinin Hişâm ed-Destuvâî olduğunu belirtmiştir. İclî onu sika ve hadis ehlinden saymıştır.
+
+  Yahyâ el-Kattân mürsellerini zayıf bulmuş; Yahyâ ise "belagani" diyerek naklettiklerinin bir kitaptan olduğunu söylemiştir. İbn Hibbân onu âbidlerden sayar: bir cenazeye katıldığı gece akşam yemeği yemez, ailesi onunla konuşamazdı. Ma'mer'in naklettiğine göre bir Emevî için biat etmeye zorlandı, kabul etmeyince Saîd b. el-Müseyyeb gibi dövüldü. Vefatı için 129 ve 132 tarihleri verilir.
+hocalari:
+  - kisi: ebu-seleme-b-abdirrahman
+    kaynak: &sm {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206", url: "https://shamela.ws/book/1994/202"}
+  - kisi: enes-b-malik
+    ihtilafli: true
+    not: Enes'ten rivayeti mürseldir
+    kaynak: *sm
+  - kisi: ebu-umame-el-bahili
+    ihtilafli: true
+    not: Ebû Ümâme'den rivayeti mürseldir
+    kaynak: *sm
+kaynaklar:
+  - *sm
+  - {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 207", url: "https://shamela.ws/book/1994/203"}
+  - ad: İbn Kesîr, et-Tekmîl fi'l-cerh ve't-ta'dîl, II/268-269 (Şâmile)
+    url: https://shamela.ws/book/96228/757
+  - ad: el-Câmi' li-ulûmi'l-İmâm Ahmed, er-Ricâl, XIX/499-500 (Şâmile)
+    url: https://shamela.ws/book/20881/2347
+dogrulandi: true
+dogrulama_notu: TDV İslâm Ansiklopedisi maddesi henüz yayımlanmadığı için Şâmile'deki İbn Abdülhâdî'nin Tabakātü ulemâi'l-hadîs'inden alındı.

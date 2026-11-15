@@ -1,0 +1,57 @@
+isim: Vekî' b. el-Cerrâh
+tam_isim: Ebû Süfyân Vekî' b. el-Cerrâh b. Melîh er-Ruâsî el-Kûfî
+arapca: وكيع بن الجراح
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Süfyân
+  ism: Vekî'
+  nesep: Vekî' b. el-Cerrâh b. Melîh b. Adî
+  nesep_arapca: وكيع بن الجراح بن مليح الرؤاسي الكوفي
+  nisbeler: [er-Ruâsî, el-Kûfî]
+dogum: {hicri: 128, miladi: 746, not: "129 da denmiştir"}
+vefat: {hicri: 197, miladi: 812}
+vefat_yeri: Feyd (Kûfe–Mekke yolu)
+bolge: kufe
+rical:
+  rumuz: "ع"
+ozet: Sevrî'nin Kûfe'deki halefi; Ahmed b. Hanbel, İbn Maîn, İbnü'l-Medînî ve İbn Ebî Şeybe'nin hocası.
+biyografi: |
+  128 ya da 129 yılında doğdu; Benî Ruâs'a mensup Arap bir ailedendir. Babası Cerrâh, Kûfe'de beytülmal görevlisiydi; annesinden büyük bir miras kaldı.
+
+  Çok erken yaşta hadisle ilgilendi; 145/762'de A'meş'ten hadis öğrendi. Hişâm b. Urve, Süfyân es-Sevrî, Şu'be, İbn Cüreyc, Evzâî, Mâlik ve Hammâd b. Seleme hocaları arasındadır. Çok güçlü bir hafızası vardı; otuz üç yaşında rivayete başladı ve Süfyân es-Sevrî'nin ardından Kûfe'de onun yerini aldı.
+
+  Hârûnürreşîd'in kadılık teklifini kabul etmedi; bu teklifi kabul eden yakın dostu Hafs b. Gıyâs ile ilişkisini kesti. Emîn'in verdiği görevi de reddetti. Ebû Hanîfe'ye sert muhalefetiyle bilinen Sevrî'nin en gözde talebesi olduğu hâlde Ebû Hanîfe'den rivayet etti ve onun görüşleriyle fetva verdi.
+
+  184/800'de Mekke'de Hz. Peygamber'in naaşıyla ilgili anlattığı bir rivayet halkın tepkisine yol açtı; vali idam kararı verdiyse de Süfyân b. Uyeyne'nin araya girmesiyle Mekke'den çıkarılmakla yetinildi. 539 rivayet içeren Kitâbü'z-Zühd'ü ve Cüz' fi'l-hadîs'i bilinen eserleridir. Ahmed b. Hanbel, Yahyâ b. Maîn, Ali b. el-Medînî, İbn Ebî Şeybe ve Humeydî onun talebeleridir. Hacdan dönerken 197'de Feyd'de vefat etti.
+hocalari:
+  - kisi: ames
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Vekî' b. Cerrâh\"", url: "https://islamansiklopedisi.org.tr/veki-b-cerrah"}
+  - kisi: hisam-b-urve
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: sube-b-haccac
+    kaynak: *tdv
+  - kisi: ibn-cureyc
+    kaynak: *tdv
+  - kisi: evzai
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: hammad-b-seleme
+    kaynak: *tdv
+  - kisi: ebu-hanife
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Zeyd\"", url: "https://islamansiklopedisi.org.tr/hammad-b-zeyd"}
+  - kisi: ibn-ebi-zib
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Zi'b"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-zib
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+kaynaklar:
+  - *tdv
+dogrulandi: true

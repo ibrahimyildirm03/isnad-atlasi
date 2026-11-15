@@ -1,0 +1,54 @@
+isim: İkrime
+tam_isim: Ebû Abdillâh İkrime b. Abdillâh el-Berberî, mevlâ İbn Abbâs
+arapca: عكرمة مولى ابن عباس
+cerh_tadil: Sika, sebt, tefsir âlimi; İbn Ömer'in onu yalanladığı da bid'atçı olduğu da sabit değildir (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: İkrime
+  kunye: Ebû Abdillâh
+  nesep: İkrime, mevlâ İbn Abbâs
+  nesep_arapca: عكرمة أبو عبد الله مولى ابن عباس
+  nisbeler:
+    - el-Berberî
+    - el-Medenî
+    - el-Hâşimî (mevlâ)
+    - el-Mekkî
+  aciklama: Aslen Berberîdir; Abdullah b. Abbâs'ın âzatlısı olduğu için Hâşimîlere velâ bağıyla nisbet edilir.
+rical:
+  tehzibul_kemal: XX, 264
+  tehzibut_tehzib: 3/134 (Şâmile neşri)
+  takrib: Sika, sebt, tefsir âlimi; İbn Ömer'in onu yalanladığı sabit değildir, bid'atı da sabit olmamıştır (3. tabaka)
+dogum: {hicri: 21, miladi: 642, not: "muhtemel tarih"}
+vefat: {hicri: 105, miladi: 723, not: "104, 106 ve 107 de denmiştir"}
+bolge: mekke
+ozet: İbn Abbâs'ın azatlısı; tefsiri en iyi bilen tâbiîlerden, güvenilirliği tartışılmış bir âlim.
+biyografi: |
+  Ebû Abdillâh İkrime b. Abdillâh el-Berberî, tahminen 21'de doğdu; aslen Mağribli bir Berberîdir. Basra valisi Abdullah b. Abbas'a hediye edildi ve kırk yıl onun derslerine bağlı kaldı. İbn Abbas, yetiştiğini görünce onu halka fetva vermekle görevlendirdi. İbn Abbas'ın vefatından sonra oğlu Ali onu sattıysa da İkrime'nin "babanın ilmini sattın" itirazı üzerine satışı bozup âzat etti.
+
+  Hasan b. Ali, Hz. Âişe, Ebû Hüreyre ve Câbir'den de rivayet etti. Ondan yaklaşık üç yüz kişi rivayet etmiştir; İbrâhim en-Nehaî, Şa'bî, Katâde, Zührî, Amr b. Dînâr ve A'meş bunlar arasındadır. Katâde, tefsiri en iyi bilen kişinin İkrime olduğunu söylemiştir. Horasan, Semerkant, İsfahan, Basra, Kûfe, Mısır ve Mağrib'i dolaştı.
+
+  Eyyûb es-Sahtiyânî, Yahyâ b. Maîn, Nesâî ve Ahmed b. Hanbel onu sika saydı; Buhârî Sahîh'inde 139 rivayetine yer verdi. Buna karşılık Mâlik'in onu sika görmediği, bazılarının ağır ithamda bulunduğu nakledilir; Ebû Hâtim bu eleştirilerin bazı görüşlerinin benimsenmemesinden kaynaklandığını belirtmiştir. Hâricî fırkalara nisbet edilmesinin siyasî ilişkilerinden doğduğu, itikadî bir delile dayanmadığı ifade edilir.
+
+  Medine yönetimi tarafından arandığı için Dâvûd b. Husayn'ın evinde gizlendi ve orada 105'te vefat etti. Şair Küseyyir ile aynı gün öldüğü için halkın en büyük fakih ile en büyük şairin öldüğünü söylediği nakledilir.
+hocalari:
+  - kisi: ibn-abbas
+    not: azatlısıdır; kırk yıl yanında kaldı
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İkrime el-Berberî\"", url: "https://islamansiklopedisi.org.tr/ikrime-el-berberi"}
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: abdullah-b-amr
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: ukbe-b-amir
+    kaynak: *tdv
+  - kisi: ali
+    ihtilafli: true
+    not: Ali b. Ebî Tâlib'den rivayetinin mürsel olabileceği belirtilir
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/4458"}
+dogrulandi: true

@@ -1,0 +1,45 @@
+isim: ed-Dârimî
+tam_isim: Ebû Muhammed Abdullah b. Abdirrahmân b. el-Fazl ed-Dârimî es-Semerkandî
+arapca: عبد الله بن عبد الرحمن الدارمي
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Abdullah
+  nesep: Abdullah b. Abdirrahmân b. el-Fazl b. Behrâm
+  nesep_arapca: عبد الله بن عبد الرحمن بن الفضل بن بهرام الدارمي السمرقندي
+  nisbeler: [ed-Dârimî, et-Temîmî, es-Semerkandî]
+  aciklama: Temîm kabilesinin Dârim koluna nisbet edilir.
+dogum: {hicri: 181, miladi: 797}
+vefat: {hicri: 255, miladi: 869}
+dogum_yeri: Semerkant
+vefat_yeri: Merv
+kutub_i_tisa: "Kütüb-i Tis'a: Sünen-i Dârimî"
+bolge: maveraunnehir
+eserleri: [es-Sünen (el-Müsned)]
+rical:
+  tehzibut_tehzib: "V, 294"
+  sozler:
+    - kim: Ahmed b. Hanbel
+      soz: Ona dünya arz edildi, kabul etmedi.
+      kaynak: DİA, "Dârimî, Abdullah b. Abdurrahman"
+ozet: es-Sünen'in müellifi Semerkantlı hâfız; Müslim, Ebû Dâvûd ve Tirmizî'nin hocası.
+biyografi: |
+  181'de Semerkant'ta doğdu; Temîm kabilesinin Dârim koluna mensuptur. Hadis öğrenmek için Hicaz, Mısır, Şam, Irak, Kûfe ve Horasan'ı dolaştı. Nadr b. Şümeyl, Yezîd b. Hârûn, Hâlid b. Mahled, Muhammed b. Selâm el-Bîkendî ve Affân b. Müslim hocaları arasındadır. Bağdat'ta da hadis rivayet etti.
+
+  Sultanın ısrarı üzerine Semerkant kadılığını kabul etti, fakat tek bir hüküm verdikten sonra görevden ayrıldı. Ahmed b. Hanbel onun zühdünü ve kanaatkârlığını övmüş, kendisine servet teklif edildiği hâlde kabul etmediğini anlatmıştır. Ahmed ve Ebû Hâtim onu cerh ve ta'dîlde otorite saydı; Ahmed, onun görüşü üzerine Yahyâ el-Himmânî'den rivayeti terk etmiştir.
+
+  es-Sünen'inde bab başlıklarında fıkhî görüşlerini belirtmesi ve hadisleri farklı konularda tekrarlaması Buhârî'nin Sahîh'ini andırır; bazı âlimler onu İbn Mâce'nin yerine Kütüb-i Sitte'nin altıncısı saymış, eser Kütüb-i Tis'a arasında yer almıştır.
+
+  Buhârî, Müslim, Ebû Dâvûd, Tirmizî ve Nesâî onun talebeleri arasındadır. 255'te Merv'de vefat etti.
+hocalari:
+  - kisi: yezid-b-harun
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Dârimî, Abdullah b. Abdurrahman"
+      url: https://islamansiklopedisi.org.tr/darimi-abdullah-b-abdurrahman
+  - kisi: ebu-nuaym
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Nuaym, Fazl b. Dükeyn"
+      url: https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Dârimî, Abdullah b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/darimi-abdullah-b-abdurrahman"}
+dogrulandi: true

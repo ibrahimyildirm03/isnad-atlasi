@@ -1,0 +1,30 @@
+isim: Abdullah b. Amr
+tam_isim: Abdullah b. Amr b. el-Âs es-Sehmî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Abdullah
+  kunye: Ebû Muhammed (Ebû Abdirrahmân da denmiştir)
+  nesep: Abdullah b. Amr b. el-Âs b. Vâil es-Sehmî
+  nesep_arapca: عبد الله بن عمرو بن العاص السهمي القرشي
+  nisbeler:
+    - el-Kureşî
+    - es-Sehmî
+  aciklama: Babası Mısır fatihi Amr b. el-Âs'tır. Asıl adı el-Âs iken Hz. Peygamber onu Abdullah olarak değiştirmiştir.
+vefat: {hicri: 65, miladi: 684, not: "63, 68 ve 69 da denmiştir"}
+vefat_yeri: Fustat (Tâif, Mekke ve Şam da denmiştir)
+dogum_yeri: Mekke
+bolge: misir
+eserleri:
+  - es-Sahîfetü's-sâdıka
+diger_bolgeler: [medine]
+ozet: "Resûlullah'tan duyduklarını yazan (es-Sahîfetü's-sâdıka) sahâbî."
+biyografi: |
+  Hicretten yaklaşık yedi yıl önce Mekke'de doğdu. Babası Amr b. el-Âs'tan önce müslüman oldu ve onunla birlikte Medine'ye göç etti. Süryânîce biliyor ve Tevrat'ı okuyordu.
+
+  Hz. Peygamber'in izniyle işittiği hadisleri yazdı ve bu derlemeye es-Sahîfetü's-sâdıka adını verdi; bu sahîfe ilk yazılı hadis metinlerindendir ve torunu Şuayb b. Muhammed yoluyla nakledilmiştir. Ebû Hüreyre, kendisinden çok hadis bilen tek sahâbînin Abdullah b. Amr olduğunu, çünkü onun yazdığını kendisinin ise yazmadığını söylemiştir. Aşırı ibadeti sebebiyle aile hayatını ihmal ettiği için Hz. Peygamber tarafından uyarıldı.
+
+  Sıffîn'de babasının ısrarıyla Muâviye'nin ordusunda bulundu, fakat silah kullanmadı ve bundan ömrü boyunca pişmanlık duydu. Muâviye onu Kûfe'ye, babasının vefatından sonra Mısır'a vali tayin etti. Yaklaşık 700 hadis rivayet etti; Şuayb b. Muhammed, Saîd b. el-Müseyyeb, Urve b. ez-Zübeyr ve Hasan el-Basrî ondan rivayet edenler arasındadır. Ömrünün sonunda gözlerini kaybetti; vefat yılı 63 ile 69 arasında farklı verilir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Amr b. Âs\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-amr-b-as"}
+dogrulandi: true

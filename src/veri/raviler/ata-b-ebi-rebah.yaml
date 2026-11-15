@@ -1,0 +1,58 @@
+isim: Atâ b. Ebî Rebâh
+tam_isim: Ebû Muhammed Atâ b. Ebî Rebâh Eslem el-Kureşî
+arapca: عطاء بن أبي رباح
+cerh_tadil: Sika, fakih, fâzıl; ancak çok irsâl eder, ömrünün sonunda hafızasının değiştiği söylenmiştir (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Atâ
+  kunye: Ebû Muhammed
+  nesep: Atâ b. Ebî Rebâh Eslem, mevlâ Kureyş
+  nesep_arapca: عطاء بن أبي رباح أسلم القرشي مولاهم المكي
+  nisbeler:
+    - el-Kureşî (mevlâ)
+    - el-Fihrî
+    - el-Mekkî
+    - el-Cenedî
+  aciklama: Babası Ebû Rebâh'ın adı Eslem'dir. Yemen'in Cened kasabasında doğduğu için "el-Cenedî" de denir; Fihr ya da Cumah oğullarının mevlâsıdır.
+rical:
+  tehzibul_kemal: XX, 69
+  tehzibut_tehzib: 3/101 (Şâmile neşri)
+  takrib: Sika, fakih, fâzıl; fakat çok irsal yapar (3. tabaka)
+  sozler:
+    - kim: İbn Abbâs
+      soz: Ey Mekke halkı! Atâ gibi biri aranızdayken niçin benim etrafımda toplanıyorsunuz?
+      kaynak: DİA, "Atâ b. Ebû Rebâh"
+dogum: {hicri: 27, miladi: 647, not: "Ömer b. el-Hattâb veya Osman b. Affân döneminde doğduğu rivayet edilir"}
+vefat: {hicri: 114, miladi: 732, not: "115 de denmiştir; 112 ile 117 arasında farklı tarihler verilmiştir"}
+vefat_yeri: Mekke
+dogum_yeri: Cened (Yemen)
+bolge: mekke
+ozet: İbn Abbâs'tan sonra Mekke'nin fetva mercii; hac menâsikinde zamanının en yetkili fakihi.
+biyografi: |
+  Doğum tarihi kesin bilinmemekle birlikte 27 civarında Yemen'in Cened şehrinde Nübye asıllı bir ailede doğdu. Çok küçük yaşta Mekke'ye gitti ve Benî Fihr veya Cumah ailesinin mevlâsı oldu. Bir gözü daha önce kör olmuştu, diğeri ömrünün sonunda görmez oldu; İbn ez-Zübeyr'in mücadelesi sırasındaki bir çarpışmada bir elini kaybetti.
+
+  Kendi ifadesine göre yaklaşık iki yüz sahâbîden hadis rivayet etti; İbn Abbas, İbn Ömer, Hz. Âişe, Câbir, Muâviye, İbn ez-Zübeyr ve Ebü'd-Derdâ bunlar arasındadır. İbn Abbas'tan sonra Mescid-i Harâm'da ders halkasına oturdu ve Mekke'nin fetva mercii oldu. Zamanının hac konusunda en yetkili fakihi sayılır; yetmiş kez hac yaptığı rivayet edilir.
+
+  Mücâhid, İbn Cüreyc, Ebû Hanîfe, Evzâî, Zührî, Amr b. Dînâr ve İbn Ebî Leylâ ondan ilim aldı. İbn Abbas'a (veya İbn Ömer'e), Atâ aralarındayken Mekkelilerin neden kendi etrafında toplandığını sorduğu söz atfedilir. Yahyâ b. Maîn, Ebû Zür'a ve İbn Hibbân onu sika saymış; Şâfiî, tâbiîn arasında onun kadar hadise bağlı birinin bulunmadığını söylemiştir. Mürselleri ise zayıf sayılmıştır.
+
+  Tefsir rivayetleri Abdürrezzâk, Sevrî ve Taberî'nin tefsirlerine girmiştir. 114'te Mekke'de vefat etti.
+hocalari:
+  - kisi: ibn-abbas
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Atâ b. Ebû Rebâh\"", url: "https://islamansiklopedisi.org.tr/ata-b-ebu-rebah"}
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    not: akranıdır; birbirlerinden faydalanmışlardır
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Mücâhid b. Cebr\"", url: "https://islamansiklopedisi.org.tr/mucahid-b-cebr"}
+  - kisi: urve-b-ez-zubeyr
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Urve b. Zübeyr\"", url: "https://islamansiklopedisi.org.tr/urve-b-zubeyr"}
+  - kisi: ibn-ebi-muleyke
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Müleyke"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/4385"}
+dogrulandi: true

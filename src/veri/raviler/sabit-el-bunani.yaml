@@ -1,0 +1,37 @@
+isim: Sâbit el-Bünânî
+tam_isim: Ebû Muhammed Sâbit b. Eslem el-Bünânî el-Basrî
+arapca: ثابت البناني
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Sâbit
+  nesep: Sâbit b. Eslem
+  nesep_arapca: ثابت بن أسلم البناني البصري
+  nisbeler: [el-Bünânî, el-Basrî]
+  aciklama: '"el-Bünânî" nisbesi Kureyş''in Benî Sa''d b. Lüey koluna bağlı Bünâne''ye mensubiyetinden gelir.'
+dogum: {hicri: 41, miladi: 661}
+vefat: {hicri: 127, miladi: 744, not: "123 de denmiştir"}
+dogum_yeri: Basra
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "IV, 342-349"
+  tehzibut_tehzib: "II, 2-4"
+  rumuz: "ع"
+ozet: Enes b. Mâlik'in kırk yıl yanından ayrılmayan Basralı zâhid muhaddis; Hammâd b. Seleme'nin hocası.
+biyografi: |
+  Ebû Muhammed Sâbit b. Eslem el-Bünânî, tercih edilen görüşe göre 41'de Basra'da, Bünâne kabilesinin mahallesinde doğdu. Küçük yaşta ders halkalarına katıldı. Enes b. Mâlik başta olmak üzere Abdullah b. Mugaffel, Ebû Berze, İbn ez-Zübeyr ve İbn Ömer'den; tâbiîlerden Ebü'l-Âliye, Mutarrif ve Ebû Osman en-Nehdî'den hadis dinledi. Enes'e kırk yıl talebelik ve arkadaşlık etti.
+
+  Atâ b. Ebî Rebâh, Katâde, Humeyd et-Tavîl, Ma'mer, Şu'be, A'meş ve Hammâd b. Seleme ondan rivayet etti; Mizzî yüzden fazla râvisini sayar. Yahyâ b. Maîn, Ahmed b. Hanbel ve Nesâî onu sika saymış; Enes'ten rivayet edenler içinde Zührî'den sonra en güvenilir iki râviden biri kabul edilmiştir. Talebesi Hammâd b. Seleme onu sınamak için hadislerde değişiklik yapmış, Sâbit hepsini fark edip düzeltmiştir.
+
+  Günlerini çoğunlukla oruçlu, gecelerini ibadetle geçirirdi; Bekir b. Abdullah el-Müzenî devrin en çok ibadet eden insanını görmek isteyenlere onu gösterirdi. Enes'le karşılaştığında Resûlullah'a dokunmuş olan elini öperdi. Tasavvuf hareketinin öncülerinden sayılır. Kütüb-i Sitte ve Müsned'de ondan yaklaşık 250 hadis vardır. 127'de seksen altı yaşında Basra'da vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Sâbit el-Bünânî\"", url: "https://islamansiklopedisi.org.tr/sabit-el-bunani"}
+  - kisi: ibn-omer
+    kaynak: *tdv
+  - kisi: ebu-osman-en-nehdi
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

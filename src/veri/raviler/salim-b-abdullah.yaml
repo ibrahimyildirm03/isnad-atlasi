@@ -1,0 +1,39 @@
+isim: Sâlim b. Abdullah
+tam_isim: Ebû Ömer Sâlim b. Abdillâh b. Ömer b. el-Hattâb el-Kureşî el-Adevî el-Medenî
+arapca: سالم بن عبد الله بن عمر
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Ömer (Ebû Abdillâh ve Ebü'l-Münzir de denmiştir)
+  ism: Sâlim
+  nesep: Sâlim b. Abdillâh b. Ömer b. el-Hattâb b. Nüfeyl
+  nesep_arapca: سالم بن عبد الله بن عمر بن الخطاب القرشي العدوي
+  nisbeler: [el-Kureşî, el-Adevî, el-Medenî]
+  aciklama: Hz. Ömer'in torunudur. Annesi Fars asıllı soylu bir câriyedir; bazı rivayetlere göre Kisrâ Yezdicerd'in kızıdır.
+dogum: {not: "Hz. Osman'ın hilâfeti yıllarında"}
+vefat: {hicri: 106, miladi: 725, not: "Zilhicce 106; farklı tarihler de verilmiştir"}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  tehzibul_kemal: "III, 145-154 (DİA'daki atıf)"
+  tehzibut_tehzib: "II, 255-256 (Beyrut 1991)"
+  rumuz: "ع"
+ozet: İbn Ömer'in oğlu, Medine'nin zâhid fakihi; yedi fakih arasında sayılıp sayılmadığı ihtilaflı.
+biyografi: |
+  Sâlim b. Abdullah b. Ömer, Hz. Osman'ın halifeliği yıllarında doğdu. Babası Abdullah b. Ömer, annesi Fars kökenli asilzade bir câriyedir; bazı rivayetlere göre annesi Kisrâ Yezdicerd'in kızıdır. Başta babası olmak üzere Ebû Eyyûb el-Ensârî, Hz. Âişe, Râfi' b. Hadîc, Ebû Hüreyre ve Saîd b. el-Müseyyeb'den rivayet etti.
+
+  Oğlu Ebû Bekir, Zührî, Nâfi', Sâlih b. Keysân, Humeyd et-Tavîl, Rebîatü'r-re'y ve Amr b. Dînâr ondan hadis aldı. Güvenilirliği üzerinde ittifak vardır; Ahmed b. Hanbel ve İshak b. Râhûye'ye göre en sahih sened Zührî–Sâlim–İbn Ömer silsilesidir. Medine'nin en önemli fakihlerindendir; İbnü'l-Mübârek onu fukahâ-yi seb'anın yedincisi sayar, birçok âlim ise bu yere Ebû Bekir b. Abdirrahman'ı koyar.
+
+  Yaşadığı dönemde zühdün nadir temsilcilerinden sayıldı ve babasına çok benzediği söylendi. Siyasetten uzak durdu; halifelere biat etti ama ihsanlarını geri çevirdi. Ömer b. Abdülazîz bunun istisnasıdır: Medine valiliğinde onun danışma kurulunda bulundu, halifeliğinde de yazışmayı sürdürdü. Kelâm tartışmalarına karşı temkinliydi. Zilhicce 106'da Medine'de vefat etti; cenaze namazını Halife Hişâm kıldırdı.
+hocalari:
+  - kisi: ibn-omer
+    not: babasıdır
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Sâlim b. Abdullah b. Ömer\"", url: "https://islamansiklopedisi.org.tr/salim-b-abdullah-b-omer"}
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

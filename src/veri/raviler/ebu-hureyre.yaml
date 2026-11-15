@@ -1,0 +1,29 @@
+isim: Ebû Hüreyre
+tam_isim: Ebû Hüreyre Abdurrahmân b. Sahr ed-Devsî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Abdurrahmân (en meşhur görüşe göre)
+  kunye: Ebû Hüreyre
+  nesep: Abdurrahmân b. Sahr ed-Devsî
+  nesep_arapca: عبد الرحمن بن صخر الدوسي
+  nisbeler:
+    - ed-Devsî
+    - el-Yemânî
+    - el-Medenî
+  aciklama: Câhiliyedeki adı Abdüşems'ti; müslüman olduktan sonraki adı ve babasının adı hakkında otuzu aşkın görüş vardır, en meşhuru Abdurrahmân b. Sahr'dır. Yanında taşıdığı küçük kedi sebebiyle "kedicik babası" anlamına gelen Ebû Hüreyre künyesiyle anıldı. Yemen'in Devs kabilesindendir.
+vefat: {hicri: 58, miladi: 678, not: "57 ve 59 da denmiştir"}
+vefat_yeri: Akīk veya Zülhuleyfe (Bakī'e defnedildi)
+bolge: medine
+ozet: "En çok hadis rivayet eden sahâbî."
+biyografi: |
+  Yemen'de yaşayan Ezd kabilesinin Devs koluna mensuptur; doğum tarihi ve yeri kesin olarak bilinmez. Kabilesinden Tufeyl b. Amr vasıtasıyla müslüman oldu ve 7/628 başlarında kabilesiyle birlikte Medine'ye geldi. Hayber'in fethine ve sonraki gazvelerin çoğuna katıldı.
+
+  Hz. Peygamber'in yanından ayrılmayan Ashâb-ı Suffe'den biri olarak bütün vaktini ilme verdi; bu yakınlık onun sahâbe içinde en çok hadis rivayet eden kişi olmasını sağladı. Hafızasının çok güçlü olduğu kabul edildi ve fetvalarıyla da tanındı.
+
+  Hz. Ömer döneminde Bahreyn'de görev yaptı ve iki defa vali tayin edildi. Hz. Osman'ın kuşatıldığı fitne günlerinde taraf tutmadı ve fitneden uzak durulmasını savundu. Ömrünün son yıllarında Medine yakınındaki Akīk'teki evine çekildi; 58/678 yılında yetmiş sekiz yaşlarında vefat etti, cenazesi Bakī'e defnedildi.
+
+  Bakī b. Mahled'in Müsned'inde 5374 rivayeti bulunur; bunların 326'sı Buhârî ve Müslim'de ortaktır. Hasan el-Basrî, İbn Sîrîn, Şa'bî, Saîd b. el-Müseyyeb ve Hemmâm b. Münebbih ondan rivayet edenler arasındadır. Bazı rivayetleri Hz. Ömer ve Hz. Âişe tarafından tenkit edilmiş, sonraki dönemde bir kısım Şiî ve Batılı yazarlar onu itham etmiştir; müslüman âlimler bu iddialara ayrıntılı cevaplar vermiştir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Hüreyre\"", url: "https://islamansiklopedisi.org.tr/ebu-hureyre"}
+dogrulandi: true

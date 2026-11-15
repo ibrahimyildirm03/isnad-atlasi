@@ -1,0 +1,41 @@
+isim: İbn Uleyye
+tam_isim: Ebû Bişr İsmâîl b. İbrâhîm b. Miksem el-Esedî el-Basrî
+arapca: إسماعيل بن إبراهيم ابن علية
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bişr
+  ism: İsmâîl
+  nesep: İsmâîl b. İbrâhîm b. Miksem, mevlâ Benî Esed
+  nesep_arapca: إسماعيل بن إبراهيم بن مقسم الأسدي مولاهم البصري
+  nisbeler: [el-Esedî (mevlâ), el-Basrî]
+  lakap: İbn Uleyye
+  aciklama: Annesi Uleyye bint Hassân'a nisbetle "İbn Uleyye" diye tanındı; bu isimle anılmaktan hoşlanmadığı rivayet edilir. Ailesi aslen Horasanlıdır.
+dogum: {hicri: 110, miladi: 728}
+vefat: {hicri: 193, miladi: 809, not: "13 Zilkade 193"}
+dogum_yeri: Basra
+vefat_yeri: Bağdat
+bolge: basra
+diger_bolgeler: [bagdat]
+rical:
+  tehzibul_kemal: "III, 23-33"
+  tehzibut_tehzib: "I, 275-279"
+  rumuz: "ع"
+ozet: Eyyûb ve Humeyd'in Basralı râvisi, Basra kadısı; Ahmed b. Hanbel ve İbn Maîn'in hocası.
+biyografi: |
+  110'da Basra'da doğdu; ailesi aslen Horasanlıdır. Annesi Uleyye bint Hassân'a nisbetle "İbn Uleyye" diye tanındı, ancak bu lakaptan hoşlanmadığı nakledilir. İlk bilgilerini Abdülvâris b. Saîd'den aldı; Eyyûb es-Sahtiyânî, Humeyd et-Tavîl, İbn Avn, İbn Ebî Arûbe, İbn Cüreyc ve Şu'be'den istifade etti.
+
+  Abdurrahman b. Mehdî, Ali b. el-Medînî, Yahyâ b. Maîn, İshak b. Râhûye ve Ahmed b. Hanbel talebeleri arasındadır. Şu'be ona "seyyidü'l-muhaddisîn" demiş, Ahmed b. Hanbel güvenilirliğini zirvede görmüştür. Ebû Dâvûd, hata yapmayan muhaddis bulunamayacağını söylerken onu bu genellemenin dışında tutmuştur. Hadisleri yazılı metin olmadan, ezberden rivayet ederdi.
+
+  Hârûnürreşîd'in son yıllarında Basra kadısı oldu; İbnü'l-Mübârek'in uyarısı üzerine halifeden affını istedi. Dîvânü's-sadaka ve Dîvân-ı Mezâlim'de de görev yaptı. Halku'l-Kur'ân görüşünü benimsediği iddiası üzerine Emîn'in sorgusunda bunun yanlış anlamadan kaynaklandığını söyleyip tövbe etti. 13 Zilkade 193'te Bağdat'ta vefat etti.
+hocalari:
+  - kisi: eyyub-es-sahtiyani
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Uleyye\"", url: "https://islamansiklopedisi.org.tr/ibn-uleyye"}
+  - kisi: humeyd-et-tavil
+    kaynak: *tdv
+  - kisi: ibn-cureyc
+    kaynak: *tdv
+  - kisi: sube-b-haccac
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

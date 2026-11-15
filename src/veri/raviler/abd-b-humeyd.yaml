@@ -1,0 +1,40 @@
+isim: Abd b. Humeyd
+tam_isim: Ebû Muhammed Abd b. Humeyd b. Nasr el-Kissî (el-Keşşî)
+arapca: عبد بن حميد الكسي
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Abdülhamîd (kısaltılmış hâliyle "Abd")
+  nesep: Abd (Abdülhamîd) b. Humeyd b. Nasr
+  nesep_arapca: عبد بن حميد بن نصر الكسي
+  nisbeler: [el-Kissî, el-Keşşî]
+  aciklama: Asıl adı Abdülhamîd'dir; kısaltılmış "Abd" şekliyle meşhur oldu. Mizzî'ye göre Buhârî'de geçen "Abdülhamîd (Abdülhumeyd)" odur. Nisbesi Mâverâünnehir'deki Kis (Keş) şehrinedir.
+dogum: {not: "170/786'dan sonra"}
+vefat: {hicri: 249, miladi: 863}
+dogum_yeri: Kis (Keş)
+vefat_yeri: Kis (Keş)
+bolge: maveraunnehir
+eserleri: ["el-Müsnedü'l-kebîr (el-Müntehab min Müsnedi Abd b. Humeyd)", "et-Tefsîr (kayıp)"]
+ozet: Mâverâünnehirli muhaddis, el-Müsned ve et-Tefsîr müellifi; Müslim ve Tirmizî'nin hocası.
+biyografi: |
+  Ebû Muhammed Abd b. Humeyd b. Nasr el-Keşşî, 170'ten sonra Mâverâünnehir'deki Keş (Kis) şehrinde doğdu ve ömrünü burada geçirdi. Gençliğinde dönemin büyük ilim merkezlerini dolaşarak Yezîd b. Hârûn, Yahyâ b. Âdem, Abdürrezzâk, Ebû Dâvûd et-Tayâlisî ve Ebû Bekir b. Ebî Şeybe'den hadis öğrendi.
+
+  Müslim, Tirmizî ve oğlu Muhammed başta olmak üzere Mâverâünnehir'deki birçok âlim ondan rivayet etti. Mizzî, Buhârî'nin bir senedinde geçen "Abdülhamîd"in aslında Abd b. Humeyd olduğunu ileri sürmüştür. Güvenilir bir muhaddis kabul edilir.
+
+  Büyük eseri el-Müsnedü'l-kebîr'in kendi yaptığı muhtasarı el-Müntehab min Müsnedi Abd b. Humeyd adıyla günümüze ulaşmıştır. et-Tefsîr'i kayıp olup İbn Hacer'in el-İsâbe'deki nakillerinden bilinmektedir. 249'da Keş'te vefat etti.
+
+  Zehebî asıl adının Abdülhamîd olduğunu, kısaltılarak "Abd" denildiğini belirtir; hocaları arasında Muhammed b. Bişr, İbn Ebî Füdeyk, Ca'fer b. Avn ve Ebû Âsım'ı da sayar. İbn Hibbân onu "derleyip tasnif edenlerden" diye anar. Dımaşk'ta öldüğü iddiasını Zehebî, onun ne yolculuklarında ne yaşlılığında Dımaşk'ı görmediğini belirterek açık bir hata sayar.
+hocalari:
+  - kisi: yezid-b-harun
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Abd b. Humeyd\"", url: "https://islamansiklopedisi.org.tr/abd-b-humeyd"}
+  - kisi: abdurrezzak
+    kaynak: *tdv
+  - kisi: ibn-ebi-seybe
+    kaynak: *tdv
+  - kisi: ebu-nuaym
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Nuaym, Fazl b. Dükeyn\"", url: "https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn"}
+kaynaklar:
+  - *tdv
+  - ad: Zehebî, Siyer, XII/235-236 (Şâmile)
+    url: https://shamela.ws/book/10906/7724
+dogrulandi: true

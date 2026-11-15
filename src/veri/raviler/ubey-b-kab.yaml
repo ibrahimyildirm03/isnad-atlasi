@@ -1,0 +1,29 @@
+isim: Übey b. Kâ'b
+tam_isim: Ebü'l-Münzir Übey b. Kâ'b el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Übey
+  kunye: Ebü'l-Münzir; Ebü't-Tufeyl
+  lakap: Seyyidü'l-kurrâ
+  nesep: Übey b. Ka'b b. Kays b. Ubeyd
+  nesep_arapca: أبي بن كعب بن قيس الأنصاري النجاري
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+    - en-Neccârî
+  aciklama: "\"Ebü'l-Münzir\" künyesini Hz. Peygamber, \"Ebü't-Tufeyl\" künyesini Hz. Ömer vermiştir. Kur'an kıraatindeki üstünlüğü sebebiyle \"kurrânın efendisi\" diye anıldı."
+vefat: {hicri: 30, miladi: 651, not: "19 ile 36 arasında farklı tarihler verilmiştir; Osman b. Affân döneminin sonlarına kadar yaşadığı anlaşılmaktadır"}
+vefat_yeri: Medine
+dogum_yeri: Medine (Yesrib)
+bolge: medine
+ozet: "Kur'an kıraatinde otorite kabul edilen sahâbî."
+biyografi: |
+  Yesrib'de doğdu. Birinci Akabe biatından sonra Mus'ab b. Umeyr vasıtasıyla müslüman oldu ve ertesi yıl İkinci Akabe biatına katıldı. Hz. Peygamber'e vahiy kâtipliği yapan ilk Medinelidir ve mektupların sonuna kâtibin adını yazma geleneğini başlattı.
+
+  Kur'an'ı en iyi bilen sahâbîlerdendi; Hz. Peygamber'in Allah'ın emriyle ona Beyyine sûresini okuduğu rivayet edilir. Kıraat imamlığında öne çıktı ve on kıraatin çoğunun isnadında yer alır. Hz. Ömer 14/635'te onu teravih namazının imamı tayin etti. Hz. Osman döneminde mushafın çoğaltılması heyetinde bulundu; kıraati özellikle Şam bölgesinde yayıldı.
+
+  Hz. Peygamber'den 164 hadis rivayet etti. İbn Abbâs, Ebû Hüreyre ve Ebü'l-Âliye er-Riyâhî ondan ilim alanlar arasındadır. Vefat tarihi kaynaklarda 19 ile 36 arasında değişir; en meşhur görüşe göre Medine'de vefat etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Übey b. Kâ‘b\"", url: "https://islamansiklopedisi.org.tr/ubey-b-kab"}
+dogrulandi: true

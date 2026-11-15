@@ -1,0 +1,51 @@
+isim: Atâ b. Yesâr
+tam_isim: Ebû Muhammed Atâ b. Yesâr el-Hilâlî el-Medenî
+arapca: عطاء بن يسار
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Atâ
+  nesep: Atâ b. Yesâr, mevlâ Meymûne
+  nesep_arapca: عطاء بن يسار الهلالي المدني مولى ميمونة
+  nisbeler: [el-Hilâlî, el-Medenî]
+  aciklama: Hz. Peygamber'in hanımı Meymûne bint el-Hâris el-Hilâliyye'nin âzatlısıdır; "el-Hilâlî" nisbesi bu velâdan gelir. Fukahâ-i seb'adan Süleymân b. Yesâr'ın kardeşidir.
+dogum: {hicri: 19, miladi: 640}
+vefat: {hicri: 103, miladi: 721, not: "94, 97 ve 104 de denmiştir"}
+vefat_yeri: İskenderiye
+bolge: medine
+rical:
+  tehzibut_tehzib: "VII, 217-218"
+  rumuz: "ع"
+ozet: Meymûne'nin âzatlısı Medineli fakih; Süleymân b. Yesâr'ın kardeşi, Zeyd b. Eslem'in hocası.
+biyografi: |
+  Hayatı hakkında yeterli bilgi bulunmayan Atâ b. Yesâr 19'da doğdu. Babası ve fukahâ-yi seb'adan kardeşi Süleyman b. Yesâr gibi o da Hz. Peygamber'in hanımı Meymûne bint el-Hâris'in mevlâsıydı.
+
+  Hz. Âişe, Meymûne, İbn Mes'ûd, Ebû Hüreyre, Ebû Eyyûb el-Ensârî, Zeyd b. Sâbit, Üsâme b. Zeyd, Ebû Saîd el-Hudrî, İbn Ömer, İbn Abbas, Muâz b. Cebel, Ebû Zer, Ebü'd-Derdâ ve Ubâde b. es-Sâmit'ten rivayet etti. Amr b. Dînâr, Zeyd b. Eslem ve Ebû Seleme b. Abdirrahman ondan hadis aldı.
+
+  Tâbiîn devri Medine fıkıh âlimlerindendir ve çok hadis rivayet etmiştir; rivayetleri Kütüb-i Sitte'de yer alır. İbn Maîn, Ebû Zür'a, Nesâî ve İbn Hibbân güvenilirliği konusunda ittifak etmiştir. 103'te İskenderiye'de seksen dört yaşında vefat etti.
+
+  Ebû Muhammed künyesiyle anılan Atâ'nın İbn Mes'ûd'un yanına girdiği söylenir. Ali b. el-Medînî, Ebû Saîd el-Hudrî'nin talebelerini sayarken söze Atâ ile başlamıştır. İbn Bükeyr'e göre Medine'de üstünlüğü kestirilemeyen üç kardeş vardı: Süleyman, Atâ ve Abdullah b. Yesâr. Vaaz ve kıssa anlatmasıyla da bilinir; Zehebî onu "kâs" diye niteler ve tâbiîlerin büyükleri ile âlimlerinden sayar.
+hocalari:
+  - kisi: ebu-hureyre
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Atâ b. Yesâr\"", url: "https://islamansiklopedisi.org.tr/ata-b-yesar"}
+  - kisi: ibn-omer
+    kaynak: *tdv
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: ebu-said-el-hudri
+    kaynak: *tdv
+  - kisi: ebu-zer
+    kaynak: *tdv
+  - kisi: ubade-b-samit
+    kaynak: *tdv
+  - kisi: zeyd-b-sabit
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - ad: İbn Asâkir, Târîhu Dımaşk, XL/444-445 (Şâmile)
+    url: https://shamela.ws/book/71/18366
+  - ad: Zehebî, el-Kâşif, II/25 (Şâmile)
+    url: https://shamela.ws/book/2171/713
+dogrulandi: true

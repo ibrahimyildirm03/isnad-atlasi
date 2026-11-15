@@ -1,0 +1,27 @@
+isim: Bündâr
+tam_isim: Ebû Bekr Muhammed b. Beşşâr b. Osmân el-Abdî el-Basrî
+arapca: محمد بن بشار بندار
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Muhammed
+  nesep: Muhammed b. Beşşâr b. Osmân b. Dâvûd
+  nesep_arapca: محمد بن بشار بن عثمان العبدي البصري
+  nisbeler: [el-Abdî, el-Basrî]
+  lakap: Bündâr
+  aciklama: '"Bündâr" (Farsça: depo sahibi) lakabı, bulunduğu şehrin hadislerini toplayıp sakladığı için verilmiştir.'
+vefat: {hicri: 252, miladi: 866}
+vefat_yeri: Basra
+bolge: basra
+ozet: Kütüb-i Sitte müelliflerinin altısının da ortak hocası olan Basralı muhaddis.
+biyografi: |
+  167'de Basra'da doğdu. "Değerli şeyleri saklayan, çok hadis ezberleyen kimse" anlamındaki "Bündâr" lakabıyla tanındı. Kur'an'ı ezberledi ve Basralı muhaddislerin rivayet ettiği hadislerin tamamını öğrendi; annesi razı olmadığı için uzun süre ilim yolculuğuna çıkamadı.
+
+  Mu'temir b. Süleyman, Abdurrahman b. Mehdî, Vekî', Ebû Dâvûd et-Tayâlisî ve Yezîd b. Hârûn'dan hadis okudu; Yahyâ el-Kattân'ın meclislerine yirmi yıl devam etti. On sekiz yaşında rivayete başladı; hocalarına saygısızlık olmasın diye şehir dışındaki hurmalığında ders verip talebelerine hurma ikram etti.
+
+  Kütüb-i Sitte müelliflerinin hepsi, İbn Huzeyme, Ebû Hâtim, Ebû Zür'a ve Bakī b. Mahled ondan rivayet etti; altmış yedi yıl rivayette bulunduğu için beş ayrı tabakadan muhaddis ondan yararlandı. Buhârî ondan 205, Müslim 460 hadis almıştır. İbn Huzeyme onu zamanının muhaddislerinin imamı diye övmüştür. 252'de seksen beş yaşında vefat etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Bündâr, Muhammed b. Beşşâr\"", url: "https://islamansiklopedisi.org.tr/bundar-muhammed-b-bessar"}
+dogrulandi: kismi
+dogrulama_notu: Kimlik bilgileri DİA madde özetinden; hocaları henüz kaynakla eklenmedi. Talebe bağları Buhârî, Müslim ve Nesâî maddelerinden alındı.

@@ -1,0 +1,64 @@
+isim: Tirmizî
+tam_isim: Ebû Îsâ Muhammed b. Îsâ b. Sevre es-Sülemî et-Tirmizî
+arapca: محمد بن عيسى الترمذي
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Îsâ
+  ism: Muhammed
+  nesep: Muhammed b. Îsâ b. Sevre b. Mûsâ b. ed-Dahhâk
+  nesep_arapca: محمد بن عيسى بن سورة بن موسى السلمي الترمذي
+  nisbeler: [es-Sülemî, et-Tirmizî, el-Boğî]
+  aciklama: '"el-Boğî" nisbesi Tirmiz''e bağlı Boğ köyüne nisbettir.'
+dogum: {hicri: 209, miladi: 824, not: "muhtemelen"}
+vefat: {hicri: 279, miladi: 892, not: "13 Receb 279"}
+dogum_yeri: Tirmiz
+vefat_yeri: Boğ (Tirmiz yakını)
+kutub_i_tisa: "Kütüb-i Sitte: Sünen-i Tirmizî"
+bolge: maveraunnehir
+kutub_i_sitte: el-Câmi' (Sünen-i Tirmizî)
+eserleri: [el-Câmi'u's-sahîh (es-Sünen), eş-Şemâilü'n-nebeviyye, el-İlelü'l-kebîr, el-İlelü's-sağīr]
+rical:
+  rumuz: "ت"
+  sozler:
+    - kim: Buhârî (Tirmizî'ye)
+      soz: Benim senden faydalandığım, senin benden faydalandığından daha çoktur.
+      kaynak: DİA, "Tirmizî"
+ozet: '"Hasen" hadis kavramına terim anlamını kazandıran, el-Câmi''in müellifi Buhârî talebesi.'
+biyografi: |
+  Muhtemelen 209'da Tirmiz'de doğdu. 235 civarında Tirmiz'de hadis öğrenimine başladı; Horasan, Irak ve Hicaz'ı dolaştı. Bağdat'a gitmediği, Mısır ve Şam'da da tahsil yapmadığı anlaşılmaktadır.
+
+  Uzun süre Buhârî'nin talebesi oldu, ondan çok hadis rivayet etti ve fıkhü'l-hadîs öğrendi. Buhârî onun ilmini ve zekâsını takdir etti, hatta ondan bir iki hadis rivayet etti; Tirmizî ise el-Câmi'inde Buhârî'den doğrudan hadis almadı. İshâk b. Râhûye, Ebû Dâvûd, Müslim ve Dârimî'den de rivayet etti.
+
+  Doğuştan âmâ olduğu iddiası rivayetlerle çürütülür; Hâkim el-Kebîr'in naklettiğine göre takvâsı sebebiyle gözlerini kaybedinceye kadar ağlamıştır.
+
+  el-Câmi'inde sahih hadis bulunmayan konularda zayıf hadisleri senedleriyle tenkit ederek kullanır; fıkhî hadislerden sonra sahâbe, tâbiîn ve mezhep imamlarının görüşlerini aktarır ve tercihini belirtir. "Hasen" kavramına terim anlamını veren odur. eş-Şemâilü'n-nebeviyye Hz. Peygamber'in şemaili konusundaki ilk müstakil eserdir; el-İlelü'l-kebîr ise el-Câmi'den önce yazılmış bir ilel çalışmasıdır. 13 Receb 279'da Tirmiz yakınındaki Boğ'da vefat etti.
+hocalari:
+  - kisi: buhari
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Tirmizî\"", url: "https://islamansiklopedisi.org.tr/tirmizi"}
+  - kisi: ishak-b-rahuye
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Râhûye\"", url: "https://islamansiklopedisi.org.tr/ibn-rahuye"}
+  - kisi: ebu-davud
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Dâvûd es-Sicistânî\"", url: "https://islamansiklopedisi.org.tr/ebu-davud-es-sicistani"}
+  - kisi: muslim
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Müslim b. Haccâc\"", url: "https://islamansiklopedisi.org.tr/muslim-b-haccac"}
+  - kisi: darimi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Dârimî, Abdullah b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/darimi-abdullah-b-abdurrahman"}
+  - kisi: ebu-zura
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Zür'a er-Râzî"
+      url: https://islamansiklopedisi.org.tr/ebu-zura-er-razi
+  - kisi: ebu-ubeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Ubeyd el-Kāsım b. Sellâm"
+      url: https://islamansiklopedisi.org.tr/ebu-ubeyd-kasim-b-sellam
+  - kisi: abd-b-humeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Abd b. Humeyd"
+      url: https://islamansiklopedisi.org.tr/abd-b-humeyd
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

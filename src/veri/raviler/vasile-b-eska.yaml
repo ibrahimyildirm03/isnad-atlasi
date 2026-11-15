@@ -1,0 +1,26 @@
+isim: Vâsile b. el-Eska'
+tam_isim: Ebü'l-Eska' Vâsile b. el-Eska' el-Leysî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Vâsile
+  kunye: Ebü'l-Eska' (Ebû Karsâfe ve Ebû Muhammed de denmiştir)
+  nesep: Vâsile b. el-Eska' b. Ka'b
+  nesep_arapca: واثلة بن الأسقع الليثي
+  nisbeler:
+    - el-Leysî
+    - eş-Şâmî
+  aciklama: Ashâb-ı Suffe'dendir.
+vefat: {hicri: 85, miladi: 704, not: "83 de denmiştir"}
+vefat_yeri: Kudüs (Dımaşk da denmiştir)
+bolge: sam
+ozet: "Şam'da vefat eden son sahâbîlerden."
+biyografi: |
+  Tebük seferi hazırlıkları sırasında (9/630) Medine'ye gelerek müslüman oldu; ailesi bu kararına farklı tepkiler gösterdi. Ashâb-ı Suffe arasında yer aldı ve Hz. Peygamber'e üç yıl hizmet etti.
+
+  Hz. Peygamber'in vefatından sonra Şam fetihlerine katıldı; Basra'da, Dımaşk yakınındaki Belât köyünde ve son olarak Kudüs'te yaşadı. Siyasî çalkantılardan uzak durdu; Hz. Ali ve Ehl-i beyt aleyhtarlığını benimsemedi.
+
+  Rivayetleri Kütüb-i Sitte'de yer alır; Ahmed b. Hanbel'in Müsned'inde on sekiz kadar hadisi bulunur. Ebû İdrîs el-Havlânî, Mekhûl ve kızı Füseyle ondan rivayet etti. 83 ya da 85 yılında doksan sekiz ya da yüz beş yaşında vefat etti; Şam'da vefat eden son sahâbîlerdendir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Vâsile b. Eska'\"", url: "https://islamansiklopedisi.org.tr/vasile-b-eska"}
+dogrulandi: true

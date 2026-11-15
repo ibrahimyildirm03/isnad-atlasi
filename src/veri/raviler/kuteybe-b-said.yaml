@@ -1,0 +1,47 @@
+isim: Kuteybe b. Saîd
+tam_isim: Ebû Recâ Kuteybe b. Saîd b. Cemîl es-Sekafî el-Belhî
+arapca: قتيبة بن سعيد
+cerh_tadil: Sika, sebt (İbn Hacer, Takrîb; 10. tabaka)
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  ism: Kuteybe (adının Yahyâ veya Ali olduğu da söylenir)
+  kunye: Ebû Recâ
+  lakap: el-Cevvâl (çok seyahat eden)
+  nesep: Kuteybe b. Saîd b. Cemîl b. Tarîf b. Abdillâh
+  nesep_arapca: قتيبة بن سعيد بن جميل بن طريف الثقفي مولاهم البغلاني البلخي
+  nisbeler:
+    - es-Sekafî (mevlâ)
+    - el-Bağlânî
+    - el-Belhî
+  aciklama: '"Kuteybe" lakabıdır; asıl adının Yahyâ veya Ali olduğu rivayet edilir.'
+rical:
+  tehzibul_kemal: XXIII, 523
+  tehzibut_tehzib: 3/431 (Şâmile neşri)
+  takrib: Sika, sebt (10. tabaka)
+dogum: {hicri: 149, miladi: 766, not: "150 de denmiştir"}
+vefat: {hicri: 240, miladi: 855, not: "241 de denmiştir"}
+vefat_yeri: Bağlân (Belh)
+bolge: horasan
+diger_bolgeler: [bagdat]
+ozet: Belh'in Bağlân köyünden hadis hâfızı; Leys b. Sa'd, Mâlik ve Süfyân b. Uyeyne'nin talebesi, Ahmed b. Hanbel'in hocalarından. Buhârî ondan 380, Müslim 668 hadis nakletmiştir.
+biyografi: |
+  Ebû Recâ' Kuteybe b. Saîd 149 veya 150'de doğdu; Sakīf'in mevlâsıdır ve Belh yakınlarındaki Bağlân köyünden olduğu için "el-Bağlânî" nisbesiyle anılır. Kuteybe'nin lakabı, asıl adının Yahyâ veya Ali olduğu da söylenmiştir. Gençliğinde re'y taraftarıyken bir rüyanın yorumu üzerine hadise yöneldi.
+
+  172'de başladığı yolculukta Bağdat, Şam, Mısır, Mekke ve Medine'yi dolaştı; Leys b. Sa'd, İbn Lehîa, Ebû Avâne, Mâlik, Hammâd b. Zeyd ve Süfyân b. Uyeyne'den hadis öğrendi. 216'da Bağdat'a geldiğinde Yahyâ b. Maîn, Ahmed b. Hanbel, Humeydî, Ali b. el-Medînî ve İbn Ebî Şeybe ondan hadis dinledi.
+
+  Rivayetleri Kütüb-i Sitte'nin hepsinde yer alır; Buhârî ondan 380, Müslim 668 hadis nakletmiştir. Hadis münekkitleri onu güvenilir kabul etmiştir. Şiir yazdığı ve oldukça zengin olduğu belirtilir. Şâban 240'ta Bağlân'da vefat etti.
+hocalari:
+  - kisi: leys-b-sad
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Kuteybe b. Saîd\"", url: "https://islamansiklopedisi.org.tr/kuteybe-b-said"}
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Kuteybe b. Saîd"
+      url: https://islamansiklopedisi.org.tr/kuteybe-b-said
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/5187"}
+dogrulandi: true

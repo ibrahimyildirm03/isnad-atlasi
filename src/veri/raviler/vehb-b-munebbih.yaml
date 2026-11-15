@@ -1,0 +1,55 @@
+isim: Vehb b. Münebbih
+tam_isim: Ebû Abdillâh Vehb b. Münebbih es-San'ânî
+arapca: وهب بن منبه
+cerh_tadil: Sika (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Vehb
+  kunye: Ebû Abdillâh
+  nesep: Vehb b. Münebbih b. Kâmil b. Seyc b. Zî Kibâr
+  nesep_arapca: وهب بن منبه بن كامل بن سيج بن ذي كبار اليماني الصنعاني
+  nisbeler:
+    - el-Yemânî
+    - es-San'ânî
+    - ez-Zimârî
+    - el-Ebnâvî
+  aciklama: Aslen Horasanlı (Herat) Farslardandır; ailesi Yemen'deki "ebnâ" topluluğuna mensuptur.
+rical:
+  tehzibul_kemal: XXXI, 140
+  tehzibut_tehzib: 4/332 (Şâmile neşri)
+  takrib: Sika (3. tabaka)
+dogum: {hicri: 34, miladi: 654}
+vefat: {hicri: 114, miladi: 732, not: "110, 113 ve 116 da denmiştir"}
+bolge: yemen
+ozet: Önceki ümmetlerin kıssalarına dair bilgisiyle tanınan San'alı tâbiî.
+eserleri:
+  - Megāzî Resûlillâh
+  - Kitâbü'l-Mülûki'l-mütevvece min Himyer
+  - Kitâbü'l-Mübtede'
+biyografi: |
+  Vehb b. Münebbih 34'te San'a yakınlarındaki Zimâr'da doğdu. Babası Heratlı olup Hz. Peygamber zamanında müslüman olmuş, annesi Himyerî asıllıdır. Hemmâm b. Münebbih kardeşidir. İbn Abbas, İbn Ömer, Câbir, Enes ve Ebû Saîd el-Hudrî'den; tâbiîlerden Tâvûs ve kardeşi Hemmâm'dan rivayet etti. Oğulları, yeğenleri, Amr b. Dînâr ve Rebîatü'r-re'y ondan hadis aldı.
+
+  Kardeşi Hemmâm hadisçi olarak tanınırken Vehb daha çok geçmiş tarih, peygamberler tarihi ve İsrâilî haberlerle ilgilendi; Yunanca, Süryânîce ve Himyerîce bildiği nakledilir. İsrâiliyatın en önemli kaynaklarından sayılır. İclî, Ebû Zür'a, Nesâî ve İbn Hibbân onu sika kabul etmiş; ancak Kütüb-i Sitte'deki rivayetlerinin hiçbiri kadim tarih veya kıssalarla ilgili değildir ve Ehl-i kitap kaynaklı nakilleri hadisçilerce makbul sayılmamıştır.
+
+  Ömer b. Abdülazîz döneminde San'a kadılığı yaptı. Bir dönem kaderi inkâr eden görüşü benimseyip bir kitap yazdıysa da sonradan bu görüşten döndü. Kısasü'l-enbiyâ türünün ilk örneklerinden Kitâbü'l-Mübtede' ile Megāzî'sinin bir parçası günümüze ulaşmıştır.
+
+  Son yıllarında Yemen valisi Yûsuf b. Ömer tarafından hapsedilip işkenceye uğradı. Muharrem 114'te San'a'da vefat etti.
+hocalari:
+  - kisi: ibn-abbas
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Vehb b. Münebbih\"", url: "https://islamansiklopedisi.org.tr/vehb-b-munebbih"}
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: tavus-b-keysan
+    kaynak: *tdv
+  - kisi: amr-b-dinar
+    not: aynı zamanda talebesidir
+    kaynak: *tdv
+  - kisi: hemmam-b-munebbih
+    not: kardeşidir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hemmâm b. Münebbih\"", url: "https://islamansiklopedisi.org.tr/hemmam-b-munebbih"}
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/6856"}
+dogrulandi: true

@@ -1,0 +1,30 @@
+isim: Âişe bint Ebî Bekr
+tam_isim: Âişe bint Ebî Bekr es-Sıddîk
+tabaka: sahabe
+isim_bilgisi:
+  ism: Âişe
+  kunye: Ümmü Abdillâh
+  lakap: es-Sıddîka; Ümmü'l-mü'minîn
+  nesep: Âişe bint Ebî Bekr es-Sıddîk Abdillâh b. Osmân
+  nesep_arapca: عائشة بنت أبي بكر الصديق التيمية القرشية
+  nisbeler:
+    - el-Kureşiyye
+    - et-Teymiyye
+  aciklama: Çocuğu olmadığı hâlde kız kardeşi Esmâ'nın oğlu Abdullah b. ez-Zübeyr'e nisbetle "Ümmü Abdillâh" künyesini Hz. Peygamber vermiştir. Annesi Ümmü Rûmân'dır.
+vefat: {hicri: 58, miladi: 678, not: "56, 57 ve 59 da denmiştir"}
+vefat_yeri: Medine
+dogum_yeri: Mekke
+bolge: medine
+ozet: "Resûlullah'ın hanımı; Medine'de pek çok tâbiîyi yetiştiren müctehid sahâbiye."
+biyografi: |
+  Hz. Ebû Bekir'in kızıdır; kabul edilen görüşe göre bi'setin dördüncü yılında (614) Mekke'de doğdu. Hicretin ikinci yılında Medine'de Hz. Peygamber ile evlendi ve "ümmü'l-mü'minîn" diye anıldı.
+
+  İfk hadisesinde iftiraya uğradı; beraati Nûr sûresindeki âyetlerle bildirildi. Hz. Peygamber onun odasında vefat etti ve orada defnedildi. Hz. Ömer'in Hz. Peygamber'in yanına defnedilmesine, kendisi için düşündüğü yeri bırakarak izin verdi. Cemel Vak'ası'nda Hz. Ali'nin karşısında yer aldı, daha sonra siyasetten çekilerek Medine'de ilimle meşgul oldu.
+
+  Kur'an'ı tefsir etti, sahâbenin bazı rivayetlerini düzelttiği istidrakleriyle hadis tenkidi anlayışına öncülük etti. Fıkıh ve ferâizdeki derin bilgisiyle müctehid sayıldı ve sahâbenin en çok fetva verenlerinden biri oldu. 2210 hadis rivayet etti; Medine'nin ilim merkezi hâline gelmesinde ve kadınların eğitiminde önemli rol oynadı.
+
+  Yeğenleri Urve b. ez-Zübeyr ile Kāsım b. Muhammed başta olmak üzere Mesrûk, Saîd b. el-Müseyyeb ve Amre bint Abdirrahmân onun talebeleridir. 17 Ramazan 58'de Medine'de vefat etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Âişe\"", url: "https://islamansiklopedisi.org.tr/aise"}
+dogrulandi: true

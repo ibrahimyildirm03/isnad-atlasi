@@ -1,0 +1,42 @@
+isim: Mansûr b. el-Mu'temir
+tam_isim: Ebû Attâb Mansûr b. el-Mu'temir b. Abdillâh es-Sülemî el-Kûfî
+arapca: منصور بن المعتمر
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Attâb
+  ism: Mansûr
+  nesep: Mansûr b. el-Mu'temir b. Abdillâh b. Rabîa
+  nesep_arapca: منصور بن المعتمر بن عبد الله السلمي الكوفي
+  nisbeler: [es-Sülemî, el-Kûfî]
+vefat: {hicri: 132, miladi: 750}
+dogum_yeri: Kûfe
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  tehzibut_tehzib: "X, 312-315"
+  rumuz: "ع"
+ozet: Hiç tedlîs yapmayan Kûfeli hâfız; Sevrî, Şu'be ve İbn Uyeyne'nin hocası.
+biyografi: |
+  Ebû Attâb Mansûr b. el-Mu'temir es-Sülemî, Kûfe'de doğdu ve hayatının büyük kısmını orada geçirdi. Temel öğreniminden sonra 80 civarında hadise başladı; kıraat ve fıkıh da öğrendi. Ebû Vâil Şakīk b. Seleme, Saîd b. Cübeyr, İbrâhim en-Nehaî, Şa'bî, Hasan-ı Basrî ve Mücâhid'den rivayet etti.
+
+  Eyyûb es-Sahtiyânî, Ebû Hanîfe, Ma'mer, İbrâhim b. Edhem, Süfyân es-Sevrî, Şu'be ve Süfyân b. Uyeyne ondan hadis öğrendi. Irak emîri Yûsuf b. Ömer onu istemediği halde Kûfe kadılığına atadı; çeşitli yollara başvurarak iki ay içinde görevden ayrılmayı başardı.
+
+  Hadisleri karıştırmaz, tedlîs yapmaz ve güvenilmeyen kimselerin rivayetlerine itibar etmezdi; adâlet ve zabt yönünden hiç tenkit edilmemiştir. Yaklaşık iki bin hadis naklettiği belirtilir ve Kûfe'nin en meşhur muhaddislerinden sayılır. Hadisleri yazmak yerine ezberlemeyi tercih etti; hafızası zayıflayınca yazmadığına pişman oldu.
+
+  Az yeme, az konuşma ve az uyuma ilkelerine titizlikle uyan bir zâhiddi; çok ağladığı için ömrünün sonunda gözlerine perde indi. 132'de Kûfe'de vefat etti.
+hocalari:
+  - kisi: ebu-vail
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbnü'l-Mu'temir\"", url: "https://islamansiklopedisi.org.tr/ibnul-mutemir"}
+  - kisi: ibrahim-en-nehai
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    kaynak: *tdv
+  - kisi: amir-es-sabi
+    kaynak: *tdv
+  - kisi: said-b-cubeyr
+    kaynak: *tdv
+  - kisi: hasan-el-basri
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

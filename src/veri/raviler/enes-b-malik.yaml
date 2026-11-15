@@ -1,0 +1,32 @@
+isim: Enes b. Mâlik
+tam_isim: Ebû Hamza Enes b. Mâlik el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Enes
+  kunye: Ebû Hamza
+  lakap: Hâdimü Resûlillâh
+  nesep: Enes b. Mâlik b. en-Nadr b. Damdam b. Zeyd b. Harâm
+  nesep_arapca: أنس بن مالك بن النضر الأنصاري النجاري
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+    - en-Neccârî
+    - el-Basrî
+  aciklama: Annesi Ümmü Süleym onu on yaşında Hz. Peygamber'in hizmetine verdi; on yıl hizmet ettiği için "Resûlullah'ın hizmetçisi" diye anılır. Künyesini Hz. Peygamber vermiştir.
+vefat: {hicri: 93, miladi: 712, not: "mîlâdî 711-12; Basra'da vefat eden son sahâbî"}
+vefat_yeri: Basra
+bolge: basra
+diger_bolgeler: [medine]
+ozet: "Resûlullah'ın hizmetkârı; Basra'da vefat eden son sahâbîlerden."
+biyografi: |
+  Hicretten on yıl önce (612) doğdu. Hz. Peygamber Medine'ye geldiğinde on yaşındaydı; annesi Ümmü Süleym onu Resûlullah'ın hizmetine verdi. On yıl hizmet ettiği için "Hâdimü Resûlillâh" diye anıldı.
+
+  Annesinin isteğiyle Hz. Peygamber onun ömrü, malı ve evlâdı için dua etti; uzun ömrü boyunca soyundan yüz yirmiden fazla kişinin vefatını gördüğü nakledilir. Hz. Ömer döneminde Basra'ya yerleşti. Haccâc'ın baskısına maruz kaldı ve mallarına el konuldu.
+
+  Bakī b. Mahled'in Müsned'indeki 2286 rivayetiyle müksirûn arasında üçüncüdür. Rivayette titizdi; hadisin sonuna "ev kemâ kāle Resûlullah" (ya da Resûlullah'ın dediği gibi) ifadesini eklerdi. Basra'da vefat eden son sahâbîlerdendir; vefatı genellikle 93 yılı olarak verilir.
+
+  Hasan el-Basrî, İbn Sîrîn, Katâde, Sâbit el-Bünânî, Humeyd et-Tavîl ve Zührî onun talebeleri arasındadır.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Enes b. Mâlik\"", url: "https://islamansiklopedisi.org.tr/enes-b-malik"}
+dogrulandi: true

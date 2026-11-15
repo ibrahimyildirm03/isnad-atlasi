@@ -1,0 +1,37 @@
+isim: Ebû Seleme b. Abdirrahmân
+tam_isim: Ebû Seleme b. Abdirrahmân b. Avf el-Kureşî ez-Zührî
+arapca: أبو سلمة بن عبد الرحمن بن عوف
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Seleme
+  ism: Abdullah (bazı nesep âlimlerine göre; İsmâîl de denmiştir)
+  nesep: Abdullah b. Abdirrahmân b. Avf b. Abdiavf b. Abd b. el-Hâris b. Zühre
+  nesep_arapca: أبو سلمة عبد الله بن عبد الرحمن بن عوف القرشي الزهري
+  nisbeler: [el-Kureşî, ez-Zührî, el-Medenî]
+  aciklama: Künyesiyle tanınır; bazı kaynaklarda biyografisi "Abdullah" adı altında verilir. Babası aşere-i mübeşşereden Abdurrahmân b. Avf, annesi Kelb reisi Asbağ b. Amr'ın kızı sahâbî Tümâdır'dır.
+dogum: {hicri: 22, miladi: 643, not: "yaklaşık"}
+vefat: {hicri: 94, miladi: 713, not: "93 ve 104 de denmiştir"}
+dogum_yeri: Medine
+vefat_yeri: Medine
+bolge: medine
+rical:
+  tehzibut_tehzib: "XII, 115-118"
+  rumuz: "ع"
+ozet: Abdurrahmân b. Avf'ın oğlu; "fukahâ-i seb'a"nın yedincisi olarak anılan üç adaydan biri.
+biyografi: |
+  Tâbiînin ikinci tabakasındandır; çok hadis bilen, güvenilir bir muhaddis ve tanınmış bir fakihtir. Saîd b. el-Âs'ın Medine valiliği döneminde (49-54) Medine kadılığı yaptı.
+
+  Ebû Hüreyre, Ümmü Seleme, Urve ve sütteyzesi Hz. Âişe'den ilim aldı; İbn Abbâs ile ilmî tartışmalarıyla tanınır. Zührî, Yahyâ b. Ebî Kesîr ve Yahyâ b. Saîd el-Ensârî ondan rivayet etti. Medine'nin yedi fakihi sayılırken yedinci isim olarak Sâlim ve Ebû Bekr b. Abdirrahmân ile birlikte o da anılır.
+hocalari:
+  - kisi: ebu-hureyre
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Seleme b. Abdurrahman b. Avf\"", url: "https://islamansiklopedisi.org.tr/ebu-seleme-b-abdurrahman-b-avf"}
+  - kisi: ummu-seleme
+    kaynak: *tdv
+  - kisi: aise
+    not: sütteyzesidir
+    kaynak: *tdv
+  - kisi: urve-b-ez-zubeyr
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,48 @@
+isim: Hammâd b. Ebî Süleymân
+tam_isim: Ebû İsmâîl Hammâd b. Ebî Süleymân Müslim b. Yezîd el-Eş'arî el-Kûfî
+arapca: حماد بن أبي سليمان
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû İsmâîl
+  ism: Hammâd
+  nesep: Hammâd b. Ebî Süleymân Müslim b. Yezîd
+  nesep_arapca: حماد بن أبي سليمان مسلم بن يزيد الأشعري الكوفي
+  nisbeler: [el-Eş'arî, el-İsfahânî, el-Kûfî]
+  aciklama: Babası İsfahan fethinde esir alınıp müslüman olmuştur. "el-Eş'arî" nisbesi Ebû Mûsâ el-Eş'arî ailesine velâ bağından gelir.
+vefat: {hicri: 120, miladi: 738, not: "119 da denmiştir"}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  tehzibul_kemal: "VII, 269-279"
+  tehzibut_tehzib: "III, 16-18"
+ozet: İbrâhim en-Nehaî'nin halefi; Ebû Hanîfe'nin 18 yıl derslerine devam ettiği fıkıh hocası.
+biyografi: |
+  Ebû İsmâîl Hammâd b. Ebî Süleymân el-Kûfî'nin babası İsfahanlıydı; Ebû Mûsâ el-Eş'arî'nin İsfahan'ı fethinde esir düşüp müslüman oldu ve onunla velâ bağı kurdu. Babası onu Kûfe Mescidi'nde İbrâhim en-Nehaî'nin yanına verdi ve Hammâd onun en önde gelen talebesi oldu. Enes b. Mâlik, Saîd b. el-Müseyyeb, Hasan-ı Basrî, Saîd b. Cübeyr, Ebû Vâil ve İkrime'den de hadis aldı.
+
+  Nehaî'nin 96'daki vefatından sonra Kûfe Mescidi'ndeki halkaya ve fetva makamına geçti, yirmi dört yıl fıkıh okuttu. Ebû Hanîfe on sekiz yıl onun derslerine devam etti; A'meş, Süfyân es-Sevrî, Şu'be ve Hammâd b. Seleme de talebeleri arasındadır. Böylece İbn Mes'ûd'dan gelen Kûfe birikimini Ebû Hanîfe'nin nesline aktaran köprü oldu.
+
+  Nehaî'nin re'y ve ictihad anlayışını izledi, illet ve şâriin maksadını araştırmaya önem verdi; yirmi altı meselede hocasından ayrıldığı tespit edilmiştir. 112 civarında Ebû Hanîfe'yi yerine bırakarak Basra'ya gitti; isnad usulünü Basra'ya ilk getiren kişi olduğu kaydedilir.
+
+  İbn Maîn, İclî ve Nesâî onu sika saymış; bazıları son döneminde hafızasının zayıfladığını ve Mürcie'den olduğunu ileri sürmüştür. Zengin ve cömertti, Ramazan'da kalabalık misafirlere iftar verirdi. 120'de vefat etti.
+hocalari:
+  - kisi: ibrahim-en-nehai
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Ebû Süleyman\"", url: "https://islamansiklopedisi.org.tr/hammad-b-ebu-suleyman"}
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+  - kisi: ikrime
+    kaynak: *tdv
+  - kisi: amir-es-sabi
+    kaynak: *tdv
+  - kisi: said-b-cubeyr
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hammâd b. Ebû Süleyman"
+      url: https://islamansiklopedisi.org.tr/hammad-b-ebu-suleyman
+  - kisi: ebu-vail
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Şakīk b. Seleme"
+      url: https://islamansiklopedisi.org.tr/sakik-b-seleme
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,41 @@
+isim: Ebü'z-Zinâd
+tam_isim: Ebû Abdirrahmân Abdullah b. Zekvân el-Kureşî el-Medenî
+arapca: أبو الزناد عبد الله بن ذكوان
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Abdullah
+  nesep: Abdullah b. Zekvân
+  nesep_arapca: عبد الله بن ذكوان القرشي المدني
+  nisbeler: [el-Kureşî, el-Medenî]
+  lakap: Ebü'z-Zinâd
+  aciklama: '"Ebü''z-Zinâd" kendisinin hoşlanmadığı bir lakaptır, fakat bununla meşhur olmuştur. Babası Zekvân, Hz. Osman ailesiyle ilişkili bir âzatlıdır.'
+dogum: {hicri: 65, miladi: 684, not: "yaklaşık"}
+vefat: {hicri: 130, miladi: 748, not: "17 Ramazan 130; 131 de denmiştir"}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  tehzibut_tehzib: "V, 203-205"
+  rumuz: "ع"
+ozet: Medine'nin dört büyük âliminden sayılan hadis hâfızı; "A'rec → Ebû Hüreyre" rivayetlerinin Mâlik'e ulaştığı halka.
+biyografi: |
+  Ebû Abdirrahmân Abdullah b. Zekvân, yaklaşık 65'te doğdu; hoşlanmadığı "Ebü'z-Zinâd" lakabıyla tanındı. Babası Hz. Osman ailesinden birinin âzatlısıydı; oğulları Abdurrahman ve Ebü'l-Kāsım da hadis ve fıkıhta tanınmıştır.
+
+  Enes b. Mâlik, Ebû Ümâme b. Sehl, Şa'bî, Saîd b. el-Müseyyeb, Hârice b. Zeyd ve özellikle A'rec'den hadis aldı. İbn Ebî Müleyke, Mûsâ b. Ukbe, Hişâm b. Urve, Süfyân es-Sevrî, Mâlik ve Süfyân b. Uyeyne ondan rivayet etti. Buhârî'ye göre Ebû Hüreyre'nin en güvenilir senedi Ebü'z-Zinâd–A'rec–Ebû Hüreyre zinciridir.
+
+  Hişâm b. Abdülmelik döneminde Medine'de malî işler divanında çalıştı; Ömer b. Abdülazîz onu Kûfe beytülmâlini yönetmekle görevlendirdi. Hadis, fıkıh, hesap ve şiirde bilgisine başvurulurdu; Mescid-i Nebevî'deki halkasında yüzlerce talebesi vardı. Süfyân es-Sevrî onu "emîrü'l-mü'minîn fi'l-hadîs" diye anmış, Ali b. el-Medînî Medine'nin dört büyük âliminden saymıştır.
+
+  Talebelerinin bir kısmı Rebîatü'r-re'y'in halkasına geçince aralarının açıldığı tahmin edilir; Ebû Hanîfe ve Ahmed b. Hanbel onu fıkıhta Rebîa'nın üstünde görmüştür. Mâlik, Muvatta'da ondan elli dört rivayete yer vermiştir. 17 Ramazan 130'da Medine'de vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebü'z-Zinâd\"", url: "https://islamansiklopedisi.org.tr/ebuz-zinad"}
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+  - kisi: harice-b-zeyd
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    araci: Abdurrahmân b. Hürmüz el-A'rec
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

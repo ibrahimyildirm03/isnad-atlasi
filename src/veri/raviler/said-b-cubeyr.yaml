@@ -1,0 +1,38 @@
+isim: Saîd b. Cübeyr
+tam_isim: Ebû Abdillâh Saîd b. Cübeyr b. Hişâm el-Esedî el-Vâlibî el-Kûfî
+arapca: سعيد بن جبير
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh (Ebû Muhammed de denmiştir)
+  ism: Saîd
+  nesep: Saîd b. Cübeyr b. Hişâm, mevlâ Benî Vâlibe
+  nesep_arapca: سعيد بن جبير بن هشام الأسدي الوالبي الكوفي
+  nisbeler: [el-Esedî, el-Vâlibî, el-Kûfî]
+  aciklama: Habeş asıllıdır; Esed b. Huzeyme'ye bağlı Vâlibe b. el-Hâris oğullarının âzatlısıdır.
+dogum: {hicri: 45, miladi: 665, not: "tercih edilen görüş"}
+vefat: {hicri: 95, miladi: 714, not: "94 de denmiştir; Haccâc tarafından öldürüldü"}
+dogum_yeri: Mekke
+vefat_yeri: Vâsıt
+bolge: kufe
+diger_bolgeler: [mekke]
+rical:
+  tehzibul_kemal: "X, 358-376"
+  tehzibut_tehzib: "IV, 11-13"
+  rumuz: "ع"
+ozet: İbn Abbâs'ın Kûfe'ye yerleşen büyük talebesi; Haccâc'ın öldürdüğü müfessir ve fakih.
+biyografi: |
+  Mekke'de İbn Abbâs'ın halkasında hadis, tefsir ve fıkıh okudu; İbn Ömer, Ebû Saîd el-Hudrî ve Enes'ten de rivayet etti. Kûfe'ye yerleşerek ders halkası kurdu ve fetva verdi.
+
+  İbnü'l-Eş'as'ın Haccâc'a karşı isyanına katıldı, Deyrülcemâcim'den sonra on iki yıl kadar gizlendi; yakalanıp Vâsıt'ta Haccâc tarafından öldürüldü. A'meş, Ebû İshâk es-Sebîî, Amr b. Dînâr ve Eyyûb es-Sahtiyânî ondan rivayet etti.
+hocalari:
+  - kisi: ibn-abbas
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Cübeyr\"", url: "https://islamansiklopedisi.org.tr/said-b-cubeyr"}
+  - kisi: ibn-omer
+    kaynak: *tdv
+  - kisi: ebu-said-el-hudri
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

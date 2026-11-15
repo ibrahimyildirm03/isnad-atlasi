@@ -1,0 +1,81 @@
+isim: Buhârî
+tam_isim: Ebû Abdillâh Muhammed b. İsmâil b. İbrâhîm b. el-Mugīre el-Cu'fî el-Buhârî
+arapca: محمد بن إسماعيل البخاري
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Muhammed
+  nesep: Muhammed b. İsmâil b. İbrâhîm b. el-Mugīre b. Berdizbeh
+  nesep_arapca: محمد بن إسماعيل بن إبراهيم بن المغيرة بن بردزبه الجعفي البخاري
+  nisbeler: [el-Cu'fî, el-Buhârî]
+  lakap: Emîrü'l-mü'minîn fi'l-hadîs
+  aciklama: '"el-Cu''fî" nisbesi velâ bağındandır: Mecûsî Berdizbeh''in oğlu Mugīre, Buhara valisi Yemân el-Cu''fî vasıtasıyla müslüman olmuş, aile de Cu''fîlere nisbet edilmiştir.'
+dogum: {hicri: 194, miladi: 810, not: "13 Şevval 194, Cuma"}
+vefat: {hicri: 256, miladi: 870, not: "Ramazan Bayramı gecesi"}
+dogum_yeri: Buhara
+vefat_yeri: Hartenk (Semerkant yakını)
+kutub_i_tisa: "Kütüb-i Sitte: Sahîh-i Buhârî"
+bolge: maveraunnehir
+diger_bolgeler: [horasan]
+kutub_i_sitte: el-Câmiu's-sahîh (Sahîh-i Buhârî)
+eserleri: [el-Câmiu's-sahîh, et-Târîhu'l-kebîr, el-Edebü'l-müfred, ed-Duafâ, Halku ef'âli'l-ibâd]
+rical:
+  rumuz: "خ"
+  sozler:
+    - kim: Nuaym b. Hammâd ve Devrakî
+      soz: Buhârî bu ümmetin fakihidir.
+      kaynak: DİA, "Buhârî"
+    - kim: İbn Huzeyme
+      soz: Gökkubbenin altında Resûlullah'ın hadislerini Buhârî'den daha iyi bilen birini görmedim.
+      kaynak: DİA, "Buhârî"
+ozet: Kur'an'dan sonra en güvenilir kitap kabul edilen Sahîh'in müellifi.
+biyografi: |
+  13 Şevval 194'te Buhara'da doğdu. Hadis öğrenmiş olan babası İsmâil o küçükken vefat etti. On yaşına doğru hadis öğrenmeye başladı; on bir yaşında hocasının bir rivayet hatasını düzeltti, on altı yaşında İbnü'l-Mübârek ve Vekî'in kitaplarını ezberledi. Aynı yaşta annesi ve kardeşiyle hacca gitti ve Mekke'de kalarak tahsiline devam etti.
+
+  Bağdat, Basra, Belh, Dımaşk, Hicaz, Hıms, Kûfe, Medine, Merv, Mısır ve Nîşâbur'a yolculuk etti; hadis yazdığı hoca sayısını kendisi 1080 olarak verir. Ahmed b. Hanbel, Ali b. el-Medînî, İshâk b. Râhûye, Humeydî, Kuteybe, Ebû Nuaym, Mekkî b. İbrâhîm, Ebû Âsım en-Nebîl ve Bündâr hocaları arasındadır.
+
+  el-Câmiu's-sahîh'i yaklaşık 600.000 hadis arasından seçerek on altı yılda hazırladığı kaydedilir. Şartlarını kendisi yazmamış, bunlar eserin incelenmesinden çıkarılmıştır; senedde râvilerin birbiriyle karşılaşmış olmasını aradığı kabul edilir. Bab başlıkları fıkhî görüşlerini yansıttığı için "Buhârî'nin fıkhı bab başlıklarındadır" denmiştir. Kur'an'dan sonra en güvenilir kitap kabul edilir.
+
+  Nîşâbur'da Muhammed b. Yahyâ ez-Zühlî, halku'l-Kur'ân tartışmasını kullanarak onun itibarını zedelemeye çalıştı; Buhârî şehri terk etti. Buhara emîriyle ilmin devlete hizmeti konusunda anlaşmazlığa düşünce iftiralar sonucu memleketinden sürüldü. Semerkant'a giderken Hartenk'te hastalandı ve 256 Ramazan Bayramı gecesi vefat etti.
+
+  et-Târîhu'l-kebîr râvilerin biyografilerine, ed-Duafâ zayıf râvilere, el-Edebü'l-müfred ahlâk hadislerine, Halku ef'âli'l-ibâd ise Kur'an okuyuşunun mahlûk oluşu meselesine dairdir. Müslim, Tirmizî ve İbn Huzeyme onun talebesidir.
+hocalari:
+  - kisi: ahmed-b-hanbel
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Buhârî, Muhammed b. İsmâil\"", url: "https://islamansiklopedisi.org.tr/buhari-muhammed-b-ismail"}
+  - kisi: ali-b-medini
+    kaynak: *tdv
+  - kisi: ishak-b-rahuye
+    kaynak: *tdv
+  - kisi: humeydi
+    kaynak: *tdv
+  - kisi: kuteybe-b-said
+    kaynak: *tdv
+  - kisi: bundar
+    kaynak: *tdv
+  - kisi: yahya-b-main
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Maîn\"", url: "https://islamansiklopedisi.org.tr/yahya-b-main"}
+  - kisi: ibn-ebi-seybe
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Şeybe, Ebû Bekir\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-seybe-ebu-bekir"}
+  - kisi: kanebi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ka'nebî\"", url: "https://islamansiklopedisi.org.tr/kanebi"}
+  - kisi: darimi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Dârimî, Abdullah b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/darimi-abdullah-b-abdurrahman"}
+  - kisi: ebu-ubeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Ubeyd el-Kāsım b. Sellâm"
+      url: https://islamansiklopedisi.org.tr/ebu-ubeyd-kasim-b-sellam
+  - kisi: ebu-nuaym
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Nuaym, Fazl b. Dükeyn"
+      url: https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+  - kisi: mekki-b-ibrahim
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 541
+      url: https://shamela.ws/book/1994/537
+kaynaklar:
+  - *tdv
+dogrulandi: true

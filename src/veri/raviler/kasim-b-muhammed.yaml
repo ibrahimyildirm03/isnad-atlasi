@@ -1,0 +1,44 @@
+isim: Kâsım b. Muhammed
+tam_isim: Ebû Muhammed el-Kâsım b. Muhammed b. Ebî Bekr es-Sıddîk et-Teymî
+arapca: القاسم بن محمد بن أبي بكر
+cerh_tadil: Sika (İbn Hacer, Takrîb; 3. tabakanın büyüklerinden)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Kāsım
+  kunye: Ebû Muhammed (Ebû Abdirrahmân da denmiştir)
+  nesep: el-Kāsım b. Muhammed b. Ebî Bekr es-Sıddîk
+  nesep_arapca: القاسم بن محمد بن أبي بكر الصديق
+  nisbeler:
+    - et-Teymî
+    - el-Kureşî
+    - el-Medenî
+  aciklama: Hz. Ebû Bekir'in torunudur; babası Muhammed b. Ebî Bekr öldürülünce halası Hz. Âişe'nin yanında yetişti.
+rical:
+  tehzibul_kemal: XXIII, 427
+  tehzibut_tehzib: 3/419 (Şâmile neşri)
+  takrib: Sika (3. tabakanın büyüklerinden)
+vefat: {hicri: 107, miladi: 725, not: "İbn Hacer'e göre 106; 101 ile 112 arasında farklı tarihler verilmiştir"}
+bolge: medine
+ozet: Ebû Bekir'in torunu; halası Âişe'nin yanında yetişen Medine fakihi.
+biyografi: |
+  Ebû Muhammed el-Kāsım b. Muhammed, Hz. Ebû Bekir'in torunudur ve Hz. Osman'ın halifeliği döneminde doğdu. Babasının öldürülmesinden sonra bir süre halası Hz. Âişe'nin yanında yetişti. Babaannesi Esmâ bint Umeys, Zeyneb bint Cahş, İbn Abbas, İbn Ömer, Ebû Hüreyre ve Abdullah b. Amr'dan rivayet etti.
+
+  Yahyâ b. Saîd el-Ensârî, Zührî, Nâfi', Sâlim b. Abdullah, Şa'bî, Rebîatü'r-re'y ve Eyyûb es-Sahtiyânî ondan hadis aldı. Mescid-i Nebevî'de ders halkası vardı ve fukahâ-yi seb'a arasında sayılır. Zührî, fetvanın Kāsım ve Sâlim'de toplandığını belirtmiş; Yahyâ b. Saîd, Medine'de ondan daha faziletlisini görmediğini söylemiştir.
+
+  İbn Maîn, Ubeydullah–Kāsım–Âişe zincirini "altın yaldızlı sened" diye nitelemiştir. Ömer b. Abdülazîz, ilmin kaybolmasından endişe ederek Medine valisine özellikle Kāsım'ın rivayetlerini derleme emri vermiştir. Bilmediği soruları cevaplamaz, görüşlerini kesin hakikat değil şahsî kanaat olarak sunardı.
+
+  Ca'fer es-Sâdık, kızı Ümmü Ferve'den torunudur. Ömrünün son üç yılında gözleri görmedi; 107'de (106 da denir) bir hac veya umre yolculuğunda Kudeyd'de vefat etti ve Müşellel'e defnedildi.
+hocalari:
+  - kisi: aise
+    not: halasıdır; yanında büyüdü
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Kāsım b. Muhammed b. Ebû Bekir\"", url: "https://islamansiklopedisi.org.tr/kasim-b-muhammed-b-ebu-bekir"}
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: abdullah-b-amr
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/5159"}
+dogrulandi: true

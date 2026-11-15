@@ -1,0 +1,48 @@
+isim: Ebû Muâviye ed-Darîr
+tam_isim: Ebû Muâviye Muhammed b. Hâzim et-Temîmî es-Sa'dî ed-Darîr el-Kûfî
+arapca: أبو معاوية الضرير محمد بن خازم
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Muâviye
+  ism: Muhammed
+  nesep: Muhammed b. Hâzim
+  nesep_arapca: محمد بن خازم الكوفي الضرير
+  nisbeler: [et-Temîmî, es-Sa'dî, el-Kûfî]
+  lakap: ed-Darîr (âmâ)
+  aciklama: Küçük yaşta gözlerini kaybettiği için "ed-Darîr" diye anılır.
+dogum: {hicri: 113, miladi: 731}
+vefat: {hicri: 195, miladi: 810, not: "cumhura göre; 194 de denmiştir"}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  rumuz: "ع"
+  sozler:
+    - {kim: Ahmed b. Hanbel, soz: "Vallahi Kur'an hâfızıydı; A'meş'in hadisi dışındakilerde ise karışıklık yapardı.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 424"}
+ozet: A'meş'in yirmi yıl yanından ayrılmayan Kûfe muhaddisi; A'meş rivayetlerinin en sağlam râvisi.
+biyografi: |
+  Ebû Muâviye Muhammed b. Hâzim es-Sa'dî, Temîm'in Sa'd b. Zeyd Menât kolunun mevlâsıdır. Ahmed b. Hanbel ve başkalarına göre 113'te Kûfe'de doğdu. Ebû Dâvûd'un naklettiğine göre dört yaşında gözlerini kaybetti ve ailesi onun için yas tuttu; sekiz yaşında kör olduğu da söylenir. Zehebî onu "imam, hâfız, hüccet, a'lâmdan biri" diye niteler.
+
+  Kaynaklarda "hâfız, sebt, Kûfe'nin muhaddisi" diye anılır. Hişâm b. Urve, A'meş, Leys b. Ebî Süleym, Ebû İshâk eş-Şeybânî ve İsmâîl b. Ebî Hâlid'den rivayet etti.
+
+  Ebû Nuaym'ın naklettiğine göre yirmi yıl A'meş'in yanından ayrılmadı ve onun rivayetlerinin en sağlam râvisi oldu. Şu'be bile A'meş'in hadislerini rivayet ederken onun bulunduğu mecliste ona danışırdı. Ali b. el-Medînî ondan A'meş kanalıyla bin beş yüz hadis yazdığını söyler. Ahmed b. Hanbel ise A'meş dışındaki rivayetlerinde karışıklık bulunduğunu belirtir.
+
+  Hârûnürreşîd ona saygı gösterirdi. Ahmed b. Hanbel, Yahyâ b. Maîn, Ebû Hayseme ve Hennâd onun talebeleri arasındadır.
+
+  Hocası A'meş ve İbn Cüreyc de ondan rivayet etmiştir. A'meş hadisleri kendisine o kadar çok soruldu ki A'meş'in hadisinin ağzında acı bir ilaç gibi olduğunu söylerdi. Yahyâ b. Maîn, A'meş rivayetlerinde Süfyân ve Şu'be'den sonra en sağlam kişinin o olduğunu belirtmiştir. Vekî' ona A'meş'ten 1700 hadis saydığını söyleyince Ebû Muâviye bir hastalıkta dört yüzünü unuttuğunu, 1600'ünü ezberinde tuttuğunu söylemiştir.
+
+  İclî ve Ya'kūb b. Şeybe onu sika saymakla birlikte ircâ görüşünü benimsediğini belirtir; Ebû Dâvûd onu Kûfe Mürcie'sinin reisi diye anar. Ya'kūb b. Şeybe bazen tedlîs yaptığını da kaydeder. Ali b. el-Medînî ve başkalarına göre 195'te vefat etti.
+hocalari:
+  - kisi: ames
+    not: yirmi yıl yanından ayrılmadı
+    kaynak: &sm {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 423-424", url: "https://shamela.ws/book/1994/419"}
+  - kisi: hisam-b-urve
+    kaynak: *sm
+kaynaklar:
+  - *sm
+  - {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 424", url: "https://shamela.ws/book/1994/420"}
+  - ad: Mizzî, Tehzîbü'l-Kemâl, XXV/124 (Şâmile)
+    url: https://shamela.ws/book/3722/13218
+  - ad: Zehebî, Siyer, IX/73-74 (Şâmile)
+    url: https://shamela.ws/book/10906/5739
+dogrulandi: true
+dogrulama_notu: TDV İslâm Ansiklopedisi'nde ayrı maddesi bulunmadığı için Şâmile'deki İbn Abdülhâdî'nin Tabakātü ulemâi'l-hadîs'inden alındı.

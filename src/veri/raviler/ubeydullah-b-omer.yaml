@@ -1,0 +1,48 @@
+isim: Ubeydullah b. Ömer el-Ömerî
+tam_isim: Ebû Osmân Ubeydullah b. Ömer b. Hafs b. Âsım b. Ömer b. el-Hattâb el-Adevî el-Medenî
+arapca: عبيد الله بن عمر بن حفص العمري
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Osmân
+  ism: Ubeydullah
+  nesep: Ubeydullah b. Ömer b. Hafs b. Âsım b. Ömer b. el-Hattâb
+  nesep_arapca: عبيد الله بن عمر بن حفص بن عاصم بن عمر بن الخطاب العدوي المدني
+  nisbeler: [el-Adevî, el-Ömerî, el-Medenî]
+  aciklama: Hz. Ömer'in torununun torunudur; kardeşleri Abdullah, Âsım ve Ebû Bekr de muhaddistir. Kardeşi Abdullah b. Ömer el-Ömerî ile karıştırılmamalıdır.
+vefat: {hicri: 147, miladi: 764}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  rumuz: "ع"
+  sozler:
+    - {kim: Ahmed b. Hanbel, soz: "Nâfi' rivayetlerinde Mâlik, Eyyûb ve Ubeydullah'ın en sağlamı, en hâfızı ve en çok rivayet edeni Ubeydullah'tır.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249"}
+    - {kim: Yahyâ b. Maîn, soz: "Ubeydullah, Kāsım'dan, o da Âişe'den: inciyle süslenmiş altın.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249"}
+ozet: Nâfi' rivayetlerinde Ahmed b. Hanbel'in Mâlik'ten bile sağlam saydığı Medineli hâfız; Hz. Ömer'in soyundan.
+biyografi: |
+  Ebû Osmân Ubeydullah b. Ömer b. Hafs b. Âsım, Hz. Ömer'in torununun torunudur. Zehebî'ye göre 70'ten sonra doğdu; sahâbî Ümmü Hâlid'e yetişip ondan dinlediği için küçük tâbiînden sayılır.
+
+  Hz. Ömer'in soyundan gelen Medineli bir hâfızdır. Sahâbî Ümmü Hâlid bint Hâlid'den tek bir hadis rivayet etti; Kāsım b. Muhammed, Sâlim b. Abdullah, Atâ, Nâfi', el-Makbürî ve Zührî'den hadis aldı.
+
+  Sâlih, âbid ve çok ilim sahibi biri olarak tanındı; Muhammed b. Abdullah en-Nefsü'z-Zekiyye'nin isyanına katılmadı. Nesâî onu sika ve sebt saydı. Ahmed b. Hanbel, Nâfi' rivayetlerinde Mâlik, Eyyûb ve Ubeydullah'ın en sağlamının o olduğunu söylemiş, Ahmed b. Sâlih de bu konuda onu Mâlik'e tercih etmiştir.
+
+  Şu'be, iki Süfyân, Yahyâ el-Kattân ve Abdürrezzâk ondan rivayet etti.
+
+  Dayısı Hubeyb b. Abdirrahman, Amr b. Şuayb, Sâbit el-Bünânî, Ebü'z-Zinâd ve Amr b. Dînâr da hocaları arasındadır. İbn Cüreyc, Ma'mer, Hammâd b. Seleme ve İbnü'l-Mübârek de ondan rivayet etti. Yahyâ b. Maîn, onun Kāsım–Âişe yoluyla rivayetini "incilerle işlenmiş altın" diye nitelemiş ve bunu Zührî–Urve–Âişe yolundan daha çok sevdiğini söylemiştir. Muhammed b. el-Hasen el-Hacvî de onu Medine'nin büyük fakihleri arasında anar. 147'de vefat ettiği kaydedilir.
+hocalari:
+  - kisi: nafi
+    kaynak: &sm {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249", url: "https://shamela.ws/book/1994/245"}
+  - kisi: salim-b-abdullah
+    kaynak: *sm
+  - kisi: kasim-b-muhammed
+    kaynak: *sm
+  - kisi: ata-b-ebi-rebah
+    kaynak: *sm
+  - kisi: zuhri
+    kaynak: *sm
+kaynaklar:
+  - {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 248", url: "https://shamela.ws/book/1994/244"}
+  - *sm
+  - ad: Zehebî, Siyer, VI/304-305 (Şâmile)
+    url: https://shamela.ws/book/10906/4554
+dogrulandi: kismi
+dogrulama_notu: TDV'de maddesi yok; bilgiler Şâmile'deki İbn Abdülhâdî'nin Tabakātü ulemâi'l-hadîs'inden. Vefat yılı (147) açılan sayfalarda geçmediği için henüz kaynakla doğrulanmadı.

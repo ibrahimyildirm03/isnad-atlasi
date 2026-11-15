@@ -1,0 +1,41 @@
+isim: İbn Ebî Zi'b
+tam_isim: Ebü'l-Hâris Muhammed b. Abdirrahmân b. el-Mugīre el-Kureşî el-Âmirî el-Medenî
+arapca: محمد بن عبد الرحمن بن أبي ذئب
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebü'l-Hâris
+  ism: Muhammed
+  nesep: Muhammed b. Abdirrahmân b. el-Mugīre b. el-Hâris b. Ebî Zi'b Hişâm b. Şu'be
+  nesep_arapca: محمد بن عبد الرحمن بن المغيرة بن الحارث بن أبي ذئب القرشي العامري
+  nisbeler: [el-Kureşî, el-Âmirî, el-Medenî]
+  lakap: İbn Ebî Zi'b
+  aciklama: '"İbn Ebî Zi''b" adı üçüncü göbekten dedesi Ebû Zi''b Hişâm b. Şu''be''ye dayanır.'
+dogum: {hicri: 80, miladi: 699}
+vefat: {hicri: 159, miladi: 776}
+dogum_yeri: Medine
+vefat_yeri: Kûfe
+bolge: medine
+eserleri: ["el-Muvatta' (Dârekutnî'nin kaydına göre)", "Kitâbü's-Sünen (İbnü'n-Nedîm'e göre)"]
+rical:
+  tehzibul_kemal: "XXV, 635"
+  tehzibut_tehzib: "IX, 303-307"
+  rumuz: "ع"
+ozet: Mâlik'in çağdaşı Medine fakihi ve muhaddisi; emr-i bi'l-ma'rûftaki cesaretiyle tanınan zâhid.
+biyografi: |
+  Ebü'l-Hâris Muhammed b. Abdirrahmân el-Âmirî, 80 sonlarında Medine'de doğdu; üçüncü kuşaktaki dedesi Ebû Zi'b'e nisbetle "İbn Ebî Zi'b" diye tanındı. İkrime, Nâfi' ve Saîd el-Makbürî'den hadis öğrendi; Zührî'ye hadislerini arz yoluyla okudu.
+
+  Ma'mer, Süfyân es-Sevrî, İbnü'l-Mübârek, Vekî', Yahyâ el-Kattân, Ebû Nuaym ve Yezîd b. Hârûn ondan rivayet etti. Ahmed b. Hanbel onu "sika sadûk" diye nitelemiş, Saîd b. el-Müseyyeb'e benzetildiğini ve bazı yönlerden Mâlik'ten üstün olduğunu söylemiştir. Ashâbü'l-hadîsin fakihlerinden sayılır; Dârekutnî bir Muvatta' yazdığını kaydeder.
+
+  Emr-i bi'l-ma'rûf konusunda titizdi; halifelerin zulmünü yüzlerine karşı açıkça söylediği nakledilir. Gün aşırı oruç tutar, yaz kış aynı elbiseyi giyer, ekmek ve zeytinyağıyla yetinirdi. Halife tarafından hadis rivayeti için Bağdat'a davet edildi; Medine'ye dönerken 159'da Kûfe'de vefat etti.
+hocalari:
+  - kisi: zuhri
+    tur: rivayet
+    not: münâvele yoluyla
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Zi'b\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-zib"}
+  - kisi: nafi
+    kaynak: *tdv
+  - kisi: ikrime
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

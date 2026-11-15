@@ -1,0 +1,27 @@
+isim: Ukbe b. Âmir
+tam_isim: Ebû Hammâd Ukbe b. Âmir el-Cühenî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Ukbe
+  kunye: Ebû Hammâd (Ebû Âmir ve Ebû Esed de denmiştir)
+  nesep: Ukbe b. Âmir b. Abs
+  nesep_arapca: عقبة بن عامر الجهني
+  nisbeler:
+    - el-Cühenî
+    - el-Mısrî
+vefat: {hicri: 58, miladi: 678}
+vefat_yeri: Fustat (Mukattam'a defnedildi)
+bolge: misir
+ozet: "Mısır valiliği yapan, Mısır hadis rivayetinin önde gelen sahâbîsi."
+biyografi: |
+  Cüheyne kabilesindendir. Müslüman olmadan önce çölde çobanlık yapıyordu; Hz. Peygamber'in hicretini duyunca Medine'ye gelip hicret biatı yaptı. Ashâb-ı Suffe arasına katılarak kıraat, fıkıh, ferâiz, şiir ve kitâbette öne çıktı.
+
+  Hz. Peygamber'in kâtiplerindendi. Hz. Osman mushafından farklı tertipte, kendi eliyle yazdığı bir mushaf nüshası vardı. Hz. Ömer'in onun Tevbe sûresini okuyuşunu ağlayarak dinlediği nakledilir.
+
+  Muâviye onu 44/664'te Mısır valiliğine getirdi; üç yıl sonra Rodos seferiyle görevlendirildi, yolda azledildiğini öğrenince Mısır'a yerleşti. Rivayetleri Kütüb-i Sitte'nin hepsinde yer alır. Hadis rivayetinde Mısırlılar nezdindeki yeri, İbn Mes'ûd'un Kûfeliler nezdindeki yerine benzetilmiştir; Ebü'l-Hayr Mersed b. Abdillâh onun başlıca talebesidir.
+
+  58/678'de Mısır'da vefat etti ve Mukattam kabristanına defnedildi.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ukbe b. Âmir\"", url: "https://islamansiklopedisi.org.tr/ukbe-b-amir"}
+dogrulandi: true

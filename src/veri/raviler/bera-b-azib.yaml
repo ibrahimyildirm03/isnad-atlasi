@@ -1,0 +1,30 @@
+isim: Berâ b. Âzib
+tam_isim: Ebû Umâre el-Berâ' b. Âzib b. el-Hâris el-Ensârî el-Evsî
+arapca: البراء بن عازب
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Umâre
+  ism: Berâ'
+  nesep: el-Berâ' b. Âzib b. el-Hâris b. Adî el-Ensârî
+  nesep_arapca: البراء بن عازب بن الحارث بن عدي الأنصاري الأوسي
+  nisbeler: [el-Ensârî, el-Evsî, el-Hârisî]
+  aciklama: Babası Âzib de sahâbîdir. Dayısı Ebû Bürde b. Niyâr'dır.
+vefat: {hicri: 71, miladi: 690, not: "72 de denmiştir"}
+vefat_yeri: Kûfe
+bolge: kufe
+hadis_sayisi: {sayi: 305, kaynak: "Bakī b. Mahled, el-Müsned (DİA)"}
+rical:
+  rumuz: "ع"
+ozet: Kûfe'ye yerleşen Ensârî sahâbî; Ebû İshâk es-Sebîî ve Şa'bî gibi Kûfe tâbiîlerinin hocası.
+biyografi: |
+  Medine'nin Evs kabilesindendir; ilk İslâmî bilgileri Mus'ab b. Umeyr'den aldı. Yaşı küçük olduğu için Bedir'e alınmadı; Uhud'dan itibaren seferlere katıldı ve Huneyn'de yararlık gösterdi.
+
+  Hz. Ali'nin yanında Cemel, Sıffîn ve Nehrevan'da bulundu. Kûfe'ye yerleşerek hadis ve fıkıh okuttu; ondan Adî b. Sâbit, Ebû İshâk es-Sebîî ve başkaları rivayet etti. 305 hadisinin 22'si Sahîhayn'da ortaktır.
+hocalari:
+  - kisi: omer
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Berâ b. Âzib\"", url: "https://islamansiklopedisi.org.tr/bera-b-azib"}
+kaynaklar:
+  - *tdv
+  - "İbn Hacer, el-İsâbe, I, 278-279"
+  - "Nevevî, Tehzîbü'l-esmâ, I, 132-133"
+dogrulandi: true

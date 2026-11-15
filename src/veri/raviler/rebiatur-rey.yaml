@@ -1,0 +1,47 @@
+isim: Rebîatü'r-re'y
+tam_isim: Ebû Osmân Rebîa b. Ebî Abdirrahmân Ferrûh et-Teymî el-Medenî
+arapca: ربيعة الرأي
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Osmân (Ebû Abdirrahmân da denmiştir)
+  ism: Rebîa
+  nesep: Rebîa b. Ebî Abdirrahmân Ferrûh
+  nesep_arapca: ربيعة بن أبي عبد الرحمن فروخ التيمي المدني
+  nisbeler: [et-Teymî, el-Medenî]
+  lakap: Rebîatü'r-re'y
+  aciklama: Re'y (fıkhî akıl yürütme) konusundaki derinliği sebebiyle "Rebîatü'r-re'y" lakabıyla anıldı. Fars asıllıdır; Teym kabilesinin Münkediroğullarına mevlâdır.
+dogum: {hicri: 70, miladi: 689, not: "tahminî"}
+vefat: {hicri: 136, miladi: 753, not: "130, 133, 135 ve 142 de denmiştir"}
+dogum_yeri: Medine
+vefat_yeri: Medine veya Enbâr
+bolge: medine
+rical:
+  tehzibul_kemal: "IX, 123-130"
+  tehzibut_tehzib: "III, 258-259"
+  rumuz: "ع"
+ozet: Medine re'y ekolünün temsilcisi; İmam Mâlik'in fıkıh hocası.
+biyografi: |
+  Rebîa b. Ebî Abdirrahmân Ferruh, tahminen 70 civarında Medine'de doğdu; Teym kabilesinin Münkediroğulları kolunun mevlâsıdır ve babasının adından Fars asıllı olduğu anlaşılır. Annesi ona hamileyken babasının Horasan'a gazaya gittiği nakledilir.
+
+  Enes b. Mâlik ve Sâib b. Yezîd gibi sahâbîlerden; Saîd b. el-Müseyyeb, Kāsım b. Muhammed, Sâlim b. Abdullah ve Süleyman b. Yesâr'dan rivayet etti. Mâlik, Süfyân es-Sevrî, Evzâî, Leys b. Sa'd, Şu'be ve Yahyâ b. Saîd el-Ensârî ondan hadis aldı; İbn Sa'd, Muhammed el-Bâkır ve Ca'fer es-Sâdık'ın da Mescid-i Nebevî'deki halkasına katıldığını kaydeder.
+
+  Hadis merkezi Medine'de yaşamasına rağmen re'y ekolünün ilk büyük temsilcilerinden sayıldı ve bu yüzden "Rebîatü'r-re'y" diye anıldı. Mâlik onun talebesiydi ve fıkhî birikiminin büyük kısmını ondan aldı; Mâlik, Sâlim ile Kāsım'dan sonra Medine'nin en büyük âlimi olarak onu görmüş, vefatından sonra fıkhın tadının kalmadığını söylemiştir.
+
+  Abbâsî halifesi Seffâh onu Enbâr'a davet edip kadılık teklif ettiyse de teklifi ve hediyeyi reddetti; Irak'ta kaldığı sürece ne hadis rivayet etti ne fetva verdi. Bilinen bir eseri yoktur, görüşleri Muvatta' gibi eserlerde yer alır. 136'da Enbâr'da veya Medine'de vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Rebîa b. Ebû Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman"}
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+  - kisi: kasim-b-muhammed
+    kaynak: *tdv
+  - kisi: mekhul
+    kaynak: *tdv
+  - kisi: vehb-b-munebbih
+    not: aracılı bağdan çıkarıldı
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Vehb b. Münebbih"
+      url: https://islamansiklopedisi.org.tr/vehb-b-munebbih
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,53 @@
+isim: Recâ b. Hayve
+tam_isim: Ebü'l-Mikdâm Recâ b. Hayve el-Kindî
+arapca: رجاء بن حيوة
+cerh_tadil: Sika, fakih (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Recâ
+  kunye: Ebü'l-Mikdâm (Ebû Nasr, Ebû Nadr ve Ebû Bekr de denmiştir)
+  nesep: Recâ b. Hayve b. Cervel
+  nesep_arapca: رجاء بن حيوة بن جرول الكندي
+  nisbeler:
+    - el-Kindî
+    - es-Seksekî
+    - eş-Şâmî
+    - el-Filistînî
+    - el-Ürdünî
+rical:
+  tehzibul_kemal: IX, 151
+  tehzibut_tehzib: 1/601 (Şâmile neşri)
+  takrib: Sika, fakih (3. tabaka)
+  sozler:
+    - kim: Abdullah b. Avn
+      soz: "Benzerini görmediğim üç kişi gördüm: Irak'ta Muhammed b. Sîrîn, Hicaz'da Kāsım b. Muhammed, Şam'da Recâ b. Hayve."
+      kaynak: Zehebî, Siyer, IV/559
+vefat: {hicri: 112, miladi: 730}
+bolge: sam
+ozet: Ömer b. Abdülazîz'in veziri; Şamlıların "efendisi" sayılan fakih.
+biyografi: |
+  Recâ b. Hayve el-Kindî, Şam tâbiîlerinin büyüklerindendir; Zehebî onu "imam, kudve, âdil vezir ve fakih" diye niteler. İbn Hibbân'a göre künyesi Ebü'l-Mikdâm'dır; Filistin'de, zaman zaman Ürdün'de oturdu ve Şamlıların âbid, zâhid ve fakihlerindendi.
+
+  Muâz b. Cebel, Ebü'd-Derdâ ve Ubâde b. es-Sâmit'ten (mürsel olarak), ayrıca Abdullah b. Amr, Muâviye, Ebû Saîd el-Hudrî, Câbir, Ebû Ümâme ve Ümmü'd-Derdâ'dan rivayet etti. Mekhûl, Zührî, Katâde, Abdülmelik b. Umeyr, İbn Avn, Humeyd et-Tavîl ve Sevr b. Yezîd ondan hadis aldı. Bişr b. Mervân ile Kûfe'ye geldiğinde Ebû İshak es-Sebîî ve Katâde ondan dinlemiştir.
+
+  İbn Sa'd onu "sika, âlim, fâzıl, çok ilim sahibi" diye anar; Nesâî de sika sayar. Halife Hişâm'a Filistin'in efendisinin kim olduğu sorulduğunda halk onu göstermiştir. Mekhûl onun Şamlıların gözünde efendileri olduğunu söylemiş, Matar el-Verrâk ondan daha faziletli bir Şamlı görmediğini belirtmiştir. Muhammed b. Sîrîn ve Kāsım b. Muhammed gibi hadisi lafzıyla rivayet edenlerdendi.
+
+  Emevî halifelerinin yakınında bulundu; Abdülmelik b. Mervân namazda okurken takıldığında ona neden düzeltmediğini sormuştur. Halife Yezîd b. Abdülmelik ona ayda otuz dinar bağlamıştı. Zehebî'nin kaydına göre Süleyman b. Abdülmelik'in vefatında halifeliğin Ömer b. Abdülazîz'e geçmesini sağladığı için Hişâm'ın ona karşı içinde bir kırgınlık vardı. 112'de vefat etti.
+hocalari:
+  - kisi: muaz-b-cebel
+    ihtilafli: true
+    not: rivayeti mürseldir
+    kaynak: &sh {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/1986"}
+  - kisi: ebud-derda
+    ihtilafli: true
+    not: rivayeti mürseldir
+    kaynak: *sh
+  - kisi: ebu-umame-el-bahili
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Ümâme"
+      url: https://islamansiklopedisi.org.tr/ebu-umame
+kaynaklar:
+  - *sh
+  - ad: Zehebî, Siyeru a'lâmi'n-nübelâ, IV/557-559 (Şâmile)
+    url: https://shamela.ws/book/10906/3710
+dogrulandi: true

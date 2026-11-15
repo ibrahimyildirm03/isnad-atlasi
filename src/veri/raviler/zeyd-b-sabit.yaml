@@ -1,0 +1,35 @@
+isim: Zeyd b. Sâbit
+tam_isim: Ebû Saîd Zeyd b. Sâbit el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Zeyd
+  kunye: Ebû Saîd (Ebû Hârice ve Ebû Abdirrahmân da denmiştir)
+  lakap: Kâtibü'l-vahy
+  nesep: Zeyd b. Sâbit b. ed-Dahhâk b. Zeyd b. Levzân
+  nesep_arapca: زيد بن ثابت بن الضحاك الأنصاري النجاري
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+    - en-Neccârî
+vefat: {hicri: 45, miladi: 665, not: "51 ve 55 de denmiştir"}
+vefat_yeri: Medine
+dogum_yeri: Medine
+rical:
+  sozler:
+    - kim: Hz. Peygamber
+      soz: Ümmetim içinde ferâizi en iyi bilen Zeyd'dir.
+      kaynak: DİA, "Zeyd b. Sâbit"
+bolge: medine
+ozet: "Vahiy kâtibi; ferâiz ilminin otoritesi."
+biyografi: |
+  Hicretten on bir yıl önce (611) Medine'de doğdu; Hazrec'in Neccâroğulları kolundandır. Küçük yaşta babasını kaybetti. Zekâsı ve hafızasıyla dikkat çekti; Hz. Peygamber Medine'ye gelmeden önce on yedi sûre ezberlemişti.
+
+  Yahudilerle yazışmalarda yardımcı olmak için İbrânîce ya da Süryânîce yazmayı öğrendi. Vahiy kâtiplerinden biri oldu ve Kur'an'ı ezberleyen dört Ensârîden biri sayıldı. Hz. Ebû Bekir döneminde Kur'an'ın cem'i heyetine, Hz. Osman döneminde mushafların istinsahını yürüten heyete başkanlık etti.
+
+  Hz. Ömer döneminde Medine'de davalara baktı, Hz. Osman döneminde beytülmal işleriyle ilgilendi. Ferâiz (miras hukuku) bilgisiyle öne çıktı ve Medine fıkhının kaynaklarından oldu; Şâfiî'nin ferâiz görüşlerinde onun etkisi görülür. Ahmed b. Hanbel'in Müsned'inde doksan dokuz hadisi bulunur.
+
+  Ebû Hüreyre ve İbn Abbâs gibi sahâbîler ile Saîd b. el-Müseyyeb, Kabîsa b. Züeyb, Ebû Abdirrahmân es-Sülemî ve oğlu Hârice ondan rivayet etti. Vefatı için 45, 51 ve 55 yılları zikredilir; en çok tercih edilen 45'tir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Zeyd b. Sâbit\"", url: "https://islamansiklopedisi.org.tr/zeyd-b-sabit"}
+dogrulandi: true

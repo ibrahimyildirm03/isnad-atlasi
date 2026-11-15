@@ -1,0 +1,41 @@
+isim: Hişâm ed-Destuvâî
+tam_isim: Ebû Bekr Hişâm b. Ebî Abdillâh Senber ed-Destuvâî el-Basrî
+arapca: هشام الدستوائي
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Hişâm
+  nesep: Hişâm b. Ebî Abdillâh Senber, mevlâ Benî Sedûs
+  nesep_arapca: هشام بن أبي عبد الله سنبر الدستوائي البصري
+  nisbeler: [ed-Destuvâî, er-Rabeî, el-Basrî]
+  lakap: Emîrü'l-mü'minîn fi'l-hadîs
+  aciklama: Ahvaz yakınındaki Destüvâ kasabasından gelen kumaşların ticaretini yaptığı için "ed-Destuvâî" nisbesiyle anıldı; "Destevâî" diye de okunur.
+vefat: {hicri: 153, miladi: 770, not: "154 de denmiştir"}
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "XXX, 216"
+  rumuz: "ع"
+ozet: Katâde ve Yahyâ b. Ebî Kesîr'in en sağlam râvilerinden, güçlü hafızasıyla tanınan Basralı hâfız.
+biyografi: |
+  Ebû Bekr Hişâm b. Ebî Abdillâh Senber el-Basrî, Ahvaz'ın Destüvâ kasabasından giyim eşyası getirip sattığı için "ed-Destüvâî" diye anıldı. Katâde, Hammâd b. Ebî Süleyman, Yahyâ b. Ebî Kesîr ve Eyyûb es-Sahtiyânî'den hadis aldı. Katâde'nin hadislerini en iyi bilen kişi sayıldı; Yahyâ b. Ebî Kesîr'in rivayetlerini Evzâî'den daha iyi koruduğu kabul edildi.
+
+  Tayâlisî, Yezîd b. Hârûn, Abdurrahman b. Mehdî, İbnü'l-Mübârek, Yahyâ el-Kattân ve İbn Uleyye ondan rivayet etti; akranı Şu'be ve Vekî' de ondan hadis aldı. Şu'be, Katâde'nin hadislerini kendisinden daha iyi bildiğini söylemiş; Ahmed b. Hanbel ezberini ondan daha iyi koruyan biri bulunacağını düşünmemiştir. "Emîrü'l-mü'minîn fi'l-hadîs" unvanıyla anılır.
+
+  Bazı kaynaklar Kaderiyye'ye mensup olduğunu belirtse de bu görüşü yaymadığı kaydedilir. Rivayetleri Muvatta' dışındaki temel hadis kitaplarında yer alır. Hadisi yalnız Allah rızası için rivayet ettiğini söyler, Allah korkusuyla çok ağladığı için gözlerini kaybettiği rivayet edilir. 153'te vefat etti.
+hocalari:
+  - kisi: katade-b-diame
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hişâm ed-Destüvâî\"", url: "https://islamansiklopedisi.org.tr/hisam-ed-destuvai"}
+  - kisi: hammad-b-ebi-suleyman
+    kaynak: *tdv
+  - kisi: eyyub-es-sahtiyani
+    kaynak: *tdv
+  - kisi: mamer-b-rasid
+    kaynak: *tdv
+  - kisi: yahya-b-ebi-kesir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+kaynaklar:
+  - *tdv
+dogrulandi: true

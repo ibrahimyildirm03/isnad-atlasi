@@ -1,0 +1,71 @@
+isim: Âmir eş-Şa'bî
+tam_isim: Ebû Amr Âmir b. Şerâhîl eş-Şa'bî el-Hemdânî
+arapca: عامر بن شراحيل الشعبي
+cerh_tadil: Sika, meşhur, fakih, fâzıl (İbn Hacer, Takrîb; 3. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Âmir
+  kunye: Ebû Amr
+  nesep: Âmir b. Şerâhîl b. Abd
+  nesep_arapca: عامر بن شراحيل الشعبي الهمداني الكوفي
+  nisbeler:
+    - eş-Şa'bî
+    - el-Hemdânî
+    - el-Kûfî
+  aciklama: "\"eş-Şa'bî\" nisbesi Hemdân'ın Şa'b koluna dayanır."
+dogum: {hicri: 19, miladi: 640, not: "17 ile 31 arasında farklı tarihler verilmiştir"}
+vefat: {hicri: 104, miladi: 722, not: "103 ile 110 arasında farklı tarihler verilmiştir"}
+bolge: kufe
+ozet: Çok sayıda sahâbîye yetişen Kûfeli muhaddis; Kûfe'de rivayete dayanan yaklaşımın temsilcisi.
+biyografi: |
+  Ebû Amr Âmir b. Şerâhîl eş-Şa'bî, 19'da Kûfe'de doğdu (başka yıllar da verilir). Soyu Yemen'deki Himyerîlerin Benî Şa'bân koluna dayanır; annesi Celûlâ Savaşı'nda esir alınanlardandı. Kendi ifadesine göre beş yüz sahâbî gördü ve yetmişten fazlasından hadis öğrendi. Abdullah b. Mes'ûd ekolünün önde gelen talebesiydi; İbn Ömer'den bir yıl ders okudu, Hz. Ali'den de rivayet etti. Tâbiîlerden Alkame, Esved, Kādî Şüreyh ve Mesrûk'tan hadis aldı.
+
+  Abdülmelik b. Mervân, A'meş, İbn Sîrîn, Katâde, Hammâd b. Ebî Süleymân ve Câbir el-Cu'fî talebeleri arasındadır. İbnü'l-Eş'as isyanına katıldı; isyan 82'de Deyrülcemâcim'de bastırılınca dokuz ay gizlendi, sonra Haccâc tarafından affedildi. Halife Abdülmelik çocuklarının eğitimini ona verdi ve onu Bizans'a elçi olarak gönderdi.
+
+  Ömer b. Abdülazîz'in isteğiyle Kûfe kadılığını kabul etti, bir yıl sonra ayrıldı. Duyduğunu hemen ezberler, kendisi yazmayı gereksiz görse de talebelerine yazmalarını tavsiye ederdi. Megāzî, şiir, tarih ve eyyâmü'l-Arab'da önde gelen râvilerdendi; mürsellerinin sıhhati konusunda ittifak vardır.
+
+  Fetva vermekten çekinir, bilmediğinde "bilmiyorum" derdi; kıyas ve re'yi benimsemezdi. Neşeli ve nüktedan bir kişiliği vardı. Yaygın kanaate göre 104'te Kûfe'de vefat etti.
+hocalari:
+  - kisi: ebu-bekr-b-abdirrahman
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Bekir b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/ebu-bekir-b-abdurrahman"}
+  - kisi: ali
+    ihtilafli: true
+    not: Ali b. Ebî Tâlib'i gördüğü kesin; ondan rivayet edip etmediği ihtilaflıdır
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Şa'bî\"", url: "https://islamansiklopedisi.org.tr/sabi"}
+  - kisi: mesruk-b-el-ecda
+    kaynak: *tdv
+  - kisi: kadi-sureyh
+    kaynak: *tdv
+  - kisi: alkame-b-kays
+    kaynak: *tdv
+  - kisi: esved-b-yezid
+    kaynak: *tdv
+  - kisi: ikrime
+    kaynak: *tdv
+  - kisi: kasim-b-muhammed
+    kaynak: *tdv
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: imran-b-husayn
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İmrân b. Husayn"
+      url: https://islamansiklopedisi.org.tr/imran-b-husayn
+  - kisi: bureyde-b-husayb
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Büreyde b. Husayb"
+      url: https://islamansiklopedisi.org.tr/bureyde-b-husayb
+  - kisi: ummu-seleme
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ümmü Seleme"
+      url: https://islamansiklopedisi.org.tr/ummu-seleme
+kaynaklar:
+  - *tdv
+dogrulandi: true

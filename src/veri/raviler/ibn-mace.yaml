@@ -1,0 +1,41 @@
+isim: İbn Mâce
+tam_isim: Ebû Abdillâh Muhammed b. Yezîd b. Mâce er-Rabeî el-Kazvînî
+arapca: محمد بن يزيد بن ماجه القزويني
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Muhammed
+  nesep: Muhammed b. Yezîd (Mâce)
+  nesep_arapca: محمد بن يزيد بن ماجه الربعي القزويني
+  nisbeler: [er-Rabeî, el-Kazvînî]
+  lakap: İbn Mâce
+  aciklama: '"Mâce"nin dedesinin ya da annesinin adı, yahut babası Yezîd''in lakabı olduğu yönünde üç görüş vardır. "er-Rabeî" nisbesi Rebîaoğullarına velâ bağından gelir.'
+dogum: {hicri: 209, miladi: 824}
+vefat: {hicri: 273, miladi: 887, not: "21 Ramazan 273; 275 rivayeti doğru görülmemiştir"}
+dogum_yeri: Kazvin
+vefat_yeri: Kazvin
+kutub_i_tisa: "Kütüb-i Sitte: Sünen-i İbn Mâce"
+bolge: cibal
+kutub_i_sitte: es-Sünen (Sünen-i İbn Mâce)
+eserleri: ["es-Sünen (yaklaşık 4341 hadis)", Târîhu'l-hulefâ, et-Tefsîr, et-Târîh (Kazvin râvileri)]
+rical:
+  rumuz: "ق"
+ozet: Kütüb-i Sitte'nin altıncı kitabı kabul edilen es-Sünen'in müellifi Kazvinli hâfız.
+biyografi: |
+  209'da Kazvin'de doğdu. Gençliğinde Kazvin'de Ali b. Muhammed et-Tanâfisî ve Amr b. Râfi' el-Becelî'den hadis öğrendi. Ardından Kûfe, Basra, Vâsıt, Bağdat, Dımaşk, Hıms, Mısır, Mekke, Medine, Rey ve Nîşâbur'u dolaştı.
+
+  Ebû Bekr b. Ebî Şeybe, Muhammed b. Beşşâr (Bündâr), Züheyr b. Harb, Hişâm b. Ammâr ve Muhammed b. Rumh hocaları arasındadır; es-Sünen'deki rivayetlerinin önemli bir kısmı İbn Ebî Şeybe yoluyla gelir.
+
+  Yaklaşık 4341 hadis ihtiva eden es-Sünen'inde bin kadar zayıf rivayet bulunduğu kabul edilir. Buna rağmen tertibinin güzelliği ve diğer kitaplarda bulunmayan rivayetleri (zevâid) sebebiyle sonraki asırlarda Kütüb-i Sitte'nin altıncı kitabı sayılmıştır. Eser önce Delhi'de taş baskı olarak, sonra Muhammed Fuâd Abdülbâkī ve Muhammed Mustafa el-A'zamî tarafından neşredilmiştir.
+
+  Târîhu'l-hulefâ ilk İslâm tarihi çalışmalarındandır; es-Sülâsiyyât, iki cüzü görülmüş bir tefsir ve Kazvin râvilerine dair et-Târîh diğer eserleridir. Kardeşi Hasan b. Yezîd de muhaddistir. 21 Ramazan 273'te vefat etti.
+hocalari:
+  - kisi: ibn-ebi-seybe
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Şeybe, Ebû Bekir\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-seybe-ebu-bekir"}
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"İbn Mâce\"", url: "https://islamansiklopedisi.org.tr/ibn-mace"}
+dogrulandi: true

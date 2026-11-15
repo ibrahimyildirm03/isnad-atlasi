@@ -1,0 +1,67 @@
+isim: Evzâî
+tam_isim: Ebû Amr Abdurrahmân b. Amr el-Evzâî
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Abdurrahmân
+  kunye: Ebû Amr
+  nesep: Abdurrahmân b. Amr b. Yuhmid
+  nesep_arapca: عبد الرحمن بن عمرو بن يحمد الأوزاعي
+  nisbeler:
+    - el-Evzâî
+    - eş-Şâmî
+    - ed-Dımaşkī
+    - el-Beyrûtî
+  aciklama: "\"el-Evzâî\" nisbesinin Hemdân'ın Evzâ' koluna veya Dımaşk'taki Evzâ' mahallesine dayandığı söylenir."
+dogum: {hicri: 88, miladi: 707}
+vefat: {hicri: 157, miladi: 774}
+vefat_yeri: Beyrut
+dogum_yeri: Ba'lebek
+bolge: sam
+rical:
+  sozler:
+    - kim: Nevevî
+      soz: Bütün âlimler Evzâî'nin imamlığı konusunda icmâ etmişlerdir.
+      kaynak: DİA, "Evzâî"
+eserleri:
+  - Kitâbü Siyeri'l-Evzâî (Şâfiî'nin el-Üm'ünde)
+  - Müsnedü'l-Evzâî
+  - Kitâbü's-Sünen fi'l-fıkh
+  - Kitâbü'l-Mesâil fi'l-fıkh
+imam: {mezheb: Evzâî, yasayan: false}
+ozet: Şam ve Endülüs'te bir dönem yaygın olan Evzâî mezhebinin imamı.
+biyografi: |
+  88/707'de Ba'lebek'te doğdu; küçük yaşta babasını kaybedip annesinin yanında büyüdü. İlk derslerini Ba'lebek'te aldı, Dımaşk'ta Nümeyr b. Evs ve Mekhûl'den okudu. Divanda görevliyken Yemâme'ye gitti ve Yahyâ b. Ebî Kesîr'in yanında bir süre kaldı. Irak, Mekke, Medine ve Beytülmakdis'te Katâde ve Atâ b. Ebî Rebâh gibi âlimlerden ders aldı.
+
+  Hac yolculuklarında Mâlik ve Süfyân es-Sevrî ile ilmî müzakerelerde bulundu; Şam'ın fıkıh otoritesi kabul edildi. Kadılık tekliflerini reddetti ve Abbâsî kumandanı Abdullah b. Ali'nin karşısında zulmü açıkça kınadı. İleri yaşta sınır nöbeti (ribât) için Beyrut'a yerleşti ve 28 Safer 157'de orada vefat etti.
+
+  Mezhebi Suriye, Irak, Hicaz, Mısır, Mağrib ve Endülüs'e yayıldı; Endülüs'te Sa'saa b. Sellâm, Suriye'de Abdullah b. Semâa ve Saîd b. Abdülazîz bu yayılmada etkili oldu. Zamanla Şam'da Şâfiî, Endülüs'te Mâlikî mezhebi karşısında çekildi. Günümüze ulaşan tek eseri, Şâfiî'nin el-Üm'ünde yer alan Siyerü'l-Evzâî'dir; hadis derlemeleri Beyrut'taki bir depremde yanmıştır.
+hocalari:
+  - kisi: muhammed-b-sirin
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Evzâî\"", url: "https://islamansiklopedisi.org.tr/evzai"}
+    ihtilafli: true
+    not: Evzâî 110'da Basra'ya gittiğinde İbn Sîrîn hastaydı ve ders okutamıyordu (TDV, "Evzâî"); TDV, "İbn Sîrîn" ise Evzâî'yi ondan faydalananlar arasında sayar
+  - kisi: katade-b-diame
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Evzâî\"", url: "https://islamansiklopedisi.org.tr/evzai"}
+  - kisi: ata-b-ebi-rebah
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Evzâî\"", url: "https://islamansiklopedisi.org.tr/evzai"}
+  - kisi: mekhul
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Evzâî\"", url: "https://islamansiklopedisi.org.tr/evzai"}
+  - kisi: nafi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Nâfi'"
+      url: https://islamansiklopedisi.org.tr/nafi--tabiin-alimi
+  - kisi: rebiatur-rey
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Rebîa b. Ebû Abdurrahman"
+      url: https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman
+  - kisi: yahya-b-said-el-ensari
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yahyâ b. Saîd el-Ensârî"
+      url: https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari
+  - kisi: yahya-b-ebi-kesir
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206
+      url: https://shamela.ws/book/1994/202
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Evzâî\"", url: "https://islamansiklopedisi.org.tr/evzai"}
+dogrulandi: true

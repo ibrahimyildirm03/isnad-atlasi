@@ -1,0 +1,38 @@
+isim: Hâlid b. Ma'dân
+tam_isim: Ebû Abdillâh Hâlid b. Ma'dân b. Ebî Kerib el-Kelâî el-Hımsî
+arapca: خالد بن معدان
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Hâlid
+  nesep: Hâlid b. Ma'dân b. Ebî Kerib
+  nesep_arapca: خالد بن معدان بن أبي كريب الكلاعي الحمصي
+  nisbeler: [el-Kelâî, eş-Şâmî, el-Hımsî]
+vefat: {hicri: 103, miladi: 721, not: "104, 105 ve 108 de denmiştir"}
+vefat_yeri: Entartus (Şam sahili)
+bolge: sam
+rical:
+  tehzibul_kemal: "VIII, 167-173"
+  tehzibut_tehzib: "III, 118-120"
+  rumuz: "ع"
+ozet: Hıms'ın zâhid fakihi; Halife Velîd'in görüşüne başvurduğu Şam tâbiîsi.
+biyografi: |
+  Ebû Abdillâh Hâlid b. Ma'dân el-Kelâî, Şam ve Humus bölgesine yerleştiği için "eş-Şâmî" ve "el-Hımsî" nisbeleriyle anılır. Bir kısmından mürsel olarak olmak üzere Muâz b. Cebel, Hz. Âişe, Ebû Hüreyre, Muâviye ve Abdullah b. Ömer'den rivayet etti. Sevr b. Yezîd, Muhammed b. İbrâhim et-Teymî, Hassân b. Atıyye ve Safvân b. Amr ondan hadis aldı.
+
+  Mesleme b. Abdülmelik komutasındaki İstanbul kuşatması dahil Bizans'a karşı birçok savaşa katıldı. Halife Velîd b. Abdülmelik bir konuda onun görüşüne başvurmuş ve kadılara bu görüşe göre karar vermelerini bildirmiştir. Evzâî ve Süfyân es-Sevrî onu sika diye övmüş, fıkıhta otorite kabul edilmiştir; rivayetleri Kütüb-i Sitte'de yer alır.
+
+  Zamanının çoğunu oruçlu geçiren zâhid bir âlimdi; şöhretten hoşlanmaz, etrafında kalabalık toplanınca oradan uzaklaşırdı. İnsanın ikisi maddî ikisi mânevî dört gözü olduğunu, Allah bir kulun hayrını dilediğinde kalp gözünü açtığını söylerdi. 103'te Şam yakınlarındaki Entartus'ta vefat etti.
+hocalari:
+  - kisi: muaz-b-cebel
+    ihtilafli: true
+    not: Muâz'ı idrak etmediği, rivayetinin mürsel olduğu söylenir
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hâlid b. Ma'dân\"", url: "https://islamansiklopedisi.org.tr/halid-b-madan"}
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: ibn-omer
+    kaynak: *tdv
+  - kisi: ebu-umame-el-bahili
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Ümâme\"", url: "https://islamansiklopedisi.org.tr/ebu-umame"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

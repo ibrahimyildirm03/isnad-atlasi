@@ -1,0 +1,48 @@
+isim: Ebû Nuaym el-Fazl b. Dükeyn
+tam_isim: Ebû Nuaym el-Fazl b. Amr (Dükeyn) b. Hammâd et-Teymî et-Talhî el-Mülâî el-Kûfî
+arapca: أبو نعيم الفضل بن دكين
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Nuaym
+  ism: el-Fazl
+  nesep: el-Fazl b. Amr (Dükeyn) b. Hammâd b. Züheyr, mevlâ Âl-i Talha
+  nesep_arapca: الفضل بن عمرو بن حماد بن زهير الملائي التيمي الكوفي
+  nisbeler: [el-Kûfî, et-Teymî, et-Talhî, el-Mülâî]
+  lakap: Emîrü'l-mü'minîn fi'l-hadîs
+  aciklama: Babası Amr'ın lakabı Dükeyn olduğu için "el-Fazl b. Dükeyn" diye tanındı. Talha b. Ubeydullah ailesinin himayesinde bulunduğu için "et-Teymî" ve "et-Talhî", çarşaf ve örtü (mülâe) sattığı için "el-Mülâî" nisbeleriyle anılır.
+dogum: {hicri: 130, miladi: 748, not: "130 yılının sonları"}
+vefat: {hicri: 219, miladi: 834}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  tehzibut_tehzib: "VIII, 270-276"
+  rumuz: "ع"
+ozet: Buhârî'nin en çok rivayet ettiği Kûfeli hocalarından; Mihne'de halku'l-Kur'ân görüşünü reddeden hâfız.
+eserleri:
+  - Kitâbü's-Salât
+  - et-Târîh
+  - Kitâbü'l-Menâsik
+biyografi: |
+  Ebû Nuaym el-Fazl b. Amr (Dükeyn) el-Mülâî, 130 sonlarında doğdu; babasının lakabı Dükeyn olduğu için bu adla tanındı. Kûfe'de çarşaf ve örtü (mülâe) sattığı için "el-Mülâî", Talha b. Ubeydullah ailesinin himayesinde bulunduğu için "et-Teymî" nisbeleriyle anıldı.
+
+  A'meş, Şu'be, Süfyân es-Sevrî, Mâlik ve Ebû Hanîfe'den ders aldı; Sevrî'nin hocalarından yaklaşık yüz âlimden yararlandığını söylemiştir. Buhârî ondan Sahîh'inde 175 hadis rivayet etmiştir; Yahyâ b. Maîn, İshak b. Râhûye, Ahmed b. Hanbel ve Abd b. Humeyd de talebelerindendir.
+
+  Yahyâ b. Maîn ve Ahmed b. Hanbel onu bir telkin denemesine tâbi tuttular: İbn Maîn her on hadise kendisine ait olmayan bir hadis ekleyerek okudu, Ebû Nuaym eklenenleri tek tek reddedip öfkelendi. Ebû Hâtim, ezberindeki hadisleri her seferinde aynı lafızlarla rivayet etmesine hayran kalmıştır.
+
+  Mihnede Kûfe'de sorgulanırken düğmesini koparıp boynunun bu düğmeden daha değerli olmadığını söyleyerek Kur'an'ın mahlûk olmadığını savundu; görüştüğü yaklaşık 870 muhaddisin hiçbirinin aksini söylemediğini belirtti. Çok yoksuldu ve kalabalık ailesini geçindirmek için rivayet karşılığı para almayı meşru gördü. 29 Şâban 219'da Kûfe'de vefat etti.
+hocalari:
+  - kisi: ames
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Nuaym, Fazl b. Dükeyn\"", url: "https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn"}
+  - kisi: sube-b-haccac
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: ebu-hanife
+    kaynak: *tdv
+  - kisi: ibn-ebi-zib
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Zi'b\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-zib"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

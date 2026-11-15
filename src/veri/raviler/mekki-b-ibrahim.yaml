@@ -1,0 +1,45 @@
+isim: Mekkî b. İbrâhîm
+tam_isim: Ebü's-Seken Mekkî b. İbrâhîm b. Beşîr et-Temîmî el-Hanzalî el-Belhî
+arapca: مكي بن إبراهيم البلخي
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebü's-Seken
+  ism: Mekkî
+  nesep: Mekkî b. İbrâhîm b. Beşîr b. Ferkad
+  nesep_arapca: مكي بن إبراهيم بن بشير التميمي الحنظلي البلخي
+  nisbeler: [et-Temîmî, el-Hanzalî, el-Belhî]
+  lakap: Şeyhu Horasân
+dogum: {hicri: 126, miladi: 744, not: "kendi ifadesiyle"}
+vefat: {hicri: 215, miladi: 830, not: "Şâban 215 (İbn Sa'd)"}
+vefat_yeri: Belh
+bolge: horasan
+rical:
+  rumuz: "ع"
+  sozler:
+    - {kim: İbn Sa'd, soz: "Sika, sebttir.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 542"}
+    - {kim: Dârekutnî, soz: "Sika, me'mûndur.", kaynak: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 542"}
+ozet: '"Horasan''ın şeyhi" Belhli hâfız; Buhârî''nin sülâsiyyâtının çoğunu ondan rivayet ettiği hoca.'
+biyografi: |
+  Ebü's-Seken Mekkî b. İbrâhîm b. Beşîr b. Ferkad et-Temîmî el-Hanzalî, Temîm'in Berâcim koluna mensuptur. Kendi ifadesine göre 126'da Belh'te doğdu; babası on bir yaşındayken onu yanına aldı. Zehebî onu "imam, hâfız, sâdık, Horasan'ın müsnidi" diye anar.
+
+  Belh'te doğdu; kendi ifadesine göre on yedi yaşında hadis tahsiline başladı. Yezîd b. Ebî Ubeyd, Ca'fer es-Sâdık, Behz b. Hakîm, Ebû Hanîfe, Hişâm b. Hassân ve İbn Cüreyc'ten rivayet etti. Altmış defa hac yaptığını, on yıl Mekke'de mücâvir kaldığını ve on yedi tâbiîden hadis yazdığını söylediği nakledilir.
+
+  Kaynaklarda "imam, hâfız, Horasan'ın şeyhi" diye anılır. İbn Sa'd onu sika ve sebt, Dârekutnî sika ve me'mûn saydı; Nesâî "lâ be'se bih" dedi.
+
+  Buhârî, Ahmed b. Hanbel, Yahyâ b. Maîn ve Zühlî ondan hadis aldı. Tâbiîlere yetişmiş olması sebebiyle Buhârî'nin Sahîh'indeki üç râvili (sülâsî) isnadların çoğu onun üzerinden gelir. Belh'te vefat etti.
+
+  İbn Sa'd'ın kaydına göre hac niyetiyle Bağdat'a geldi, gidişte ve dönüşte hadis rivayet etti; halk ondan yazdı. Belh'ten çölü elli defa hac için geçtiğini ve Mekke'deki ev kiraları için bin iki yüz dinardan fazla ödediğini söylediği nakledilir. Kendisine ihtiyaç duyulacağını bilse tâbiîlerden başkasından yazmayacağını söylemiştir. Mizzî'nin kaydına göre Ebû Hanîfe ve Mâlik'ten de rivayet etmiştir. Yüz yaşına yaklaşmış olarak 15 Şâban 215'te Belh'te vefat etti.
+hocalari:
+  - kisi: ebu-hanife
+    kaynak: &sm {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 541", url: "https://shamela.ws/book/1994/537"}
+  - kisi: ibn-cureyc
+    kaynak: *sm
+kaynaklar:
+  - *sm
+  - {ad: "İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 542", url: "https://shamela.ws/book/1994/538"}
+  - ad: Mizzî, Tehzîbü'l-Kemâl, XXVIII/476-477 (Şâmile)
+    url: https://shamela.ws/book/3722/15452
+  - ad: Zehebî, Siyer, IX/549-550 (Şâmile)
+    url: https://shamela.ws/book/10906/6215
+dogrulandi: true
+dogrulama_notu: TDV İslâm Ansiklopedisi'nde ayrı maddesi bulunmadığı için Şâmile'deki İbn Abdülhâdî'nin Tabakātü ulemâi'l-hadîs'inden alındı.

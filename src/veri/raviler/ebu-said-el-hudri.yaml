@@ -1,0 +1,29 @@
+isim: Ebû Saîd el-Hudrî
+tam_isim: Ebû Saîd Sa'd b. Mâlik b. Sinân el-Hudrî el-Ensârî el-Hazrecî
+arapca: أبو سعيد الخدري
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Saîd
+  ism: Sa'd
+  nesep: Sa'd b. Mâlik b. Sinân b. Ubeyd b. Sa'lebe b. Ubeyd b. el-Ebcer (Hudre) b. Avf b. el-Hâris b. el-Hazrec
+  nesep_arapca: سعد بن مالك بن سنان بن عبيد بن ثعلبة بن عبيد بن الأبجر (خدرة) بن عوف بن الحارث بن الخزرج
+  nisbeler: [el-Hudrî, el-Ensârî, el-Hazrecî, el-Medenî]
+  aciklama: Adından çok künyesiyle tanınır. "el-Hudrî" nisbesi Hazrec'in Hudre koluna mensubiyetinden gelir. Annesi Üneyse bint Ebî Hârise'dir; sahâbî Katâde b. Nu'mân ana bir kardeşidir.
+vefat: {hicri: 74, miladi: 693, not: "farklı tarihler de verilmiştir"}
+vefat_yeri: Medine
+bolge: medine
+hadis_sayisi: {sayi: 1170, kaynak: "Bakī b. Mahled, el-Müsned (DİA)"}
+rical:
+  tehzibut_tehzib: "III, 479-480"
+  rumuz: "ع"
+ozet: Müksirûnun yedincisi; genç sahâbîlerin en âlimi sayılan "Medine müftüsü".
+biyografi: |
+  Medine'de Hazrec kabilesinden doğdu. On üç yaşındayken Uhud'a katılmak istedi, yaşı küçük olduğu için geri çevrildi. Hendek'e ve sonraki on iki kadar gazveye katıldı; Bey'atü'r-rıdvân'da ilk biat edenlerdendi.
+
+  Genç sahâbîlerin en âlimi sayıldı; kendisine "imam" ve "Medine müftüsü" denildi. Bakī b. Mahled'in Müsned'inde 1170, Sahîhayn'da 111 rivayeti vardır. Hadislerin yazılmasını hoş görmeyen rivayetin râvisi olarak bilinir. Mervân'ın bayram hutbesini namazdan öne almasına karşı çıktı. 74 yılında Medine'de vefat etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Saîd el-Hudrî\"", url: "https://islamansiklopedisi.org.tr/ebu-said-el-hudri"}
+  - "İbn Hacer, el-İsâbe, II, 35; III, 85-86"
+  - "Zehebî, A'lâmü'n-nübelâ, III, 168-172"
+dogrulandi: true

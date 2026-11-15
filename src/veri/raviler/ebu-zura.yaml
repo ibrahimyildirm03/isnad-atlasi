@@ -1,0 +1,37 @@
+isim: Ebû Zür'a er-Râzî
+tam_isim: Ebû Zür'a Ubeydullah b. Abdilkerîm b. Yezîd el-Mahzûmî er-Râzî
+arapca: أبو زرعة الرازي عبيد الله بن عبد الكريم
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Zür'a
+  ism: Ubeydullah
+  nesep: Ubeydullah b. Abdilkerîm b. Yezîd b. Ferrûh, mevlâ Ayyâş b. Mutarrif el-Mahzûmî
+  nesep_arapca: عبيد الله بن عبد الكريم بن يزيد بن فروخ المخزومي مولاهم الرازي
+  nisbeler: [el-Mahzûmî (mevlâ), er-Râzî]
+  aciklama: Künyesiyle tanınır; DİA'ya göre bu künye ona Dımaşk ziyaretlerinde hayran kalan hemşehrileri tarafından verilmiştir. Nisbesi Rey şehrine dayanır.
+dogum: {hicri: 194, miladi: 810, not: "yaygın görüş; farklı tarihler de nakledilir"}
+vefat: {hicri: 264, miladi: 878, not: "Zilhicce'nin son günü"}
+vefat_yeri: Rey
+bolge: cibal
+eserleri: ["Kitâbü'd-Duafâ ve'l-kezzâbîn ve'l-metrûkîn (günümüze ulaşan tek eseri)", "ez-Zühd, el-İlel, et-Tefsîr, el-Müsned (kayıp)"]
+rical:
+  tehzibut_tehzib: "VII, 30-34"
+ozet: İlelü'l-hadîsin büyük otoritesi Reyli hâfız; Müslim'in Sahîh'ini tetkik eden münekkit.
+biyografi: |
+  Ubeydullah b. Abdilkerîm b. Yezîd, kabul edilen görüşe göre 194'te Rey'de doğdu. "Ebû Zür'a" künyesini, Dımaşklı muhaddis Ebû Zür'a ed-Dımaşkī'ye hayran kalan hemşehrileri vermiştir. Babası ve amcaları da muhaddistir. İlk ezberlediği hadis kitabı el-Muvatta' oldu; on üç yaşında Kûfe'ye gidip sekiz ay kaldı.
+
+  227-232 arasındaki uzun yolculuğunda hac yaptı, iki yıl Mısır'da kalarak Rebî' b. Süleyman'dan Şâfiî'nin bütün eserlerini okudu; Şam, Cezîre, Bağdat ve Basra'yı dolaştı. Bağdat'ta en çok Ahmed b. Hanbel'den yararlandı; Ahmed de sağlamlığından şüphe ettiği hadisleri onunla müzakere eder, bunu nafile namaza tercih ederdi. 580 hocası tespit edilmiştir.
+
+  Otuz iki yaşında okutmaya başladı. Müslim, Tirmizî, Nesâî, Ebû Hâtim, İbrâhim el-Harbî, Abdullah b. Ahmed ve Taberî talebeleri arasındadır; en önemlisi İbn Ebî Hâtim'dir. Müslim, Sahîh'ini tamamlayınca ona sunmuş ve onun uygun görmediği rivayetleri almamıştır. Ebû Hâtim, illetleri anlamada Ahmed, İbn Maîn ve İbnü'l-Medînî'den sonra onu saymıştır.
+
+  Yüz binlerce rivayeti ezbere bildiği nakledilir; tenkitlerinde arkadaşı Ebû Hâtim'in sertliğine karşı insaflı bir dil kullandı. Günümüze ulaşan tek eseri, Berzaî'nin sorularına verdiği cevaplardan oluşan Kitâbü'd-Duafâ'dır. Zilhicce 264'ün son günü Rey'de, yanındaki âlimlerin okuduğu telkin hadisinin senedini tamamlarken vefat etti.
+hocalari:
+  - kisi: ebu-nuaym
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Zür'a er-Râzî\"", url: "https://islamansiklopedisi.org.tr/ebu-zura-er-razi"}
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

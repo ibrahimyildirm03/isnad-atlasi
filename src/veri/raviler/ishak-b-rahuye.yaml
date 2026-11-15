@@ -1,0 +1,60 @@
+isim: İshâk b. Râhûye
+tam_isim: Ebû Ya'kūb İshâk b. İbrâhîm b. Mahled et-Temîmî el-Hanzalî el-Mervezî
+arapca: إسحاق بن راهويه
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Ya'kūb
+  ism: İshâk
+  nesep: İshâk b. İbrâhîm b. Mahled b. İbrâhîm
+  nesep_arapca: إسحاق بن إبراهيم بن مخلد التميمي الحنظلي المروزي
+  nisbeler: [et-Temîmî, el-Hanzalî, el-Mervezî, en-Nîsâbûrî]
+  lakap: İbn Râhûye
+  aciklama: Babası Mekke yolunda doğduğu için "yolda bulunan" anlamındaki "Râhûye" lakabıyla anıldı; İshâk da "İbn Râhûye" diye tanındı.
+dogum: {hicri: 161, miladi: 778}
+vefat: {hicri: 238, miladi: 853, not: "14 Şâban 238"}
+dogum_yeri: Merv
+vefat_yeri: Nîşâbur
+bolge: horasan
+eserleri: [el-Müsned, et-Tefsîr]
+rical:
+  tehzibul_kemal: "II, 373-388"
+  tehzibut_tehzib: "I, 216-218"
+ozet: Horasan'da Ehl-i sünnetin imamı ve mutlak müctehid; Buhârî'ye Sahîh'i yazmayı teşvik eden hoca.
+biyografi: |
+  161'de (163 ve 166 da denir) Merv'de doğdu ve ilk tahsilini orada yaptı. Temîm'in Hanzala koluna mensup babasının Mekke yolunda doğması sebebiyle ailesi "Râhûye" (yolda doğan) lakabıyla anıldı.
+
+  Yirmi üç yaşında ilim yolculuğuna çıktı; Irak, Şam, Hicaz ve Yemen'de İbnü'l-Mübârek, Vekî', Süfyân b. Uyeyne, Abdurrahmân b. Mehdî, Abdürrezzâk, Yahyâ el-Kattân ve Şâfiî'den hadis aldı. Yüz bin hadis bildiği ve yetmiş bin hadisi talebelerine ezberden yazdırdığı rivayet edilir.
+
+  Tahsilini tamamladıktan sonra Nîşâbur'a yerleşti ve ömrünün sonuna kadar orada ders verdi. Fıkıhta önce re'y ehlinin yolunu izledi; Şâfiî ile yaptığı tartışmalardan sonra onun usulünü benimsedi. Ahmed b. Hanbel'e yakınlığı sebebiyle Hanbelî sayıldıysa da herhangi bir mezhebe bağlanmayan mutlak bir müctehid olduğu anlaşılır.
+
+  Buhârî, onun teşvikiyle el-Câmiu's-sahîh'ine yalnız sahih hadisleri almaya karar vermiştir. Altı cilt olduğu kaydedilen el-Müsned'inin bir cildi günümüze ulaşmıştır. Ahmed b. Hanbel, Buhârî, Müslim, Ebû Dâvûd, Tirmizî ve Nesâî onun talebeleridir. 14 Şâban 238'de Nîşâbur'da vefat etti.
+hocalari:
+  - kisi: ibnul-mubarek
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Râhûye\"", url: "https://islamansiklopedisi.org.tr/ibn-rahuye"}
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: veki-b-cerrah
+    kaynak: *tdv
+  - kisi: abdurrahman-b-mehdi
+    kaynak: *tdv
+  - kisi: abdurrezzak
+    kaynak: *tdv
+  - kisi: yahya-b-said-el-kattan
+    kaynak: *tdv
+  - kisi: safii
+    kaynak: *tdv
+  - kisi: ibn-uleyye
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Uleyye"
+      url: https://islamansiklopedisi.org.tr/ibn-uleyye
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+  - kisi: ebu-nuaym
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Nuaym, Fazl b. Dükeyn"
+      url: https://islamansiklopedisi.org.tr/ebu-nuaym-fazl-b-dukeyn
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,29 @@
+isim: el-Hâris b. Hişâm
+tam_isim: Ebû Abdirrahmân el-Hâris b. Hişâm b. el-Mugîre el-Mahzûmî
+arapca: الحارث بن هشام
+tabaka: sahabe
+isim_bilgisi:
+  ism: Hâris
+  kunye: Ebû Abdirrahmân
+  nesep: el-Hâris b. Hişâm b. el-Mugīre b. Abdillâh b. Ömer b. Mahzûm
+  nesep_arapca: الحارث بن هشام بن المغيرة المخزومي
+  nisbeler:
+    - el-Kureşî
+    - el-Mahzûmî
+  aciklama: Ebû Cehil'in öz kardeşidir; Mekke'nin fethinde müslüman oldu.
+vefat: {hicri: 18, miladi: 639, not: "Amvâs vebasında; Yermük'te (15/636) öldüğü de rivayet edilir"}
+vefat_yeri: Amvâs veya Yermük
+bolge: mekke
+diger_bolgeler: [sam]
+ozet: Ebû Cehil'in kardeşi; Mekke'nin fethinde müslüman oldu, Şam fetihlerine katıldı. Vahyin nasıl geldiğini Resûlullah'a soran sahâbî olarak Buhârî'nin Sahîh'inin başında anılır; Ebû Bekr b. Abdirrahmân'ın dedesidir.
+biyografi: |
+  Kureyş'in önde gelen isimlerindendir; cömertliğiyle tanınırdı. Ebû Cehil'in kardeşi, Hâlid b. Velîd'in amcasının oğludur. Bedir ve Uhud'da müşriklerin safında yer aldı; Bedir'de meydandan kaçtı ve bunu savunduğu şiirleri savaştan kaçanların mazeretine örnek gösterilmiştir.
+
+  Mekke'nin fethinde Ümmü Hânî'nin evine sığındı; Hz. Peygamber onu himayesine aldı ve aynı gün müslüman oldu. Huneyn'e katıldı; Hz. Peygamber müellefe-i kulûbdan olarak ona yüz deve verdi ve bundan sonra samimi bir müslüman oldu.
+
+  Hz. Ebû Bekir döneminde bütün malını ayırarak Şam seferine katıldı ve Ecnâdeyn'de sancak taşıdı. 18/639'da Amvâs vebasında, bir rivayete göre de Yermük'te vefat etti. Torunu Ebû Bekr b. Abdirrahmân Medine'nin yedi fakihinden biridir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Hâris b. Hişâm\"", url: "https://islamansiklopedisi.org.tr/haris-b-hisam"}
+  - {ad: "Buhârî, es-Sahîh, \"Bed'ü'l-vahy\", 2", url: "https://sunnah.com/bukhari:2"}
+dogrulandi: true

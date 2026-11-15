@@ -1,0 +1,42 @@
+isim: Hemmâm b. Münebbih
+tam_isim: Ebû Ukbe Hemmâm b. Münebbih b. Kâmil es-San'ânî
+arapca: همام بن منبه
+cerh_tadil: Sika (İbn Hacer, Takrîb; 4. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Hemmâm
+  kunye: Ebû Ukbe
+  nesep: Hemmâm b. Münebbih b. Kâmil b. Seyc
+  nesep_arapca: همام بن منبه بن كامل بن سيج اليماني الصنعاني
+  nisbeler:
+    - el-Yemânî
+    - es-San'ânî
+    - el-Ebnâvî
+  aciklama: "\"el-Ebnâvî\" nisbesi Yemen'e yerleşen Fars asıllı \"ebnâ\" topluluğundan gelir. Vehb b. Münebbih'in kardeşidir."
+rical:
+  tehzibul_kemal: XXX, 298
+  tehzibut_tehzib: 4/283 (Şâmile neşri)
+  takrib: Sika (4. tabaka)
+dogum: {hicri: 40, miladi: 660, not: "tahminî"}
+vefat: {hicri: 132, miladi: 750, not: "101, 102 ve 131 de denmiştir"}
+bolge: yemen
+diger_bolgeler: [medine]
+ozet: Ebû Hüreyre'den derlediği es-Sahîfetü's-sahîha ile ilk yazılı hadis metinlerinden birini bugüne ulaştıran San'alı tâbiî.
+biyografi: |
+  Ebû Ukbe Hemmâm b. Münebbih es-San'ânî, tahminen 40'ta Yemen'de doğdu. Babası Münebbih, Kisrâ'nın Habeşlilere karşı Yemen'e gönderdiği İranlı askerlerle gelip yerleşmiş ve Hz. Peygamber zamanında müslüman olmuştu; bu soydan gelenler gibi Hemmâm da "el-Ebnâvî" nisbesiyle anılır. Ağabeyi Vehb b. Münebbih ve yeğenleri de hadis okuyup okutmuştur.
+
+  Gençliğinde Medine'ye gidip Ebû Hüreyre'den hadis öğrendi; Muâviye, İbn Abbas, İbn ez-Zübeyr ve İbn Ömer'den de rivayet etti. Ağabeyi Vehb, yeğenleri ve Ma'mer b. Râşid ondan hadis aldı.
+
+  Ebû Hüreyre'den öğrendiği hadisleri es-Sahîfetü's-sahîha adlı mecmuada topladı. Günümüze ulaşan ilk yazılı hadis metinlerinden olan bu eser Hemmâm, Ma'mer ve Abdürrezzâk yoluyla Ahmed b. Hanbel, Buhârî ve Müslim'e ulaşmıştır. Sıfatlar, ibadetler, ahlâk, peygamberler, cennet ve cehennem gibi konularda 139 hadis içerir. Muhammed Hamîdullah eseri 1953'te tanıtıp yayımlamış, sonra Türkçe dahil birçok dile çevrilmiştir.
+
+  Kaynakların hepsi onu güvenilir bir muhaddis kabul eder; rivayetleri Müsned ve Kütüb-i Sitte'de yer alır. San'a'da vefat etti; cenaze namazını San'a valisi kıldırdı.
+hocalari:
+  - kisi: ebu-hureyre
+    not: sahîfesindeki hadisleri ondan aldı
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hemmâm b. Münebbih\"", url: "https://islamansiklopedisi.org.tr/hemmam-b-munebbih"}
+  - kisi: ibn-abbas
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/6737"}
+dogrulandi: true

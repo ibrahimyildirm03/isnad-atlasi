@@ -1,0 +1,30 @@
+isim: Ubâde b. es-Sâmit
+tam_isim: Ebü'l-Velîd Ubâde b. es-Sâmit b. Kays el-Ensârî el-Hazrecî
+arapca: عبادة بن الصامت
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebü'l-Velîd
+  ism: Ubâde
+  nesep: Ubâde b. es-Sâmit b. Kays b. Asram b. Fihr b. Sa'lebe b. Ganm b. Sâlim b. Avf b. el-Hazrec
+  nesep_arapca: عبادة بن الصامت بن قيس بن أصرم بن فهر بن ثعلبة بن غنم بن سالم بن عوف بن الخزرج
+  nisbeler: [el-Ensârî, el-Hazrecî, el-Bedrî]
+  aciklama: Kardeşi Evs b. es-Sâmit de sahâbîdir.
+dogum: {miladi: 586}
+vefat: {hicri: 34, miladi: 654, not: "45/665 de denmiştir; Dımaşk, Kıbrıs veya Medine'de öldüğü de söylenir"}
+dogum_yeri: Medine
+vefat_yeri: Kudüs (Remle'ye defnedildi)
+bolge: sam
+hadis_sayisi: {sayi: 181, kaynak: "Zehebî (DİA)"}
+rical:
+  tehzibut_tehzib: "V, 111-112"
+  rumuz: "ع"
+ozet: Akabe nakiblerinden; Hz. Ömer'in Şam'a muallim olarak gönderdiği, Filistin kadısı.
+biyografi: |
+  Birinci ve İkinci Akabe biatlarına katıldı; İkinci Akabe'de seçilen on iki nakibden biriydi. Bedir başta olmak üzere bütün gazvelerde bulundu.
+
+  Hz. Ömer onu Muâz b. Cebel ve Ebü'd-Derdâ ile birlikte Şam'a Kur'an ve fıkıh öğretmeye gönderdi; Hıms'ta, sonra Filistin'de kalıp Kudüs'te kadılık yaptı. Ondan Ebû Ümâme, Enes, Câbir, Ebû Müslim el-Havlânî, Cübeyr b. Nüfeyr, Ebû İdrîs el-Havlânî ve Atâ b. Yesâr rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ubâde b. Sâmit\"", url: "https://islamansiklopedisi.org.tr/ubade-b-samit"}
+  - "İbn Hacer, el-İsâbe (Bicâvî), III, 624-626"
+dogrulandi: true

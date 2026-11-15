@@ -1,0 +1,54 @@
+isim: Abdürrezzâk es-San'ânî
+tam_isim: Ebû Bekr Abdürrezzâk b. Hemmâm b. Nâfi' el-Himyerî es-San'ânî
+arapca: عبد الرزاق بن همام الصنعاني
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Abdürrezzâk
+  nesep: Abdürrezzâk b. Hemmâm b. Nâfi', mevlâ Himyer
+  nesep_arapca: عبد الرزاق بن همام بن نافع الحميري الصنعاني
+  nisbeler: [el-Himyerî, es-San'ânî, el-Yemânî]
+dogum: {hicri: 126, miladi: 744}
+vefat: {hicri: 211, miladi: 826}
+dogum_yeri: San'a
+vefat_yeri: San'a
+bolge: yemen
+eserleri: ["el-Musannef (21.033 rivayet)", Tefsîrü'l-Kur'ân]
+rical:
+  tehzibut_tehzib: "VI, 310-315"
+  rumuz: "ع"
+  sozler:
+    - kim: Yahyâ b. Maîn
+      soz: Abdürrezzâk irtidad etse bile hadisini terk etmeyiz.
+      kaynak: DİA, "Abdürrezzâk es-San'ânî"
+ozet: el-Musannef'in müellifi Yemenli hâfız; Ma'mer'in râvisi, Ahmed b. Hanbel ve İbn Maîn'in hocası.
+biyografi: |
+  126'da San'a'da doğdu. On sekiz yaşında İbn Cüreyc'ten hadis aldı; Hicaz, Şam ve Irak'ta Ma'mer b. Râşid, Süfyân es-Sevrî, İbn Uyeyne ve Mâlik'ten ders gördü. Ma'mer'in yanında yaklaşık sekiz yıl kaldı ve bu sürede on bin kadar hadis yazdı.
+
+  Ahmed b. Hanbel onun yanında bir yıl kadar kalarak pek çok hadis aldı; Yahyâ b. Maîn, İshâk b. Râhûye ve Ali b. el-Medînî de talebeleri arasındadır. Böylece San'a, 2. asrın sonunda hadis talebelerinin akın ettiği bir merkez hâline geldi.
+
+  Ömrünün sonunda gözlerini kaybetti; bundan sonra kitabında bulunmayan bazı rivayetler ona nisbet edilmeye başlandı. Ahmed b. Hanbel, Nesâî ve İbnü's-Salâh bu döneme ait rivayetlerde ihtiyatlı olunması gerektiğini belirtti. Hz. Ali'ye sevgisi ve Ehl-i beytin faziletine dair rivayetleri yüzünden Şiîlikle itham edildi; ancak Ebû Bekir ve Ömer'i Ali'den üstün tuttuğu kaydedilir, Ahmed b. Hanbel de bu iddiayı doğrulayacak bir şey duymadığını söylemiştir.
+
+  Fıkıh bablarına göre düzenlenmiş ve 21.033 rivayet ihtiva eden el-Musannef'i Ma'mer'in Kitâbü'l-Câmi'i ile sona erer. et-Tefsîr'i Ma'mer yoluyla Katâde'nin tefsirini de içerir. 211'de San'a'da vefat etti.
+hocalari:
+  - kisi: mamer-b-rasid
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Abdürrezzâk es-San'ânî\"", url: "https://islamansiklopedisi.org.tr/abdurrezzak-es-sanani"}
+  - kisi: ibn-cureyc
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: evzai
+    kaynak: *tdv
+  - kisi: ibnul-mubarek
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Mübârek\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-mubarek"}
+  - kisi: ubeydullah-b-omer
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249
+      url: https://shamela.ws/book/1994/245
+kaynaklar:
+  - *tdv
+dogrulandi: true

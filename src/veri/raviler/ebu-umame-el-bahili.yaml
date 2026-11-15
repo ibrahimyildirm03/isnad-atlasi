@@ -1,0 +1,28 @@
+isim: Ebû Ümâme el-Bâhilî
+tam_isim: Ebû Ümâme Sudey b. Aclân b. Vehb el-Bâhilî
+arapca: أبو أمامة الباهلي صدي بن عجلان
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Ümâme
+  ism: Sudey
+  nesep: Sudey b. Aclân b. Vehb el-Bâhilî
+  nesep_arapca: صدي بن عجلان بن وهب الباهلي
+  nisbeler: [el-Bâhilî, el-Hımsî, eş-Şâmî]
+  aciklama: Künyesiyle tanınır. Bâhile kabilesindendir.
+vefat: {hicri: 86, miladi: 705, not: "81, 82 ve 91 de denmiştir; 106 yaşında öldüğü rivayet edilir"}
+vefat_yeri: Hıms
+bolge: sam
+hadis_sayisi: {sayi: 250, kaynak: "Bakī b. Mahled, el-Müsned (DİA, \"Ashâbü'l-miîn\")"}
+rical:
+  tehzibut_tehzib: "IV, 420-421"
+  rumuz: "ع"
+ozet: Hıms'ta vefat eden son sahâbî; Şam tâbiîlerinin önemli hocası.
+biyografi: |
+  Bâhile kabilesindendir. Hz. Peygamber'den defalarca şehadet duası istediği, Resûlullah'ın ise onun için selâmet ve ganimet dilediği rivayet edilir.
+
+  Şam'a, sonra Hıms'a yerleşti ve orada vefat eden son sahâbî kabul edildi. Ondan Şam'ın büyük tâbiîleri Mekhûl, Hâlid b. Ma'dân, Ebû İdrîs el-Havlânî ve Recâ b. Hayve rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Ümâme\"", url: "https://islamansiklopedisi.org.tr/ebu-umame"}
+  - "İbn Hacer, el-İsâbe (Bicâvî), III, 420-421"
+dogrulandi: true

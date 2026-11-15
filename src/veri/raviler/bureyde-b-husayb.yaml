@@ -1,0 +1,29 @@
+isim: Büreyde b. el-Husayb
+tam_isim: Ebû Abdillâh Büreyde b. el-Husayb b. Abdillâh el-Eslemî
+arapca: بريدة بن الحصيب
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Abdillâh (Ebû Sehl, Ebû Sâsân ve Ebü'l-Husayb da denmiştir)
+  ism: Büreyde (adının Âmir olduğu da rivayet edilir)
+  nesep: Büreyde b. el-Husayb b. Abdillâh b. el-Hâris el-Eslemî
+  nesep_arapca: بريدة بن الحصيب بن عبد الله بن الحارث الأسلمي
+  nisbeler: [el-Eslemî, el-Mervezî]
+  aciklama: Eslem kabilesinin Sehmoğulları kolundandır.
+vefat: {hicri: 63, miladi: 682, not: "62 de denmiştir"}
+vefat_yeri: Merv
+bolge: horasan
+diger_bolgeler: [basra]
+hadis_sayisi: {sayi: 164, kaynak: "DİA"}
+rical:
+  tehzibut_tehzib: "I, 432-433"
+  rumuz: "ع"
+ozet: Horasan'a yerleşen ve Merv'de vefat eden sahâbî; Merv hadis geleneğinin başlangıcı.
+biyografi: |
+  Hicret sırasında Hz. Peygamber'i yakalamak için yola çıktığı, onu dinleyince müslüman olduğu ve sarığını mızrağına bağlayarak bayraklı bir şekilde Medine'ye girilmesini sağladığı rivayet edilir. Hz. Peygamber ile on altı gazveye katıldı.
+
+  Basra'ya, sonra fetihlerle Horasan'a geçti ve Yezîd b. Muâviye döneminde Merv'de vefat etti. Ondan oğulları Abdullah ve Süleymân, Ebû Nadre el-Abdî ve Şa'bî rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Büreyde b. Husayb\"", url: "https://islamansiklopedisi.org.tr/bureyde-b-husayb"}
+  - "İbn Hacer, el-İsâbe, I, 146"
+dogrulandi: true

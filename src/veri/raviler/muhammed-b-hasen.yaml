@@ -1,0 +1,48 @@
+isim: Muhammed b. el-Hasen eş-Şeybânî
+tam_isim: Ebû Abdillâh Muhammed b. el-Hasen b. Ferkad eş-Şeybânî
+arapca: محمد بن الحسن الشيباني
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Muhammed
+  nesep: Muhammed b. el-Hasen b. Ferkad
+  nesep_arapca: محمد بن الحسن بن فرقد الشيباني
+  nisbeler: [eş-Şeybânî, el-Kûfî]
+  lakap: İmam Muhammed
+  aciklama: Şeybân kabilesine velâ bağıyla nisbet edilir. Hanefî literatüründe "İmâm Muhammed" diye anılır; Ebû Hanîfe ve Ebû Yûsuf ile birlikte "eimme-i selâse"dendir.
+dogum: {hicri: 132, miladi: 749}
+vefat: {hicri: 189, miladi: 805}
+dogum_yeri: Vâsıt
+vefat_yeri: Rey
+bolge: bagdat
+diger_bolgeler: [kufe]
+eserleri: [el-Asl (el-Mebsût), el-Câmi'u's-sağīr, el-Câmi'u'l-kebîr, es-Siyerü'l-kebîr, ez-Ziyâdât, el-Muvatta' rivayeti]
+ozet: Hanefî mezhebinin "zâhirü'r-rivâye" eserlerinin müellifi; Ebû Hanîfe'nin talebesi, Şâfiî'nin hocası.
+rical:
+  sozler:
+    - kim: Zehebî
+      soz: Fakīhu'l-Irâk.
+      kaynak: DİA, "Şeybânî, Muhammed b. Hasan"
+biyografi: |
+  132'de (131 ve 135 da denir) Vâsıt'ta doğdu; ailesi Abbâsîler'in kuruluşundan sonra Kûfe'ye yerleşti. On dört yaşından itibaren dört yıl Ebû Hanîfe'nin ders halkasında bulundu; hocasının vefatından sonra mezhebin görüşlerini özellikle Ebû Yûsuf'tan öğrenmeye devam etti.
+
+  Medine'de üç yılı aşkın kalarak İmam Mâlik'ten el-Muvatta'ı dinledi. Mekke'de Süfyân b. Uyeyne'den, Dımaşk'ta Evzâî'den, Horasan'da Abdullah b. el-Mübârek'ten ders aldı. Bağdat'a yerleşince halkası büyük ilgi gördü ve Ebû Yûsuf'un vefatından sonra ehl-i re'yin lideri oldu. İmam Şâfiî ve Esed b. el-Furât talebeleri arasındadır.
+
+  Hârûnürreşîd onu Ebû Yûsuf'un tavsiyesiyle Rakka kadılığına atadı. Zeydî imamı Yahyâ b. Abdullah meselesinde halifenin güvenini kaybedip 187'de azledildiyse de ilişkiler yeniden düzeldi ve başkadılığa getirildi. 189'da Hârûnürreşîd'le gittiği Rey'de vefat etti.
+
+  Mezhebin görüşlerini kitap, bab ve fasıllara ayırarak sistemli biçimde kaydeden ilk kişi kabul edilir. el-Asl, el-Câmiu's-sagīr, el-Câmiu'l-kebîr, ez-Ziyâdât ve iki Siyer'den oluşan altı eseri "zâhirü'r-rivâye" adıyla Hanefî mezhebinin temel kaynaklarıdır. Yahyâ b. Maîn onu eleştirmiş, Ali b. el-Medînî "sadûk" demiş, Dârekutnî ve Zehebî sika hâfızlar arasında saymıştır.
+hocalari:
+  - kisi: ebu-hanife
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Şeybânî, Muhammed b. Hasan\"", url: "https://islamansiklopedisi.org.tr/seybani-muhammed-b-hasan"}
+  - kisi: ebu-yusuf
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    not: Muvatta'ı ondan dinledi
+    kaynak: *tdv
+  - kisi: evzai
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

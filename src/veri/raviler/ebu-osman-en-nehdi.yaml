@@ -1,0 +1,40 @@
+isim: Ebû Osmân en-Nehdî
+tam_isim: Ebû Osmân Abdurrahmân b. Mill b. Amr en-Nehdî el-Basrî
+arapca: أبو عثمان النهدي عبد الرحمن بن مل
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Osmân
+  ism: Abdurrahmân
+  nesep: Abdurrahmân b. Mill (Müll, Mell) b. Amr
+  nesep_arapca: عبد الرحمن بن مل بن عمرو النهدي
+  nisbeler: [en-Nehdî, el-Kûfî, el-Basrî]
+  aciklama: Babasının adı Mill, Müll ve Mell şeklinde okunmuştur. Kudâa kabilesinin Nehd kolundandır. Câhiliye devrinde doğmuş, Hz. Peygamber'i görmemiş muhadramlardandır.
+vefat: {hicri: 100, miladi: 718, not: "95 ve 105 de denmiştir"}
+vefat_yeri: Basra
+bolge: basra
+diger_bolgeler: [kufe]
+rical:
+  tehzibut_tehzib: "VI, 277"
+  rumuz: "ع"
+ozet: Kādisiye ve Nihâvend'e katılan muhadram muhaddis; Ebû Mûsâ, Sa'd ve Ebû Hüreyre'nin râvisi.
+biyografi: |
+  Câhiliye devrinde doğdu; Hz. Ömer döneminden itibaren Yermük, Kādisiye ve Nihâvend fetihlerine katıldı. Selmân-ı Fârisî ile on iki yıl arkadaşlık yaptı. Kûfe'de yaşadıktan sonra Kerbelâ'dan (61/680) sonra Basra'ya yerleşti.
+
+  Ömer, Ali, İbn Mes'ûd, Sa'd b. Ebî Vakkās ve Ebû Hüreyre'den rivayet etti. Katâde, Humeyd et-Tavîl, Eyyûb es-Sahtiyânî ve Süleymân b. Tarhân onun talebesidir.
+hocalari:
+  - kisi: omer
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Osmân en-Nehdî\"", url: "https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi"}
+  - kisi: ali
+    kaynak: *tdv
+  - kisi: abdullah-b-mesud
+    kaynak: *tdv
+  - kisi: sad-b-ebi-vakkas
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: ebu-musa-el-esari
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Mûsâ el-Eş'arî\"", url: "https://islamansiklopedisi.org.tr/ebu-musa-el-esari"}
+kaynaklar:
+  - *tdv
+  - "İbn Hacer, el-İsâbe, III, 98-99"
+dogrulandi: true

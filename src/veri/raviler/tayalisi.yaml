@@ -1,0 +1,48 @@
+isim: Ebû Dâvûd et-Tayâlisî
+tam_isim: Ebû Dâvûd Süleymân b. Dâvûd b. el-Cârûd et-Tayâlisî el-Fârisî el-Basrî
+arapca: أبو داود الطيالسي سليمان بن داود
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Dâvûd
+  ism: Süleymân
+  nesep: Süleymân b. Dâvûd b. el-Cârûd, mevlâ Âl-i Zübeyr
+  nesep_arapca: سليمان بن داود بن الجارود الطيالسي البصري
+  nisbeler: [et-Tayâlisî, el-Fârisî, ez-Zübeyrî, el-Basrî]
+  aciklama: '"et-Tayâlisî" nisbesinin kaynağı bilinmemektedir. Sünen sahibi Ebû Dâvûd es-Sicistânî ile karıştırılmamalıdır.'
+dogum: {hicri: 133, miladi: 750}
+vefat: {hicri: 204, miladi: 819}
+vefat_yeri: Basra
+bolge: basra
+eserleri: ["el-Müsned (2890 hadis; türünün ilk örneklerinden)"]
+ozet: Türünün ilk örneği sayılan el-Müsned'in sahibi Basralı hâfız; Şu'be'nin önde gelen talebesi.
+rical:
+  sozler:
+    - kim: Ahmed b. Hanbel
+      soz: Hadisleri, yazılı metinden rivayet eden birçok râviden daha iyi korur.
+      kaynak: DİA, "Tayâlisî"
+biyografi: |
+  Ebû Dâvûd Süleymân b. Dâvûd et-Tayâlisî 133'te doğdu; İran asıllı olup Zübeyr b. Avvâm ailesinin mevlâsıdır. İbn Avn ve Hişâm ed-Destüvâî'den hadis öğrendi; 157'de Bağdat'ta, ardından Kûfe ve Medine'de Süfyân es-Sevrî, İsrâîl, İbn Ebî Zi'b, Hammâd b. Seleme ve Hammâd b. Zeyd'den rivayet etti. Bin hocasından hadis yazdığını söylemiştir.
+
+  Basra'da Şu'be'den yedi bin hadis dinledi ve onun önde gelen talebesi oldu; Şu'be'nin derslerinden sonra okunan hadisleri ezberden yazdırırdı. Ahmed b. Hanbel, İbn Ebî Şeybe, İbn Sa'd, Halîfe b. Hayyât ve Abd b. Humeyd ondan ders aldı.
+
+  "İlim dağı" diye anıldı ve otuz-kırk bin hadis naklettiği belirtilir. Ezberden rivayet ettiği için bin kadar hatası olduğu ileri sürülse de bu sayı abartılı kabul edilmiştir. Arkadaşı İbn Mehdî ile hafızayı güçlendirmek için içtikleri bir şerbet yüzünden ağır şekilde rahatsızlandıkları nakledilir.
+
+  Türünün ilk örneklerinden sayılan el-Müsned'inde 2890 hadis bulunur. Rivayetleri Buhârî dışında Kütüb-i Sitte'de yer alır. 204'te Basra'da vefat etti; cenaze namazını Basra valisi kıldırdı.
+hocalari:
+  - kisi: sube-b-haccac
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Tayâlisî\"", url: "https://islamansiklopedisi.org.tr/tayalisi"}
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: hammad-b-seleme
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak: *tdv
+  - kisi: ibn-ebi-zib
+    kaynak: *tdv
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+kaynaklar:
+  - *tdv
+dogrulandi: true

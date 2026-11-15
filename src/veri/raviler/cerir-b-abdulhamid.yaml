@@ -1,0 +1,38 @@
+isim: Cerîr b. Abdülhamîd
+tam_isim: Ebû Abdillâh Cerîr b. Abdilhamîd b. Cerîr ed-Dabbî er-Râzî
+arapca: جرير بن عبد الحميد
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Cerîr
+  nesep: Cerîr b. Abdilhamîd b. Cerîr b. Kurt
+  nesep_arapca: جرير بن عبد الحميد بن قرط الضبي الكوفي الرازي
+  nisbeler: [ed-Dabbî, el-Kûfî, er-Râzî]
+  aciklama: Basralı Cerîr b. Hâzim ile karıştırılmamalıdır.
+dogum: {hicri: 110, miladi: 728, not: "107'de Kûfe'de doğduğu da söylenir"}
+vefat: {hicri: 188, miladi: 804}
+dogum_yeri: Âbe (İsfahan yakını) veya Rey yakınındaki Eyye
+vefat_yeri: Rey
+bolge: cibal
+diger_bolgeler: [kufe]
+rical:
+  rumuz: "ع"
+ozet: Rey'in büyük muhaddisi; Mansûr ve A'meş'in râvisi, Ahmed b. Hanbel ve İshâk b. Râhûye'nin hocası.
+biyografi: |
+  Ebû Abdillâh Cerîr b. Abdilhamîd ed-Dabbî er-Râzî, kaydedildiğine göre 110'da İsfahan'a bağlı Âbe kasabasında doğdu; 107'de Kûfe'de doğduğu da rivayet edilir. Öğrenim çağında Bağdat ve Mekke'ye gitti, uzun süre Kûfe'de kaldıktan sonra Rey'e yerleşip hadis rivayetine başladı.
+
+  Mansûr b. el-Mu'temir, Âsım el-Ahvel, Hişâm b. Urve, Yahyâ b. Saîd el-Ensârî ve A'meş'ten hadis dinledi; kıraati Hamza b. Habîb ile A'meş'ten öğrendi. İbnü'l-Mübârek, Yahyâ b. Maîn, Ali b. el-Medînî, İshak b. Râhûye, Ahmed b. Hanbel ve Ebû Bekir b. Ebî Şeybe ondan rivayet etti; birçok talebe uzak ülkelerden gelerek ondan hadis öğrendi.
+
+  Duyduğu hadisleri hemen yazar, kitabı yanında yokken rivayet etmezdi. Bid'at ehlinden hadis almayı câiz görmediği için Câbir el-Cu'fî ve İbn Cüreyc gibi isimlerin rivayetlerine itibar etmedi. Güvenilirliği üzerinde âlimler ittifak etmiş; ömrünün sonunda hafızasının zayıfladığı iddiasının, İbn Hacer'e göre Cerîr b. Hâzim ile karıştırılmaktan kaynaklandığı belirtilmiştir. Zühd ve takvâsıyla tanınan Cerîr 188'de Rey'de vefat etti.
+hocalari:
+  - kisi: mansur-b-mutemir
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Cerîr b. Abdülhamîd\"", url: "https://islamansiklopedisi.org.tr/cerir-b-abdulhamid"}
+  - kisi: hisam-b-urve
+    kaynak: *tdv
+  - kisi: yahya-b-said-el-ensari
+    kaynak: *tdv
+  - kisi: ames
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,29 @@
+isim: Câbir b. Abdullah
+tam_isim: Ebû Abdillâh Câbir b. Abdillâh el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Câbir
+  kunye: Ebû Abdillâh (Ebû Abdirrahmân da denmiştir)
+  nesep: Câbir b. Abdillâh b. Amr b. Harâm
+  nesep_arapca: جابر بن عبد الله بن عمرو بن حرام الأنصاري السلمي
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+    - es-Selemî
+    - el-Medenî
+  aciklama: Babası Abdullah b. Amr Uhud'da şehid düşmüştür. Hazrec'in Selimeoğulları kolundandır.
+vefat: {hicri: 78, miladi: 697, not: "68, 73 ve 77 de denmiştir"}
+vefat_yeri: Medine
+dogum_yeri: Medine
+bolge: medine
+ozet: "Medine'de vefat eden son sahâbîlerden, çok hadis rivayet edenlerden."
+biyografi: |
+  607'de Medine'de doğdu; Hazrec'in Selimeoğulları kolundandır. Babasıyla birlikte İkinci Akabe biatına katıldı ve yetmişlik heyetin en küçüğüydü. Babası Abdullah b. Amr, Uhud'da ilk şehid düşen sahâbîdir.
+
+  Kız kardeşlerine bakmakla yükümlü olduğu için Uhud'a kadar gazvelere katılamadı; sonrasında Hz. Peygamber ile on dokuz gazvede bulundu. Hudeybiye'de Bey'atü'r-rıdvân'a katıldı. Hz. Peygamber'in vefatından sonra Şam'ın fethinde bulundu ve tek bir hadisi doğrudan işitmek için Şam'a bir aylık yolculuk yaptı; bu yolculuk hadis için yapılan rıhlelerin ilk örneklerinden sayılır.
+
+  Mescid-i Nebevî'de bir ilim halkası kurdu; hac rivayetlerini içeren bir sahîfesi vardı. Ömrünün sonunda gözlerini kaybetti. Bakī b. Mahled'in Müsned'indeki 1540 rivayetiyle müksirûndandır. Saîd b. el-Müseyyeb, Hasan el-Basrî, Şa'bî, Atâ, İbnü'l-Münkedir ve Muhammed el-Bâkır onun talebeleri arasındadır. 78/697'de Medine'de vefat etti; Medine'de vefat eden son sahâbîlerdendir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Câbir b. Abdullah\"", url: "https://islamansiklopedisi.org.tr/cabir-b-abdullah"}
+dogrulandi: true

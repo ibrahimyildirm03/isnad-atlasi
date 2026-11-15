@@ -1,0 +1,45 @@
+isim: Zeyd b. Eslem
+tam_isim: Ebû Üsâme Zeyd b. Eslem el-Adevî el-Ömerî el-Medenî
+arapca: زيد بن أسلم
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Üsâme (Ebû Abdillâh da denmiştir)
+  ism: Zeyd
+  nesep: Zeyd b. Eslem, mevlâ Ömer b. el-Hattâb
+  nesep_arapca: زيد بن أسلم العدوي العمري المدني مولى عمر بن الخطاب
+  nisbeler: [el-Adevî, el-Ömerî, el-Medenî]
+  aciklama: Babası Eslem, Hz. Ömer'in âzatlısıdır; "el-Adevî el-Ömerî" nisbeleri bu velâ bağından gelir.
+vefat: {hicri: 136, miladi: 754}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  rumuz: "ع"
+ozet: Medine tefsir ekolünün öncüsü; Mâlik, Sevrî ve İbn Uyeyne'nin hocası.
+biyografi: |
+  Ebû Üsâme Zeyd b. Eslem el-Adevî, Hz. Ömer'in âzatlısı Eslem'in oğludur ve Medine tefsir ekolünün öncülerindendir. Babası, ağabeyi Hâlid, İbn Ömer, Hz. Âişe, Seleme b. el-Ekva', Enes b. Mâlik, Atâ b. Yesâr ve Muhammed b. Kâ'b el-Kurazî'den rivayet etti.
+
+  Oğulları Üsâme, Abdullah ve Abdurrahman ile Eyyûb es-Sahtiyânî, Yahyâ b. Saîd el-Ensârî, Evzâî, Ma'mer, Mâlik ve iki Süfyân talebeleri arasındadır. Mescid-i Nebevî'deki hadis ve fıkıh halkasında en az kırk fıkıh talebesinin devamlı bulunduğu nakledilir; gereksiz tartışmalara sert biçimde karşı çıkardı. Rivayetleri Kütüb-i Sitte'de yer alır; Müsned'de ondan iki yüzden fazla hadis vardır.
+
+  Ma'din-i Benî Süleym'de yöneticilik yaptı; Ömer b. Abdülazîz ve II. Velîd'in danışma meclislerinde bulundu. Lugat ilmiyle ilgilendi; oğlu Abdurrahman'ın rivayet ettiği tefsiri Taberî ve Begavî tarafından nakledilmiş, Mâlik de bu tefsirden yararlanmıştır. Tefsirde re'ye fazla başvurduğu eleştirisi hadisteki güvenilirliğini zedelemez.
+
+  Heybetli, alçakgönüllü ve hoşgörülüydü; günahkârları Allah'ın rahmetiyle ümitlendirirdi. Zilhicce 136'nın ilk on gününde vefat etti.
+hocalari:
+  - kisi: ibn-omer
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Zeyd b. Eslem\"", url: "https://islamansiklopedisi.org.tr/zeyd-b-eslem"}
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: ata-b-yesar
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    ihtilafli: true
+    not: ondan doğrudan işitmediği belirtilir
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    ihtilafli: true
+    not: ondan doğrudan işitmediği belirtilir
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

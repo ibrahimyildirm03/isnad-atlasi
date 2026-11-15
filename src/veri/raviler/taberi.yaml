@@ -1,0 +1,45 @@
+isim: Taberî
+tam_isim: Ebû Ca'fer Muhammed b. Cerîr et-Taberî
+tabaka: sonraki
+isim_bilgisi:
+  ism: Muhammed
+  kunye: Ebû Ca'fer
+  nesep: Muhammed b. Cerîr b. Yezîd b. Kesîr
+  nesep_arapca: محمد بن جرير بن يزيد الطبري
+  nisbeler:
+    - et-Taberî
+    - el-Âmülî
+    - el-Bağdâdî
+  aciklama: Taberistan'ın Âmül şehrinde doğdu.
+dogum: {hicri: 224, miladi: 839}
+vefat: {hicri: 310, miladi: 923}
+vefat_yeri: Bağdat
+dogum_yeri: Âmül (Taberistan)
+bolge: bagdat
+eserleri:
+  - Câmiu'l-beyân an te'vîli âyi'l-Kur'ân
+  - Târîhu'l-ümem ve'l-mülûk
+  - Tehzîbü'l-âsâr
+  - İhtilâfü'l-fukahâ
+  - et-Tabsîr fî meâlimi'd-dîn
+  - Sarîhu's-sünne
+  - el-Câmi' fi'l-kırâât
+imam: {mezheb: Cerîrî, yasayan: false}
+ozet: Cerîrî mezhebinin imamı; tefsir ve tarih eserleriyle tanınır.
+biyografi: |
+  224 ya da 225 yılında Taberistan'ın Âmül şehrinde doğdu. Kur'an'ı ezberleyerek öğrenime başladı; on iki yaşında ilk ilim yolculuğunu Rey'e yaptı. Basra, Kûfe, Vâsıt, Dımaşk, Beyrut ve Fustat'ta hadis, kıraat ve fıkıh okudu. İbn Humeyd er-Râzî, Ebû Küreyb Muhammed b. el-Alâ, Müzenî, Rebî' b. Süleymân el-Murâdî ve Yûnus b. Abdila'lâ hocaları arasındadır.
+
+  256/870'te Bağdat'a döndü ve ömrünün elli yılı aşkın bölümünü orada geçirdi. Kadılık tekliflerini ve vezirlerin hediyelerini reddetti, geçimini babasından kalan arazinin geliriyle sağladı. Önce Şâfiî fıkhına bağlıydı; sonra müctehid olarak kendi görüşlerini geliştirdi ve Cerîriyye mektebini kurdu.
+
+  Ahmed b. Hanbel'i fakih saymaması ve makām-ı mahmûd âyetini Hanbelîlerin beklediği şekilde yorumlamaması onlarla, Zâhirîlerle tartışmaları da o çevreyle arasının açılmasına yol açtı. Şiîlikle suçlanınca ilk üç halifenin faziletlerine dair eserler yazdı. Rivayet tefsirinin temel kaynağı Câmiu'l-beyân ile Târîhu'l-ümem ve'l-mülûk'u, hem tefsir hem tarih alanının başlıca eserleridir. 27 Şevval 310'da vefat etti.
+hocalari:
+  - kisi: davud-ez-zahiri
+    not: derslerine devam edip ondan hadis aldı
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Taberî, Muhammed b. Cerîr\"", url: "https://islamansiklopedisi.org.tr/taberi-muhammed-b-cerir"}
+  - kisi: safii
+    araci: Rebî' b. Süleymân el-Murâdî
+    not: Mısır'da Şâfiî fıkhını Rebî' b. Süleymân'dan öğrendi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Taberî, Muhammed b. Cerîr\"", url: "https://islamansiklopedisi.org.tr/taberi-muhammed-b-cerir"}
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Taberî, Muhammed b. Cerîr\"", url: "https://islamansiklopedisi.org.tr/taberi-muhammed-b-cerir"}
+dogrulandi: true

@@ -1,0 +1,57 @@
+isim: Ali b. el-Medînî
+tam_isim: Ebü'l-Hasen Ali b. Abdillâh b. Ca'fer b. Necîh es-Sa'dî el-Medînî el-Basrî
+arapca: علي بن المديني
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebü'l-Hasen
+  ism: Ali
+  nesep: Ali b. Abdillâh b. Ca'fer b. Necîh
+  nesep_arapca: علي بن عبد الله بن جعفر بن نجيح السعدي المديني
+  nisbeler: [es-Sa'dî, el-Medînî, el-Basrî]
+  lakap: İbnü'l-Medînî
+  aciklama: Ailesi aslen Medineli olduğu için Basra'da doğmasına rağmen "el-Medînî" diye anılır. Babası Abdullah b. Ca'fer de muhaddistir.
+dogum: {hicri: 161, miladi: 777}
+vefat: {hicri: 234, miladi: 848}
+dogum_yeri: Basra
+vefat_yeri: Sâmerrâ
+bolge: basra
+eserleri: [el-İlel, Tesmiyetü men ruviye anhü min evlâdi'l-aşere, Ma'rifetü'r-ricâl (Su'âlât)]
+rical:
+  tehzibut_tehzib: "VII, 349-357"
+  sozler:
+    - {kim: Nesâî, soz: "Allah onu bu iş (hadis) için yaratmıştır.", kaynak: "DİA, \"Ali b. Medînî\""}
+ozet: '"Emîrü''l-mü''minîn fi''l-hadîs"; ilelü''l-hadîsin imamı ve Buhârî''nin en büyük hocası.'
+biyografi: |
+  161'de Basra'da doğdu; ailesi aslen Medineli olduğu için "el-Medînî" diye anıldı. Babası Abdullah b. Ca'fer de muhaddistir. Süfyân b. Uyeyne, Yahyâ b. Saîd el-Kattân, Hammâd b. Zeyd ve Abdürrezzâk'tan ilim aldı; İbn Uyeyne başta olmak üzere bazı hocaları da ondan rivayet etmiştir.
+
+  İlelü'l-hadîs başta olmak üzere hadis ilimlerinde uzmanlaştı ve "hadiste mü'minlerin emîri" unvanını aldı. Kaynaklara göre yaklaşık iki yüz kitap yazdı; günümüze ulaşan el-İlel, üç ayrı ilel kitabının hulâsasıdır. Nesâî onun için "âdeta muhaddis olmak için yaratılmıştır" demiştir.
+
+  Buhârî Sahîh'ini önce ona incelettirmiş, onayını aldıktan sonra okutmaya başlamıştır; Sahîh'te ondan 303 hadis bulunur. Buhârî, onun yanında olduğu kadar kendini kimsenin yanında küçük görmediğini söylemiştir.
+
+  Mihnede sekiz ay ayaklarından zincirlenerek hapsedildi ve canını kurtarmak için halku'l-Kur'ân görüşünü kabul etmek zorunda kaldı. Bu durum itibarını sarstı ve Ahmed b. Hanbel ondan rivayet etmeyi bıraktı. Buhârî, Ebû Dâvûd ve Ebû Hâtim talebeleri arasındadır. 234'te Sâmerrâ'da vefat etti.
+hocalari:
+  - kisi: sufyan-b-uyeyne
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ali b. Medînî\"", url: "https://islamansiklopedisi.org.tr/ali-b-medini"}
+  - kisi: yahya-b-said-el-kattan
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak: *tdv
+  - kisi: abdurrezzak
+    kaynak: *tdv
+  - kisi: veki-b-cerrah
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Vekî' b. Cerrâh\"", url: "https://islamansiklopedisi.org.tr/veki-b-cerrah"}
+  - kisi: yezid-b-harun
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yezîd b. Hârûn"
+      url: https://islamansiklopedisi.org.tr/yezid-b-harun
+  - kisi: ibn-uleyye
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Uleyye"
+      url: https://islamansiklopedisi.org.tr/ibn-uleyye
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+kaynaklar:
+  - *tdv
+dogrulandi: true

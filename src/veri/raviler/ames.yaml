@@ -1,0 +1,62 @@
+isim: A'meş
+tam_isim: Ebû Muhammed Süleymân b. Mihrân el-Esedî el-Kâhilî el-Kûfî
+arapca: سليمان بن مهران الأعمش
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Süleymân
+  nesep: Süleymân b. Mihrân, mevlâ Benî Kâhil
+  nesep_arapca: سليمان بن مهران الأسدي الكاهلي الكوفي
+  nisbeler: [el-Esedî, el-Kâhilî, el-Kûfî]
+  lakap: el-A'meş
+  aciklama: '"A''meş" gözleri zayıf ve sulu olan kimse demektir; bu lakapla tanınır. Doğruluğu sebebiyle "el-mushaf" diye de anılmıştır. Aslen Taberistanlıdır.'
+dogum: {hicri: 61, miladi: 680, not: "Kûfe'de doğduğu da rivayet edilir"}
+vefat: {hicri: 148, miladi: 765}
+dogum_yeri: Dünbâvend (Rey yöresi)
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  rumuz: "ع"
+  sozler:
+    - kim: Yahyâ el-Kattân
+      soz: A'meş, allâmetü'l-İslâm'dır.
+      kaynak: DİA, "A'meş"
+ozet: Kûfe'nin hadis hâfızı ve kıraat imamı; Ebû Hanîfe, Sevrî, Şu'be ve İbn Uyeyne'nin hocası.
+biyografi: |
+  Aslen Taberistanlıdır; 61 yılında Rey yöresindeki Dünbâvend'de doğdu, Kûfe'de doğduğu da rivayet edilir. Ömrünü Kûfe'de geçirdi.
+
+  Irak kıraatinin temsilcisi Yahyâ b. Vessâb'dan kıraat öğrendi; kıraati yedi ya da on meşhur kıraat arasında yer almasa da kıraat kitaplarında ondan sonra ilk sırada anılır. Hadiste hâfızlık mertebesine ulaştı; İbrâhim en-Nehaî, Mücâhid, Şa'bî, Saîd b. Cübeyr ve Ebû Vâil'den rivayet etti.
+
+  Rivayetleri Kütüb-i Sitte'de yer alır ve genel olarak sika sayılır. Enes b. Mâlik ve Abdullah b. Ebî Evfâ'dan mürsel rivayetlerinde tedlîs yaptığı, Ali b. el-Medînî tarafından vehimle, Zehebî tarafından da bazı râvilerin kusurunu örtmekle itham edildiği belirtilir. Doğruluğu sebebiyle "el-mushaf" diye anıldı.
+
+  Nüktedan ve hazırcevaptı; İbn Tolun bu yönünü ez-Zehrü'l-ena'ş adlı eserinde toplamıştır. Fakir olmasına rağmen beytülmalden aldığı beş dirhemlik aylıkla geçinir, zenginlere iltifat etmezdi. Ebû Hanîfe, Süfyân es-Sevrî, Şu'be, İbn Uyeyne, Vekî' ve Ebû Muâviye ed-Darîr onun talebeleridir. 148'de vefat etti.
+hocalari:
+  - kisi: ibrahim-en-nehai
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"A'meş\"", url: "https://islamansiklopedisi.org.tr/ames"}
+  - kisi: mucahid-b-cebr
+    kaynak: *tdv
+  - kisi: amir-es-sabi
+    kaynak: *tdv
+  - kisi: enes-b-malik
+    ihtilafli: true
+    not: Enes'ten rivayetleri mürseldir
+    kaynak: *tdv
+  - kisi: said-b-cubeyr
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "A'meş"
+      url: https://islamansiklopedisi.org.tr/ames
+  - kisi: ebu-ishak-es-sebii
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû İshâk es-Sebîî"
+      url: https://islamansiklopedisi.org.tr/ebu-ishak-es-sebii
+  - kisi: kays-b-ebi-hazim
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Kays b. Ebû Hâzim"
+      url: https://islamansiklopedisi.org.tr/kays-b-ebu-hazim
+  - kisi: ebu-vail
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Şakīk b. Seleme"
+      url: https://islamansiklopedisi.org.tr/sakik-b-seleme
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,56 @@
+isim: İbn Cüreyc
+tam_isim: Ebü'l-Velîd Abdülmelik b. Abdilazîz b. Cüreyc el-Kureşî el-Ümevî el-Mekkî
+arapca: ابن جريج عبد الملك بن عبد العزيز
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebü'l-Velîd (Ebû Hâlid da denmiştir)
+  ism: Abdülmelik
+  nesep: Abdülmelik b. Abdilazîz b. Cüreyc
+  nesep_arapca: عبد الملك بن عبد العزيز بن جريج الأموي المكي
+  nisbeler: [el-Kureşî, el-Ümevî, er-Rûmî, el-Mekkî]
+  lakap: İbn Cüreyc
+  aciklama: Rum asıllıdır; Ümeyyeoğullarına velâ bağıyla "el-Ümevî" diye anılır. Dedesine nisbetle "İbn Cüreyc" olarak meşhur olmuştur.
+dogum: {hicri: 80, miladi: 699}
+vefat: {hicri: 150, miladi: 767, not: "1 Zilhicce 150"}
+vefat_yeri: Mekke
+bolge: mekke
+rical:
+  tehzibul_kemal: "XVIII, 338-354"
+  tehzibut_tehzib: "VI, 402-406"
+  rumuz: "ع"
+  sozler:
+    - kim: Atâ b. Ebî Rebâh
+      soz: Hicaz gençlerinin efendisi.
+      kaynak: DİA, "İbn Cüreyc"
+ozet: Hadisleri konularına göre tasnif eden ilk musanniflerden; Mekke'de Atâ'nın halefi.
+eserleri:
+  - Tefsîru İbn Cüreyc
+  - Kitâbü's-Sünen
+  - Menâsikü'l-hac
+  - Cüz'ü İbn Cüreyc
+biyografi: |
+  80'de doğdu; Rum asıllı olup Ümeyye b. Hâlid'in mevlâsı olduğu söylenir. Gençliğinde şiir ve nesep ilmiyle uğraşırken bir tavsiye üzerine Atâ b. Ebî Rebâh'ın halkasına katıldı ve on sekiz-on dokuz yıl onun yanında kaldı. Ardından yedi veya dokuz yıl Amr b. Dînâr'ın talebesi oldu. İbn Ebî Müleyke, Nâfi' ve Hişâm b. Urve'den de hadis dinledi.
+
+  Süfyân es-Sevrî, Süfyân b. Uyeyne, Yahyâ el-Kattân, Vekî' ve Hammâd b. Seleme ondan rivayet etti. Bağdat'ta Halife Mansûr'un huzurunda bulundu, Yemen ve Basra'da ders verdi, Kûfe'de tefsirini yazdırdı. Atâ, kendisinden sonra halkasına kimin geçeceği sorulduğunda onu işaret etmiştir.
+
+  İslâm tarihinde telif anlamında ilk kitap yazanlardan, Mekke'de hadisleri bablara göre tasnif eden ilk âlim olarak anılır. Tefsiri günümüze ulaşmamış, ancak Taberî ve İbn Kesîr gibi müfessirlerin nakilleriyle derlenmiştir. Zehebî onu "Mekkeliler'in fakihi" diye anar; yaklaşık bin merfû hadisi Kütüb-i Sitte'de yer alır.
+
+  Sika kabul edilmekle birlikte tedlîsi eleştirilmiş; Dârekutnî "tedlîsin en kötüsü" demiştir. Müt'a nikâhına cevaz vermesi de tartışılmıştır. 1 Zilhicce 150'de vefat etti.
+hocalari:
+  - kisi: ata-b-ebi-rebah
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Cüreyc\"", url: "https://islamansiklopedisi.org.tr/ibn-cureyc"}
+  - kisi: amr-b-dinar
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    kaynak: *tdv
+  - kisi: ibn-ebi-muleyke
+    kaynak: *tdv
+  - kisi: nafi
+    kaynak: *tdv
+  - kisi: musa-b-ukbe
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mûsâ b. Ukbe"
+      url: https://islamansiklopedisi.org.tr/musa-b-ukbe
+kaynaklar:
+  - *tdv
+dogrulandi: true

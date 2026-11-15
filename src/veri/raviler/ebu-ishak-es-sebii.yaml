@@ -1,0 +1,41 @@
+isim: Ebû İshâk es-Sebîî
+tam_isim: Ebû İshâk Amr b. Abdillâh b. Zî Yuhmid es-Sebîî el-Hemdânî el-Kûfî
+arapca: أبو إسحاق السبيعي عمرو بن عبد الله
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû İshâk
+  ism: Amr
+  nesep: Amr b. Abdillâh b. Zî Yuhmid (Ubeyd)
+  nesep_arapca: عمرو بن عبد الله بن ذي يحمد السبيعي الهمداني الكوفي
+  nisbeler: [es-Sebîî, el-Hemdânî, el-Kûfî]
+  aciklama: '"es-Sebîî" ve "el-Hemdânî" nisbeleri Yemen''in Hemdân kabilesinden Sebî'' b. Sa''b''a, "el-Kûfî" Kûfe''ye yerleşmesine dayanır.'
+dogum: {hicri: 34, miladi: 654, not: "29 ve 32 de denmiştir"}
+vefat: {hicri: 127, miladi: 745, not: "Receb 127"}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  rumuz: "ع"
+ozet: Kûfe'nin büyük muhaddis ve kārîsi; Berâ b. Âzib'in talebesi, Sevrî ve Şu'be'nin hocası.
+biyografi: |
+  Ebû İshak Amr b. Abdullah es-Sebîî, kabul edilen görüşe göre 34'te doğdu; Yemen'deki Hemdân kabilesinin Sebî' koluna mensuptur ve Kûfe'ye yerleşti. İbn Abbas, Berâ b. Âzib, Abdullah b. Amr ve Muâviye'den; tâbiîlerden Mesrûk ve Amr b. Şürahbîl'den hadis aldı. Kur'an'ı Esved b. Yezîd'den öğrendi.
+
+  Ali b. el-Medînî'ye göre üç yüz veya dört yüz hocadan ilim almış, bunların yetmiş sekizinden yalnız o rivayet etmiştir; Ebû Hâtim bu yönüyle onu Zührî'ye benzetir. Akranı Zührî ve Katâde ondan faydalandı; oğlu Yûnus, torunu İsrâîl, Mansûr b. el-Mu'temir, A'meş, Şu'be ve Süfyân es-Sevrî de ondan rivayet etti. Kıraat imamı Hamza b. Habîb ona arz yoluyla Kur'an okumuştur.
+
+  Ahmed b. Hanbel, Yahyâ b. Maîn ve Nesâî onu güvenilir saydı; Ali b. el-Medînî dönemin en güçlü altı hâfızı arasında zikretti. İbn Hibbân ise onu müdellis olarak niteledi. Gençliğinde Muâviye döneminde bir Bizans seferine ve Ziyâd b. Ebîh'in valiliğinde altı yedi savaşa katıldı.
+
+  Kur'an'ı üç günde bir hatmettiği, haram aylarda ve haftada iki gün oruç tuttuğu nakledilir. Son yıllarında hafızası zayıfladı ve gözleri görmez oldu. Receb 127'de vefat etti.
+hocalari:
+  - kisi: bera-b-azib
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû İshâk es-Sebîî\"", url: "https://islamansiklopedisi.org.tr/ebu-ishak-es-sebii"}
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: mesruk-b-el-ecda
+    kaynak: *tdv
+  - kisi: esved-b-yezid
+    not: Kur'an'ı ondan okudu
+    kaynak: *tdv
+  - kisi: said-b-cubeyr
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Cübeyr\"", url: "https://islamansiklopedisi.org.tr/said-b-cubeyr"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

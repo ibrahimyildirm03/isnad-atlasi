@@ -1,0 +1,43 @@
+isim: Hammâd b. Seleme
+tam_isim: Ebû Seleme Hammâd b. Seleme b. Dînâr el-Basrî el-Hırakī
+arapca: حماد بن سلمة
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Seleme
+  ism: Hammâd
+  nesep: Hammâd b. Seleme b. Dînâr
+  nesep_arapca: حماد بن سلمة بن دينار البصري
+  nisbeler: [el-Basrî, el-Hırakī, er-Rabeî]
+dogum: {hicri: 90, miladi: 709, not: "yaklaşık"}
+vefat: {hicri: 167, miladi: 784, not: "19 Zilhicce 167, namaz kılarken; 165 ve 169 da denmiştir"}
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "VII, 257-269"
+ozet: Sâbit el-Bünânî ve Humeyd rivayetlerinde en güvenilir sayılan Basralı muhaddis, nahiv ve fıkıh âlimi.
+eserleri:
+  - Kitâbü's-Sünen
+biyografi: |
+  90 dolaylarında doğdu; Humeyd et-Tavîl'in kız kardeşinin oğludur. Baş örtüsü ticaretiyle geçindiği için "Bezzâz" lakabıyla da anıldı.
+
+  Sâbit el-Bünânî, Katâde, Humeyd et-Tavîl ve İbn Ebî Müleyke'den hadis öğrendi; Sâbit ile Humeyd'den gelen rivayetlerde en güvenilir kişi kabul edildi. İbnü'l-Mübârek, Yahyâ el-Kattân, Vekî' ve Abdurrahman b. Mehdî ondan rivayet etti. Nahiv ve fıkha da önem verdi; Sîbeveyhi ve Yûnus b. Habîb ondan yararlanmış, bazı kaynaklar onu "Basra müftüsü" diye nitelemiştir.
+
+  Yahyâ b. Maîn, Ahmed b. Hanbel, İclî ve Nesâî onu sika saydı; ancak yaşlılıkta hafızası zayıfladığı için Buhârî ondan yalnız istişhâd yoluyla bir rivayet aldı. Müslim'in onun Sâbit'ten rivayetlerine dayandığı aktarılır. Zehebî, ezberden rivayet ettiği için zaman zaman yanıldığını ama bunun onu suçlamayı gerektirmediğini belirtir.
+
+  İbadete ve sünnete bağlılığıyla tanındı; devlet adamlarının davetlerine icabet etmedi, ders verdiklerinden hediye kabul etmedi. Fıkıh bablarına göre düzenlenmiş Kitâbü's-Sünen adlı bir eseri olduğu kaydedilir. 19 Zilhicce 167'de Basra'da bir mescitte namaz kılarken vefat etti.
+hocalari:
+  - kisi: sabit-el-bunani
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Seleme\"", url: "https://islamansiklopedisi.org.tr/hammad-b-seleme"}
+  - kisi: katade-b-diame
+    kaynak: *tdv
+  - kisi: humeyd-et-tavil
+    kaynak: *tdv
+  - kisi: ibn-ebi-muleyke
+    kaynak: *tdv
+  - kisi: hammad-b-ebi-suleyman
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Ebû Süleyman\"", url: "https://islamansiklopedisi.org.tr/hammad-b-ebu-suleyman"}
+  - kisi: eyyub-es-sahtiyani
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Eyyûb es-Sahtiyânî\"", url: "https://islamansiklopedisi.org.tr/eyyub-es-sahtiyani"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

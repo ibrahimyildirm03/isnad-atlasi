@@ -1,0 +1,43 @@
+isim: Abdullah b. Ömer
+tam_isim: Ebû Abdirrahmân Abdullah b. Ömer b. el-Hattâb el-Kureşî el-Adevî
+arapca: عبد الله بن عمر بن الخطاب
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Abdullah
+  nesep: Abdullah b. Ömer b. el-Hattâb b. Nüfeyl b. Abdiluzzâ el-Kureşî
+  nesep_arapca: عبد الله بن عمر بن الخطاب بن نفيل بن عبد العزى القرشي العدوي
+  nisbeler: [el-Kureşî, el-Adevî, el-Mekkî, el-Medenî]
+  lakap: İbn Ömer
+  aciklama: Kaynaklarda daha çok "İbn Ömer" diye anılır. Annesi Zeyneb bint Maz'ûn'dur; Hz. Hafsa öz kız kardeşidir.
+dogum: {not: "nübüvvetin 3. yılı (m. 610 civarı)"}
+vefat: {hicri: 73, miladi: 693}
+dogum_yeri: Mekke
+vefat_yeri: Mekke
+bolge: medine
+diger_bolgeler: [mekke]
+hadis_sayisi: {sayi: 2630, kaynak: "Bakī b. Mahled, el-Müsned (DİA, \"Müksirûn\")"}
+rical:
+  tehzibut_tehzib: "V, 328-330"
+  rumuz: "ع (Kütüb-i Sitte'nin hepsi)"
+ozet: En çok hadis rivayet eden ikinci sahâbî; Nâfi' ve Mâlik üzerinden "altın zincir"in başı.
+biyografi: |
+  Nübüvvetin üçüncü yılında Mekke'de doğdu, babası Hz. Ömer ile birlikte küçük yaşta müslüman oldu ve Medine'ye hicret etti. Yaşı küçük olduğu için Bedir ve Uhud'a alınmadı; Hendek'ten itibaren seferlere katıldı.
+
+  Hz. Peygamber'in sünnetine titizlikle uymasıyla tanınır; hadisleri lafzına sadık kalarak rivayet etti. Altmış yıl boyunca fetva verdi. Buhârî'nin en sahih isnad saydığı "Mâlik → Nâfi' → İbn Ömer" zinciri onun üzerinden yürür. İç savaşlarda tarafsız kaldı; 73 yılında Mekke'de vefat etti.
+hocalari:
+  - kisi: omer
+    not: babasıdır; ondan da rivayet etmiştir
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Ömer\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-omer-b-hattab"}
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: zeyd-b-sabit
+    kaynak: *tdv
+  - kisi: abdullah-b-mesud
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+  - {ad: "TDV İslâm Ansiklopedisi, \"Müksirûn\"", url: "https://islamansiklopedisi.org.tr/muksirun"}
+  - "İbn Hacer, el-İsâbe, II, 347-350"
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/3807"}
+dogrulandi: true

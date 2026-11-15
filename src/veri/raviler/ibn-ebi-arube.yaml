@@ -1,0 +1,37 @@
+isim: Saîd b. Ebî Arûbe
+tam_isim: Ebü'n-Nadr Saîd b. Ebî Arûbe Mihrân el-Adevî el-Basrî
+arapca: سعيد بن أبي عروبة
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebü'n-Nadr
+  ism: Saîd
+  nesep: Saîd b. Ebî Arûbe Mihrân, mevlâ Benî Adî b. Yeşkür
+  nesep_arapca: سعيد بن أبي عروبة مهران العدوي مولاهم البصري
+  nisbeler: [el-Adevî (mevlâ), el-Yeşkürî, el-Basrî]
+  lakap: İbn Ebî Arûbe
+  aciklama: Babası Mihrân'ın künyesi Ebû Arûbe'dir. Adî b. Yeşkür oğullarının mevlâsıdır.
+dogum: {hicri: 76, miladi: 695, not: "yaklaşık"}
+vefat: {hicri: 156, miladi: 773, not: "150 de denmiştir"}
+vefat_yeri: Basra
+bolge: basra
+eserleri: ["es-Sünen (fıkıh bablarına göre; aslıyla ulaşmadı)", "Kitâbü'l-Menâsik an Katâde", Tefsîr]
+rical:
+  tehzibut_tehzib: "IV, 56-59"
+  rumuz: "ع"
+ozet: Hadisleri fıkıh konularına göre ilk tasnif edenlerden Basralı muhaddis; Katâde'nin râvisi.
+biyografi: |
+  Ebü'n-Nadr Saîd b. Ebî Arûbe, 76 civarında doğdu; Adî b. Yeşkür oğullarının mevlâsıdır ve Basra'da yaşadı. Hasan-ı Basrî, İbn Sîrîn ve Katâde'den fıkıh, tefsir ve hadis öğrendi; Katâde'nin en yakın talebelerinden olup onun tefsirini yazdığını söylemiştir.
+
+  Şu'be, Süfyân es-Sevrî, Gunder, Yahyâ el-Kattân ve Yezîd b. Hârûn ondan rivayet etti. Ahmed b. Hanbel'e göre Basra'da rivayetleri fıkıh konularına göre tasnif eden ilk kişidir; es-Sünen adlı eseri sonraki hadis kitaplarının kaynaklarındandır.
+
+  Yahyâ el-Kattân, Yahyâ b. Maîn, Ebû Zür'a ve Nesâî onu sika saymıştır. Ancak 145'ten itibaren hafızası karıştığı için bu dönemdeki rivayetleri delil kabul edilmez; Sahîhayn'daki rivayetleri öncesine aittir. Tedlîs yapmakla da eleştirilmiş, hocası Katâde gibi gizli bir Kaderî olduğu ileri sürülmüştür. 156'da (150 de denir) vefat etti.
+hocalari:
+  - kisi: katade-b-diame
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Arûbe\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-arube"}
+  - kisi: hasan-el-basri
+    kaynak: *tdv
+  - kisi: muhammed-b-sirin
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

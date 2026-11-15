@@ -1,0 +1,30 @@
+isim: Ebû Mûsâ el-Eş'arî
+tam_isim: Ebû Mûsâ Abdullah b. Kays b. Süleym el-Eş'arî
+arapca: أبو موسى الأشعري
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Mûsâ
+  ism: Abdullah
+  nesep: Abdullah b. Kays b. Süleym b. Hadâr el-Eş'arî
+  nesep_arapca: عبد الله بن قيس بن سليم بن حضار الأشعري
+  nisbeler: [el-Eş'arî, el-Yemânî]
+  aciklama: Yemen'in Zebîd bölgesindeki Eş'ar kabilesindendir. Annesi Zabye bint Vehb de hicret eden sahâbîlerdendir. Kelâmcı Ebü'l-Hasan el-Eş'arî onun soyundandır.
+vefat: {hicri: 42, miladi: 662, not: "43, 44, 53 ve 54 de denmiştir; Kûfe'de mi Mekke'de mi öldüğü ihtilaflıdır"}
+vefat_yeri: Kûfe veya Mekke
+bolge: kufe
+diger_bolgeler: [basra]
+hadis_sayisi: {sayi: 360, kaynak: "Bakī b. Mahled, el-Müsned (DİA)"}
+rical:
+  tehzibul_kemal: "XV, 446-453"
+  tehzibut_tehzib: "V, 362-363"
+  rumuz: "ع"
+ozet: Basra ve Kûfe valisi, güzel sesli kārî ve fakih; Sıffîn'den sonra Hz. Ali'nin hakemi.
+biyografi: |
+  Kavminden bir heyetle Medine'ye gelmek üzere yola çıktı, gemileri Habeşistan'a sürüklendi; Hayber'in fethi sırasında (7/628) Medine'ye ulaştı. Hz. Peygamber zamanında Yemen'e zekât memuru olarak gönderildi.
+
+  Hz. Ömer onu 17/638'de Basra'ya, daha sonra Kûfe'ye vali ve kadı tayin etti; Ömer'in ona yazdığı yargılama mektubu İslâm hukuk tarihinin temel metinlerindendir. Kur'an'ı güzel okumasıyla tanındı, Basra'da Kur'an ve fıkıh halkaları kurdu. Cemel'de tarafsız kaldı; Sıffîn'den sonra tahkimde Hz. Ali'nin hakemi oldu.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebû Mûsâ el-Eş'arî\"", url: "https://islamansiklopedisi.org.tr/ebu-musa-el-esari"}
+  - "İbn Hacer, el-İsâbe (Bicâvî), IV, 211-214"
+dogrulandi: true

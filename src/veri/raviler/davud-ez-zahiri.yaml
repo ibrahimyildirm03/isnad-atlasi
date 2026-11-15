@@ -1,0 +1,47 @@
+isim: Dâvûd ez-Zâhirî
+tam_isim: Ebû Süleymân Dâvûd b. Alî b. Halef ez-Zâhirî
+tabaka: sonraki
+isim_bilgisi:
+  ism: Dâvûd
+  kunye: Ebû Süleymân
+  nesep: Dâvûd b. Ali b. Halef
+  nesep_arapca: داود بن علي بن خلف الأصبهاني الظاهري
+  nisbeler:
+    - el-İsfahânî
+    - el-Bağdâdî
+    - ez-Zâhirî
+  aciklama: Nassların zâhirine bağlılığı sebebiyle "ez-Zâhirî" diye anıldı.
+dogum: {hicri: 200, miladi: 815, not: "202 de denmiştir"}
+vefat: {hicri: 270, miladi: 884}
+vefat_yeri: Bağdat (Şûnîziyye'ye defnedildi)
+dogum_yeri: Kûfe
+bolge: bagdat
+diger_bolgeler: [kufe, basra]
+imam: {mezheb: Zâhirî, yasayan: false}
+ozet: Zâhirî mezhebinin kurucusu.
+eserleri:
+  - el-Îzâh
+  - el-İfsâh
+  - Kitâbü'l-Usûl
+  - ez-Zeb ani's-sünne ve'l-ahbâr
+  - İbtâlü'l-kıyâs
+biyografi: |
+  200 veya 202'de Kûfe'de doğdu; ailesi İsfahanlı olduğu için "el-İsfahânî" diye de anılır. Basra ve Bağdat'ta Ebû Sevr, Süleyman b. Harb, Ka'nebî ve Müsedded b. Müserhed'den ders aldı; ardından Nîşâbur'da İshak b. Râhûye'nin derslerine devam edip tahsilini tamamladı. Şâfiî'nin vefatında dört yaşında olduğundan onun talebesi olması mümkün görülmez.
+
+  Ebû Sevr'in etkisiyle babasının mezhebi olan Hanefîliği bırakıp Şâfiî mezhebini seçti ve Şâfiî hakkında kitap yazan ilk müellif oldu. İbn Râhûye'nin etkisiyle müstakil ictihada yöneldi; Şâfiî'nin re'y ve istihsana yönelttiği eleştirileri de ileri taşıyarak Kitap ve Sünnet'in zâhirine dayanan Zâhiriyye mezhebini ortaya koydu. Kıyası büyük ölçüde reddetti ve icmâyı sahâbe icmâıyla sınırladı.
+
+  Bağdat'taki derslerinde yaklaşık dört yüz talebesi bulunduğu kaydedilir; mantık ve cedelde mahirdi ve hocası İbn Râhûye ile serbestçe tartışabilen tek talebe olduğu söylenir. Kur'an'ın mahlûk olduğu görüşünü benimsediği bildirildiği için Ahmed b. Hanbel onun ziyaretini kabul etmemiştir.
+
+  İbnü'n-Nedîm yaklaşık 150 eserinin adını verir, ancak hiçbiri günümüze ulaşmamıştır. Mezhebi oğlu Muhammed tarafından sürdürüldü, Endülüs'te İbn Hazm'ın eserleriyle önem kazandı. Ramazan 270'te Bağdat'ta vefat etti ve Şûnîziyye Mezarlığı'na defnedildi.
+hocalari:
+  - kisi: safii
+    araci: Ebû Sevr
+    not: Şâfiî'yi doğrudan hocası sayan rivayet, Şâfiî vefat ettiğinde Dâvûd dört yaşında olduğu için mümkün görülmez
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Dâvûd ez-Zâhirî\"", url: "https://islamansiklopedisi.org.tr/davud-ez-zahiri"}
+  - kisi: ishak-b-rahuye
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Dâvûd ez-Zâhirî"
+      url: https://islamansiklopedisi.org.tr/davud-ez-zahiri
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Dâvûd ez-Zâhirî\"", url: "https://islamansiklopedisi.org.tr/davud-ez-zahiri"}
+dogrulandi: true

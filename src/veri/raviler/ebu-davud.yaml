@@ -1,0 +1,66 @@
+isim: Ebû Dâvûd es-Sicistânî
+tam_isim: Ebû Dâvûd Süleymân b. el-Eş'as b. İshâk el-Ezdî es-Sicistânî
+arapca: أبو داود سليمان بن الأشعث السجستاني
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Dâvûd
+  ism: Süleymân
+  nesep: Süleymân b. el-Eş'as b. İshâk b. Beşîr b. Şeddâd
+  nesep_arapca: سليمان بن الأشعث بن إسحاق بن بشير الأزدي السجستاني
+  nisbeler: [el-Ezdî, es-Sicistânî, es-Siczî]
+dogum: {hicri: 202, miladi: 817, not: "203 de denmiştir"}
+vefat: {hicri: 275, miladi: 889, not: "16 Şevval 275"}
+dogum_yeri: Sicistan
+vefat_yeri: Basra
+kutub_i_tisa: "Kütüb-i Sitte: Sünen-i Ebî Dâvûd"
+bolge: basra
+kutub_i_sitte: es-Sünen (Sünen-i Ebî Dâvûd)
+eserleri: [es-Sünen, el-Merâsîl, Mesâilü'l-İmâm Ahmed, Risâle ilâ ehli Mekke]
+rical:
+  tehzibut_tehzib: "IV, 169-173"
+  rumuz: "د"
+  sozler:
+    - kim: Mûsâ b. Hârûn
+      soz: Ebû Dâvûd dünyada hadis için, âhirette cennet için yaratılmıştır.
+      kaynak: DİA, "Ebû Dâvûd es-Sicistânî"
+ozet: Yazdığı beş yüz bin hadisten 4800'ünü seçtiği es-Sünen'in müellifi; Ahmed b. Hanbel'in talebesi.
+biyografi: |
+  202 ya da 203 yılında Sicistan'da doğdu. On sekiz yaşında Bağdat ve Basra'ya gitti; Basra'da uzun süre kaldı ve Müslim b. İbrâhîm el-Ezdî başta olmak üzere birçok muhaddisten hadis okudu. Ardından Mekke, Kûfe, Halep, Dımaşk, Horasan ve Mısır'ı dolaştı; İbn Hacer'e göre yaklaşık 300 hocası vardır.
+
+  Bağdat'ta uzun süre Ahmed b. Hanbel'in meclislerine devam etti, fıkıh ve usule dair ona sorduklarını Mesâil adlı eserinde topladı. Ahmed b. Hanbel'in es-Sünen'i incelediği ve beğendiği rivayet edilir. Yahyâ b. Maîn, Ali b. el-Medînî, İshâk b. Râhûye, Kuteybe ve Ka'nebî de hocaları arasındadır.
+
+  Zenc isyanıyla harap olan Basra'yı canlandırmak isteyen Emîr Ebû Ahmed el-Muvaffak'ın daveti üzerine Basra'ya yerleşti; emîrin çocuklarına özel ders verme teklifini ise reddetti.
+
+  es-Sünen, beş yüz bin hadis arasından seçilmiş yaklaşık 4800 ahkâm hadisini içerir ve zayıf olanlara işaret eder. Mekke ehline yazdığı risalede eserinin metodunu anlatıp benzerleriyle karşılaştırmıştır. el-Merâsîl, Âcurrî'nin sorularına verdiği cevaplar, Kitâbü'z-Zühd ve Kitâbü'l-Kader diğer eserleridir. Hâkim en-Nîsâbûrî onu asrının hadis imamı saymıştır. 16 Şevval 275'te Basra'da vefat etti.
+hocalari:
+  - kisi: ahmed-b-hanbel
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Dâvûd es-Sicistânî\"", url: "https://islamansiklopedisi.org.tr/ebu-davud-es-sicistani"}
+  - kisi: yahya-b-main
+    kaynak: *tdv
+  - kisi: ali-b-medini
+    kaynak: *tdv
+  - kisi: ishak-b-rahuye
+    kaynak: *tdv
+  - kisi: kuteybe-b-said
+    kaynak: *tdv
+  - kisi: kanebi
+    kaynak: *tdv
+  - kisi: ibn-ebi-seybe
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Şeybe, Ebû Bekir\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-seybe-ebu-bekir"}
+  - kisi: darimi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Dârimî, Abdullah b. Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/darimi-abdullah-b-abdurrahman"}
+  - kisi: ebu-hatim
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Hâtim er-Râzî, Muhammed b. İdrîs"
+      url: https://islamansiklopedisi.org.tr/ebu-hatim-er-razi-muhammed-b-idris
+  - kisi: said-b-mansur
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Saîd b. Mansûr"
+      url: https://islamansiklopedisi.org.tr/said-b-mansur
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

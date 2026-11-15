@@ -1,0 +1,44 @@
+isim: Fudayl b. İyâz
+tam_isim: Ebû Alî el-Fudayl b. İyâz b. Mes'ûd et-Temîmî el-Yerbûî
+arapca: الفضيل بن عياض
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Alî
+  ism: Fudayl
+  nesep: el-Fudayl b. İyâz b. Mes'ûd b. Bişr
+  nesep_arapca: الفضيل بن عياض بن مسعود التميمي اليربوعي
+  nisbeler: [et-Temîmî, el-Yerbûî, el-Horasânî, el-Mekkî]
+  aciklama: Temîm kabilesinin Yerbû' boyundandır.
+dogum: {hicri: 107, miladi: 725}
+vefat: {hicri: 187, miladi: 803, not: "Muharrem 187"}
+dogum_yeri: Merv'in Fundîn köyü (Semerkant ve Buhara da denmiştir)
+vefat_yeri: Mekke
+bolge: mekke
+diger_bolgeler: [kufe, horasan]
+rical:
+  tehzibut_tehzib: "VIII, 294-297"
+ozet: Eşkıyalıktan tövbe ederek Harem'in zâhid muhaddisi olan, Şâfiî ve İbn Uyeyne'nin hocası.
+biyografi: |
+  Ebû Alî el-Fudayl b. İyâz et-Temîmî, Temîm kabilesinin Yerbû' boyundan Arap asıllı bir ailedendir ve 107'de doğdu. Oğlu Ebû Ubeyde'ye göre Semerkant'ta doğup Ebîverd'de yetişti; Merv'in Fundîn köyünden veya Buharalı olduğu da söylenir.
+
+  Kuşeyrî'nin naklettiğine göre gençliğinde Merv ile Ebîverd arasında yol kesen bir çetenin reisiydi. Bir gece bir evin duvarına tırmanırken içeriden okunan bir âyeti duydu, derinden etkilenip tövbe etti ve kendini ibadete verdi. Kûfe'ye giderek Ebû Hanîfe, Süfyân es-Sevrî ve A'meş'in meclislerine devam etti; Mansûr b. el-Mu'temir ve A'meş'ten hadis rivayet etti.
+
+  Süfyân b. Uyeyne, Yahyâ el-Kattân, Abdurrahman b. Mehdî ve İmam Şâfiî ondan hadis aldı; Zehebî onu güvenilir bir râvi sayar. Halife Hârûnürreşîd ile görüşmek istemedi, ısrar üzerine kabul edince düşüncelerini açıkça söyleyip ihsanını reddetti; âlimlerin devlet adamlarından uzak durmasını savundu.
+
+  Korku, hüzün ve ağlama onun hâlleriydi; "bekkâîn"in önde gelenlerinden sayılır. Zühdü kanaat, kanaati de zenginlik olarak tanımladı; fazla yemek, uyumak ve konuşmanın kalbi katılaştırdığını söyledi. Oğlu Ali de zühdüyle tanınmış ve babasından önce vefat etmiştir. Fudayl Muharrem 187'de Mekke'de vefat etti.
+hocalari:
+  - kisi: ames
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Fudayl b. İyâz\"", url: "https://islamansiklopedisi.org.tr/fudayl-b-iyaz"}
+  - kisi: mansur-b-mutemir
+    kaynak: *tdv
+  - kisi: ebu-hanife
+    tur: fikih
+    not: meclislerine devam etti
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    tur: fikih
+    not: meclislerine devam etti
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

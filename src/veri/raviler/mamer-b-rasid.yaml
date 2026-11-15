@@ -1,0 +1,50 @@
+isim: Ma'mer b. Râşid
+tam_isim: Ebû Urve Ma'mer b. Râşid el-Ezdî el-Basrî es-San'ânî
+arapca: معمر بن راشد
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Urve
+  ism: Ma'mer
+  nesep: Ma'mer b. Râşid, mevlâ el-Ezd
+  nesep_arapca: معمر بن راشد الأزدي البصري الصنعاني
+  nisbeler: [el-Ezdî, el-Basrî, es-San'ânî]
+  aciklama: Basralıdır; Ezd kabilesinin âzatlısı olduğu için "el-Ezdî", Yemen'in San'a şehrinde uzun süre yaşadığı için "es-San'ânî" nisbeleriyle anılır.
+dogum: {hicri: 95, miladi: 714, not: "96 da denmiştir"}
+vefat: {hicri: 153, miladi: 770, not: "Ramazan 153; 152 ve 154 de denmiştir"}
+dogum_yeri: Basra
+vefat_yeri: San'a
+bolge: yemen
+diger_bolgeler: [basra]
+eserleri: ["el-Câmi' (günümüze ulaşan en eski hadis kitaplarından; 1614 hadis)"]
+rical:
+  tehzibul_kemal: "XXVIII, 303-311"
+  rumuz: "ع"
+ozet: Günümüze ulaşan en eski hadis kitaplarından el-Câmi'in müellifi; Zührî'nin Yemen'e taşıyıcısı, Abdürrezzâk'ın hocası.
+biyografi: |
+  95 veya 96'da Basra'da doğdu; Ezd kabilesinin âzatlısıdır. Hasan-ı Basrî'nin cenazesine katıldıktan sonra on dört yaşında Katâde'nin derslerine başladı. Zührî, Amr b. Dînâr ve Hemmâm b. Münebbih başlıca hocalarıdır; A'meş, Yahyâ b. Ebî Kesîr ve Zeyd b. Eslem'den de faydalandı.
+
+  Medine, Dımaşk, Horasan, Kûfe ve Yemen'e yolculuk yaptı; ticaret seyahatlerini ilim yolculuğuna dönüştürdü. Yemenliler onu orada tutmak için evlendirdiler ve San'a'ya yerleşti. En yakın talebeleri Abdürrezzâk ile San'a kadısı Hişâm b. Yûsuf'tur; Abdürrezzâk'ın ondan on bin hadis yazdığı rivayet edilir. Sevrî, İbn Uyeyne, Şu'be ve İbnü'l-Mübârek de ondan rivayet etti.
+
+  el-Câmi' adlı eseri günümüze ulaşan en eski hadis kitaplarındandır ve 1614 hadis içerir; Abdürrezzâk bu eseri kendi Musannef'inin sonuna eklemiştir. Hemmâm b. Münebbih'in Sahîfe'sini de rivayet etti. Yemen'de ilk eser telif eden ve hadisleri tedvin eden kişi olarak anılır.
+
+  Zührî'den rivayet edenlerin en güvenilirlerinden sayıldı; Ebû Hâtim, kitapları yanında olmadan Basra'da yaptığı rivayetlerde hatalar olduğunu söylemiştir. Rivayete dayanan fıkhıyla müctehid bir fakih kabul edilir. Ramazan 153'te Yemen'de vefat etti.
+hocalari:
+  - kisi: zuhri
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ma'mer b. Râşid\"", url: "https://islamansiklopedisi.org.tr/mamer-b-rasid"}
+  - kisi: katade-b-diame
+    kaynak: *tdv
+  - kisi: hemmam-b-munebbih
+    kaynak: *tdv
+  - kisi: sabit-el-bunani
+    kaynak: *tdv
+  - kisi: zeyd-b-eslem
+    kaynak: *tdv
+  - kisi: eyyub-es-sahtiyani
+    kaynak: *tdv
+  - kisi: yahya-b-ebi-kesir
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 206
+      url: https://shamela.ws/book/1994/202
+kaynaklar:
+  - *tdv
+dogrulandi: true

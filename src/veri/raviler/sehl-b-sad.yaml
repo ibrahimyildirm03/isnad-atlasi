@@ -1,0 +1,34 @@
+isim: Sehl b. Sa'd
+tam_isim: Ebü'l-Abbâs Sehl b. Sa'd b. Mâlik es-Sâidî el-Ensârî
+arapca: سهل بن سعد الساعدي
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebü'l-Abbâs (Ebû Yahyâ da denmiştir)
+  ism: Sehl
+  nesep: Sehl b. Sa'd b. Sa'd b. Mâlik b. Hâlid b. Sa'lebe b. Hârise b. Amr b. el-Hazrec b. Sâide
+  nesep_arapca: سهل بن سعد بن مالك بن خالد بن ثعلبة بن حارثة بن عمرو بن الخزرج بن ساعدة
+  nisbeler: [es-Sâidî, el-Ensârî, el-Medenî]
+  aciklama: Asıl adı Hazn idi; Hz. Peygamber adını "Sehl" olarak değiştirdi. Bazı nesepçiler nesebindeki ikinci "Sa'd"ı düşürür. Babası Sa'd da Hz. Peygamber hayattayken vefat eden sahâbîlerdendir.
+vefat:
+  hicri: 91
+  miladi: 710
+  not: çoğunluğun görüşü; Ebû Nuaym ve Buhârî 88 der
+vefat_yeri: Medine
+bolge: medine
+hadis_sayisi: {sayi: 188, kaynak: "Bakī b. Mahled (İbn Hazm, Esmâü's-sahâbe er-ruvât)"}
+rical:
+  rumuz: "ع"
+ozet: Medine'de vefat eden son sahâbî; Ebû Hâzim ve Zührî'nin hocası.
+biyografi: |
+  Hazrec'in Sâideoğulları kolundandır; babası Sa'd da Hz. Peygamber hayattayken vefat eden sahâbîlerdendir. Asıl adı Hazn iken Hz. Peygamber onu "Sehl" diye adlandırdı. Liân (karı-koca arasında lanetleşme) olayında on beş yaşında Hz. Peygamber'in huzurunda bulunduğunu kendisi anlatır.
+
+  Zehebî onu "imam, fâzıl, uzun ömürlü, Resûlullah'ın ashâbının son kalanı" diye niteler. Medine'de vefat eden son sahâbîdir ve yüz yaşına ulaşanlardandır. On beş kadınla evlendiği rivayet edilir.
+
+  Birçok hadis rivayet etti; rivayetleri Kütüb-i Sitte'nin hepsinde yer alır. Oğlu Abbâs, Ebû Hâzim Seleme b. Dînâr el-A'rec, Abdullah b. Abdirrahmân b. el-Hâris, İbn Şihâb ez-Zührî ve Yahyâ b. Meymûn ondan rivayet etti. Çoğunluk vefatını 91 yılına, Ebû Nuaym ve Buhârî 88 yılına koyar.
+hocalari: []
+kaynaklar:
+  - ad: Zehebî, Siyeru a'lâmi'n-nübelâ, III, 422-423
+    url: https://shamela.ws/book/10906/3030
+  - {ad: "İbnü'l-Esîr, Üsdü'l-gābe, \"Sehl b. Sa'd\" (tarajm.com)", url: "https://www.tarajm.com/people/16566"}
+dogrulandi: true
+dogrulama_notu: TDV İslâm Ansiklopedisi'nde ayrı maddesi bulunmadığı için Şâmile'deki Zehebî'nin Siyer'inden alındı.

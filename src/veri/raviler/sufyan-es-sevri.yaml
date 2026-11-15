@@ -1,0 +1,120 @@
+isim: Süfyân es-Sevrî
+tam_isim: Ebû Abdillâh Süfyân b. Saîd es-Sevrî
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Süfyân
+  kunye: Ebû Abdillâh
+  lakap: Emîrü'l-mü'minîn fi'l-hadîs
+  nesep: Süfyân b. Saîd b. Mesrûk b. Habîb
+  nesep_arapca: سفيان بن سعيد بن مسروق الثوري الكوفي
+  nisbeler:
+    - es-Sevrî
+    - el-Kûfî
+  aciklama: "\"es-Sevrî\" nisbesi Temîm'in (veya Hemdân'ın) Sevr b. Abdimenât koluna dayanır."
+dogum: {hicri: 97, miladi: 715, not: "95, 96 ve 98 de denmiştir"}
+vefat: {hicri: 161, miladi: 778}
+vefat_yeri: Basra
+bolge: kufe
+diger_bolgeler: [basra]
+imam: {mezheb: Sevrî, yasayan: false}
+rical:
+  sozler:
+    - kim: Süfyân es-Sevrî
+      soz: İsnad mü'minin silâhıdır; silâhı olmayan neyle savaşır?
+      kaynak: DİA, "Süfyân es-Sevrî"
+eserleri:
+  - el-Câmiu'l-kebîr
+  - el-Câmiu's-sağîr
+  - et-Tefsîr
+  - Kitâbü'l-Ferâiz
+  - Kitâbü'l-İ'tikād
+ozet: Hadiste "emîrü'l-mü'minîn" diye anılan Kûfeli muhaddis; Sevrî mezhebinin imamı.
+biyografi: |
+  97/715'te doğdu, küçük yaşta Kûfe'ye yerleşti. Temîm'in Sevr koluna mensuptur. Babası Saîd b. Mesrûk'un yanında hadise başladı; Kûfe'de Hammâd b. Ebî Süleymân, A'meş ve İbn Ebî Leylâ'dan fıkıh ve hadis, Âsım b. Behdele ile Hamza b. Habîb'den kıraat öğrendi. Mekke, Medine, Basra ve Şam'ı dolaşarak İbn Cüreyc, Amr b. Dînâr ve Ca'fer es-Sâdık'tan istifade etti.
+
+  Babasının vefatından sonra ders vermeye başladı ve çok sayıda talebe yetiştirdi. Halife Mansûr'un kadılık teklifini reddederek Kûfe'den ayrıldı ve ömrünün sonuna kadar gizlenerek yaşadı. Mehdî'nin yakalama emri üzerine Mekke'den Basra'ya kaçtı ve 161/778'de orada vefat etti. Ticaretle uğraşarak maddî bağımsızlığını korudu, yöneticilerden uzak durdu.
+
+  Hadisteki üstünlüğü sebebiyle "hadiste mü'minlerin emîri" diye anıldı. Sahâbe, tâbiîn ve etbâu't-tâbiîn fakihlerinin görüşlerini derleyen el-Câmiu'l-kebîr'i erken dönem fıkıh derlemelerinin önemlilerindendir. Adını taşıyan Sevrî mezhebi yaklaşık beş asır yaşadı; Zehebî, kendi döneminde dört mezhep dışında yaşayan fıkıh mezhebi kalmadığını belirtir.
+hocalari:
+  - kisi: amr-b-dinar
+    not: Mekke'de talebesi oldu
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Süfyân es-Sevrî\"", url: "https://islamansiklopedisi.org.tr/sufyan-es-sevri"}
+  - kisi: mansur-b-mutemir
+    kaynak: *tdv
+  - kisi: hisam-b-urve
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hişâm b. Urve\"", url: "https://islamansiklopedisi.org.tr/hisam-b-urve"}
+  - kisi: hammad-b-ebi-suleyman
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hammâd b. Ebû Süleyman"
+      url: https://islamansiklopedisi.org.tr/hammad-b-ebu-suleyman
+  - kisi: eyyub-es-sahtiyani
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Eyyûb es-Sahtiyânî"
+      url: https://islamansiklopedisi.org.tr/eyyub-es-sahtiyani
+  - kisi: rebiatur-rey
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Rebîa b. Ebû Abdurrahman"
+      url: https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman
+  - kisi: yahya-b-said-el-ensari
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yahyâ b. Saîd el-Ensârî"
+      url: https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari
+  - kisi: ebuz-zinad
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebü'z-Zinâd"
+      url: https://islamansiklopedisi.org.tr/ebuz-zinad
+  - kisi: zeyd-b-eslem
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Zeyd b. Eslem"
+      url: https://islamansiklopedisi.org.tr/zeyd-b-eslem
+  - kisi: ames
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "A'meş"
+      url: https://islamansiklopedisi.org.tr/ames
+  - kisi: ebu-ishak-es-sebii
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû İshâk es-Sebîî"
+      url: https://islamansiklopedisi.org.tr/ebu-ishak-es-sebii
+  - kisi: humeyd-et-tavil
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Humeyd et-Tavîl"
+      url: https://islamansiklopedisi.org.tr/humeyd-et-tavil
+  - kisi: ibnul-munkedir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Münkedir"
+      url: https://islamansiklopedisi.org.tr/ibnul-munkedir
+  - kisi: sube-b-haccac
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Şu'be b. Haccâc"
+      url: https://islamansiklopedisi.org.tr/sube-b-haccac
+  - kisi: hammad-b-zeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hammâd b. Zeyd"
+      url: https://islamansiklopedisi.org.tr/hammad-b-zeyd
+  - kisi: ibn-cureyc
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Cüreyc"
+      url: https://islamansiklopedisi.org.tr/ibn-cureyc
+  - kisi: mamer-b-rasid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ma'mer b. Râşid"
+      url: https://islamansiklopedisi.org.tr/mamer-b-rasid
+  - kisi: musa-b-ukbe
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mûsâ b. Ukbe"
+      url: https://islamansiklopedisi.org.tr/musa-b-ukbe
+  - kisi: ibn-ebi-zib
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Zi'b"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-zib
+  - kisi: ibn-ebi-arube
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Arûbe"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-arube
+  - kisi: ubeydullah-b-omer
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249
+      url: https://shamela.ws/book/1994/245
+kaynaklar:
+  - *tdv
+dogrulandi: true

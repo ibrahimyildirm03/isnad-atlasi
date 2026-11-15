@@ -1,0 +1,68 @@
+isim: Şu'be b. el-Haccâc
+tam_isim: Ebû Bistâm Şu'be b. el-Haccâc b. el-Verd el-Ezdî el-Atekî el-Basrî
+arapca: شعبة بن الحجاج
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bistâm
+  ism: Şu'be
+  nesep: Şu'be b. el-Haccâc b. el-Verd
+  nesep_arapca: شعبة بن الحجاج بن الورد الأزدي العتكي البصري
+  nisbeler: [el-Ezdî, el-Atekî, el-Vâsıtî, el-Basrî]
+  lakap: Emîrü'l-mü'minîn fi'l-hadîs
+  aciklama: Hadisteki otoritesi sebebiyle "hadiste mü'minlerin emîri" unvanıyla anıldı; bu unvanı alan ilk muhaddislerdendir.
+dogum: {hicri: 82, miladi: 701, not: "82-87 arası"}
+vefat: {hicri: 160, miladi: 776}
+dogum_yeri: Vâsıt
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "XII, 479-495"
+  tehzibut_tehzib: "IV, 338-346"
+  rumuz: "ع"
+  sozler:
+    - kim: Şâfiî
+      soz: Şu'be olmasaydı Irak'ta hadis bilinmezdi.
+      kaynak: DİA, "Şu'be b. Haccâc"
+ozet: '"Hadiste mü''minlerin emîri"; Irak''ta ricâl tenkidini başlatan Basralı muhaddis.'
+biyografi: |
+  82-87 yılları arasında Vâsıt'ta doğdu; Ezd kabilesinin mevlâsıdır. Gençliğinde şiirle ilgilendi; Asmaî, şiirde Şu'be'den daha bilgilisini görmediğini söylemiştir.
+
+  110'dan önce Basra'ya yerleşti ve Hasan el-Basrî'den fıkıh öğrendi; ardından Hakem b. Uteybe'nin etkisiyle hadise yöneldi. A'meş, Eyyûb es-Sahtiyânî, Katâde, Hammâd b. Ebî Süleymân, Ebû İshâk es-Sebîî ve Mansûr b. el-Mu'temir'den hadis aldı.
+
+  Tedlîsi büyük bir kusur sayar, "an" lafzıyla gelen rivayetleri muttasıl kabul etmez, en küçük şüphede rivayeti terk ederdi. Basra'da sistemli hadis tasnifini ve râvi tenkidini başlattı; Şâfiî onun olmasaydı Irak'ta hadisin bilinmeyeceğini söylemiştir. "Hadiste mü'minlerin emîri" unvanıyla anılan ilk muhaddislerdendir.
+
+  Fakirlere merhametli, dünya malına değer vermeyen biriydi; yöneticilerin ihsanlarını kabul etmedi. Süfyân es-Sevrî, İbnü'l-Mübârek, Yahyâ el-Kattân, Abdurrahmân b. Mehdî, Vekî' ve Ebû Dâvûd et-Tayâlisî onun talebeleridir. 160'ta Basra'da vefat etti.
+hocalari:
+  - kisi: ames
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Şu'be b. Haccâc\"", url: "https://islamansiklopedisi.org.tr/sube-b-haccac"}
+  - kisi: eyyub-es-sahtiyani
+    kaynak: *tdv
+  - kisi: hammad-b-ebi-suleyman
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Ebû Süleyman\"", url: "https://islamansiklopedisi.org.tr/hammad-b-ebu-suleyman"}
+  - kisi: ebu-ishak-es-sebii
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû İshâk es-Sebîî\"", url: "https://islamansiklopedisi.org.tr/ebu-ishak-es-sebii"}
+  - kisi: mansur-b-mutemir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbnü'l-Mu'temir\"", url: "https://islamansiklopedisi.org.tr/ibnul-mutemir"}
+  - kisi: humeyd-et-tavil
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Humeyd et-Tavîl\"", url: "https://islamansiklopedisi.org.tr/humeyd-et-tavil"}
+  - kisi: sabit-el-bunani
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Sâbit el-Bünânî\"", url: "https://islamansiklopedisi.org.tr/sabit-el-bunani"}
+  - kisi: rebiatur-rey
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Rebîa b. Ebû Abdurrahman\"", url: "https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman"}
+  - kisi: yahya-b-said-el-ensari
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Ensârî\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari"}
+  - kisi: ibn-ebi-arube
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Arûbe"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-arube
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+  - kisi: ubeydullah-b-omer
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249
+      url: https://shamela.ws/book/1994/245
+kaynaklar:
+  - *tdv
+dogrulandi: true

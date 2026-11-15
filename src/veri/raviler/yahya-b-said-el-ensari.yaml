@@ -1,0 +1,51 @@
+isim: Yahyâ b. Saîd el-Ensârî
+tam_isim: Ebû Saîd Yahyâ b. Saîd b. Kays en-Neccârî el-Hazrecî el-Ensârî
+arapca: يحيى بن سعيد الأنصاري
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Saîd (Ebû Nasr da denmiştir)
+  ism: Yahyâ
+  nesep: Yahyâ b. Saîd b. Kays b. Amr b. Sehl
+  nesep_arapca: يحيى بن سعيد بن قيس الأنصاري النجاري
+  nisbeler: [el-Ensârî, el-Hazrecî, en-Neccârî, el-Medenî]
+  aciklama: Dedesi Kays b. Amr sahâbîdir. Aynı adı taşıyan Basralı hadis münekkidi Yahyâ b. Saîd el-Kattân ile karıştırılmamalıdır.
+dogum: {not: "70/689'dan önce"}
+vefat: {hicri: 143, miladi: 760, not: "144 ve 146 da denmiştir"}
+dogum_yeri: Medine
+vefat_yeri: Hâşimiye (Kûfe yakını)
+bolge: medine
+diger_bolgeler: [kufe]
+rical:
+  tehzibut_tehzib: "XI, 221-224"
+  rumuz: "ع"
+ozet: Medine kadısı, Hicaz'ın önde gelen muhaddisi; Mâlik, Sevrî, Şu'be ve İbn Uyeyne'nin hocası.
+biyografi: |
+  Ebû Saîd Yahyâ b. Saîd b. Kays el-Ensârî, Neccâroğulları'ndan olup 70'ten önce Medine'de doğdu; dedesi Kays b. Amr sahâbîdir. Fukahâ-yi seb'anın talebesi olarak bilinir. Enes b. Mâlik, Sâib b. Yezîd, Saîd b. el-Müseyyeb, Zeynelâbidîn, Amre bint Abdurrahman, Ebû Seleme, Zührî ve A'rec'den hadis öğrendi.
+
+  Hişâm b. Urve, Eyyûb es-Sahtiyânî, Mâlik, İbn İshak, Şu'be, Süfyân es-Sevrî, Evzâî, İbnü'l-Mübârek, Ebû Yûsuf, Süfyân b. Uyeyne ve Yahyâ el-Kattân ondan rivayet etti. "Ameller niyetlere göredir" hadisi, ondan yaklaşık iki yüz râvinin rivayetiyle meşhur derecesine ulaşmıştır.
+
+  Velîd b. Abdülmelik döneminde Medine kadısı oldu; Ömer b. Abdülazîz onu zekât âmili olarak İfrîkıye'ye gönderdi. Abbâsîler zamanında Mansûr tarafından Hâşimiye'de kadılığa getirildi. Bir mirastan elde ettiği 500 dinarı Rebîatü'r-re'y ile paylaştığı nakledilir.
+
+  Döneminde Hicaz'ın en önde gelen muhaddisi sayıldı. Eyyûb, Medine'de ondan daha fakih birinin olmadığını söylemiş; Mâlik, Irak'a gidenlerin değiştiğini ama Yahyâ'nın değişmediğini belirtmiştir. 143'te Hâşimiye'de vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Ensârî\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari"}
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+  - kisi: zuhri
+    kaynak: *tdv
+  - kisi: nafi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Nâfi'"
+      url: https://islamansiklopedisi.org.tr/nafi--tabiin-alimi
+  - kisi: rebiatur-rey
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Rebîa b. Ebû Abdurrahman"
+      url: https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman
+  - kisi: ebu-seleme-b-abdirrahman
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Seleme b. Abdurrahman b. Avf"
+      url: https://islamansiklopedisi.org.tr/ebu-seleme-b-abdurrahman-b-avf
+kaynaklar:
+  - *tdv
+dogrulandi: true

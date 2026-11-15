@@ -1,0 +1,42 @@
+isim: Hüşeym b. Beşîr
+tam_isim: Ebû Muâviye Hüşeym b. Beşîr b. Kāsım es-Sülemî el-Vâsıtî
+arapca: هشيم بن بشير
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Muâviye (Ebû Hâzim da denmiştir)
+  ism: Hüşeym
+  nesep: Hüşeym b. Beşîr b. el-Kāsım b. Dînâr
+  nesep_arapca: هشيم بن بشير بن القاسم السلمي الواسطي
+  nisbeler: [es-Sülemî, el-Vâsıtî, el-Bağdâdî]
+dogum: {hicri: 104, miladi: 722}
+vefat: {hicri: 183, miladi: 799, not: "25 Şâban 183"}
+dogum_yeri: Vâsıt
+vefat_yeri: Bağdat
+bolge: bagdat
+rical:
+  tehzibul_kemal: "XXX, 272-288"
+  tehzibut_tehzib: "XI, 59-64"
+  rumuz: "ع"
+ozet: Yirmi bin hadis ezberlediği söylenen Vâsıtlı hâfız; Ahmed b. Hanbel'in ilk büyük hocası.
+eserleri:
+  - et-Tefsîr
+  - Kitâbü's-Sünen fi'l-fıkh
+  - Kitâbü'l-Megāzî
+biyografi: |
+  104'te Vâsıt'ta doğdu; ailesi aslen Buharalı veya Belhlidir. Babası Haccâc'ın aşçılarındandı ve yoksulluk yüzünden oğlunun okumasına izin vermedi. Hüşeym babasından habersiz Ebû Şeybe el-Kādî'nin derslerine devam etti; hocasının bir ziyareti üzerine babası da razı oldu.
+
+  Mekke, Basra ve Kûfe'ye yolculuk ederek Zührî, Amr b. Dînâr, Eyyûb es-Sahtiyânî, Humeyd et-Tavîl ve A'meş'ten hadis öğrendi. 145'te Mansûr'a karşı İbrâhim b. Abdullah'ın ayaklanmasına katıldı; bu savaşta oğlu ve kardeşi öldürüldü. Daha sonra Bağdat'a göçüp ölümüne kadar orada yaşadı.
+
+  Ahmed b. Hanbel ilk hadis derslerini ondan aldı ve dört beş yıl devam etti. Süfyân es-Sevrî, Şu'be, Mâlik, İbnü'l-Mübârek, Yahyâ el-Kattân, İbn Mehdî, Ali b. el-Medînî ve Yahyâ b. Maîn de ondan rivayet etti. Yaklaşık 20.000 hadis ezberlediği belirtilir.
+
+  Sika ve hâfız kabul edilmekle birlikte çok tedlîs ve irsâl yapmakla eleştirildi. Hadislerini bablara göre ilk tasnif edenler arasında anılır. 25 Şâban 183'te Bağdat'ta vefat etti ve Hayzürân Kabristanı'na defnedildi.
+hocalari:
+  - kisi: zuhri
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Hüşeym b. Beşîr\"", url: "https://islamansiklopedisi.org.tr/huseym-b-besir"}
+  - kisi: humeyd-et-tavil
+    kaynak: *tdv
+  - kisi: ames
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

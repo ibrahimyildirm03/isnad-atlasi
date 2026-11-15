@@ -1,0 +1,100 @@
+isim: Süfyân b. Uyeyne
+tam_isim: Ebû Muhammed Süfyân b. Uyeyne el-Hilâlî
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Süfyân
+  kunye: Ebû Muhammed
+  nesep: Süfyân b. Uyeyne b. Ebî İmrân Meymûn, mevlâ Benî Hilâl
+  nesep_arapca: سفيان بن عيينة بن أبي عمران ميمون الهلالي مولاهم المكي
+  nisbeler:
+    - el-Hilâlî (mevlâ)
+    - el-Kûfî
+    - el-Mekkî
+  aciklama: Kûfe'de doğdu, Mekke'ye yerleşti.
+dogum: {hicri: 107, miladi: 725}
+vefat: {hicri: 198, miladi: 814}
+vefat_yeri: Mekke (Hacûn'a defnedildi)
+dogum_yeri: Kûfe
+bolge: mekke
+diger_bolgeler: [kufe]
+eserleri:
+  - Tefsîru Süfyân b. Uyeyne
+  - el-Câmi'
+  - Cüz' (hadis cüzü)
+imam: {mezheb: Süfyân b. Uyeyne, yasayan: false}
+ozet: Mekke'nin büyük muhaddisi; Şâfiî ve Ahmed b. Hanbel'in hocası.
+biyografi: |
+  Şâban 107'de Kûfe'de doğdu; Hilâl b. Âmir oğullarına nisbetle "el-Hilâlî" diye anılır. Babası dokuz çocuğunu ilme yönlendirmiş, kardeşlerinden dördü de hadis rivayet etmiştir. Irak valisi Hâlid el-Kasrî'nin azlinden sonra aile Mekke'ye gidip yerleşti ve Süfyân küçük yaşta hadis meclislerine katılmaya başladı.
+
+  Çoğu tâbiîn neslinden seksenden fazla hocası vardır; Amr b. Dînâr, Zührî, Eyyûb es-Sahtiyânî, Hişâm b. Urve ve Ma'mer bunlar arasındadır. Zührî onun zekâsını erken fark edip özel ilgi gösterdi; Mâlik ile birlikte Zührî rivayetlerinde en güvenilir isim sayılır. 7000'den fazla hadis rivayet ettiği belirtilir ve Süfyân es-Sevrî ile birlikte "Süfyânân" diye anılır.
+
+  Humeydî, İbnü'l-Mübârek, İbn Mehdî, İmam Şâfiî, Abdürrezzâk, Ahmed b. Hanbel, Ali b. el-Medînî ve Yahyâ b. Maîn talebeleri arasındadır. Mekke'de uzun yıllar ders vererek Hicaz'ın hadis merkezi oldu; tefsirleri de derlenip yayımlanmıştır. Zâhid, fakir bir hayat sürdü ve yetmiş (veya seksen) kez hac yaptığı kaydedilir.
+
+  Vefatından bir yıl önce hafızasının karıştığı yönündeki rivayeti Zehebî doğru bulmamıştır. 1 Receb 198'de Mekke'de vefat etti ve Hacûn'a defnedildi.
+hocalari:
+  - kisi: amr-b-dinar
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Süfyân b. Uyeyne\"", url: "https://islamansiklopedisi.org.tr/sufyan-b-uyeyne"}
+  - kisi: mucahid-b-cebr
+    araci: İbn Ebî Necîh
+    kaynak: {ad: "Zehebî, Siyeru a'lâmi'n-nübelâ, 6/125 (İbn Ebî Necîh)", url: "https://shamela.ws/book/10906/4375"}
+  - kisi: hisam-b-urve
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hişâm b. Urve\"", url: "https://islamansiklopedisi.org.tr/hisam-b-urve"}
+  - kisi: eyyub-es-sahtiyani
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Eyyûb es-Sahtiyânî"
+      url: https://islamansiklopedisi.org.tr/eyyub-es-sahtiyani
+  - kisi: yahya-b-said-el-ensari
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yahyâ b. Saîd el-Ensârî"
+      url: https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari
+  - kisi: zuhri
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Zührî"
+      url: https://islamansiklopedisi.org.tr/zuhri
+  - kisi: ebuz-zinad
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebü'z-Zinâd"
+      url: https://islamansiklopedisi.org.tr/ebuz-zinad
+  - kisi: zeyd-b-eslem
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Zeyd b. Eslem"
+      url: https://islamansiklopedisi.org.tr/zeyd-b-eslem
+  - kisi: ames
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "A'meş"
+      url: https://islamansiklopedisi.org.tr/ames
+  - kisi: mansur-b-mutemir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Mu'temir"
+      url: https://islamansiklopedisi.org.tr/ibnul-mutemir
+  - kisi: humeyd-et-tavil
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Humeyd et-Tavîl"
+      url: https://islamansiklopedisi.org.tr/humeyd-et-tavil
+  - kisi: hammad-b-zeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hammâd b. Zeyd"
+      url: https://islamansiklopedisi.org.tr/hammad-b-zeyd
+  - kisi: ibn-cureyc
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Cüreyc"
+      url: https://islamansiklopedisi.org.tr/ibn-cureyc
+  - kisi: mamer-b-rasid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ma'mer b. Râşid"
+      url: https://islamansiklopedisi.org.tr/mamer-b-rasid
+  - kisi: musa-b-ukbe
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mûsâ b. Ukbe"
+      url: https://islamansiklopedisi.org.tr/musa-b-ukbe
+  - kisi: fudayl-b-iyaz
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Fudayl b. İyâz"
+      url: https://islamansiklopedisi.org.tr/fudayl-b-iyaz
+  - kisi: ubeydullah-b-omer
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249
+      url: https://shamela.ws/book/1994/245
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Süfyân b. Uyeyne\"", url: "https://islamansiklopedisi.org.tr/sufyan-b-uyeyne"}
+dogrulandi: true

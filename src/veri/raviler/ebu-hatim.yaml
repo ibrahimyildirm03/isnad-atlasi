@@ -1,0 +1,46 @@
+isim: Ebû Hâtim er-Râzî
+tam_isim: Ebû Hâtim Muhammed b. İdrîs b. el-Münzir el-Hanzalî er-Râzî
+arapca: أبو حاتم الرازي محمد بن إدريس
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Hâtim
+  ism: Muhammed
+  nesep: Muhammed b. İdrîs b. el-Münzir b. Dâvûd b. Mihrân
+  nesep_arapca: محمد بن إدريس بن المنذر الحنظلي الرازي
+  nisbeler: [er-Râzî, el-Hanzalî, et-Temîmî, el-Gatafânî]
+  aciklama: '"el-Hanzalî" nisbesi Rey''deki Derbü Hanzala mahallesinde oturmasından, "et-Temîmî" ve "el-Gatafânî" nisbeleri dedelerinin müttefiklik bağından gelir.'
+dogum: {hicri: 195, miladi: 811}
+vefat: {hicri: 277, miladi: 890, not: "Şâban 277; 275'te Bağdat'ta öldüğü de rivayet edilir"}
+dogum_yeri: Rey
+vefat_yeri: Rey
+bolge: cibal
+eserleri: ["Kitâbü'z-Zühd", "Tefsîrü'l-Kur'âni'l-azîm (bir cildi Medine'de)", "Râviler hakkındaki görüşleri: oğlu İbn Ebî Hâtim'in el-Cerh ve't-ta'dîl'i ve Berzaî'nin ed-Duafâ'sı"]
+rical:
+  tehzibut_tehzib: "IX, 31-34"
+ozet: '"Hadiste mü''minlerin emîri" diye anılan Reyli münekkit; el-Cerh ve''t-ta''dîl''in temel kaynağı.'
+biyografi: |
+  195'te Rey'de doğdu; şehrin Derbü Hanzala mahallesinde oturduğu için "el-Hanzalî" diye anılır. 209'da Rey'de hadis öğrenimine başladı; Ebû Nuaym, Affân b. Müslim, Âdem b. Ebî İyâs ve Ahmed b. Hanbel'den faydalandı. Kûfe, Basra, Mekke, Medine, Bağdat, Mısır, Kudüs, Dımaşk ve Antakya gibi pek çok şehri yaya olarak dolaştı.
+
+  Yedi yıl süren ilk yolculuğunda büyük sıkıntılar çekti; 214'te Basra'da parası tükenince elbiselerini satmak zorunda kaldı. İkinci yolculuğunu 242-245 arasında yaptı. Oğlu İbn Ebî Hâtim, arkadaşı Ebû Zür'a, Ebû Dâvûd ve Nesâî ondan rivayet etti; İbn Hacer, Buhârî'nin de ondan rivayet ettiğini kaydeder.
+
+  "Emîrü'l-mü'minîn fi'l-hadîs" unvanıyla anıldı. Râvileri yakından tanır, rivayetlerdeki gizli kusurları hemen fark ederdi. Titiz ve sert bir münekkit olduğu için güvenilir saydığı râvilere güvenle yaklaşılmış, zayıf saydıklarında başka münekkitlere de bakılması tavsiye edilmiştir. Hocası Yûnus b. Abdila'lâ onu ve Ebû Zür'a'yı Horasan'ın iki büyük imamı saymıştır.
+
+  Râvi değerlendirmeleri, oğlunun el-Cerh ve't-ta'dîl'inde toplanmıştır. İtikadda nakle bağlı kaldı ve kelâma karşı çıktı. Şâban 277'de Rey'de vefat etti.
+hocalari:
+  - kisi: ahmed-b-hanbel
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Hâtim er-Râzî, Muhammed b. İdrîs\"", url: "https://islamansiklopedisi.org.tr/ebu-hatim-er-razi-muhammed-b-idris"}
+  - kisi: ebu-nuaym
+    kaynak: *tdv
+  - kisi: humeydi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Humeydî, Abdullah b. Zübeyr\"", url: "https://islamansiklopedisi.org.tr/humeydi-abdullah-b-zubeyr"}
+  - kisi: ebu-zura
+    tur: rivayet
+    not: hemşehri ve akranıdır; birbirlerinden rivayet etmişlerdir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Zür'a er-Râzî\"", url: "https://islamansiklopedisi.org.tr/ebu-zura-er-razi"}
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

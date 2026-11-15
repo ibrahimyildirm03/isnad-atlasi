@@ -1,0 +1,35 @@
+isim: Muâz b. Cebel
+tam_isim: Ebû Abdirrahmân Muâz b. Cebel el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Muâz
+  kunye: Ebû Abdirrahmân
+  nesep: Muâz b. Cebel b. Amr b. Evs
+  nesep_arapca: معاذ بن جبل بن عمرو بن أوس الأنصاري الخزرجي
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+  aciklama: Hz. Peygamber onu helal ve haramı en iyi bilen sahâbî olarak övmüştür.
+vefat: {hicri: 18, miladi: 639}
+vefat_yeri: Amvâs (Ürdün)
+dogum_yeri: Medine
+bolge: sam
+rical:
+  sozler:
+    - kim: Muâz b. Cebel
+      soz: İnsanlarla az, Rabbinle çok konuş.
+      kaynak: DİA, "Muâz b. Cebel"
+diger_bolgeler: [yemen, medine]
+ozet: "Resûlullah'ın Yemen'e muallim olarak gönderdiği sahâbî; Şam'da vefat etti."
+biyografi: |
+  603 civarında Medine'de doğdu; on sekiz yaşında müslüman oldu ve İkinci Akabe biatına katıldı. Hicretten sonra Hz. Peygamber onu Abdullah b. Mes'ûd ile kardeş ilan etti. Huneyn ve Tâif dışındaki seferlerin hemen hepsinde bulundu.
+
+  9/630'da Hz. Peygamber onu Yemen'e elçi, zekât memuru, kadı ve muallim olarak gönderdi; bir meselede Kitap ve sünnette hüküm bulamazsa re'yiyle içtihad edeceğini söylediği meşhur rivayet bu görevle ilgilidir. Kendini peygamber ilan eden Esved el-Ansî'nin bertaraf edilmesine yardım etti.
+
+  Hz. Ebû Bekir döneminde Yermük, Ecnâdeyn ve Dımaşk başta olmak üzere Şam fetihlerine katıldı; Hz. Ömer onu Şam'a muallim olarak da gönderdi. Kur'an'ın tamamını ezberlemişti ve helal ile haramı en iyi bilen sahâbî olarak övüldü. 157 hadis rivayet etti; İbn Abbâs, İbn Ömer ve Enes b. Mâlik ondan rivayet edenler arasındadır.
+
+  Ebû Ubeyde b. el-Cerrâh'ın vebadan vefatı üzerine ordunun komutasını üstlendi ve kısa süre sonra 18/639'da Amvâs vebasında vefat etti. Ürdün'de adını taşıyan bir köyde türbesi bulunur.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Muâz b. Cebel\"", url: "https://islamansiklopedisi.org.tr/muaz-b-cebel"}
+dogrulandi: true

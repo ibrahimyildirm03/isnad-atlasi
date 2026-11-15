@@ -1,0 +1,70 @@
+isim: Yahyâ b. Saîd el-Kattân
+tam_isim: Ebû Saîd Yahyâ b. Saîd b. Ferrûh el-Kattân et-Temîmî el-Basrî
+arapca: يحيى بن سعيد القطان
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Saîd
+  ism: Yahyâ
+  nesep: Yahyâ b. Saîd b. Ferrûh
+  nesep_arapca: يحيى بن سعيد بن فروخ القطان التميمي البصري
+  nisbeler: [et-Temîmî, el-Basrî]
+  lakap: el-Kattân
+  aciklama: Pamuk (kutn) ticaretiyle uğraştığı için "el-Kattân" diye anıldı. Medineli Yahyâ b. Saîd el-Ensârî ile karıştırılmaması için bu lakapla birlikte zikredilir.
+dogum: {hicri: 120, miladi: 738}
+vefat: {hicri: 198, miladi: 813}
+dogum_yeri: Basra
+vefat_yeri: Basra
+bolge: basra
+rical:
+  rumuz: "ع"
+  sozler:
+    - kim: Ahmed b. Hanbel
+      soz: Râvileri en iyi tanıyan ve rivayetinde pek az hata eden hadisçidir.
+      kaynak: DİA, "Yahyâ b. Saîd el-Kattân"
+ozet: Ricâl tenkidinin kurucularından Basralı hâfız; Ahmed b. Hanbel, İbn Maîn ve İbnü'l-Medînî'nin hocası.
+biyografi: |
+  120 yılı başlarında Basra'da doğdu. Ataları Benî Temîm'in âzatlısı olduğu için et-Temîmî nisbesini aldı; pamuk ticaretiyle uğraştığı için "el-Kattân", gözündeki şaşılık sebebiyle "el-Ahvel" diye de anıldı.
+
+  Başlıca hocaları Şu'be ve Süfyân es-Sevrî'dir; Şu'be'nin derslerine yirmi yıl devam ettiğini kendisi söylemiştir. Evzâî, Hammâd b. Seleme, Mâlik ve Hüşeym'den de rivayet etti.
+
+  Yalnız güvenilir râvilerden rivayet etmesi ve koyduğu sıkı ölçüler sebebiyle cerh-ta'dîlde müteşeddid münekkitler arasında sayılır. Zayıf râvilere dair günümüze ulaşmayan bir ed-Duafâ yazdığı nakledilir. İlel ve ricâl alanındaki yöntemleri sistemleştirmesiyle, Şu'be'nin Basra'da başlattığı tenkit geleneğini bir sonraki nesle aktaran halka oldu.
+
+  Yakın arkadaşı Abdurrahmân b. Mehdî ile birlikte Basra'nın iki büyük münekkidi olarak anılır; ikisinin ittifakla terk ettiği râviden rivayet edilmezdi. Ali b. el-Medînî, Yahyâ b. Maîn ve Ahmed b. Hanbel onun talebeleridir; böylece ricâl ilmi onun üzerinden 3. asrın büyük münekkitlerine geçti. 198'de Basra'da vefat etti.
+hocalari:
+  - kisi: sube-b-haccac
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Kattân\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-kattan"}
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: hammad-b-seleme
+    kaynak: *tdv
+  - kisi: yahya-b-said-el-ensari
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Ensârî\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari"}
+  - kisi: ibn-cureyc
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Cüreyc\"", url: "https://islamansiklopedisi.org.tr/ibn-cureyc"}
+  - kisi: huseym-b-besir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hüşeym b. Beşîr\"", url: "https://islamansiklopedisi.org.tr/huseym-b-besir"}
+  - kisi: ibn-ebi-zib
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Zi'b"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-zib
+  - kisi: fudayl-b-iyaz
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Fudayl b. İyâz"
+      url: https://islamansiklopedisi.org.tr/fudayl-b-iyaz
+  - kisi: ibn-ebi-arube
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Arûbe"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-arube
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+  - kisi: ubeydullah-b-omer
+    kaynak:
+      ad: İbn Abdülhâdî, Tabakātü ulemâi'l-hadîs, I, 249
+      url: https://shamela.ws/book/1994/245
+kaynaklar:
+  - *tdv
+dogrulandi: true

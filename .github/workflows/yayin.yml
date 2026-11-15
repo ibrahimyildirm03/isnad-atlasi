@@ -1,0 +1,44 @@
+# main dalına her yüklemede siteyi derleyip GitHub Pages'te yayımlar.
+# Depo ayarlarında: Settings → Pages → Source: GitHub Actions
+name: Yayın
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Aynı anda tek yayın; yenisi gelince sıradaki beklemez
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  derle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      # Kilit dosyası npm 11 ile oluşturuldu; Node 24 npm 11 ile gelir (Node 22'deki npm 10 kilit dosyasını eksik sayar)
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  yayinla:
+    needs: derle
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.yayin.outputs.page_url }}
+    steps:
+      - id: yayin
+        uses: actions/deploy-pages@v4

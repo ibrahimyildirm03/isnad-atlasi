@@ -1,0 +1,73 @@
+isim: Müslim b. el-Haccâc
+tam_isim: Ebü'l-Hüseyn Müslim b. el-Haccâc b. Müslim el-Kuşeyrî en-Nîsâbûrî
+arapca: مسلم بن الحجاج القشيري
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebü'l-Hüseyn
+  ism: Müslim
+  nesep: Müslim b. el-Haccâc b. Müslim b. Verd b. Küşâz
+  nesep_arapca: مسلم بن الحجاج بن مسلم بن ورد القشيري النيسابوري
+  nisbeler: [el-Kuşeyrî, en-Nîsâbûrî]
+  lakap: el-Bezzâz
+  aciklama: Kumaş ticaretiyle uğraştığı için "el-Bezzâz" diye de anılır. "el-Kuşeyrî" nisbesi Kuşeyr kabilesinedir; Arap asıllı mı yoksa mevlâ mı olduğu tartışılmıştır.
+dogum: {hicri: 206, miladi: 821}
+vefat: {hicri: 261, miladi: 875, not: "25 Receb 261"}
+dogum_yeri: Nîşâbur
+vefat_yeri: Nîşâbur
+kutub_i_tisa: "Kütüb-i Sitte: Sahîh-i Müslim"
+bolge: horasan
+kutub_i_sitte: el-Câmiu's-sahîh (Sahîh-i Müslim)
+eserleri: [el-Câmiu's-sahîh, et-Temyîz, el-Künâ ve'l-esmâ, et-Tabakāt]
+rical:
+  tehzibut_tehzib: "X, 126-128"
+  rumuz: "م"
+ozet: Buhârî'nin Sahîh'iyle birlikte "Sahîhayn" diye anılan el-Câmiu's-sahîh'in müellifi.
+biyografi: |
+  206'da Nîşâbur'da doğdu; Benî Kuşeyr'in mevlâsı olduğu için Kuşeyrî diye anılır. Eğitimci babasından ve çevredeki âlimlerden okudu, on iki yaşında hadis öğrenmeye başladı. Nîşâbur'da Yahyâ b. Yahyâ ve İshâk b. Râhûye'den istifade etti; iki yıl sonra hac için Hicaz'a gidip Medine ve Mekke'de hadis dinledi.
+
+  230'dan önce yeniden yolculuğa çıkarak Basra, Belh, Kûfe, Rey ve Mısır'a uğradı; Bağdat'a birkaç kez gidip Ahmed b. Hanbel gibi âlimlerden hadis aldı. Kumaş ticaretiyle geçindi ve cömertliği sebebiyle "Nîşâbur'un cömerdi" diye anıldı.
+
+  Buhârî Nîşâbur'a geldiğinde onun ilmine hayran kalıp yanından ayrılmadı ve halku'l-Kur'ân tartışmasında onu savundu. Hocası Zühlî'nin Buhârî'ye cephe alması üzerine Zühlî'den yazdığı hadisleri geri gönderip ondan ayrıldı. Bununla birlikte el-Câmiu's-sahîh'inde ne Buhârî'den ne de Zühlî'den rivayet etti.
+
+  el-Câmiu's-sahîh tekrarlarıyla yaklaşık 12.000, tekrarsız yaklaşık 4000 hadis içerir. En belirgin özelliği, bir hadisin güvenilir rivayetlerini senedleriyle tek yerde bir araya getirmesidir. Eserini Rey'de Ebû Zür'a er-Râzî'ye okuyup onun tenkitlerini dikkate aldı. Buhârî'nin eseriyle birlikte "Sahîhayn" diye anılır.
+
+  Kitâbü't-Temyîz, et-Tabakāt, el-Künâ ve'l-esmâ ve el-Münferidât ve'l-vuhdân diğer eserlerindendir. Cerh ve ta'dîl âlimlerinden sayılır; bir fıkıh mezhebine bağlanmadı. 25 Receb 261'de Nîşâbur'da vefat etti ve Nasrâbâd kabristanına defnedildi.
+hocalari:
+  - kisi: ishak-b-rahuye
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Müslim b. Haccâc\"", url: "https://islamansiklopedisi.org.tr/muslim-b-haccac"}
+  - kisi: ahmed-b-hanbel
+    kaynak: *tdv
+  - kisi: kuteybe-b-said
+    kaynak: *tdv
+  - kisi: ibn-ebi-seybe
+    kaynak: *tdv
+  - kisi: kanebi
+    kaynak: *tdv
+  - kisi: bundar
+    kaynak: *tdv
+  - kisi: darimi
+    kaynak: *tdv
+  - kisi: yahya-b-main
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Maîn\"", url: "https://islamansiklopedisi.org.tr/yahya-b-main"}
+  - kisi: buhari
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Buhârî, Muhammed b. İsmâil\"", url: "https://islamansiklopedisi.org.tr/buhari-muhammed-b-ismail"}
+    not: Buhârî Nîşâbur'dayken ondan istifade etti; Sahîh'inde ondan rivayet etmez
+  - kisi: ebu-zura
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Zür'a er-Râzî"
+      url: https://islamansiklopedisi.org.tr/ebu-zura-er-razi
+  - kisi: abd-b-humeyd
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Abd b. Humeyd"
+      url: https://islamansiklopedisi.org.tr/abd-b-humeyd
+  - kisi: said-b-mansur
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Saîd b. Mansûr"
+      url: https://islamansiklopedisi.org.tr/said-b-mansur
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

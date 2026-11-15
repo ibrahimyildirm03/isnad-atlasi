@@ -1,0 +1,63 @@
+isim: Leys b. Sa'd
+tam_isim: Ebü'l-Hâris el-Leys b. Sa'd el-Fehmî
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Leys
+  kunye: Ebü'l-Hâris
+  nesep: el-Leys b. Sa'd b. Abdirrahmân
+  nesep_arapca: الليث بن سعد بن عبد الرحمن الفهمي مولاهم المصري
+  nisbeler:
+    - el-Fehmî (mevlâ)
+    - el-Mısrî
+  aciklama: Kays kabilesinin Fehm kolunun âzatlısıdır; aslının İsfahanlı olduğu söylenir.
+dogum: {hicri: 94, miladi: 713}
+vefat: {hicri: 175, miladi: 791}
+vefat_yeri: Fustat (Karâfetüssuğrâ'ya defnedildi)
+dogum_yeri: Karkaşende (Aşağı Mısır)
+bolge: misir
+rical:
+  sozler:
+    - kim: Şâfiî
+      soz: Leys esere Mâlik'ten daha çok tâbidir.
+      kaynak: DİA, "Leys b. Sa'd"
+    - kim: Şâfiî
+      soz: Leys, Mâlik'ten daha fakihti; fakat talebeleri onu zayi etti.
+      kaynak: DİA, "Leys b. Sa'd"
+eserleri:
+  - Kitâbü Mesâili'l-fıkh
+  - Kitâbü't-Târîh
+  - İmam Mâlik'e yazdığı risale
+imam: {mezheb: Leysî, yasayan: false}
+ozet: Mısır'ın büyük fakihi; Leysî mezhebinin imamı.
+biyografi: |
+  Şâban 94'te Aşağı Mısır'da Kalyûbiye'ye bağlı Karkaşende köyünde doğdu. Ailesinin kökeni İsfahan'a bağlanır; Fehmoğulları'nın âzatlısıdır. Mısır ve Hicaz'da Hişâm b. Urve, Saîd el-Makbürî, Yezîd b. Ebî Habîb ve Yahyâ b. Saîd el-Ensârî'den ders aldı; ilk haccını 113'te yaptı.
+
+  Genç yaşta Mısır'ın önde gelen âlimi oldu; valiler önemli kararlarda ona danışırdı. Yıllık gelirinin 20-25.000 dinar olduğu, ancak malını yıl dolmadan dağıttığı için kendisine zekât farz olmadığı nakledilir; İbn Lehîa ve İmam Mâlik'e büyük yardımlarda bulundu.
+
+  İmam Mâlik, Medine amelini esas almadığı fetvalarını eleştiren bir mektup yazmış; Leys'in cevabî risalesi usul düşüncesi tarihinin önemli belgelerinden sayılır. Mutlak müctehid olmakla birlikte adına bir mezhep oluşmadı. Şâfiî, "Leys esere Mâlik'ten daha çok tâbidir" demiş ve onunla görüşemediğine üzülmüştür. İbnü'l-Mübârek, İbn Vehb, Kuteybe b. Saîd ve Hüşeym talebeleri arasındadır.
+
+  14 Şâban 175'te vefat etti; cenaze namazını Mısır valisi kıldırdı ve Karâfetüssugrâ'ya defnedildi.
+hocalari:
+  - kisi: yezid-b-ebi-habib
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Leys b. Sa'd\"", url: "https://islamansiklopedisi.org.tr/leys-b-sad"}
+  - kisi: ata-b-ebi-rebah
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Leys b. Sa'd\"", url: "https://islamansiklopedisi.org.tr/leys-b-sad"}
+  - kisi: cafer-b-rebia
+    kaynak: {ad: "Mizzî, Tehzîbü'l-Kemâl, 5/29-30 (Ca'fer b. Rebîa)", url: "https://shamela.ws/book/3722/2109"}
+  - kisi: hisam-b-urve
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hişâm b. Urve\"", url: "https://islamansiklopedisi.org.tr/hisam-b-urve"}
+  - kisi: nafi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Nâfi'"
+      url: https://islamansiklopedisi.org.tr/nafi--tabiin-alimi
+  - kisi: rebiatur-rey
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Rebîa b. Ebû Abdurrahman"
+      url: https://islamansiklopedisi.org.tr/rebia-b-ebu-abdurrahman
+  - kisi: ibn-ebi-muleyke
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Müleyke"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Leys b. Sa'd\"", url: "https://islamansiklopedisi.org.tr/leys-b-sad"}
+dogrulandi: true

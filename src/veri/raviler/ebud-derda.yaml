@@ -1,0 +1,36 @@
+isim: Ebü'd-Derdâ'
+tam_isim: Ebü'd-Derdâ' Uveymir b. Zeyd el-Ensârî
+tabaka: sahabe
+isim_bilgisi:
+  ism: Uveymir (Âmir de denmiştir)
+  kunye: Ebü'd-Derdâ
+  lakap: Hakîmü'l-ümme
+  nesep: Uveymir b. Mâlik (Âmir) b. Zeyd b. Kays
+  nesep_arapca: عويمر بن مالك الأنصاري الخزرجي أبو الدرداء
+  nisbeler:
+    - el-Ensârî
+    - el-Hazrecî
+    - ed-Dımaşkī
+  aciklama: Künyesiyle tanınır; babasının adı Mâlik, Âmir ve Sa'lebe olarak rivayet edilmiştir. Hikmetli sözleri sebebiyle "ümmetin hakîmi" diye anıldı.
+vefat: {hicri: 32, miladi: 652, not: "31 de denmiştir"}
+vefat_yeri: Dımaşk
+bolge: sam
+diger_bolgeler: [medine]
+rical:
+  sozler:
+    - kim: Ebü'd-Derdâ
+      soz: Bilmeyene bir kere, bilip de yapmayana yedi kere yazıklar olsun.
+      kaynak: DİA, "Ebü'd-Derdâ"
+ozet: "Dımaşk kadısı ve Şam'ın Kur'an muallimi."
+biyografi: |
+  Hazrec kabilesindendir; adının Uveymir mi Âmir mi, babasının adının Zeyd mi Âmir mi olduğu tartışmalıdır. Ticaretle uğraşırken müslüman oldu; ticaret ile ibadeti birlikte yürütemeyeceğini görünce ibadeti tercih etti. Uhud'a katılıp katılmadığı ihtilaflıdır.
+
+  Hz. Peygamber hayattayken Kur'an'ı ezberleyip tamamını ona okuyan sahâbîlerdendir. Yermük'te ordu kadılığı yaptı; bu görev İslâm tarihinde ilk defa onunla başlamıştır. Hz. Ömer, Şam valisi Yezîd b. Ebî Süfyân'ın talebi üzerine onu Muâz b. Cebel ve Ubâde b. es-Sâmit ile birlikte Şam'a Kur'an ve fıkıh muallimi olarak gönderdi.
+
+  Dımaşk'ın ilk kadısı oldu ve sabah namazından sonra Emevî Camii'nde Kur'an halkaları kurdu; Şam kıraatinin imamı İbn Âmir ondan Kur'an öğrenenler arasındadır. Dünya malına değer vermeyen, tefekkürü önemseyen zâhid kişiliği ve hikmetli sözleri sebebiyle "ümmetin hakîmi" diye anıldı.
+
+  179 hadis rivayet etti; Ebû İdrîs el-Havlânî ondan sonra "Şam'ın âlimi" sayılmıştır. Genellikle 32/652'de Dımaşk'ta vefat ettiği kabul edilir.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ebü'd-Derdâ\"", url: "https://islamansiklopedisi.org.tr/ebud-derda"}
+dogrulandi: true

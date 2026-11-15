@@ -1,0 +1,39 @@
+isim: Ca'fer b. Rebîa
+tam_isim: Ebû Şürahbîl Ca'fer b. Rebîa b. Şürahbîl b. Hasene el-Kindî
+arapca: جعفر بن ربيعة
+cerh_tadil: Sika (İbn Hacer, Takrîb; 5. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Ca'fer
+  kunye: Ebû Şürahbîl
+  nesep: Ca'fer b. Rebîa b. Şürahbîl b. Hasene
+  nesep_arapca: جعفر بن ربيعة بن شرحبيل بن حسنة الكندي المصري
+  nisbeler:
+    - el-Kindî
+    - el-Mısrî
+    - el-Kureşî
+  aciklama: Dedesinin babası sahâbî Şürahbîl b. Hasene'dir; Zühreoğullarının halîfidir.
+rical:
+  tehzibul_kemal: V, 29
+  tehzibut_tehzib: 1/304 (Şâmile neşri)
+  takrib: Sika (5. tabaka)
+vefat: {hicri: 136, miladi: 753, not: "135 de denmiştir; 132 ile 136 arasında farklı tarihler verilmiştir"}
+bolge: misir
+ozet: Leys b. Sa'd'ın hocalarından, güvenilir Mısırlı muhaddis.
+biyografi: |
+  Ebû Şürahbîl Ca'fer b. Rebîa el-Kindî, sahâbî Şürahbîl b. Hasene'nin torunudur ve Benî Zühre'nin halîfidir. Mısır'da doğdu veya oraya yerleşti. Babası Rebîa Hz. Peygamber'i görmüş, kendisi de sahâbî Abdullah b. el-Hâris b. Cez'i görmüştür.
+
+  Ebû Seleme b. Abdirrahman, Ebü'l-Hayr Mersed el-Yezenî, Irâk b. Mâlik ve A'rec'den rivayet etti; Buhârî, A'rec ve Bekir b. Sevâde'den dinlediğini kaydeder. Leys b. Sa'd, Bekir b. Mudar, İbn Lehîa ve Yahyâ b. Eyyûb ondan hadis aldı. Rivayetleri Kütüb-i Sitte'nin hepsinde yer alır.
+
+  İbn Sa'd ve Nesâî onu sika saymış; Ahmed b. Hanbel "hadis ehlinden, güvenilir bir şeyh" diye nitelemiştir. Vefatı için 132, 134 ve 136 tarihleri verilir; Zehebî 136'yı daha sahih bulur.
+hocalari:
+  - kisi: mersed-ebul-hayr
+    kaynak: &mz {ad: "Mizzî, Tehzîbü'l-Kemâl, 5/29-30 (Ca'fer b. Rebîa)", url: "https://shamela.ws/book/3722/2109"}
+  - kisi: ikrime
+    kaynak: *mz
+kaynaklar:
+  - *mz
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/1149"}
+  - ad: Zehebî, Siyeru a'lâmi'n-nübelâ, VI/149 (Şâmile)
+    url: https://shamela.ws/book/10906/4399
+dogrulandi: true

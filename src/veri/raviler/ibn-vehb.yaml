@@ -1,0 +1,45 @@
+isim: İbn Vehb
+tam_isim: Ebû Muhammed Abdullah b. Vehb b. Müslim el-Fihrî el-Mısrî
+arapca: عبد الله بن وهب
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Muhammed
+  ism: Abdullah
+  nesep: Abdullah b. Vehb b. Müslim, mevlâ Benî Fihr
+  nesep_arapca: عبد الله بن وهب بن مسلم الفهري مولاهم المصري
+  nisbeler: [el-Fihrî (mevlâ), el-Kureşî, el-Mısrî]
+dogum: {hicri: 125, miladi: 743}
+vefat: {hicri: 197, miladi: 813, not: "25 Şâban 197; 195 ve 196 da denmiştir"}
+dogum_yeri: Fustat
+vefat_yeri: Fustat
+bolge: misir
+eserleri: ["el-Câmi' fi'l-hadîs", Tefsîrü'l-Kur'ân, Kitâbü'l-Kader, "el-Muvatta'ü'l-kebîr ve el-Muvatta'ü's-sağîr"]
+rical:
+  rumuz: "ع"
+  sozler:
+    - kim: Asbağ b. el-Ferec
+      soz: Mâlik'in talebeleri arasında sünnet ve âsârı en iyi bilen İbn Vehb'dir.
+      kaynak: DİA, "İbn Vehb"
+ozet: Yaklaşık dört yüz hocadan ders alan Mısırlı hâfız; İmam Mâlik'in Mısır'daki en büyük talebesi.
+biyografi: |
+  Ebû Muhammed Abdullah b. Vehb el-Fihrî, 125'te Mısır'da doğdu; Benî Fihr'in mevlâlarındandır. On yedi yaşında ilme başladı ve yaklaşık dört yüz hocadan ders aldı. Bunların başında Mâlik ve Leys b. Sa'd gelir; Sevrî, İbn Uyeyne, İbn Cüreyc ve İbn Lehîa da hocaları arasındadır. Nâfi' b. Abdurrahman'dan kıraat öğrendi.
+
+  Mâlik ile ilk defa 144'teki haccında tanıştı ve ölümüne kadar irtibatını sürdürdü; yirmi dört (veya otuz altı) kez hacca gidip her seferinde onunla görüştüğü rivayet edilir. Hadisleri önce Mâlik ve Leys'e arz eder, bu ikisi sayesinde sapmadığını söylerdi.
+
+  İbn Mehdî, Asbağ b. el-Ferec, Rebî' b. Süleyman, Yahyâ b. Yahyâ el-Leysî ve Sahnûn ondan okudu. Hicaz ve Mısır hadislerini içeren el-Câmi'i kısmen günümüze ulaşmıştır. Ebû Zür'a, incelediği otuz bin hadisinde mevzû veya münker bir hadise rastlamadığını belirtmiş; "dîvânü'l-ilm" diye anılmıştır.
+
+  Hayatını ribâtlarda, öğretimde ve hacda geçirdi ve teklif edilen kadılığı reddetti. 25 Şâban 197'de Mısır'da vefat etti.
+hocalari:
+  - kisi: malik-b-enes
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Vehb\"", url: "https://islamansiklopedisi.org.tr/ibn-vehb"}
+  - kisi: leys-b-sad
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: ibn-cureyc
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

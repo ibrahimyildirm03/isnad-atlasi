@@ -1,0 +1,81 @@
+isim: Mâlik b. Enes
+tam_isim: Ebû Abdillâh Mâlik b. Enes el-Asbahî
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  ism: Mâlik
+  kunye: Ebû Abdillâh
+  lakap: İmâmü dâri'l-hicre
+  nesep: Mâlik b. Enes b. Mâlik b. Ebî Âmir el-Asbahî
+  nesep_arapca: مالك بن أنس بن مالك بن أبي عامر الأصبحي المدني
+  nisbeler:
+    - el-Asbahî
+    - el-Himyerî
+    - el-Medenî
+  aciklama: Yemen'in Zû Asbah kabilesindendir; dedesinin babası Ebû Âmir sahâbîdir. "Hicret yurdunun (Medine'nin) imamı" diye anılır.
+dogum: {hicri: 93, miladi: 712, not: "90 ile 98 arasında da denmiştir"}
+vefat: {hicri: 179, miladi: 795}
+kutub_i_tisa: "Kütüb-i Tis'a: el-Muvatta'"
+vefat_yeri: Medine
+dogum_yeri: Zülmerve (Vâdilkurâ)
+bolge: medine
+rical:
+  sozler:
+    - kim: Hadis otoriteleri
+      soz: Emîrü'l-mü'minîn fi'l-hadîs.
+      kaynak: DİA, "Mâlik b. Enes"
+eserleri:
+  - el-Muvatta'
+  - Kader risalesi (nisbet edilir)
+  - Tefsir rivayetleri
+imam: {mezheb: Mâlikî, yasayan: true}
+ozet: Mâlikî mezhebinin imamı; Muvatta'ın müellifi.
+biyografi: |
+  Genellikle 93/712'de doğduğu kaydedilir; 90 ile 98 arasında farklı tarihler de verilmiştir. Medine'de yetişti ve küçük yaşta Abdurrahmân b. Hürmüz el-A'rec'in derslerine başladı. Rebîatü'r-re'y, İbn Şihâb ez-Zührî, Nâfi' ve Yahyâ b. Saîd el-Ensârî'den ilim aldı.
+
+  Hac dışında Medine'den ayrılmadı; Halife Mehdî'nin Bağdat'a davetini kabul etmedi. Mansûr döneminde, zorla yaptırılan boşamanın geçersiz olduğunu bildiren hadisi rivayet ettiği gerekçesiyle 146/763'te kırbaçlandı ve omzu sakatlandı. Halifelerin onun hadis derlemesini bütün ülkede zorunlu kılma önerisini, her bölgenin kendi bildiği sünnete göre amel etmesi gerektiği düşüncesiyle reddetti.
+
+  Hadis ile fıkhı bir arada içeren el-Muvatta', Medine'nin sünnetini ve amelini yansıtan ilk büyük derlemelerdendir ve Kütüb-i Tis'a arasında sayılır. Medine ehlinin amelini delil kabul etmesi mezhebinin ayırt edici özelliğidir.
+
+  Hadis otoriteleri onu "hadiste mü'minlerin emîri" diye andı; İbn Rüşd onu re'y ve kıyasta da önder saydı. İbn Vehb, İbnü'l-Kāsım, Eşheb, Yahyâ b. Yahyâ el-Leysî, Şâfiî ve İmam Muhammed talebeleri arasındadır. 14 Rebîülevvel 179'da Medine'de vefat etti.
+hocalari:
+  - kisi: rebiatur-rey
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Mekhûl b. Ebû Müslim\"", url: "https://islamansiklopedisi.org.tr/mekhul-b-ebu-muslim"}
+  - kisi: amr-b-dinar
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Amr b. Dînâr\"", url: "https://islamansiklopedisi.org.tr/amr-b-dinar"}
+  - kisi: zuhri
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Mâlik b. Enes\"", url: "https://islamansiklopedisi.org.tr/malik-b-enes"}
+  - kisi: hisam-b-urve
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hişâm b. Urve\"", url: "https://islamansiklopedisi.org.tr/hisam-b-urve"}
+  - kisi: eyyub-es-sahtiyani
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Sîrîn\"", url: "https://islamansiklopedisi.org.tr/ibn-sirin"}
+  - kisi: nafi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Nâfi'"
+      url: https://islamansiklopedisi.org.tr/nafi--tabiin-alimi
+  - kisi: yahya-b-said-el-ensari
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yahyâ b. Saîd el-Ensârî"
+      url: https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari
+  - kisi: ebuz-zinad
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebü'z-Zinâd"
+      url: https://islamansiklopedisi.org.tr/ebuz-zinad
+  - kisi: zeyd-b-eslem
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Zeyd b. Eslem"
+      url: https://islamansiklopedisi.org.tr/zeyd-b-eslem
+  - kisi: humeyd-et-tavil
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Humeyd et-Tavîl"
+      url: https://islamansiklopedisi.org.tr/humeyd-et-tavil
+  - kisi: ibnul-munkedir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Münkedir"
+      url: https://islamansiklopedisi.org.tr/ibnul-munkedir
+  - kisi: musa-b-ukbe
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mûsâ b. Ukbe"
+      url: https://islamansiklopedisi.org.tr/musa-b-ukbe
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Mâlik b. Enes\"", url: "https://islamansiklopedisi.org.tr/malik-b-enes"}
+dogrulandi: true

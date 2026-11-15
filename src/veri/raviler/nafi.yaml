@@ -1,0 +1,54 @@
+isim: Nâfi' (Mevlâ İbn Ömer)
+tam_isim: Ebû Abdillâh Nâfi' b. Hürmüz el-Kureşî el-Adevî el-Medenî
+arapca: نافع مولى ابن عمر
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Nâfi'
+  nesep: Nâfi' b. Hürmüz (babasının adı Sercis ve Kâvus olarak da geçer)
+  nesep_arapca: نافع بن هرمز، أبو عبد الله المدني، مولى عبد الله بن عمر
+  nisbeler: [el-Kureşî, el-Adevî, el-Medenî]
+  lakap: Mevlâ İbn Ömer
+  aciklama: Aslının Fars ya da Berberî olduğu söylenmiştir. Küçük yaşta esir alınıp Abdullah b. Ömer'in yanında otuz yılı aşkın kaldı ve onun âzatlısı (mevlâ) olarak tanındı; nisbeleri bu velâ bağından gelir.
+dogum: {hicri: 30, miladi: 650, not: "tahminî"}
+vefat: {hicri: 117, miladi: 735, not: "116, 119 ve 120 de denmiştir"}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  tehzibul_kemal: "XXIX, 298-305"
+  tehzibut_tehzib: "X, 412-415"
+  takrib: "Sika, sebt, fakih, meşhur (3. tabaka)"
+  rumuz: "ع"
+  sozler:
+    - {kim: Buhârî, soz: "En sahih isnad: Mâlik, Nâfi'den, o da İbn Ömer'den.", kaynak: "DİA, \"Nâfi'\""}
+    - {kim: Halîlî, soz: "Medine'de tâbiîn imamlarındandır; rivayet ettiklerinde bir hatası bilinmez.", kaynak: "Tehzîbü't-Tehzîb, X, 412"}
+ozet: İbn Ömer'in âzatlısı; "Mâlik → Nâfi' → İbn Ömer" altın zincirinin orta halkası.
+biyografi: |
+  Ebû Abdillâh Nâfi' b. Hürmüz, tahminen 30 civarında doğdu; Farslı veya Berberî asıllı olduğu rivayet edilir. Doğudaki fetihlerden birinde küçük yaşta esir alındı ve Abdullah b. Ömer'in payına düştü. Otuz yıldan fazla onun yanında kalıp hizmet etti ve âzat edildi; bu yüzden "Mevlâ İbn Ömer" diye tanınır.
+
+  İbn Ömer başta olmak üzere Hz. Âişe, Ebû Saîd el-Hudrî, Ebû Hüreyre ve Ümmü Seleme'den; Kāsım b. Muhammed ve İbn Ömer'in oğullarından rivayet etti. Zührî, Eyyûb es-Sahtiyânî, Yahyâ b. Saîd el-Ensârî, Leys b. Sa'd, Evzâî, İbn İshak ve özellikle Mâlik ondan hadis aldı.
+
+  Ömer b. Abdülazîz onu sünneti öğretmek için Mısır'a, zekât âmili olarak Yemen'e gönderdi. Rivayette titizdi: talebelerinin yazdıklarını tashih eder, ancak dil hatalarını düzeltmeyip duyduğu gibi nakletmeyi tercih ederdi.
+
+  Buhârî'ye göre en sahih senedlerden biri Mâlik–Nâfi'–İbn Ömer zinciridir; Şâfiî'nin başa eklendiği bu zincire "silsiletü'z-zeheb" denmiştir. Güvenilirliği üzerinde âlimlerin icmâı bulunduğu kaydedilir. 117'de vefat etti.
+hocalari:
+  - kisi: ibn-omer
+    not: efendisi; otuz yılı aşkın yanında kaldı
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Nâfi'\"", url: "https://islamansiklopedisi.org.tr/nafi--tabiin-alimi"}
+  - kisi: aise
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: ebu-said-el-hudri
+    kaynak: *tdv
+  - kisi: ummu-seleme
+    kaynak: *tdv
+  - kisi: salim-b-abdullah
+    not: "Sâlim'den de rivayet etmiştir"
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Sâlim b. Abdullah b. Ömer"
+      url: https://islamansiklopedisi.org.tr/salim-b-abdullah-b-omer
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/6509"}
+dogrulandi: true

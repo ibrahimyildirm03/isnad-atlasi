@@ -1,0 +1,73 @@
+isim: Abdullah b. el-Mübârek
+tam_isim: Ebû Abdirrahmân Abdullah b. el-Mübârek b. Vâzıh el-Hanzalî el-Mervezî
+arapca: عبد الله بن المبارك
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Abdullah
+  nesep: Abdullah b. el-Mübârek b. Vâzıh, mevlâ Benî Hanzala
+  nesep_arapca: عبد الله بن المبارك بن واضح الحنظلي المروزي
+  nisbeler: [el-Hanzalî, et-Temîmî, el-Mervezî]
+  aciklama: Babası Türk, annesi Hârizmlidir; Temîm'in Hanzala koluna velâ bağıyla nisbet edilir.
+dogum: {hicri: 118, miladi: 736}
+vefat: {hicri: 181, miladi: 797, not: "Ramazan 181"}
+dogum_yeri: Merv
+vefat_yeri: Hît (Fırat kenarı)
+bolge: horasan
+eserleri: [Kitâbü'z-Zühd, Kitâbü'l-Cihâd, el-Müsned]
+rical:
+  tehzibut_tehzib: "V, 382-387"
+  rumuz: "ع"
+  sozler:
+    - kim: Ahmed b. Hanbel
+      soz: Onun zamanında hadiste ondan daha büyüğü yoktu.
+      kaynak: DİA, "Abdullah b. Mübârek"
+ozet: Horasan'da hadisi ilk tedvin eden âlim; muhaddis, zâhid, mücahid ve Ebû Hanîfe'nin talebesi.
+biyografi: |
+  118'de Merv'de doğdu; babasının Türk, annesinin Hârizmli bir Türk olduğu rivayet edilir. Gençlik yıllarını Merv'de geçirdi; ilk hocası Rebî' b. Enes'tir. Yirmi üç yaşında ilk ilim yolculuğuna çıktı; Basra, Hicaz, Yemen, Mısır, Şam ve Irak'ta bulundu.
+
+  Başkalarına muhtaç olmamak için ticaretle uğraştı; kazancıyla âlimleri, hadis talebelerini ve fakirleri destekledi, her yıl yüz bin dirhem dağıttığı rivayet edilir. Hârûnürreşîd döneminde Massîsa ve Tarsus çevresinde Bizans'a karşı savaştı ve birçok defa hacca gitti.
+
+  Ebû Hanîfe'nin talebesi ve dostuydu; fıkıhta onun metodunu benimsedi ve onu öven şiirler yazdı. Ebû Hanîfe'nin vefatından sonra Mâlik'in halkasına katıldı ve iki ekolün yaklaşımını birleştiren bir usul geliştirdi. Ma'mer, Evzâî, A'meş, Süfyân es-Sevrî ve İbn Uyeyne'den de hadis aldı; Horasan'da hadisi ilk tedvin eden âlim sayılır.
+
+  Kitâbü'z-Zühd ve'r-rekāik, cihad konusundaki ilk eser olan Kitâbü'l-Cihâd, el-Müsned ve Kitâbü'l-Birr ve's-sıla günümüze ulaşmıştır. İsmâil b. Ayyâş, Allah'ın ona vermediği hiçbir güzel haslet kalmadığını söylemiştir. Bir seferden dönerken 181'de Fırat kenarındaki Hît'te vefat etti.
+hocalari:
+  - kisi: ebu-hanife
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Mübârek\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-mubarek"}
+  - kisi: mamer-b-rasid
+    kaynak: *tdv
+  - kisi: evzai
+    kaynak: *tdv
+  - kisi: ames
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: sube-b-haccac
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şu'be b. Haccâc\"", url: "https://islamansiklopedisi.org.tr/sube-b-haccac"}
+  - kisi: hammad-b-seleme
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Seleme\"", url: "https://islamansiklopedisi.org.tr/hammad-b-seleme"}
+  - kisi: yahya-b-said-el-ensari
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Ensârî\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-ensari"}
+  - kisi: musa-b-ukbe
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mûsâ b. Ukbe"
+      url: https://islamansiklopedisi.org.tr/musa-b-ukbe
+  - kisi: ibn-ebi-zib
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Zi'b"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-zib
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+kaynaklar:
+  - *tdv
+dogrulandi: true

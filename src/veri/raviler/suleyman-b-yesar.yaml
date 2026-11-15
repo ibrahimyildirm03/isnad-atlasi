@@ -1,0 +1,51 @@
+isim: Süleymân b. Yesâr
+tam_isim: Ebû Eyyûb Süleymân b. Yesâr el-Hilâlî el-Medenî
+arapca: سليمان بن يسار
+cerh_tadil: Sika, fâzıl; yedi fakihten biri (İbn Hacer, Takrîb; 3. tabakanın büyüklerinden)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Süleymân
+  kunye: Ebû Eyyûb (Ebû Abdirrahmân ve Ebû Abdillâh da denmiştir)
+  nesep: Süleymân b. Yesâr, mevlâ Meymûne
+  nesep_arapca: سليمان بن يسار الهلالي المدني مولى ميمونة
+  nisbeler:
+    - el-Hilâlî
+    - el-Medenî
+  aciklama: Hz. Peygamber'in hanımı Meymûne bint el-Hâris el-Hilâliyye'nin âzatlısıdır; Atâ b. Yesâr'ın kardeşidir.
+rical:
+  tehzibul_kemal: XII, 100
+  tehzibut_tehzib: 2/112 (Şâmile neşri)
+  takrib: Sika, fâzıl; fukahâ-i seb'adan biri (3. tabakanın büyüklerinden)
+dogum: {hicri: 34, miladi: 654, not: "24 ve 27 de denmiştir"}
+vefat: {hicri: 107, miladi: 725, not: "94 ile 110 arasında farklı tarihler verilmiştir"}
+bolge: medine
+ozet: Resûlullah'ın hanımı Meymûne'nin azatlısı; Medine'nin yerleşik uygulamalarını en iyi bilen fakihlerden.
+biyografi: |
+  Ebû Eyyûb Süleymân b. Yesâr el-Hilâlî 34'te doğdu; İran asıllı Yesâr'ın dört oğlundan biridir. Babası ve kardeşleri gibi Hz. Meymûne'nin âzatlısıydı; Meymûne velâ hakkını yeğeni İbn Abbas'a bağışladı. Ağabeyi Atâ b. Yesâr da Medine fakihlerindendir.
+
+  Câbir b. Abdullah, Râfi' b. Hadîc, Ebû Saîd el-Hudrî, Zeyd b. Sâbit, Ebû Hüreyre, İbn Abbas, İbn Ömer, Meymûne, Ümmü Seleme, Hz. Âişe ve Urve'den rivayet etti. Amr b. Dînâr, Ebü'z-Zinâd, Zührî, Mekhûl, Nâfi', Yahyâ b. Saîd el-Ensârî, Rebîatü'r-re'y ve Zeyd b. Eslem ondan hadis aldı.
+
+  Fukahâ-yi seb'adandır. Saîd b. el-Müseyyeb onu döneminin en bilgili kişisi sayıp bazı konularda ona danışılmasını istemiş; Mâlik ve bazı âlimler onu Saîd'in önünde görmüştür. Geçmiş uygulamalar ve Medine icmâı konusundaki bilgisiyle öne çıktı; talâk meselelerini en iyi bilenlerdendi.
+
+  Ömer b. Abdülazîz'in Medine valiliğinde danışma meclisinde bulundu ve Medine çarşısının düzeniyle görevlendirildi. Hadiste güvenilir kabul edilir; rivayetleri Kütüb-i Sitte'de yer alır. Kuvvetli rivayete göre 107'de vefat etti.
+hocalari:
+  - kisi: aise
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Süleyman b. Yesâr\"", url: "https://islamansiklopedisi.org.tr/suleyman-b-yesar"}
+  - kisi: zeyd-b-sabit
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: ibn-abbas
+    kaynak: *tdv
+  - kisi: cabir-b-abdullah
+    kaynak: *tdv
+  - kisi: urve-b-ez-zubeyr
+    kaynak: *tdv
+  - kisi: ummu-seleme
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ümmü Seleme"
+      url: https://islamansiklopedisi.org.tr/ummu-seleme
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/2642"}
+dogrulandi: true

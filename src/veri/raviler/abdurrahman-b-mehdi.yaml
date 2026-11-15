@@ -1,0 +1,57 @@
+isim: Abdurrahmân b. Mehdî
+tam_isim: Ebû Saîd Abdurrahmân b. Mehdî b. Hassân el-Anberî el-Basrî el-Lü'lüî
+arapca: عبد الرحمن بن مهدي
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Saîd
+  ism: Abdurrahmân
+  nesep: Abdurrahmân b. Mehdî b. Hassân
+  nesep_arapca: عبد الرحمن بن مهدي بن حسان العنبري البصري اللؤلؤي
+  nisbeler: [el-Anberî, el-Basrî, el-Lü'lüî]
+  aciklama: İnci ticaretiyle uğraştığı için "el-Lü'lüî" diye de anılır.
+dogum: {hicri: 135, miladi: 752, not: "yaklaşık"}
+vefat: {hicri: 198, miladi: 813}
+dogum_yeri: Basra
+vefat_yeri: Basra
+bolge: basra
+diger_bolgeler: [bagdat]
+rical:
+  rumuz: "ع"
+  sozler:
+    - {kim: Ahmed b. Hanbel, soz: "Meçhul bir râviden rivayet etse bile yine hüccettir.", kaynak: "DİA, \"Abdurrahman b. Mehdî\""}
+    - kim: Şâfiî ve Ali b. el-Medînî
+      soz: Hadiste onun benzerini görmedik.
+      kaynak: DİA, "Abdurrahman b. Mehdî"
+ozet: Basra râvilerini en iyi bilen hâfız; Mâlik'in görüşlerini Basra'da yayan, Şâfiî'ye er-Risâle'yi yazdıran muhaddis.
+biyografi: |
+  135 civarında Basra'da doğdu; inci ticaretiyle uğraştığı için "el-Lü'lüî" diye de anıldı. Önce Kur'an'ı ezberledi, on beş yaşında hadise başladı. Şu'be, Mâlik, Süfyân b. Uyeyne ve Süfyân es-Sevrî'den ilim aldı.
+
+  Yazmaktan çok ezberlemeye önem verdi; yirmi bin hadis ezberlediği rivayeti mübalağalı olsa da hafızasının gücünü gösterir. Hadisi lafzıyla rivayet etmeyi tercih etti; Basra muhaddislerinin rivayet yollarını ve râvilerin durumunu en iyi bilen kişi olarak tanındı. Yahyâ el-Kattân ile birlikte devrinin iki büyük râvi münekkidi sayılır.
+
+  Fıkıhta Medine ekolüne bağlıydı ve İmam Mâlik'in görüşlerinin Basra'da yayılmasında önemli rol oynadı; Basra'da kadılığa ondan daha lâyık kimse bulunmadığı söylenmiştir. 180/796'da Bağdat'a yerleşip ders verdi. Her gece Kur'an'ın yarısını okuyarak iki günde bir hatim indirdiği rivayet edilir.
+
+  Mu'tezile ve Cehmiyye'nin sıfatlar konusundaki görüşlerine karşı çıktı. Ahmed b. Hanbel, onun meçhul bir râviden rivayet etse bile hüccet olduğunu söylemiştir. Ahmed b. Hanbel, Yahyâ b. Maîn, İshâk b. Râhûye ve Ali b. el-Medînî onun talebeleridir. 198'de vefat etti.
+hocalari:
+  - kisi: sube-b-haccac
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Abdurrahman b. Mehdî\"", url: "https://islamansiklopedisi.org.tr/abdurrahman-b-mehdi"}
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: ibnul-mubarek
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Abdullah b. Mübârek\"", url: "https://islamansiklopedisi.org.tr/abdullah-b-mubarek"}
+  - kisi: hammad-b-zeyd
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Zeyd\"", url: "https://islamansiklopedisi.org.tr/hammad-b-zeyd"}
+  - kisi: hammad-b-seleme
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hammâd b. Seleme\"", url: "https://islamansiklopedisi.org.tr/hammad-b-seleme"}
+  - kisi: yahya-b-said-el-kattan
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Yahyâ b. Saîd el-Kattân\"", url: "https://islamansiklopedisi.org.tr/yahya-b-said-el-kattan"}
+  - kisi: fudayl-b-iyaz
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Fudayl b. İyâz"
+      url: https://islamansiklopedisi.org.tr/fudayl-b-iyaz
+kaynaklar:
+  - *tdv
+dogrulandi: true

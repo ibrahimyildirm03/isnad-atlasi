@@ -1,0 +1,42 @@
+isim: Ebû Ubeyd el-Kāsım b. Sellâm
+tam_isim: Ebû Ubeyd el-Kāsım b. Sellâm b. Miskîn el-Herevî el-Bağdâdî
+arapca: أبو عبيد القاسم بن سلام
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Ubeyd
+  ism: el-Kāsım
+  nesep: el-Kāsım b. Sellâm b. Miskîn, mevlâ el-Ezd
+  nesep_arapca: القاسم بن سلام الهروي البغدادي
+  nisbeler: [el-Herevî, el-Ezdî (mevlâ), el-Bağdâdî]
+  aciklama: Babası Rum asıllı olup Ezd kabilesinin âzatlısıdır.
+dogum: {hicri: 154, miladi: 771, not: "yaklaşık"}
+vefat: {hicri: 224, miladi: 838, not: "Muharrem 224"}
+dogum_yeri: Herat
+vefat_yeri: Mekke
+bolge: bagdat
+diger_bolgeler: [horasan, mekke]
+eserleri: ["Garîbü'l-hadîs", "el-Garîbü'l-musannef", "Kitâbü'l-Emvâl", "en-Nâsih ve'l-mensûh", "Kitâbü'l-Îmân", "Kitâbü'l-Emsâl", "Fezâilü'l-Kur'ân"]
+ozet: Dil, fıkıh, hadis ve kıraat âlimi; Kitâbü'l-Emvâl ve Garîbü'l-hadîs'in müellifi, Tarsus kadısı.
+rical:
+  sozler:
+    - kim: İshak b. Râhûye
+      soz: Her konuda bizim en bilginimizdir.
+      kaynak: DİA, "Ebû Ubeyd Kāsım b. Sellâm"
+biyografi: |
+  Tahminen 154'te Herat'ta doğdu; Bizans asıllı babası Ezd kabilesinden birinin âzatlısıydı. Herat'ta ilk eğitimini aldıktan sonra 179'da Kûfe ve Basra'ya giderek Kisâî, Ferrâ, Ebû Ubeyde ve Asmaî gibi dil ve nesep âlimlerinden, İbnü'l-Mübârek, Süfyân b. Uyeyne ve Yahyâ el-Kattân'dan hadis öğrendi.
+
+  Herat ve Merv'de valilerin çocuklarına hocalık yaptı; Bağdat'ta bu görevi sürdürürken İmam Şâfiî'den fıkıh okudu ve onunla ilmî tartışmalar yaptı. Sâbit b. Nasr Tarsus valisi olunca onu Tarsus kadılığına getirdi; on sekiz yıl süren bu görevden telif çalışmalarına engel olduğu için ayrıldı. 213'te Yahyâ b. Maîn ile Mısır'a gitti, Bağdat'ta garîbü'l-hadîs okuttu.
+
+  Hadis, fıkıh, dil, edebiyat ve tarihte dönemin önde gelenlerindendir. Konulara göre düzenlenmiş ilk garîbü'l-luga kitabı el-Garîbü'l-musannef en önemli eseridir; Garîbü'l-hadîs ve İslâm malî hukukunun temel kaynaklarından Kitâbü'l-Emvâl de meşhurdur. Kitâbü'l-Îmân, Sünnî doktrini açıklayan ilk çalışmalardan sayılır.
+
+  219'da hacca gitti ve gördüğü bir rüya üzerine Mekke'de kalmaya karar verdi. Muharrem 224'te Mekke'de vefat etti.
+hocalari:
+  - kisi: ibnul-mubarek
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Ebû Ubeyd el-Kāsım b. Sellâm\"", url: "https://islamansiklopedisi.org.tr/ebu-ubeyd-kasim-b-sellam"}
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+  - kisi: muhammed-b-hasen
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şeybânî, Muhammed b. Hasan\"", url: "https://islamansiklopedisi.org.tr/seybani-muhammed-b-hasan"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

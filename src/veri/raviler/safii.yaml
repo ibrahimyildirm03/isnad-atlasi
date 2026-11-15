@@ -1,0 +1,58 @@
+isim: Şâfiî
+tam_isim: Ebû Abdillâh Muhammed b. İdrîs eş-Şâfiî
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  ism: Muhammed
+  kunye: Ebû Abdillâh
+  lakap: Nâsırü's-sünne
+  nesep: Muhammed b. İdrîs b. el-Abbâs b. Osmân b. Şâfi' b. es-Sâib b. Ubeyd b. Abdiyezîd b. Hâşim b. el-Muttalib b. Abdimenâf
+  nesep_arapca: محمد بن إدريس بن العباس بن عثمان بن شافع المطلبي القرشي
+  nisbeler:
+    - el-Kureşî
+    - el-Muttalibî
+    - eş-Şâfiî
+  aciklama: "\"eş-Şâfiî\" nisbesi sahâbî dedesi Şâfi' b. es-Sâib'e dayanır. Nesebi Abdümenâf'ta Hz. Peygamber'le birleşir."
+dogum: {hicri: 150, miladi: 767}
+vefat: {hicri: 204, miladi: 820}
+vefat_yeri: Fustat (Karâfe'ye defnedildi)
+dogum_yeri: Gazze (Askalân da denmiştir)
+bolge: misir
+diger_bolgeler: [mekke, medine, bagdat]
+rical:
+  sozler:
+    - kim: Şâfiî
+      soz: Ben Resûlullah'ın sünnetine muhalefet edene muhalefet ederim.
+      kaynak: DİA, "Şâfiî"
+eserleri:
+  - er-Risâle
+  - el-Üm
+  - el-Hücce (kavl-i kadîm)
+  - Cimâu'l-ilm
+  - İhtilâfü'l-hadîs
+  - İbtâlü'l-istihsân
+  - İhtilâfü Mâlik ve'ş-Şâfiî
+imam: {mezheb: Şâfiî, yasayan: true}
+ozet: Şâfiî mezhebinin imamı; er-Risâle'nin müellifi.
+biyografi: |
+  150/767'de Gazze'de doğdu; babası küçük yaşta vefat edince annesi onu Mekke'ye götürdü. Kur'an'ı erken yaşta ezberledi; Arap dili, şiir ve nesep ilmiyle uğraştı. Mekke'de Süfyân b. Uyeyne'den hadis aldı.
+
+  Medine'ye giderek İmam Mâlik'in yanında el-Muvatta'ı ezberledi ve hocasının en seçkin talebelerinden oldu. Mâlik'in vefatından sonra Yemen'de bir göreve getirildi; Hârûnürreşîd döneminde Irak'a götürüldü ve Bağdat'ta Muhammed b. el-Hasen eş-Şeybânî ile münazaralar yaparak Irak fıkhını yakından tanıdı.
+
+  Mekke ile Bağdat arasında gidip geldikten sonra 199-200 yıllarında Mısır'a yerleşti. Fıkhî görüşleri bu yüzden Irak'taki "kavl-i kadîm" ve Mısır'daki "kavl-i cedîd" olarak ikiye ayrılır. Sünneti merkeze alan; icmâ, kıyas, sahâbî kavli ve istihsanı ölçüye bağlayan er-Risâle'si fıkıh usulünün ilk sistematik eseri kabul edilir.
+
+  Rebî' b. Süleymân el-Murâdî, Müzenî, Büveytî ve Ahmed b. Hanbel talebeleri arasındadır. 29 Receb 204'te Mısır'da vefat etti ve Karâfe'deki Benî Abdülhakem kabristanına defnedildi.
+hocalari:
+  - kisi: malik-b-enes
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şâfiî\"", url: "https://islamansiklopedisi.org.tr/safii"}
+  - kisi: sufyan-b-uyeyne
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şâfiî\"", url: "https://islamansiklopedisi.org.tr/safii"}
+  - kisi: muhammed-b-hasen
+    not: Şeybânî Ebû Hanîfe'nin talebesidir (TDV, "Ebû Hanîfe"); Şâfiî onun derslerine devam etti
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şâfiî\"", url: "https://islamansiklopedisi.org.tr/safii"}
+  - kisi: fudayl-b-iyaz
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Fudayl b. İyâz"
+      url: https://islamansiklopedisi.org.tr/fudayl-b-iyaz
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Şâfiî\"", url: "https://islamansiklopedisi.org.tr/safii"}
+dogrulandi: true

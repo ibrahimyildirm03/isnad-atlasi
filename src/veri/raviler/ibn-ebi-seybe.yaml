@@ -1,0 +1,58 @@
+isim: Ebû Bekr b. Ebî Şeybe
+tam_isim: Ebû Bekr Abdullah b. Muhammed b. Ebî Şeybe İbrâhîm el-Absî el-Kûfî
+arapca: أبو بكر بن أبي شيبة
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Abdullah
+  nesep: Abdullah b. Muhammed b. Ebî Şeybe İbrâhîm b. Osmân
+  nesep_arapca: عبد الله بن محمد بن أبي شيبة إبراهيم بن عثمان العبسي الكوفي
+  nisbeler: [el-Absî, el-Kûfî]
+  lakap: İbn Ebî Şeybe
+  aciklama: Dedesi İbrâhîm'in künyesi olan "Ebû Şeybe"ye nisbetle "İbn Ebî Şeybe" diye tanınır. Kardeşi Osmân b. Ebî Şeybe de büyük muhaddistir.
+dogum: {hicri: 159, miladi: 776}
+vefat: {hicri: 235, miladi: 849}
+dogum_yeri: Kûfe
+bolge: kufe
+eserleri: [el-Musannef, el-Müsned, Kitâbü'l-Îmân]
+rical:
+  tehzibut_tehzib: "VI, 2-4"
+  sozler:
+    - kim: Ebû Zür'a er-Râzî
+      soz: Ebû Bekr b. Ebî Şeybe'den daha hâfızını görmedim.
+      kaynak: DİA, "İbn Ebû Şeybe, Ebû Bekir"
+ozet: el-Musannef'in müellifi Kûfeli hâfız; Buhârî, Müslim, Ebû Dâvûd ve İbn Mâce'nin hocası.
+biyografi: |
+  159'da Kûfe'de doğdu; Benî Abs'ın mevlâsıdır. Babası, dedesi ve kardeşleri Osman ile Kāsım da muhaddisti; ailenin en meşhur ismi odur.
+
+  Erken yaşta hadise başladı; on dört yaşında Kadı Şerîk b. Abdullah'tan ders aldı. Kûfe, Basra, Rey, Bağdat ve Hicaz'da Süfyân b. Uyeyne, Vekî', İbnü'l-Mübârek, Yahyâ el-Kattân ve Hüşeym'den hadis okudu. Ebû Zür'a ve Sâlih Cezere hafızasının çok güçlü olduğunu belirtmiştir.
+
+  Halife Mütevekkil, Mu'tezile ve Cehmiyye görüşlerini reddeden hadislerin halka anlatılmasını isteyince Bağdat'taki Rusâfe Mescidi'nde otuz bini aşan bir kalabalığa ders verdi. Kûfe'de de uzun süre bir sütunun dibinde hadis okuttu.
+
+  Hadisleri sahâbe sözleri ve tâbiîn fetvalarıyla birlikte senedleriyle ve konularına göre tertip eden el-Musannef'i, erken dönem fıkhının en hacimli kaynaklarındandır; sonunda Ebû Hanîfe'nin bazı görüşlerine reddiye bölümü yer alır. Kitâbü'l-Îmân, Kitâbü'l-Edeb, Kitâbü't-Târîh ve bir tefsir de yazmıştır. Buhârî, Müslim, Ebû Dâvûd ve İbn Mâce onun talebeleridir; Müslim ondan en çok rivayet ettiği hocalarındandır. 235'te vefat etti.
+hocalari:
+  - kisi: sufyan-b-uyeyne
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Şeybe, Ebû Bekir\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-seybe-ebu-bekir"}
+  - kisi: veki-b-cerrah
+    kaynak: *tdv
+  - kisi: ibnul-mubarek
+    kaynak: *tdv
+  - kisi: yahya-b-said-el-kattan
+    kaynak: *tdv
+  - kisi: huseym-b-besir
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Hüşeym b. Beşîr\"", url: "https://islamansiklopedisi.org.tr/huseym-b-besir"}
+  - kisi: yezid-b-harun
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Yezîd b. Hârûn"
+      url: https://islamansiklopedisi.org.tr/yezid-b-harun
+  - kisi: cerir-b-abdulhamid
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Cerîr b. Abdülhamîd"
+      url: https://islamansiklopedisi.org.tr/cerir-b-abdulhamid
+  - kisi: tayalisi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Tayâlisî"
+      url: https://islamansiklopedisi.org.tr/tayalisi
+kaynaklar:
+  - *tdv
+dogrulandi: true

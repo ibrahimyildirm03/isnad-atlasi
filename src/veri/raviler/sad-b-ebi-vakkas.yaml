@@ -1,0 +1,33 @@
+isim: Sa'd b. Ebî Vakkās
+tam_isim: Ebû İshâk Sa'd b. Ebî Vakkās Mâlik b. Vüheyb el-Kureşî ez-Zührî
+arapca: سعد بن أبي وقاص
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû İshâk
+  ism: Sa'd
+  nesep: Sa'd b. Mâlik (Ebû Vakkās) b. Vüheyb b. Abdimenâf b. Zühre b. Kilâb b. Mürre
+  nesep_arapca: سعد بن مالك (أبي وقاص) بن وهيب بن عبد مناف بن زهرة بن كلاب
+  nisbeler: [el-Kureşî, ez-Zührî]
+  lakap: Fârisü'l-İslâm
+  aciklama: Babası Mâlik "Ebû Vakkās" künyesiyle tanınır; adı Vüheyb yanında Üheyb ve Vehb biçimlerinde de geçer. Nesebi babası tarafından Kilâb b. Mürre'de, annesi Hamne bint Süfyân tarafından Abdümenâf'ta Hz. Peygamber'le birleşir.
+dogum: {miladi: 592}
+vefat: {hicri: 55, miladi: 675, not: "54 ve 58 de denmiştir"}
+dogum_yeri: Mekke
+vefat_yeri: Akīk (Medine yakını)
+bolge: medine
+diger_bolgeler: [kufe]
+hadis_sayisi: {sayi: 271, kaynak: "Bakī b. Mahled, el-Müsned (DİA)"}
+rical:
+  tehzibul_kemal: "X, 309-314"
+  tehzibut_tehzib: "III, 483-484"
+  rumuz: "ع"
+ozet: Aşere-i mübeşşereden; Kādisiye fatihi ve Kûfe'nin kurucusu.
+biyografi: |
+  İlk müslümanlardandır ve cennetle müjdelenen on sahâbîden biridir. Allah yolunda ilk ok atan kişi olarak bilinir; bu yüzden "fârisü'l-İslâm" diye anıldı.
+
+  Kādisiye'de (15/636) Sâsânîler'i yendi ve Hz. Ömer'in emriyle Kûfe'yi kurup valiliğini yaptı. Hz. Osman'ın şehadeti, Cemel ve Sıffîn'de tarafsız kaldı. Son yıllarında gözlerini kaybetti; Akīk'teki çiftliğinde vefat etti. Ondan çocukları Âmir, Mus'ab ve Muhammed ile Âişe, İbn Ömer, İbn Abbâs, Saîd b. el-Müseyyeb, Kays b. Ebî Hâzim ve Mücâhid rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Sa'd b. Ebû Vakkās\"", url: "https://islamansiklopedisi.org.tr/sad-b-ebu-vakkas"}
+  - "İbn Hacer, el-İsâbe (Bicâvî), III, 73-76"
+dogrulandi: true

@@ -1,0 +1,36 @@
+isim: Ali b. Ebî Tâlib
+tam_isim: Ebü'l-Hasen Alî b. Ebî Tâlib
+tabaka: sahabe
+isim_bilgisi:
+  ism: Ali
+  kunye: Ebü'l-Hasan; Ebû Türâb
+  lakap: Haydar, el-Murtazâ
+  nesep: Ali b. Ebî Tâlib (Abdümenâf) b. Abdilmuttalib b. Hâşim
+  nesep_arapca: علي بن أبي طالب بن عبد المطلب بن هاشم القرشي الهاشمي
+  nisbeler:
+    - el-Kureşî
+    - el-Hâşimî
+  aciklama: Hz. Peygamber'in amcasının oğlu ve damadıdır. Annesi Fâtıma bint Esed'in verdiği "Haydar" (aslan) adıyla da anılır; "Ebû Türâb" künyesini Hz. Peygamber vermiştir.
+vefat: {hicri: 40, miladi: 661}
+vefat_yeri: Kûfe
+dogum_yeri: Mekke
+bolge: kufe
+rical:
+  sozler:
+    - kim: Hz. Ali
+      soz: Kişi bilmediğinin düşmanıdır.
+      kaynak: DİA, "Ali"
+diger_bolgeler: [medine]
+ozet: "Dördüncü halife; hilâfet merkezini Kûfe'ye taşıyan sahâbî."
+biyografi: |
+  600 civarında Mekke'de doğdu ve Hz. Peygamber'in himayesinde büyüdü; ilk müslümanlardandır. Hicret gecesi Hz. Peygamber'in yatağında kalarak müşriklerin dikkatini dağıttı. Hz. Fâtıma ile evlendi; Hasan ve Hüseyin onun oğullarıdır.
+
+  Bedir, Uhud, Hendek ve Hayber başta olmak üzere gazvelerin çoğunda bulundu ve sancaktarlık yaptı. Hz. Peygamber onu Yemen'e kadı olarak gönderdi. Hz. Osman'ın şehadetinden sonra 35/656'da halife oldu. Halifeliği Cemel, Sıffîn ve Nehrevan savaşlarıyla geçti; hilâfet merkezini Kûfe'ye taşıdı. Bu da Kûfe'nin ilim merkezi olarak gelişmesine katkıda bulundu.
+
+  Kur'an, hadis ve özellikle fıkıh ve kazâda otorite kabul edildi; 586 hadis rivayet etti. Oğulları Hasan, Hüseyin ve Muhammed b. el-Hanefiyye ile İbn Abbâs ve Ebü'l-Esved ed-Düelî onun talebeleri arasındadır. Tasavvuf geleneğinde de müstesna bir yeri vardır.
+
+  40/661'de Kûfe'de sabah namazına giderken Hâricî Abdurrahmân b. Mülcem'in zehirli kılıç darbesiyle yaralandı ve iki gün sonra vefat etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"Ali\"", url: "https://islamansiklopedisi.org.tr/ali"}
+dogrulandi: true

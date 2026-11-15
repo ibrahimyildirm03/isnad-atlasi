@@ -1,0 +1,47 @@
+isim: Humeyd et-Tavîl
+tam_isim: Ebû Ubeyde Humeyd b. Ebî Humeyd Tîrûye el-Huzâî el-Basrî
+arapca: حميد الطويل
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Ubeyde (Ebû Ubeyd da denmiştir)
+  ism: Humeyd
+  nesep: Humeyd b. Ebî Humeyd Tîrûye, mevlâ Talha b. Abdillâh el-Huzâî
+  nesep_arapca: حميد بن أبي حميد تيرويه الطويل البصري
+  nisbeler: [el-Huzâî, el-Basrî]
+  lakap: et-Tavîl
+  aciklama: Kısa boylu olduğu hâlde elleri uzun olduğu için, ya da komşusu Humeyd es-Sagîr'den ayırt edilmek için "et-Tavîl" diye anıldı. Babasının adı için Abdurrahmân, Dâvûd, Mihrân, Tarhân, Tîrûye gibi on kadar rivayet vardır; DİA Tîrûye'yi daha kuvvetli görür.
+dogum: {hicri: 68, miladi: 687}
+vefat: {hicri: 143, miladi: 760, not: "Cemâziyelevvel 143, namaz kılarken; 140 ve 142 de denmiştir"}
+vefat_yeri: Basra
+bolge: basra
+rical:
+  tehzibul_kemal: "VII, 355-365"
+  tehzibut_tehzib: "III, 38-40"
+  rumuz: "ع"
+ozet: Enes b. Mâlik'in Basralı râvisi; Mâlik, Sevrî, Şu'be ve Hüşeym'in hocası.
+biyografi: |
+  Ebû Ubeyde Humeyd b. Ebî Humeyd Tîrûye el-Basrî 68'de doğdu; Hammâd b. Seleme'nin dayısıdır. Sicistan valisi Talha b. Abdullah el-Huzâî'nin âzatlısı olduğu için "el-Huzâî" nisbesiyle anılır. Kısa boylu olduğu halde elleri uzun olduğu için ya da aynı mahalledeki Humeyd es-Sagîr'den ayırt edilmek için "et-Tavîl" lakabını aldı.
+
+  Enes b. Mâlik, Hasan-ı Basrî, Recâ b. Hayve, Sâbit el-Bünânî ve Nâfi'den hadis dinledi. Hüşeym, Süfyân es-Sevrî, Şu'be, yeğeni Hammâd b. Seleme, Mâlik ve Süfyân b. Uyeyne ondan rivayet etti; rivayetleri Kütüb-i Sitte'de yer alır.
+
+  Enes'ten yaptığı bazı rivayetlerde tedlîs yaptığı için tenkit edilmiştir; ancak düşürdüğü râvi güvenilir hocası Sâbit el-Bünânî olduğundan bunun güvenilirliğini etkilemediği belirtilir. Enes'ten rivayetlerini içeren bir cüz Süleymaniye Kütüphanesi'nde bulunur.
+
+  Basra'da insanlar arasındaki anlaşmazlıkları giderdiği için "muslihu ehli'l-Basra" diye tanındı. Cemâziyelevvel 143'te namaz kılarken vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Humeyd et-Tavîl\"", url: "https://islamansiklopedisi.org.tr/humeyd-et-tavil"}
+  - kisi: hasan-el-basri
+    kaynak: *tdv
+  - kisi: sabit-el-bunani
+    kaynak: *tdv
+  - kisi: nafi
+    kaynak: *tdv
+  - kisi: ebu-osman-en-nehdi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Osmân en-Nehdî\"", url: "https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi"}
+  - kisi: ibn-ebi-muleyke
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Müleyke"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-muleyke
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,39 @@
+isim: Muhammed b. el-Münkedir
+tam_isim: Ebû Abdillâh Muhammed b. el-Münkedir b. Abdillâh el-Kureşî et-Teymî el-Medenî
+arapca: محمد بن المنكدر
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh (Ebû Bekr de denmiştir)
+  ism: Muhammed
+  nesep: Muhammed b. el-Münkedir b. Abdillâh b. el-Hüdeyr
+  nesep_arapca: محمد بن المنكدر بن عبد الله بن الهدير القرشي التيمي المدني
+  nisbeler: [el-Kureşî, et-Teymî, el-Medenî]
+  lakap: İbnü'l-Münkedir
+dogum: {hicri: 60, miladi: 679, not: "yaklaşık"}
+vefat: {hicri: 131, miladi: 748, not: "130 da denmiştir"}
+vefat_yeri: Medine
+bolge: medine
+rical:
+  tehzibul_kemal: "XXVI, 503-509"
+  rumuz: "ع"
+ozet: Câbir b. Abdullah'ın râvisi zâhid Medineli; Zührî, Mâlik, Sevrî ve Ebû Hanîfe'nin hocası.
+biyografi: |
+  Ebû Abdillâh Muhammed b. el-Münkedir et-Teymî, yaklaşık 60'ta Medine'de doğdu. Babası Münkedir, Hz. Âişe'nin dayısıdır; kardeşleri Ebû Bekir ve Ömer de Hicaz'ın tanınmış fakihlerindendir.
+
+  Abdullah b. Abbas, Abdullah b. Ömer, Abdullah b. ez-Zübeyr, Esmâ bint Ebî Bekir, Câbir b. Abdullah ve Enes b. Mâlik'ten; tâbiîlerden Urve ve Saîd b. el-Müseyyeb'den rivayet etti. Zührî, Eyyûb es-Sahtiyânî, Ebû Hanîfe, Süfyân es-Sevrî ve Mâlik ondan hadis aldı.
+
+  Güvenilirliği üzerinde ittifak edilen kıraat âlimlerindendir; iki yüzden fazla müsned hadis rivayet etmiş, bunların bir kısmı Kütüb-i Sitte'de yer almıştır. Dünyaya değer vermeyen, cömert ve fakirleri koruyan bir zâhiddi; Mâlik onu insanların en çok ibadet eden ve en zâhidlerinden saymıştır. Her yıl hacca giderdi. 131'de (130 da denir) vefat etti.
+hocalari:
+  - kisi: cabir-b-abdullah
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbnü'l-Münkedir\"", url: "https://islamansiklopedisi.org.tr/ibnul-munkedir"}
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: ibn-omer
+    kaynak: *tdv
+  - kisi: urve-b-ez-zubeyr
+    kaynak: *tdv
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

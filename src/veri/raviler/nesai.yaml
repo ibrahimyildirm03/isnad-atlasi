@@ -1,0 +1,59 @@
+isim: Nesâî
+tam_isim: Ebû Abdirrahmân Ahmed b. Şuayb b. Alî en-Nesâî
+arapca: أحمد بن شعيب النسائي
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Ahmed
+  nesep: Ahmed b. Şuayb b. Alî b. Sinân b. Bahr
+  nesep_arapca: أحمد بن شعيب بن علي بن سنان النسائي
+  nisbeler: [en-Nesâî, en-Nesevî]
+  aciklama: Horasan'daki Nesâ şehrine nisbet edilir; "Nesevî" ve "Nisâî" biçimleri de rivayet edilmiştir.
+dogum: {hicri: 215, miladi: 830}
+vefat: {hicri: 303, miladi: 915, not: "Mekke'de vefat ettiği de rivayet edilir"}
+dogum_yeri: Nesâ (Horasan)
+vefat_yeri: Remle (Kudüs'e defnedildi)
+kutub_i_tisa: "Kütüb-i Sitte: Sünen-i Nesâî"
+bolge: misir
+diger_bolgeler: [horasan]
+kutub_i_sitte: es-Sünen (el-Müctebâ)
+eserleri: [es-Sünenü'l-kübrâ, el-Müctebâ (es-Sünenü's-suğrâ), ed-Duafâ ve'l-metrûkîn, Hasâisü Alî]
+rical:
+  tehzibul_kemal: "I, 328-340"
+  tehzibut_tehzib: "I, 36-39"
+  rumuz: "س"
+ozet: Kütüb-i Sitte müelliflerinin en son vefat edeni; ricâl tenkidindeki titizliğiyle tanınan Mısır muhaddisi.
+biyografi: |
+  215'te Horasan'daki Nesâ'da doğdu. Küçük yaşta Kur'an'ı ezberledi, on beş yaşında hadis öğrenmeye başladı. 230/844'te Belh yakınındaki Bağlân'a giderek Kuteybe b. Saîd'in yanında on dört ay kaldı. Horasan, Hicaz, Irak, Cezîre ve Suriye'nin ilim merkezlerini dolaşıp yaklaşık 450 hocadan faydalandı; İshâk b. Râhûye, Bündâr ve Muhammed b. el-Müsennâ bunlar arasındadır.
+
+  Mısır'a yerleşti ve talebeler hadis okumak için onun yanına geldi. 11.770 hadis ihtiva eden es-Sünenü'l-kübrâ'sı, el-Müctebâ adıyla bilinen 5758 hadislik es-Sünen'inin kaynağıdır; el-Müctebâ sünenler arasında en az zayıf hadis içeren eser kabul edilir. Râvi şartları Buhârî ve Müslim'inkinden bile ağırdır; zayıf saydığı bir râviden, isnadı ne kadar yüksek olursa olsun rivayet etmezdi.
+
+  Zehebî onu râvi tenkidinde Buhârî ve Ebû Zür'a seviyesinde görür; ed-Duafâ ve'l-metrûkîn'de zayıf râvileri kısa ifadelerle değerlendirmiştir. Dârekutnî, kendi çağında hadis ilminde onun herkesin önünde olduğunu söylemiştir.
+
+  Dımaşk'ta Hz. Ali karşıtlığının yaygınlığını görünce Hasâisü Alî'yi yazdı. Muâviye hakkındaki bir soruya verdiği cevap yüzünden darp edildiği, Mekke'ye götürülüp orada vefat ettiği rivayet edilir; Zehebî ise İbn Yûnus'un Remle'de vefat ettiği yolundaki bilgisini daha güvenilir bulur. Vefatı 303 yılındadır; Kütüb-i Sitte müelliflerinin en son vefat edenidir.
+hocalari:
+  - kisi: kuteybe-b-said
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Nesâî\"", url: "https://islamansiklopedisi.org.tr/nesai"}
+  - kisi: ishak-b-rahuye
+    kaynak: *tdv
+  - kisi: bundar
+    kaynak: *tdv
+  - kisi: ebu-davud
+    ihtilafli: true
+    not: ondan rivayeti bir rivayete dayanır
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû Dâvûd es-Sicistânî\"", url: "https://islamansiklopedisi.org.tr/ebu-davud-es-sicistani"}
+  - kisi: ebu-zura
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Zür'a er-Râzî"
+      url: https://islamansiklopedisi.org.tr/ebu-zura-er-razi
+  - kisi: ebu-hatim
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Hâtim er-Râzî, Muhammed b. İdrîs"
+      url: https://islamansiklopedisi.org.tr/ebu-hatim-er-razi-muhammed-b-idris
+  - kisi: ibnul-musenna
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Müsennâ"
+      url: https://islamansiklopedisi.org.tr/ibnul-musenna
+kaynaklar:
+  - *tdv
+dogrulandi: true

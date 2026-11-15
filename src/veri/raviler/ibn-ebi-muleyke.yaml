@@ -1,0 +1,35 @@
+isim: İbn Ebî Müleyke
+tam_isim: Ebû Bekr Abdullah b. Ubeydillâh b. Ebî Müleyke Züheyr et-Teymî el-Mekkî
+arapca: ابن أبي مليكة عبد الله بن عبيد الله
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr (Ebû Muhammed de denmiştir)
+  ism: Abdullah
+  nesep: Abdullah b. Ubeydillâh b. Ebî Müleyke Züheyr b. Abdillâh b. Cüd'ân
+  nesep_arapca: عبد الله بن عبيد الله بن أبي مليكة زهير التيمي المكي
+  nisbeler: [et-Teymî, el-Kureşî, el-Mekkî]
+  lakap: İbn Ebî Müleyke
+  aciklama: Sahâbî olan dedesi Ebû Müleyke Züheyr'e nisbetle "İbn Ebî Müleyke" diye tanınır.
+vefat: {hicri: 117, miladi: 735}
+dogum_yeri: Mekke
+vefat_yeri: Mekke
+bolge: mekke
+rical:
+  tehzibul_kemal: "XV, 256-259"
+  tehzibut_tehzib: "V, 306-307"
+  rumuz: "ع"
+ozet: Harem'in müezzini ve imamı, Tâif ve Mekke kadısı; Âişe ve Ümmü Seleme'nin râvisi.
+biyografi: |
+  Ebû Bekr Abdullah b. Ubeydillâh b. Ebî Müleyke et-Teymî, Hz. Ali'nin halifeliği döneminde veya daha önce Mekke'de doğdu. Sahâbî olan dedesi Ebû Müleyke Züheyr'e nisbetle tanındı; dedesinin babası Abdullah b. Cüd'ân, Câhiliye'de mazlumları koruyan cömert bir Kureyşliydi.
+
+  Kendi ifadesine göre otuz, İbn Hibbân'a göre seksen sahâbî ile görüştü. Hz. Âişe, Ümmü Seleme, Esmâ bint Ebî Bekir, Abâdile ve Misver b. Mahreme'den rivayet etti. Amr b. Dînâr, Atâ b. Ebî Rebâh, Humeyd et-Tavîl, Eyyûb es-Sahtiyânî, Hammâd b. Seleme, İbn Cüreyc ve Leys b. Sa'd ondan hadis aldı.
+
+  Abdullah b. ez-Zübeyr'in halifeliği döneminde Harem-i Şerîf'te müezzinlik ve imamlık yaptı; Tâif ve Mekke'de kadılık görevinde bulundu. Hadis, fıkıh ve kıraattaki şöhretinin yanında dirayetli bir yönetici ve güçlü bir hatip olarak tanındı. Sika kabul edilir ve rivayetleri Kütüb-i Sitte'de yer alır. 117'de Mekke'de vefat etti.
+hocalari:
+  - kisi: aise
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Müleyke\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-muleyke"}
+  - kisi: ummu-seleme
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

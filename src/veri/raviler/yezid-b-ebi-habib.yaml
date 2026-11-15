@@ -1,0 +1,44 @@
+isim: Yezîd b. Ebî Habîb
+tam_isim: Ebû Recâ Yezîd b. Ebî Habîb Süveyd el-Mısrî
+arapca: يزيد بن أبي حبيب
+cerh_tadil: Sika, fakih; irsâl yapardı (İbn Hacer, Takrîb; 5. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Yezîd
+  kunye: Ebû Recâ
+  nesep: Yezîd b. Ebî Habîb Süveyd, mevlâ el-Ezd
+  nesep_arapca: يزيد بن أبي حبيب سويد الأزدي مولاهم المصري
+  nisbeler:
+    - el-Ezdî (mevlâ)
+    - el-Mısrî
+  aciklama: Babası Ebû Habîb'in adı Süveyd'dir.
+rical:
+  tehzibul_kemal: XXXII, 102
+  tehzibut_tehzib: 4/408 (Şâmile neşri)
+  takrib: Sika, fakih; irsal yapardı (5. tabaka)
+dogum: {hicri: 53, miladi: 673, not: "50 ile 53 arasında doğduğu tahmin edilir"}
+vefat: {hicri: 128, miladi: 745}
+bolge: misir
+ozet: Mısır'da fıkıh eğitimini ilk başlatan âlim; Leys b. Sa'd'ın en önemli hocası.
+biyografi: |
+  Ebû Recâ Yezîd b. Ebî Habîb el-Mısrî, anne ve babası köle olduğu için köle olarak doğdu, sonradan âzat edildi. Babası Dongolalı olup 31'deki Nûbe seferinde esir alınmıştı. Yezîd muhtemelen 50-53 arasında Fustat'ta doğdu.
+
+  Son vefat eden sahâbîlerden Abdullah b. el-Hâris ve Ebü't-Tufeyl'den, tâbiîlerden Atâ b. Ebî Rebâh, İkrime, Sâlim ve Nâfi'den ilim aldı. İbn İshak, Leys b. Sa'd, İbn Lehîa ve Amr b. el-Hâris talebeleri arasındadır; en önemlisi Leys b. Sa'd'dır. İbn İshak Mısır'da ondan siyer ve megāzî bilgisi almıştır.
+
+  Mısır'da fıkıh öğretimini ilk başlatan âlim olarak tanınır; hadisle fıkhı birlikte okuttu. Ömer b. Abdülazîz, Mısır'da fetva vermek üzere görevlendirdiği üç kişiden biri olarak onu seçti. Hadis âlimleri onu oybirliğiyle sika ve hüccet kabul etmiştir; rivayetleri Kütüb-i Sitte'de yer alır.
+
+  İsyanı onaylamamakla birlikte yönetime mesafeli durdu; ilk üç halifenin meşruiyetini savunup bu görüşü Mısır'da yaydı. Duyulan bir hadisin, kayıp eşya gibi ilan edilip tanınıyorsa alınmasını tavsiye ederdi. 128'de vefat etti.
+hocalari:
+  - kisi: mersed-ebul-hayr
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Yezîd b. Ebû Habîb\"", url: "https://islamansiklopedisi.org.tr/yezid-b-ebu-habib"}
+  - kisi: ikrime
+    kaynak: *tdv
+  - kisi: ata-b-ebi-rebah
+    kaynak: *tdv
+  - kisi: cafer-b-rebia
+    not: akranıdır
+    kaynak: {ad: "Mizzî, Tehzîbü'l-Kemâl, 5/29-30 (Ca'fer b. Rebîa)", url: "https://shamela.ws/book/3722/2109"}
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/7035"}
+dogrulandi: true

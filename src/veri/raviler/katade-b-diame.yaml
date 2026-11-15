@@ -1,0 +1,63 @@
+isim: Katâde b. Diâme
+tam_isim: Ebü'l-Hattâb Katâde b. Diâme es-Sedûsî el-Basrî
+arapca: قتادة بن دعامة
+cerh_tadil: Sika, sebt (İbn Hacer, Takrîb; 4. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Katâde
+  kunye: Ebü'l-Hattâb
+  lakap: el-A'mâ (âmâ), el-Hâfız
+  nesep: Katâde b. Diâme b. Katâde b. Azîz b. Amr b. Rabîa b. Amr b. el-Hâris b. Sedûs
+  nesep_arapca: قتادة بن دعامة بن قتادة بن عزيز بن عمرو بن ربيعة بن عمرو بن الحارث بن سدوس
+  nisbeler:
+    - es-Sedûsî
+    - el-Basrî
+rical:
+  tehzibul_kemal: XXIII, 498
+  tehzibut_tehzib: 3/428 (Şâmile neşri)
+  takrib: Sika, sebt (4. tabaka)
+  sozler:
+    - kim: Katâde
+      soz: Kur'an'da hakkında bir şey işitmediğim âyet yoktur.
+      kaynak: DİA, "Katâde b. Diâme"
+dogum: {hicri: 60, miladi: 680, not: "61 de denmiştir"}
+vefat: {hicri: 117, miladi: 735, not: "118 de denmiştir"}
+bolge: basra
+ozet: Güçlü hafızasıyla darbımesel olan âmâ müfessir ve muhaddis.
+biyografi: |
+  Katâde b. Diâme 60 veya 61'de doğdu; doğuştan âmâdır. Şeybânoğulları'ndan Sedûs kabilesine mensup bedevî bir ailedendir ve ailesi Basra'ya göç etmiştir. Hasan-ı Basrî'nin yanında on iki yıl kalarak kıraat, tefsir ve hadis öğrendi; Enes b. Mâlik, Ebü'l-Âliye, İbn Sîrîn, Saîd b. el-Müseyyeb, İkrime, Atâ ve Şa'bî'den hadis dinledi.
+
+  Şu'be, Ma'mer, Hemmâm b. Yahyâ, İbn Ebî Arûbe, Eyyûb es-Sahtiyânî, Evzâî ve Ebû Hanîfe ondan rivayet etti. Hafızası darbımesel olmuştur: duyduğu her şeyi ezberlediğini söylemiş, Saîd b. el-Müseyyeb'in yanında sekiz gün kalınca Saîd ona artık gidebileceğini söylemiştir. Ali b. el-Medînî onu, büyük şehirlerin isnad zincirlerinin kesiştiği altı kişiden biri sayar.
+
+  Tefsirde uzmanlaştı; Arap dili, Câhiliye şiiri, Arap tarihi ve nesep ilminde de önde gelenlerdendir. Taberî'nin tefsirinde ondan yaklaşık beş bin kavil bulunur. Mürsel ve tedlîsli rivayetleri olsa da büyük hadis imamları rivayetlerini eserlerine almıştır. Kader konusundaki görüşü tartışılmıştır.
+
+  Çalkantılı bir dönemde hiçbir tarafı desteklemeyip ilimle meşgul oldu. 117'de Vâsıt'taki veba salgınında vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    not: sahâbeden yalnız ondan hadis aldı
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Katâde b. Diâme\"", url: "https://islamansiklopedisi.org.tr/katade-b-diame"}
+  - kisi: hasan-el-basri
+    not: on iki yıl yanında kaldı
+    kaynak: *tdv
+  - kisi: muhammed-b-sirin
+    kaynak: *tdv
+  - kisi: ebul-aliye
+    kaynak: *tdv
+  - kisi: ata-b-ebi-rebah
+    kaynak: *tdv
+  - kisi: mucahid-b-cebr
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Mücâhid b. Cebr\"", url: "https://islamansiklopedisi.org.tr/mucahid-b-cebr"}
+  - kisi: amir-es-sabi
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Şa'bî\"", url: "https://islamansiklopedisi.org.tr/sabi"}
+  - kisi: said-b-el-museyyeb
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Müseyyeb\"", url: "https://islamansiklopedisi.org.tr/said-b-museyyeb"}
+  - kisi: ikrime
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İkrime el-Berberî\"", url: "https://islamansiklopedisi.org.tr/ikrime-el-berberi"}
+  - kisi: ebu-osman-en-nehdi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Osmân en-Nehdî"
+      url: https://islamansiklopedisi.org.tr/ebu-osman-en-nehdi
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/5183"}
+dogrulandi: true

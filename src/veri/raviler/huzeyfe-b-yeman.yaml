@@ -1,0 +1,33 @@
+isim: Huzeyfe b. el-Yemân
+tam_isim: Ebû Abdillâh Huzeyfe b. Huseyl (Hisl) b. Câbir el-Absî
+arapca: حذيفة بن اليمان
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Abdillâh
+  ism: Huzeyfe
+  nesep: Huzeyfe b. Huseyl (Hisl) b. Câbir b. Rebîa el-Absî
+  nesep_arapca: حذيفة بن حسيل بن جابر العبسي
+  nisbeler: [el-Absî]
+  lakap: Sâhibü sırri Resûlillâh (Hz. Peygamber'in sırdaşı)
+  aciklama: Babası Huseyl'e (Hisl) "Yemân" denmesinin sebebi Medine'de Abdüleşheloğulları ile yaptığı antlaşmadır; bazı rivayetlere göre bu ad büyük dedesi Cirve b. Hâris'e dayanır.
+vefat: {hicri: 36, miladi: 656, not: "Hz. Osman'ın şehadetinden 40 gün sonra"}
+dogum_yeri: Medine
+vefat_yeri: Medâin
+bolge: kufe
+hadis_sayisi: {sayi: 225, kaynak: "Bakī b. Mahled, el-Müsned (DİA, \"Ashâbü'l-miîn\")"}
+rical:
+  tehzibut_tehzib: "II, 219-220"
+  takrib: "I, 156"
+  rumuz: "ع"
+ozet: Hz. Peygamber'in sırdaşı; Medâin valisi, Nihâvend komutanı.
+biyografi: |
+  Münafıkların kimliği gibi bazı bilgileri yalnız ona emanet eden Hz. Peygamber'in sırdaşı olarak bilinir. Hz. Ömer döneminde Medâin valisi oldu ve Nihâvend'in fethinde orduya komuta etti.
+
+  Kıraat ayrılıklarına dikkat çekerek Hz. Osman'ı uyardı ve Mushafın çoğaltılmasına vesile oldu. Ondan Ebû Vâil, Zir b. Hubeyş, Zeyd b. Vehb, Abdurrahman b. Ebî Leylâ ve Ebû İdrîs el-Havlânî rivayet etti. Irak (Medâin–Kûfe) ilim çevresine bağlıdır.
+hocalari:
+  - kisi: omer
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Huzeyfe b. Yemân\"", url: "https://islamansiklopedisi.org.tr/huzeyfe-b-yeman"}
+kaynaklar:
+  - *tdv
+  - "İbn Hacer, el-İsâbe, I, 317, 331-332"
+dogrulandi: true

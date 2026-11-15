@@ -1,0 +1,61 @@
+isim: Yezîd b. Hârûn
+tam_isim: Ebû Hâlid Yezîd b. Hârûn b. Zâzî es-Sülemî el-Vâsıtî
+arapca: يزيد بن هارون
+tabaka: etbau-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Hâlid
+  ism: Yezîd
+  nesep: Yezîd b. Hârûn b. Zâzî (Zâzân) b. Sâbit, mevlâ Benî Süleym
+  nesep_arapca: يزيد بن هارون بن زاذي بن ثابت السلمي الواسطي
+  nisbeler: [es-Sülemî (mevlâ), el-Vâsıtî]
+  aciklama: Dedesi Zâzî (Zâzân), Utbe b. Ferkad'ın hanımı Ümmü Âsım'ın âzatlısıdır; ailenin aslen Buharalı olduğu söylenir.
+dogum: {hicri: 118, miladi: 736, not: "117 de denmiştir"}
+vefat: {hicri: 206, miladi: 821}
+dogum_yeri: Vâsıt
+vefat_yeri: Vâsıt
+bolge: basra
+diger_bolgeler: [bagdat]
+eserleri: [Tefsîrü'l-Kur'ân, Kitâbü'l-Ferâiz]
+rical:
+  tehzibul_kemal: "XXXII, 261"
+  rumuz: "ع"
+  sozler:
+    - {kim: Ali b. el-Medînî, soz: "Yezîd b. Hârûn'dan daha hâfızını görmedim.", kaynak: "Zehebî, Târîhu'l-İslâm, V, 228"}
+    - {kim: Ebû Hâtim, soz: "Sika, imamdır; onun gibisi sorulmaz.", kaynak: "Zehebî, Târîhu'l-İslâm, V, 229"}
+ozet: Bağdat'taki meclisinde yetmiş bin kişinin bulunduğu söylenen Vâsıtlı hâfız; Ahmed b. Hanbel ve İbnü'l-Medînî'nin hocası.
+biyografi: |
+  Vâsıt'ta doğdu; ailesi aslen Buharalıdır. Şu'be, Mâlik, Hammâd b. Zeyd, Süfyân es-Sevrî, Humeyd et-Tavîl ve Yahyâ b. Saîd el-Ensârî'den hadis aldı. Kitaptan değil ezberden rivayet ederdi; yirmi dört bin hadisi isnadıyla ezbere bildiğini söylediği nakledilir. Bağdat'ta hadis okuttuğunda meclisinde yetmiş bin kişinin toplandığı rivayet edilir.
+
+  Ali b. el-Medînî ve Ebû Bekr b. Ebî Şeybe onu gördükleri en titiz hâfız saydı; Ahmed b. Hanbel zekâsını ve anlayışını övdü. Gece boyunca namaz kılmasıyla, emr-i bi'l-ma'rûf ve nehy-i ani'l-münkerdeki cesaretiyle tanındı. Halku'l-Kur'ân görüşüne ve Cehmiyye'ye karşı çıktı; Me'mûn'un onun sağlığında bu görüşü açıkça dayatmaktan çekindiği rivayet edilir.
+
+  Ömrünün sonunda gözlerini kaybetti ve hafızası zayıfladı; bu dönemde kitaplarını bir câriyeye okutur oldu, Yahyâ b. Maîn bu dönemdeki rivayetlerini eleştirdi. Rivayetleri Kütüb-i Tis'a'nın hepsinde yer alır. Ahmed b. Hanbel, Ali b. el-Medînî, Züheyr b. Harb, Ebû Bekr b. Ebî Şeybe, Abd b. Humeyd ve İshâk b. Râhûye onun talebesidir.
+hocalari:
+  - kisi: sube-b-haccac
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Yezîd b. Hârûn\"", url: "https://islamansiklopedisi.org.tr/yezid-b-harun"}
+  - kisi: malik-b-enes
+    kaynak: *tdv
+  - kisi: hammad-b-zeyd
+    kaynak: *tdv
+  - kisi: sufyan-es-sevri
+    kaynak: *tdv
+  - kisi: humeyd-et-tavil
+    kaynak: &tk {ad: "Mizzî, Tehzîbü'l-Kemâl, XXXII, 262", url: "https://shamela.ws/book/3722/17377"}
+  - kisi: yahya-b-said-el-ensari
+    kaynak: {ad: "Zehebî, Târîhu'l-İslâm, V, 228", url: "https://shamela.ws/book/35100/4879"}
+  - kisi: hammad-b-seleme
+    kaynak: *tk
+  - kisi: ibn-ebi-zib
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"İbn Ebû Zi'b\"", url: "https://islamansiklopedisi.org.tr/ibn-ebu-zib"}
+  - kisi: ibn-ebi-arube
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbn Ebû Arûbe"
+      url: https://islamansiklopedisi.org.tr/ibn-ebu-arube
+  - kisi: hisam-ed-destuvai
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Hişâm ed-Destüvâî"
+      url: https://islamansiklopedisi.org.tr/hisam-ed-destuvai
+kaynaklar:
+  - *tdv
+  - {ad: "Zehebî, Târîhu'l-İslâm, V, 228-229", url: "https://shamela.ws/book/35100/4879"}
+  - {ad: "Mizzî, Tehzîbü'l-Kemâl, XXXII, 261-262", url: "https://shamela.ws/book/3722/17376"}
+dogrulandi: true

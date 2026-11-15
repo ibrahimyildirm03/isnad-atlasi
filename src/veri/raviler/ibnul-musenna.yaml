@@ -1,0 +1,33 @@
+isim: Muhammed b. el-Müsennâ
+tam_isim: Ebû Mûsâ Muhammed b. el-Müsennâ b. Ubeyd el-Anezî el-Basrî
+arapca: محمد بن المثنى
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Mûsâ
+  ism: Muhammed
+  nesep: Muhammed b. el-Müsennâ b. Ubeyd b. Kays
+  nesep_arapca: محمد بن المثنى بن عبيد العنزي البصري
+  nisbeler: [el-Anezî, el-Basrî]
+  lakap: ez-Zemin
+  aciklama: Bir dönem felç geçirdiği için "ez-Zemin" lakabıyla anıldı. Bündâr ile aynı yıl doğup aynı yıl vefat ettikleri, ikisinin "yarış atı gibi" birlikte anıldığı nakledilir.
+dogum: {hicri: 167, miladi: 783}
+vefat: {hicri: 252, miladi: 866}
+dogum_yeri: Basra
+bolge: basra
+rical:
+  rumuz: "ع"
+ozet: Kütüb-i Sitte imamlarının hepsinin hocası Basralı hâfız; Müslim'de 837 rivayeti bulunur.
+biyografi: |
+  Künyesi Ebû Mûsâ olan Muhammed b. el-Müsennâ, 167'de Basra'da doğdu; bir ara felç geçirdiği için "ez-Zemin" lakabıyla anıldı. Basra'da ve Bağdat'ta Mu'temir b. Süleyman, Gunder, Velîd b. Müslim, Süfyân b. Uyeyne, Yahyâ el-Kattân ve Abdurrahman b. Mehdî'den hadis rivayet etti.
+
+  Kütüb-i Sitte imamlarının hepsi, Ebû Zür'a, Ebû Hâtim, Bakī b. Mahled, İbn Ebi'd-Dünyâ, Ebû Ya'lâ el-Mevsılî ve İbn Huzeyme ondan rivayet etti. Rivayetleri Buhârî'de 114, Müslim'de 837 yerde geçer. Yahyâ b. Maîn onu sika, Ebû Hâtim sadûk, Hatîb el-Bağdâdî sika ve hâfız saymış; Nesâî ve İbn Hibbân'ın bazı eleştirileri güvenilirliğini zedeleyecek ölçüde görülmemiştir. Çok sayıda kitap yazdığı kaydedilir. Bündâr ile aynı yıl doğup aynı yıl, 252'de vefat etti.
+hocalari:
+  - kisi: yahya-b-said-el-kattan
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"İbnü'l-Müsennâ\"", url: "https://islamansiklopedisi.org.tr/ibnul-musenna"}
+  - kisi: abdurrahman-b-mehdi
+    kaynak: *tdv
+  - kisi: sufyan-b-uyeyne
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

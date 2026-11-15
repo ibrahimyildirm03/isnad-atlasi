@@ -1,0 +1,56 @@
+isim: Mekhûl eş-Şâmî
+tam_isim: Ebû Abdillâh Mekhûl b. Ebî Müslim eş-Şâmî ed-Dımaşkī
+arapca: مكحول الشامي
+cerh_tadil: Sika, fakih, meşhur; çok irsâl eder (İbn Hacer, Takrîb; 5. tabaka)
+tabaka: tabiin
+isim_bilgisi:
+  ism: Mekhûl
+  kunye: Ebû Abdillâh (Ebû Eyyûb ve Ebû Müslim de denmiştir)
+  nesep: Mekhûl b. Ebî Müslim Şehrâb, mevlâ Benî Hüzeyl
+  nesep_arapca: مكحول بن أبي مسلم الشامي الدمشقي
+  nisbeler:
+    - eş-Şâmî
+    - ed-Dımaşkī
+    - el-Hüzelî (mevlâ)
+  aciklama: Kâbil asıllıdır; esir düşüp Mısır'da Hüzeyl'den bir kadına verilmiş, âzat edildikten sonra ilim için Hicaz, Irak ve Şam'ı dolaşmıştır.
+vefat: {hicri: 112, miladi: 730, not: "farklı tarihler de verilmiştir"}
+bolge: sam
+ozet: Dımaşk'ın en büyük fakihi; Evzâî'nin hocası.
+eserleri:
+  - Kitâbü's-Sünen fi'l-fıkh
+  - Kitâbü'l-Mesâil fi'l-fıkh
+biyografi: |
+  Ebû Abdillâh Mekhûl b. Ebî Müslim eş-Şâmî, kaynakların çoğuna göre Kâbil kökenli âzatlı bir köleydi. Saîd b. el-Âs onu Hüzeyl kabilesinden bir kadına bağışladı, kadın da Mısır'da onu âzat etti. Öğrenimine Mısır'da başladı; Irak, Hicaz ve Şam'da sahâbe ve tâbiînden ders aldı. Enes b. Mâlik, Vâsile b. el-Eska' ve Ebû Hind ed-Dârî'den hadis dinlediği üzerinde ittifak vardır.
+
+  Saîd b. Abdülazîz, Evzâî, Rebîatü'r-re'y ve Humeyd et-Tavîl talebeleri arasındadır. Muâz b. Cebel ve Ebü'd-Derdâ'dan sonra Dımaşk fıkhının merkezî ismi oldu; 2. asrın başında Basra'da Hasan-ı Basrî, Medine'de Saîd b. el-Müseyyeb ile birlikte Dımaşk'ta onun halkası ilim merkezleri arasında sayılmıştır. Kadılık tekliflerini geri çevirdi.
+
+  İbn Hibbân, İclî ve İbn Hacer onu sika saymış, İbn Sa'd ise tedlîsi sebebiyle zayıf bulmuştur; Kütüb-i Sitte'nin çoğunda rivayeti vardır. Kaderiyye ile ilişkisi tartışmalıdır. Mısır, Suriye, Irak ve Hicaz'ı dolaşmasıyla İslâm'ın bilinen en eski seyyahlarından sayılır. Yaygın rivayete göre 112'de Dımaşk'ta vefat etti.
+hocalari:
+  - kisi: vasile-b-eska
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Mekhûl b. Ebû Müslim\"", url: "https://islamansiklopedisi.org.tr/mekhul-b-ebu-muslim"}
+  - kisi: enes-b-malik
+    kaynak: *tdv
+  - kisi: ebu-idris-el-havlani
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Ebû İdrîs el-Havlânî\"", url: "https://islamansiklopedisi.org.tr/ebu-idris-el-havlani"}
+  - kisi: reca-b-hayve
+    tur: fikih
+    not: Mekhûl ona "şeyhimiz ve efendimiz" der, kendisine sorulan meseleleri ona yönlendirirdi
+    kaynak: {ad: "Mizzî, Tehzîbü'l-Kemâl, 9/151 (Recâ b. Hayve)", url: "https://shamela.ws/narrator/1986"}
+  - kisi: mesruk-b-el-ecda
+    ihtilafli: true
+    not: Mesrûk'a ulaşmadığı hâlde ondan rivayet ettiği kaydedilir (mürsel)
+    kaynak: *tdv
+  - kisi: tavus-b-keysan
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Tâvûs b. Keysân\"", url: "https://islamansiklopedisi.org.tr/tavus-b-keysan"}
+  - kisi: suleyman-b-yesar
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Süleyman b. Yesâr\"", url: "https://islamansiklopedisi.org.tr/suleyman-b-yesar"}
+  - kisi: kadi-sureyh
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Kādî Şüreyh\"", url: "https://islamansiklopedisi.org.tr/kadi-sureyh"}
+  - kisi: ebu-umame-el-bahili
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Ümâme"
+      url: https://islamansiklopedisi.org.tr/ebu-umame
+kaynaklar:
+  - *tdv
+  - {ad: "el-Mektebetü'ş-Şâmile, ravi kaydı", url: "https://shamela.ws/narrator/6332"}
+dogrulandi: true

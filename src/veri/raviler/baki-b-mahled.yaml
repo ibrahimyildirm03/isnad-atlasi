@@ -1,0 +1,33 @@
+isim: Bakī b. Mahled
+tam_isim: Ebû Abdirrahmân Bakī b. Mahled b. Yezîd el-Kurtubî
+arapca: بقي بن مخلد
+tabaka: sonraki
+isim_bilgisi:
+  kunye: Ebû Abdirrahmân
+  ism: Bakī
+  nesep: Bakī b. Mahled b. Yezîd
+  nesep_arapca: بقي بن مخلد بن يزيد القرطبي الأندلسي
+  nisbeler: [el-Kurtubî, el-Endelüsî]
+dogum: {hicri: 201, miladi: 817, not: "veya daha önce"}
+vefat: {hicri: 276, miladi: 889, not: "28 Cemâziyelâhir 276"}
+dogum_yeri: Kurtuba
+vefat_yeri: Kurtuba
+bolge: endulus
+eserleri: ["el-Müsnedü'l-kebîr (1013 sahâbînin 30.969 hadisi)", "Kitâbü'l-A'dâd (sahâbîlerin rivayet sayıları)", "et-Tefsîrü'l-kebîr (kayıp)"]
+ozet: Sitedeki sahâbe hadis sayılarının kaynağı olan büyük Müsned'in müellifi Endülüslü muhaddis.
+biyografi: |
+  201'de veya daha önce Kurtuba'da doğdu; dedeleri ve babası fakihti. Yirmi dört yaşında doğuya ilim yolculuğuna çıktı. İfrîkıye'de Sahnûn'dan, Mısır'da Yahyâ b. Bükeyr'den, Medine'de Ebû Mus'ab ez-Zührî'den hadis okudu; Bağdat'ta Ahmed b. Hanbel'den hadis ve fıkıh öğrendi.
+
+  Yaklaşık 244'te Endülüs'e döndükten sonra on dört yıl süren ikinci bir yolculuğa çıktı; ilim merkezlerini yaya olarak dolaştı. Ebû Bekir b. Ebî Şeybe'den el-Musannef'i, Halîfe b. Hayyât'tan et-Târîh'i rivayet etti. 284 hocası tespit edilmiştir; gezdiği yerlerden hadis topladığı için arkadaşları ona "süpürge" lakabını taktı.
+
+  Getirdiği hadis kitapları ve hadise göre fetva vermesi, re'y taraftarı Mâlikîlerin tepkisine yol açtı ve bid'atçilikle suçlanıp emîre şikâyet edildi. Emîr I. Muhammed eserini inceleyip bir nüshasını kendi kütüphanesi için yazdırdı ve serbestçe ders vermesine izin verdi. Böylece Kurtuba, yalnızca Mâlikî görüşlerinin okutulduğu bir yerden hadis merkezine dönüştü.
+
+  1300'den fazla sahâbînin rivayetini içeren el-Müsnedü'l-kebîr'i, hadisleri sahâbî adına göre, her sahâbînin rivayetlerini de fıkıh konularına göre sıralar. Cuma dışında sürekli oruç tuttuğu ve yaklaşık yetmiş gazveye katıldığı rivayet edilir. 28 Cemâziyelâhir 276'da Kurtuba'da vefat etti.
+hocalari:
+  - kisi: ahmed-b-hanbel
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Bakī b. Mahled\"", url: "https://islamansiklopedisi.org.tr/baki-b-mahled"}
+  - kisi: ibn-ebi-seybe
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

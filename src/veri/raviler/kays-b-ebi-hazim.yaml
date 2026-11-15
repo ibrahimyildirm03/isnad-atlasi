@@ -1,0 +1,37 @@
+isim: Kays b. Ebî Hâzim
+tam_isim: Ebû Abdillâh Kays b. Ebî Hâzim Avf b. Abdilhâris el-Becelî el-Ahmesî el-Kûfî
+arapca: قيس بن أبي حازم
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Abdillâh (Ebû Ubeydillâh da denmiştir)
+  ism: Kays
+  nesep: Kays b. Ebî Hâzim Avf (Husayn) b. Abdilhâris
+  nesep_arapca: قيس بن أبي حازم عوف بن عبد الحارث البجلي الأحمسي الكوفي
+  nisbeler: [el-Becelî, el-Ahmesî, el-Kûfî]
+  aciklama: Hz. Peygamber zamanında müslüman olduğu hâlde onu göremediği için muhadram tâbiîlerdendir. Babasının adı Avf veya Husayn'dır.
+dogum: {not: "muhtemelen hicretten 5 yıl önce"}
+vefat: {hicri: 98, miladi: 717, not: "97 de denmiştir; 78, 84, 87 ve 94 de zikredilmiştir"}
+vefat_yeri: Kûfe
+bolge: kufe
+rical:
+  tehzibut_tehzib: "VIII, 386-389"
+  rumuz: "ع"
+ozet: Aşere-i mübeşşerenin hepsinden rivayet ettiği söylenen muhadram tâbiî; isnadı en sağlam Kûfelilerden.
+biyografi: |
+  Hz. Peygamber hayattayken müslüman oldu, Medine'ye geldiğinde onun vefat ettiğini öğrendi ve Ebû Bekir'e biat etti. Sahâbeden çok sayıda hadis rivayet etti; hadis otoriteleri onu isnad bakımından tâbiînin en sağlamlarından saydı.
+
+  İbn Mes'ûd, Ebû Mûsâ el-Eş'arî, Huzeyfe ve Ebû Hüreyre'den rivayet etti. Yaşlılığında hafızası zayıfladıysa da erken dönemde tespit edilen rivayetleri güvenilir kabul edildi. A'meş ondan rivayet edenlerdendir.
+hocalari:
+  - kisi: abdullah-b-mesud
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Kays b. Ebû Hâzim\"", url: "https://islamansiklopedisi.org.tr/kays-b-ebu-hazim"}
+  - kisi: ebu-musa-el-esari
+    kaynak: *tdv
+  - kisi: huzeyfe-b-yeman
+    kaynak: *tdv
+  - kisi: ebu-hureyre
+    kaynak: *tdv
+  - kisi: sad-b-ebi-vakkas
+    kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Sa'd b. Ebû Vakkās\"", url: "https://islamansiklopedisi.org.tr/sad-b-ebu-vakkas"}
+kaynaklar:
+  - *tdv
+dogrulandi: true

@@ -1,0 +1,34 @@
+isim: el-Humeydî
+tam_isim: Ebû Bekr Abdullah b. ez-Zübeyr b. Îsâ el-Kureşî el-Esedî el-Humeydî el-Mekkî
+arapca: عبد الله بن الزبير الحميدي
+tabaka: tebe-i-etbai-t-tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Abdullah
+  nesep: Abdullah b. ez-Zübeyr b. Îsâ b. Ubeydillâh
+  nesep_arapca: عبد الله بن الزبير بن عيسى القرشي الأسدي الحميدي المكي
+  nisbeler: [el-Kureşî, el-Esedî, el-Humeydî, el-Mekkî]
+  aciklama: '"el-Humeydî" nisbesi Esed b. Abdiluzzâ kolundan atası Humeyd''e dayanır. Sahâbî Abdullah b. ez-Zübeyr ile karıştırılmamalıdır.'
+vefat: {hicri: 219, miladi: 834, not: "Rebîülevvel 219; 220 de denmiştir"}
+vefat_yeri: Mekke
+bolge: mekke
+eserleri: ["el-Müsned (1327 hadis)"]
+rical:
+  tehzibut_tehzib: "V, 215-216"
+ozet: İbn Uyeyne'nin en yakın talebesi Mekkeli muhaddis; Sahîh-i Buhârî'nin ilk hadisinin râvisi.
+biyografi: |
+  Ebû Bekr Abdullah b. ez-Zübeyr el-Humeydî, Kureyş'in Kusay soyundandır ve Mekkelidir. Hadisi Fudayl b. İyâz, Derâverdî, Velîd b. Müslim, Vekî' ve özellikle Süfyân b. Uyeyne'den öğrendi. İbn Uyeyne'nin yanında on dokuz yıl kesintisiz kaldığı için onun hadislerini en iyi bilenlerden biri oldu.
+
+  Fıkhı İmam Şâfiî'den tahsil etti; Mekke'de ve Mısır'da uzun süre onunla birlikte bulundu. Şâfiî'nin vefatından sonra Mekke'ye döndü ve on beş yıl fetva verip hadis okuttu. Buhârî, Zühlî, Ebû Zür'a er-Râzî, Fesevî ve Ebû Hâtim er-Râzî ondan rivayet etti.
+
+  Sahâbîlerin fazilet ve müslüman oluş sırasına göre düzenlenip Hz. Ebû Bekir'in müsnediyle başlayan ve 1327 hadis içeren el-Müsned'i, Mekke'de yazılan ilk müsnedlerdendir. İshak b. Râhûye, Ahmed b. Hanbel ve Buhârî onu "imam" diye nitelemiş; rivayetleri İbn Mâce dışında Kütüb-i Sitte'de yer almıştır. Rebîülevvel 219'da Mekke'de vefat etti.
+hocalari:
+  - kisi: sufyan-b-uyeyne
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Humeydî, Abdullah b. Zübeyr\"", url: "https://islamansiklopedisi.org.tr/humeydi-abdullah-b-zubeyr"}
+  - kisi: safii
+    kaynak: *tdv
+  - kisi: veki-b-cerrah
+    kaynak: *tdv
+kaynaklar:
+  - *tdv
+dogrulandi: true

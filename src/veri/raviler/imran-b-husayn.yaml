@@ -1,0 +1,28 @@
+isim: İmrân b. Husayn
+tam_isim: Ebû Nüceyd İmrân b. Husayn b. Ubeyd el-Huzâî el-Ezdî
+arapca: عمران بن حصين
+tabaka: sahabe
+isim_bilgisi:
+  kunye: Ebû Nüceyd
+  ism: İmrân
+  nesep: İmrân b. Husayn b. Ubeyd b. Halef el-Huzâî
+  nesep_arapca: عمران بن حصين بن عبيد بن خلف الخزاعي
+  nisbeler: [el-Huzâî, el-Ezdî, el-Basrî]
+  aciklama: Künyesi oğlu Nüceyd'den gelir. Huzâa kabilesindendir.
+vefat: {hicri: 52, miladi: 672}
+vefat_yeri: Basra
+bolge: basra
+hadis_sayisi: {sayi: 180, kaynak: "Zehebî (DİA); Ahmed'in Müsned'inde 193"}
+rical:
+  tehzibut_tehzib: "VIII, 125-126"
+  rumuz: "ع"
+ozet: Hz. Ömer'in Basra'ya muallim olarak gönderdiği fakih sahâbî; Basra kadısı.
+biyografi: |
+  Hayber'in fethi yılında (7/628) Ebû Hüreyre ile aynı yıl müslüman oldu. Hz. Ömer onu halka dinî bilgileri öğretmek üzere Basra'ya gönderdi; Basralılar onu sahâbenin fakihlerinden sayardı. Kısa bir süre Basra kadılığı yaptı.
+
+  Hz. Ali dönemindeki iç savaşlara katılmadı. Ondan Hasan el-Basrî, Muhammed b. Sîrîn, Mutarrif b. Abdullah, Ebû Recâ el-Utâridî, Abdullah b. Büreyde ve Şa'bî rivayet etti.
+hocalari: []
+kaynaklar:
+  - {ad: "TDV İslâm Ansiklopedisi, \"İmrân b. Husayn\"", url: "https://islamansiklopedisi.org.tr/imran-b-husayn"}
+  - "İbn Hacer, el-İsâbe, III, 26-27"
+dogrulandi: true

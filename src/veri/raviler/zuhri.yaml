@@ -1,0 +1,87 @@
+isim: İbn Şihâb ez-Zührî
+tam_isim: Ebû Bekr Muhammed b. Müslim b. Ubeydillâh İbn Şihâb ez-Zührî el-Kureşî
+arapca: محمد بن مسلم بن شهاب الزهري
+tabaka: tabiin
+isim_bilgisi:
+  kunye: Ebû Bekr
+  ism: Muhammed
+  nesep: Muhammed b. Müslim b. Ubeydillâh b. Abdillâh b. Şihâb b. Abdillâh b. el-Hâris b. Zühre
+  nesep_arapca: محمد بن مسلم بن عبيد الله بن عبد الله بن شهاب بن عبد الله بن الحارث بن زهرة
+  nisbeler: [el-Kureşî, ez-Zührî, el-Medenî, eş-Şâmî]
+  lakap: İbn Şihâb
+  aciklama: Kaynaklarda dedesinin dedesine nisbetle "İbn Şihâb", kabilesine (Kureyş'in Zühreoğulları) nisbetle "ez-Zührî" diye anılır.
+dogum: {hicri: 51, miladi: 671, not: "50, 56 ve 58 de denmiştir"}
+vefat: {hicri: 124, miladi: 742, not: "17 Ramazan 124"}
+dogum_yeri: Medine
+vefat_yeri: Şağb (Vâdilkurâ yakını)
+bolge: medine
+diger_bolgeler: [sam]
+rical:
+  tehzibul_kemal: "XXVI, 419-444"
+  rumuz: "ع"
+  sozler:
+    - kim: Saîd b. el-Müseyyeb
+      soz: Yerine senin gibisini bırakan kişi ölmüş sayılmaz.
+      kaynak: DİA, "Zührî"
+    - kim: Zehebî
+      soz: Sebt ve hüccettir.
+      kaynak: DİA, "Zührî"
+ozet: Hadislerin resmî tedvinini başlatan Medineli hâfız; Mâlik, Ma'mer ve İbn Uyeyne'nin hocası.
+biyografi: |
+  51/671'de Medine'de doğdu; Kureyş'in Zühreoğulları kolundandır. Babası Müslim, Emevîlere karşı Abdullah b. ez-Zübeyr'i desteklediği için divandan çıkarıldı ve aile maddî sıkıntıya düştü. Tahsiline Kur'an'la başladı.
+
+  Medine'nin yedi fakihinin hepsinden ders aldı: Saîd b. el-Müseyyeb'den fıkıh ve kıraat, Urve b. ez-Zübeyr'den hadis ve tarih öğrendi. Sahâbeden Enes b. Mâlik ve Sehl b. Sa'd'dan da rivayet etti.
+
+  82/701 civarında Dımaşk'a gitti; Halife Abdülmelik'in bir sorusuna verdiği cevap üzerine saraya alındı, yüksek maaş ve görevler aldı. Hişâm b. Abdülmelik'in oğullarına hocalık yaptı, hac emirlerine eşlik etti ve bir süre kadılık yaptı. Saraya bu yakınlığı sebebiyle eleştirildi.
+
+  Ömer b. Abdülazîz'in emriyle hadisleri resmî olarak yazıya geçirdi; devletin imkânlarını ve kâtiplerini kullandığı için hadisi ilk tedvin eden kişi olarak anılır. İmam Mâlik onu hadisleri isnadla rivayet eden ilk kişi sayar. Medine tarih ekolünün kurucularındandır; meğāzî rivayetleri Abdürrezzâk'ın el-Musannef'inde korunmuştur.
+
+  Yaklaşık 2200 hadis rivayet etti; bunların yarısı merfûdur. Derslerini genellikle ezberden anlatırdı; Hişâm, hafızasını sınamak için aynı hadisleri farklı zamanlarda yazdırmış ve hiç farklılık bulmamıştır. Mâlik, Leys, Evzâî, Ma'mer ve İbn Uyeyne başta olmak üzere bir nesil imam onun talebesidir. Ağır borçlarla 17 Ramazan 124'te Vâdilkurâ yakınındaki Şağb'da vefat etti.
+hocalari:
+  - kisi: enes-b-malik
+    kaynak: &tdv {ad: "TDV İslâm Ansiklopedisi, \"Zührî\"", url: "https://islamansiklopedisi.org.tr/zuhri"}
+  - kisi: sehl-b-sad
+    kaynak: *tdv
+  - kisi: said-b-el-museyyeb
+    kaynak: *tdv
+  - kisi: urve-b-ez-zubeyr
+    kaynak: *tdv
+  - kisi: ubeydullah-b-abdullah
+    kaynak: *tdv
+  - kisi: ebu-bekr-b-abdirrahman
+    kaynak: *tdv
+  - kisi: suleyman-b-yesar
+    kaynak: *tdv
+  - kisi: ata-b-ebi-rebah
+    kaynak: *tdv
+  - kisi: harice-b-zeyd
+    not: aracılı bağdan çıkarıldı
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Mâlik b. Enes"
+      url: https://islamansiklopedisi.org.tr/malik-b-enes
+  - kisi: ebu-idris-el-havlani
+    not: aracılı bağdan çıkarıldı
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû İdrîs el-Havlânî"
+      url: https://islamansiklopedisi.org.tr/ebu-idris-el-havlani
+  - kisi: salim-b-abdullah
+    kaynak: &id001
+      ad: TDV İslâm Ansiklopedisi, "Zührî"
+      url: https://islamansiklopedisi.org.tr/zuhri
+  - kisi: nafi
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Nâfi'"
+      url: https://islamansiklopedisi.org.tr/nafi--tabiin-alimi
+  - kisi: ebu-seleme-b-abdirrahman
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "Ebû Seleme b. Abdurrahman b. Avf"
+      url: https://islamansiklopedisi.org.tr/ebu-seleme-b-abdurrahman-b-avf
+  - kisi: omer-b-abdulaziz
+    kaynak: *id001
+  - kisi: ibnul-munkedir
+    kaynak:
+      ad: TDV İslâm Ansiklopedisi, "İbnü'l-Münkedir"
+      url: https://islamansiklopedisi.org.tr/ibnul-munkedir
+kaynaklar:
+  - *tdv
+dogrulandi: true
