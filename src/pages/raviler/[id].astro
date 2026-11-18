@@ -96,6 +96,9 @@ const ib = d.isim_bilgisi;
 
   <div class="duzen">
     <aside class="yan">
+      <nav class="bolum-nav" aria-label="Bu sayfada">
+        {bolumler.map(([id, ad]) => <a href={`#${id}`}>{ad}</a>)}
+      </nav>
       <dl class="kunye">
         {d.dogum && (<><dt>Doğum</dt><dd>{tarihYaz(d.dogum)}{d.dogum_yeri && <span class="alt">{d.dogum_yeri}</span>}</dd></>)}
         <dt>Vefat</dt>
@@ -111,9 +114,6 @@ const ib = d.isim_bilgisi;
         {ib && ib.nisbeler.length > 0 && (<><dt>Nisbeleri</dt><dd>{ib.nisbeler.join(', ')}</dd></>)}
       </dl>
       <p class="tarih-not">Tarihler hicrî / mîlâdî.</p>
-      <nav class="bolum-nav" aria-label="Bu sayfada">
-        {bolumler.map(([id, ad]) => <a href={`#${id}`}>{ad}</a>)}
-      </nav>
     </aside>
 
     <article class="metin">
@@ -246,7 +246,7 @@ const ib = d.isim_bilgisi;
   .kunye dd.arapca { font-size: 1.1rem; font-weight: 400; margin-top: 0.75rem; }
   .alt { display: block; font-weight: 400; color: var(--murekkep-2); }
   .tarih-not { font-size: 0.78rem; color: var(--murekkep-2); margin: 1rem 0 0; }
-  .bolum-nav { display: flex; flex-direction: column; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--cizgi); }
+  .bolum-nav { display: flex; flex-direction: column; margin-bottom: 1.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--cizgi); }
   .bolum-nav a { padding: 5px 0 5px 12px; border-left: 2px solid var(--cizgi); color: var(--murekkep-2); text-decoration: none; }
   .bolum-nav a:hover { color: var(--vurgu); border-left-color: var(--vurgu); }
 
@@ -297,7 +297,7 @@ const ib = d.isim_bilgisi;
     .kunye dt, .kunye dt:first-child { margin-top: 0; }
     .kunye dd { margin: 0; }
     .kunye dd.arapca { grid-column: 1 / -1; margin: 0; text-align: right; }
-    .bolum-nav { position: sticky; top: var(--ust-yukseklik); z-index: 4; flex-direction: row; gap: 6px; overflow-x: auto; scrollbar-width: none; background: var(--kagit); margin: 1.25rem -14px 0; padding: 10px 14px; border-top: 0; border-bottom: 1px solid var(--cizgi); }
+    .bolum-nav { position: sticky; top: var(--ust-yukseklik); z-index: 4; flex-direction: row; gap: 6px; overflow-x: auto; scrollbar-width: none; background: var(--kagit); margin: -0.5rem -14px 1.25rem; padding: 10px 14px; border-bottom: 1px solid var(--cizgi); }
     .bolum-nav a { border: 1px solid var(--cizgi); border-radius: 999px; padding: 4px 12px; white-space: nowrap; background: var(--kart); }
   }
   @media (max-width: 560px) { .rical-tablo { grid-template-columns: 1fr; } .rical-tablo dt { margin-top: 0.4rem; } }
