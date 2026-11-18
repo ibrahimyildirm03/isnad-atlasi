@@ -1,111 +1,213 @@
 ---
 import Site from '../layouts/Site.astro';
-import { adVefat, ilimBagi, tarihYaz, veriYukle, yol, type Ravi } from '../lib/veri';
+import { TABAKALAR, adVefat, ilimBagi, tarihYaz, veriYukle, yol, type Ravi } from '../lib/veri';
 
 const v = await veriYukle();
-const arastirmaBolgeleri = v.bolgeler.filter((b) => !b.data.ek);
-const say = (t: string) => v.raviler.filter((r) => r.data.tabaka === t).length;
-const sayilar = [
-  { n: say('sahabe'), ad: 'sahâbî' },
-  { n: say('tabiin'), ad: 'tâbiî' },
-  { n: say('etbau-t-tabiin') + say('tebe-i-etbai-t-tabiin'), ad: 'etbâ ve tebe-i etbâ' },
-  { n: say('sonraki'), ad: '3. asır âlimi' },
-  { n: v.bolgeler.length, ad: 'ilim bölgesi' },
-  { n: v.kenarlar.filter(ilimBagi).length, ad: 'bağlantı' },
-];
+
+// Altın zincir: İbn Ömer → Nâfi' → Mâlik → Şâfiî → Ahmed b. Hanbel (verideki bağlar üzerinden)
+const ZINCIR = ['ibn-omer', 'nafi', 'malik-b-enes', 'safii', 'ahmed-b-hanbel'];
+const zincir = ZINCIR.map((id) => v.ravi.get(id)).filter((r): r is Ravi => !!r);
+const bagVar = (h: string, t: string) => v.kenarlar.some((k) => k.hoca === h && k.talebe === t);
+const zincirSaglam = zincir.every((r, i) => i === 0 || bagVar(zincir[i - 1].id, r.id));
+
+const kusaklar = (Object.keys(TABAKALAR) as (keyof typeof TABAKALAR)[]).map((t) => {
+  const kisiler = v.liste.filter((r) => r.data.tabaka === t);
+  const yillar = kisiler.map((r) => r.data.vefat?.hicri).filter((n): n is number => n != null);
+  return { t, ad: TABAKALAR[t], n: kisiler.length, ilk: Math.min(...yillar), son: Math.max(...yillar) };
+});
+const bagSayisi = v.kenarlar.filter(ilimBagi).length;
+
+const bolgedekiler = (id: string) => v.liste.filter((r) => r.data.bolge === id);
 const musannifler = v.raviler.filter((r) => r.data.kutub_i_tisa);
-const bolgedekiler = (id: string) => v.liste.filter((r) => r.data.bolge === id || r.data.diger_bolgeler.includes(id));
 const dortMezheb = v.imamlar.filter((r) => r.data.imam!.yasayan);
 const digerMezhepler = v.imamlar.filter((r) => !r.data.imam!.yasayan);
-const imamOzet = (r: Ravi) =>
-  `${tarihYaz(r.data.dogum)} – ${tarihYaz(r.data.vefat)} · ${v.bolge.get(r.data.bolge)!.data.isim}`;
+const bolgeAdi = (r: Ravi) => v.bolge.get(r.data.bolge)!.data.isim;
 ---
 
 <Site genis>
   <section class="giris">
-    <p class="ust-baslik">Sahâbe · tâbiîn · imamlar · Kütüb-i Sitte</p>
-    <h1>Tabakât Atlası</h1>
-    <p class="alt-baslik">Sahâbeden mezheb imamlarına ve Kütüb-i Sitte müelliflerine, hicrî üç asırda ilmin aktarımı</p>
-    <p class="tanitim">
-      En çok hadis rivayet eden 25 sahâbîden başlayarak tâbiîn ve sonraki kuşaklardan âlimlerin hayatlarını, künye ve
-      nesepleriyle isimlerini, kimden ilim aldıklarını ve bu ilmin mezheb imamlarına ve Kütüb-i Sitte müelliflerine hangi
-      yollarla ulaştığını kuşak kuşak ve bölge bölge izlemek için hazırlanmış bir çalışma.
-    </p>
-    <div class="eylem">
-      <a class="dugme ana" href={yol('ag/')}>Bağlantı ağını aç →</a>
-      <a class="dugme" href={yol('raviler/')}>Bütün râvîler</a>
+    <div class="giris-metin">
+      <h1>Tabakât Atlası</h1>
+      <p class="tanitim">
+        En çok hadis rivayet eden 25 sahâbîden mezheb imamlarına ve Kütüb-i Sitte müelliflerine, hicrî üç asır boyunca
+        ilmin kimden kime ve hangi şehirlerde aktarıldığını izleyin.
+      </p>
+      <p class="olcek">
+        {v.liste.length} âlim, {v.bolgeler.length} ilim bölgesi ve kaynaklarıyla gösterilmiş {bagSayisi} hoca–talebe bağı.
+      </p>
+      <div class="eylem">
+        <a class="dugme ana" href={yol('ag/')}>Bağlantı ağını aç</a>
+        <a class="dugme" href={yol('raviler/')}>Râvîleri gez</a>
+      </div>
     </div>
-    <dl class="sayilar sans">
-      {sayilar.map((s) => <div><dt>{s.ad}</dt><dd>{s.n}</dd></div>)}
-    </dl>
+
+    {
+      zincirSaglam && (
+        <figure class="zincir">
+          <figcaption>
+            <b>Altın zincir</b>
+            <span>Buhârî'ye göre en sahih senedlerden biri Mâlik, Nâfi' ve İbn Ömer yoluyla gelendir; başına Şâfiî eklenince "silsiletü'z-zeheb" denmiştir.</span>
+          </figcaption>
+          <ol>
+            {zincir.map((r) => (
+              <li class:list={{ imam: !!r.data.imam }}>
+                <a href={yol(`raviler/${r.id}/`)}>
+                  <span class="ad">{r.data.isim}</span>
+                  <span class="yer">ö. {tarihYaz(r.data.vefat)}, {bolgeAdi(r)}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </figure>
+      )
+    }
   </section>
 
-  <h2>Bölgeler</h2>
-  <div class="izgara">
-    {
-      v.bolgeler.map((b) => (
-        <a class="kart bolge-kart" href={yol(`bolgeler/${b.id}/`)} style={`--renk:${b.data.renk};--renk-koyu:${b.data.renk_koyu}`}>
-          <h3><span class="nokta" /> {b.data.isim}</h3>
-          <p class="isimler">{bolgedekiler(b.id).map((r) => adVefat(r, true)).join(' · ')}</p>
-        </a>
-      ))
-    }
-  </div>
+  <section aria-labelledby="kusaklar">
+    <h2 id="kusaklar">Beş kuşak</h2>
+    <p class="bolum-aciklama">Tabakât kitapları âlimleri kuşaklara ayırır: her kuşak, bir öncekinden ilim alanlardır.</p>
+    <ol class="kusak-seridi">
+      {kusaklar.map((k, i) => (
+        <li>
+          <a href={yol(`raviler/?tabaka=${k.t}`)}>
+            <span class="sira">{i + 1}</span>
+            <span class="kusak-ad">{k.ad}</span>
+            <span class="kusak-ek">{k.n} kişi, ö. {k.ilk}–{k.son}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
 
-  <h2>Kütüb-i Tis'a müellifleri</h2>
-  <p class="soluk sans">Kütüb-i Sitte'ye Mâlik'in Muvatta'ı, Ahmed b. Hanbel'in Müsned'i ve Dârimî'nin Sünen'i eklenerek oluşan dokuz temel hadis kitabı.</p>
-  <div class="izgara">
-    {
-      musannifler.map((r) => (
-        <a class="kart imam-kart" href={yol(`raviler/${r.id}/`)}>
-          <span class="etiket imam">{r.data.kutub_i_tisa}</span>
-          <h3>{r.data.isim}</h3>
-          <p class="soluk sans">{imamOzet(r)}</p>
-        </a>
-      ))
-    }
-  </div>
+  <section aria-labelledby="bolgeler">
+    <h2 id="bolgeler">İlim bölgeleri</h2>
+    <ul class="bolge-listesi">
+      {v.bolgeler.map((b) => {
+        const kisiler = bolgedekiler(b.id);
+        return (
+          <li style={`--renk:${b.data.renk};--renk-koyu:${b.data.renk_koyu}`}>
+            <a href={yol(`bolgeler/${b.id}/`)}>
+              <span class="nokta" />
+              <span class="bolge-ad">{b.data.isim}</span>
+              <span class="bolge-sayi">{kisiler.length}</span>
+              <span class="bolge-isimler">{kisiler.slice(0, 4).map((r) => r.data.isim).join(', ')}{kisiler.length > 4 ? '…' : ''}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
 
-  <h2>Dört mezheb imamı</h2>
-  <div class="izgara">
-    {
-      dortMezheb.map((r) => (
-        <a class="kart imam-kart" href={yol(`raviler/${r.id}/`)}>
-          <span class="etiket imam">{r.data.imam!.mezheb}</span>
-          <h3>{r.data.isim}</h3>
-          <p class="soluk sans">{imamOzet(r)}</p>
-        </a>
-      ))
-    }
-  </div>
+  <div class="iki-liste">
+    <section aria-labelledby="imamlar">
+      <h2 id="imamlar">Mezheb imamları</h2>
+      <ul class="kisi-listesi">
+        {dortMezheb.map((r) => (
+          <li>
+            <a href={yol(`raviler/${r.id}/`)}><span class="ad">{r.data.isim}</span><span class="ek">{r.data.imam!.mezheb}, ö. {tarihYaz(r.data.vefat)}</span></a>
+          </li>
+        ))}
+      </ul>
+      <p class="alt-baslik">Günümüze ulaşmayan mezhebler</p>
+      <ul class="kisi-listesi soluk-liste">
+        {digerMezhepler.map((r) => (
+          <li>
+            <a href={yol(`raviler/${r.id}/`)}><span class="ad">{r.data.isim}</span><span class="ek">{r.data.imam!.mezheb}, ö. {tarihYaz(r.data.vefat)}</span></a>
+          </li>
+        ))}
+      </ul>
+    </section>
 
-  <h2>Günümüze ulaşmayan mezheblerin imamları</h2>
-  <div class="izgara">
-    {
-      digerMezhepler.map((r) => (
-        <a class="kart imam-kart" href={yol(`raviler/${r.id}/`)}>
-          <span class="etiket imam kesik">{r.data.imam!.mezheb}</span>
-          <h3>{r.data.isim}</h3>
-          <p class="soluk sans">{imamOzet(r)}</p>
-        </a>
-      ))
-    }
+    <section aria-labelledby="musannifler">
+      <h2 id="musannifler">Kütüb-i Tis'a müellifleri</h2>
+      <ul class="kisi-listesi">
+        {musannifler.map((r) => (
+          <li>
+            <a href={yol(`raviler/${r.id}/`)}><span class="ad">{r.data.isim}</span><span class="ek">{r.data.kutub_i_tisa}, ö. {tarihYaz(r.data.vefat)}</span></a>
+          </li>
+        ))}
+      </ul>
+      <p class="not">Kütüb-i Sitte'ye Mâlik'in <i>Muvatta'</i>ı, Ahmed b. Hanbel'in <i>Müsned</i>'i ve Dârimî'nin <i>Sünen</i>'i eklenerek oluşan dokuz temel hadis kitabı.</p>
+    </section>
   </div>
 </Site>
 
 <style>
-  .giris { padding: 2rem 0 1rem; max-width: 760px; }
-  .alt-baslik { font-size: 1.3rem; font-weight: 500; color: var(--vurgu); margin: 0.2rem 0 0; }
-  .tanitim { font-size: 1.2rem; color: var(--murekkep-2); margin: 0.5rem 0 0.6rem; }
-  .koken { font-size: 0.85rem; color: var(--murekkep-2); margin: 0 0 1.5rem; padding-left: 10px; border-left: 2px solid var(--cizgi); }
+  .giris {
+    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 3rem; align-items: center;
+    padding: 1.5rem 0 1rem;
+  }
+  .tanitim { font-size: 1.2rem; line-height: 1.55; margin: 0.6rem 0 0.8rem; max-width: 34em; }
+  .olcek { color: var(--murekkep-2); margin: 0 0 1.5rem; }
   .eylem { display: flex; flex-wrap: wrap; gap: 10px; }
-  .sayilar { display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem; margin: 2.2rem 0 0; }
-  .sayilar div { display: flex; flex-direction: column-reverse; }
-  .sayilar dd { margin: 0; font-family: var(--sans); font-size: 2.2rem; font-weight: 600; line-height: 1; }
-  .sayilar dt { color: var(--murekkep-2); font-size: 0.85rem; margin-top: 4px; }
-  .imam-kart h3 { margin-top: 0.6rem; font-size: 1.25rem; }
-  .imam-kart p { margin: 0.2rem 0 0; font-size: 0.85rem; }
-  .kesik { border-style: dashed; }
-  .bolge-kart h3 { display: flex; align-items: center; gap: 8px; }
-  .isimler { margin: 0.4rem 0 0; font-size: 0.92rem; line-height: 1.55; color: var(--murekkep-2); }
+
+  /* Altın zincir: sayfanın tek gösterişli öğesi */
+  .zincir { margin: 0; padding: 1.4rem 1.5rem; background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; }
+  .zincir figcaption { display: flex; flex-direction: column; gap: 4px; font-size: 0.86rem; color: var(--murekkep-2); margin-bottom: 1.1rem; }
+  .zincir figcaption b { color: var(--altin); font-size: 0.95rem; font-weight: 600; }
+  .zincir ol { list-style: none; margin: 0; padding: 0; position: relative; }
+  .zincir ol::before {
+    content: ''; position: absolute; left: 7px; top: 12px; bottom: 12px; width: 2px;
+    background: linear-gradient(var(--cizgi), var(--altin));
+  }
+  .zincir li { position: relative; padding-left: 30px; }
+  .zincir li + li { margin-top: 2px; }
+  .zincir li::before {
+    content: ''; position: absolute; left: 1px; top: 50%; translate: 0 -50%;
+    width: 10px; height: 10px; border-radius: 50%; background: var(--kart); border: 2px solid var(--murekkep-2);
+  }
+  .zincir li.imam::before { border-color: var(--altin); background: var(--altin); }
+  .zincir a { display: flex; flex-direction: column; padding: 7px 10px; border-radius: 8px; text-decoration: none; color: var(--murekkep); }
+  .zincir a:hover { background: var(--kagit-2); }
+  .zincir .ad { font-weight: 600; }
+  .zincir .yer { font-size: 0.82rem; color: var(--murekkep-2); }
+
+  .bolum-aciklama { color: var(--murekkep-2); margin: -0.4rem 0 1rem; }
+  .kusak-seridi { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; }
+  .kusak-seridi li { border-top: 3px solid var(--vurgu); }
+  .kusak-seridi li:nth-child(2) { border-top-color: color-mix(in srgb, var(--vurgu) 80%, var(--kagit)); }
+  .kusak-seridi li:nth-child(3) { border-top-color: color-mix(in srgb, var(--vurgu) 60%, var(--kagit)); }
+  .kusak-seridi li:nth-child(4) { border-top-color: color-mix(in srgb, var(--vurgu) 42%, var(--kagit)); }
+  .kusak-seridi li:nth-child(5) { border-top-color: color-mix(in srgb, var(--vurgu) 26%, var(--kagit)); }
+  .kusak-seridi a { display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 12px 0; text-decoration: none; color: var(--murekkep); }
+  .kusak-seridi a:hover .kusak-ad { color: var(--vurgu); }
+  .sira { font-size: 0.8rem; color: var(--murekkep-2); font-variant-numeric: tabular-nums; }
+  .kusak-ad { font-weight: 600; line-height: 1.3; }
+  .kusak-ek { font-size: 0.84rem; color: var(--murekkep-2); }
+
+  .bolge-listesi { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 2.5rem; }
+  .bolge-listesi a {
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; column-gap: 10px;
+    padding: 11px 2px; border-bottom: 1px solid var(--cizgi); text-decoration: none; color: var(--murekkep);
+  }
+  .bolge-listesi a:hover .bolge-ad { color: var(--vurgu); }
+  .bolge-ad { font-weight: 600; }
+  .bolge-sayi { color: var(--murekkep-2); font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+  .bolge-isimler { grid-column: 2 / -1; font-size: 0.85rem; color: var(--murekkep-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .iki-liste { display: grid; grid-template-columns: 1fr 1fr; gap: 0 3rem; }
+  .kisi-listesi { list-style: none; margin: 0; padding: 0; }
+  .kisi-listesi a {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 9px 2px; border-bottom: 1px solid var(--cizgi); text-decoration: none; color: var(--murekkep);
+  }
+  .kisi-listesi a:hover .ad { color: var(--vurgu); }
+  .kisi-listesi .ad { font-weight: 500; }
+  .kisi-listesi .ek { font-size: 0.85rem; color: var(--murekkep-2); text-align: right; }
+  .soluk-liste .ad { font-weight: 400; color: var(--murekkep-2); }
+  .alt-baslik { font-weight: 600; margin: 1.6rem 0 0.2rem; font-size: 0.95rem; }
+  .not { font-size: 0.86rem; color: var(--murekkep-2); margin-top: 0.9rem; }
+
+  @media (max-width: 860px) {
+    .giris { grid-template-columns: 1fr; gap: 2rem; padding-top: 0.5rem; }
+    .kusak-seridi { grid-template-columns: 1fr; }
+    .kusak-seridi li { border-top: 0; border-left: 3px solid var(--vurgu); }
+    .kusak-seridi li:nth-child(2) { border-left-color: color-mix(in srgb, var(--vurgu) 80%, var(--kagit)); }
+    .kusak-seridi li:nth-child(3) { border-left-color: color-mix(in srgb, var(--vurgu) 60%, var(--kagit)); }
+    .kusak-seridi li:nth-child(4) { border-left-color: color-mix(in srgb, var(--vurgu) 42%, var(--kagit)); }
+    .kusak-seridi li:nth-child(5) { border-left-color: color-mix(in srgb, var(--vurgu) 26%, var(--kagit)); }
+    .kusak-seridi a { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 9px 12px; }
+    .kusak-ek { margin-left: auto; }
+    .bolge-listesi, .iki-liste { grid-template-columns: 1fr; }
+  }
 </style>

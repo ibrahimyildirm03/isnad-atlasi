@@ -1,37 +1,59 @@
 ---
-import { TABAKALAR, imamEtiketi, tarihYaz, yol, type Bolge, type Ravi } from '../lib/veri';
+import { TABAKALAR, tarihYaz, yol, type Bolge, type Ravi } from '../lib/veri';
 
 interface Props {
   ravi: Ravi;
   bolge: Bolge;
+  /** Bölge sayfasında bölge adı tekrar gösterilmez */
+  bolgesiz?: boolean;
 }
-const { ravi, bolge } = Astro.props;
+const { ravi, bolge, bolgesiz = false } = Astro.props;
 const d = ravi.data;
+const rozet = d.imam ? `${d.imam.mezheb} imamı` : d.kutub_i_tisa ?? '';
 ---
 
-<a
-  href={yol(`raviler/${ravi.id}/`)}
-  class="kart ravi-kart"
+<li
+  class="ravi-satir"
   data-ara={`${d.isim} ${d.tam_isim ?? ''}`.toLocaleLowerCase('tr')}
   data-bolge={[d.bolge, ...d.diger_bolgeler].join(' ')}
   data-tabaka={d.tabaka}
+  style={`--renk:${bolge.data.renk};--renk-koyu:${bolge.data.renk_koyu}`}
 >
-  <div class="ust sans">
-    <span class="etiket" style={`--renk:${bolge.data.renk};--renk-koyu:${bolge.data.renk_koyu}`}><span class="nokta"></span>{bolge.data.isim}</span>
-    <span class="soluk">ö. {tarihYaz(d.vefat)}</span>
-  </div>
-  <h3>{d.isim}</h3>
-  <p class="soluk">{d.ozet}</p>
-  <div class="alt sans">
-    <span class="etiket">{TABAKALAR[d.tabaka]}</span>
-    {d.imam && <span class:list={['etiket imam', { kesik: !d.imam.yasayan }]}>{imamEtiketi(ravi)}</span>}
-  </div>
-</a>
+  <a href={yol(`raviler/${ravi.id}/`)}>
+    <span class="vefat">{d.vefat?.hicri ?? '?'}</span>
+    <span class="govde">
+      <span class="ad-satir">
+        <span class="ad">{d.isim}</span>
+        {rozet && <span class:list={['etiket imam', { kesik: d.imam && !d.imam.yasayan }]}>{rozet}</span>}
+      </span>
+      <span class="ozet">{d.ozet}</span>
+    </span>
+    <span class="yan">
+      {!bolgesiz && <span class="bolge"><span class="nokta" />{bolge.data.isim}</span>}
+      <span class="tabaka">{TABAKALAR[d.tabaka]}</span>
+    </span>
+  </a>
+</li>
 
 <style>
-  .ravi-kart { display: flex; flex-direction: column; gap: 6px; }
-  .ust { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 0.8rem; }
-  p { margin: 0; font-size: 0.93rem; line-height: 1.5; flex: 1; }
-  .alt { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
-  .kesik { border-style: dashed; }
+  .ravi-satir { list-style: none; }
+  .ravi-satir a {
+    display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) 12rem; gap: 14px; align-items: baseline;
+    padding: 12px 8px; border-bottom: 1px solid var(--cizgi); color: var(--murekkep); text-decoration: none;
+  }
+  .ravi-satir a:hover { background: var(--kart); }
+  .ravi-satir a:hover .ad { color: var(--vurgu); }
+  .vefat { font-variant-numeric: tabular-nums; color: var(--murekkep-2); font-size: 0.88rem; text-align: right; }
+  .vefat::before { content: 'ö. '; font-size: 0.75rem; }
+  .govde { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .ad-satir { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .ad { font-weight: 600; }
+  .ozet { font-size: 0.9rem; color: var(--murekkep-2); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .yan { display: flex; flex-direction: column; gap: 2px; font-size: 0.82rem; color: var(--murekkep-2); }
+  .bolge { display: inline-flex; align-items: center; gap: 6px; }
+  @media (max-width: 680px) {
+    .ravi-satir a { grid-template-columns: 2.6rem minmax(0, 1fr); gap: 10px; padding: 11px 2px; }
+    .yan { grid-column: 2; flex-direction: row; flex-wrap: wrap; gap: 2px 12px; }
+    .tabaka { display: none; }
+  }
 </style>

@@ -12,45 +12,47 @@ for (const k of v.kenarlar.filter(ilimBagi)) {
 }
 const enCok = Math.max(...sayac.values());
 const kisiler = (id: string) => v.raviler.filter((r) => r.data.bolge === id);
+const anaBolgeler = v.bolgeler.filter((b) => !b.data.ek || kisiler(b.id).length > 0);
+const tablodakiler = v.bolgeler.filter((b) => kisiler(b.id).length > 0);
 ---
 
 <Site baslik="Bölgeler" genis>
-  <p class="ust-baslik">Yedi ilim merkezi</p>
   <h1>Bölgeler</h1>
+  <p class="giris-not">Râvîler, ilmin geliştiği {anaBolgeler.length} bölgeye göre gruplandı. Bir bölgeyi açınca orada yetişenleri ve bölge dışına uzanan hoca-talebe bağlarını görürsünüz.</p>
 
-  <div class="izgara">
+  <ul class="bolgeler">
     {
-      v.bolgeler.filter((b) => !b.data.ek).map((b) => (
-        <a class="kart" href={yol(`bolgeler/${b.id}/`)} style={`--renk:${b.data.renk};--renk-koyu:${b.data.renk_koyu}`}>
-          <h3 class="baslik"><span class="nokta" /> {b.data.isim}</h3>
-          <p class="soluk">{b.data.aciklama}</p>
-        </a>
+      anaBolgeler.map((b) => (
+        <li style={`--renk:${b.data.renk};--renk-koyu:${b.data.renk_koyu}`}>
+          <a href={yol(`bolgeler/${b.id}/`)}>
+            <span class="ad"><span class="nokta" />{b.data.isim}</span>
+            <span class="sayi">{kisiler(b.id).length} râvî</span>
+            <span class="aciklama">{b.data.aciklama}</span>
+          </a>
+        </li>
       ))
     }
-  </div>
+  </ul>
 
-  <h2>Bölgeler arası ilim aktarımı</h2>
-  <p class="soluk">
-    Satır, hocanın bölgesini; sütun, talebenin bölgesini gösterir. Sayılar o iki bölge arasındaki hoca-talebe
-    bağlantılarıdır. Köşegen, bölge içi aktarımdır. (Kişinin ana bölgesi esas alınmıştır.)
-  </p>
+  <h2>İlim hangi bölgeden hangisine aktı?</h2>
+  <p class="giris-not">Satırda hocanın, sütunda talebenin bölgesi var. Hücredeki sayı, o iki bölge arasındaki hoca-talebe bağlantısıdır; renk koyulaştıkça bağlantı artar. Kişinin ana bölgesi esas alındı.</p>
   <div class="tablo-kap">
-    <table class="sans">
+    <table>
       <thead>
         <tr>
-          <th>Hoca ↓ / Talebe →</th>
-          {v.bolgeler.map((b) => <th>{b.data.isim}</th>)}
+          <th scope="col"><span class="gizli-metin">Hocanın bölgesi</span></th>
+          {tablodakiler.map((b) => <th scope="col"><span class="dik">{b.data.isim}</span></th>)}
         </tr>
       </thead>
       <tbody>
         {
-          v.bolgeler.map((a) => (
+          tablodakiler.map((a) => (
             <tr>
-              <th>{a.data.isim} <span class="soluk">({kisiler(a.id).length})</span></th>
-              {v.bolgeler.map((b) => {
+              <th scope="row">{a.data.isim}</th>
+              {tablodakiler.map((b) => {
                 const n = sayac.get(`${a.id}>${b.id}`) ?? 0;
                 return (
-                  <td style={n ? `--yogunluk:${(0.15 + 0.85 * (n / enCok)).toFixed(2)}` : undefined} class:list={{ dolu: n > 0, kosegen: a.id === b.id }}>
+                  <td style={n ? `--yogunluk:${(0.12 + 0.88 * (n / enCok)).toFixed(2)}` : undefined} class:list={{ dolu: n > 0, kosegen: a.id === b.id, koyu: n / enCok > 0.45 }} title={n ? `${a.data.isim} → ${b.data.isim}: ${n}` : undefined}>
                     {n || ''}
                   </td>
                 );
@@ -64,13 +66,22 @@ const kisiler = (id: string) => v.raviler.filter((r) => r.data.bolge === id);
 </Site>
 
 <style>
-  .baslik { display: flex; align-items: center; gap: 8px; }
-  .kart p { font-size: 0.92rem; line-height: 1.5; margin: 0.4rem 0 0; }
+  .giris-not { color: var(--murekkep-2); max-width: 68ch; }
+  .bolgeler { list-style: none; margin: 1.5rem 0 3rem; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5rem; border-top: 1px solid var(--cizgi); }
+  .bolgeler a { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 14px 4px; border-bottom: 1px solid var(--cizgi); color: var(--murekkep); text-decoration: none; }
+  .bolgeler a:hover .ad { color: var(--vurgu); }
+  .ad { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; }
+  .sayi { font-size: 0.85rem; color: var(--murekkep-2); font-variant-numeric: tabular-nums; }
+  .aciklama { grid-column: 1 / -1; font-size: 0.9rem; color: var(--murekkep-2); line-height: 1.5; padding-left: 20px; }
   .tablo-kap { overflow-x: auto; margin-top: 1rem; }
-  table { border-collapse: collapse; font-size: 0.85rem; min-width: 640px; }
-  th, td { border: 1px solid var(--cizgi); padding: 8px 10px; text-align: center; }
-  th { font-weight: 500; background: var(--kagit-2); white-space: nowrap; }
-  tbody th { text-align: left; }
-  td.dolu { background: color-mix(in srgb, var(--vurgu) calc(var(--yogunluk) * 100%), var(--kart)); color: var(--kagit); font-weight: 600; }
-  td.kosegen:not(.dolu) { background: var(--kagit-2); }
+  table { border-collapse: collapse; font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+  th, td { padding: 0; text-align: center; }
+  thead th { vertical-align: bottom; padding: 0 0 8px; font-weight: 500; color: var(--murekkep-2); }
+  .dik { writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; display: inline-block; }
+  tbody th { text-align: right; padding-right: 12px; font-weight: 500; white-space: nowrap; }
+  td { width: 38px; height: 34px; min-width: 34px; border: 2px solid var(--kagit); background: var(--kagit-2); border-radius: 4px; }
+  td.dolu { background: color-mix(in srgb, var(--vurgu) calc(var(--yogunluk) * 100%), var(--kart)); }
+  td.koyu { color: #fff; font-weight: 600; }
+  td.kosegen { outline: 1px solid var(--murekkep-2); outline-offset: -2px; }
+  @media (max-width: 760px) { .bolgeler { grid-template-columns: 1fr; } }
 </style>

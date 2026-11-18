@@ -4,59 +4,110 @@ import RaviKart from '../../components/RaviKart.astro';
 import { TABAKALAR, veriYukle } from '../../lib/veri';
 
 const v = await veriYukle();
+const kusaklar = (Object.keys(TABAKALAR) as (keyof typeof TABAKALAR)[]).map((t) => ({
+  t,
+  ad: TABAKALAR[t],
+  kisiler: v.liste.filter((r) => r.data.tabaka === t),
+}));
 ---
 
 <Site baslik="Râvîler" genis>
-  <p class="ust-baslik">Sahâbeden Kütüb-i Sitte müelliflerine · vefat tarihine göre sıralı</p>
   <h1>Râvîler</h1>
+  <p class="giris-not">Kuşaklara ayrılmış, her kuşak içinde vefat yılına göre sıralı {v.liste.length} âlim.</p>
 
-  <div class="suzgec sans">
-    <input type="search" id="ara" placeholder="İsim ara…" aria-label="İsim ara" />
-    <select id="bolge" aria-label="Bölge">
+  <div class="suzgec" role="search">
+    <input type="search" id="ara" placeholder="Listede ara" aria-label="Listede isim ara" />
+    <select id="bolge" aria-label="Bölgeye göre süz">
       <option value="">Bütün bölgeler</option>
       {v.bolgeler.map((b) => <option value={b.id}>{b.data.isim}</option>)}
     </select>
-    <select id="tabaka" aria-label="Tabaka">
-      <option value="">Bütün tabakalar</option>
-      {Object.entries(TABAKALAR).map(([id, ad]) => <option value={id}>{ad}</option>)}
-    </select>
-    <span class="soluk" id="sayac"></span>
+    <div class="kusak-sec" role="group" aria-label="Kuşağa göre süz">
+      <button type="button" class="cip" data-tabaka="" aria-pressed="true">Hepsi</button>
+      {kusaklar.map((k) => <button type="button" class="cip" data-tabaka={k.t} aria-pressed="false">{k.ad.replace(' ve musannifler', '')}</button>)}
+    </div>
+    <span class="sayac" id="sayac" aria-live="polite"></span>
   </div>
 
-  <div class="izgara" id="liste">
-    {v.liste.map((r) => <RaviKart ravi={r} bolge={v.bolge.get(r.data.bolge)!} />)}
-  </div>
-  <p class="soluk" id="bos" hidden>Bu ölçütlere uyan râvî yok.</p>
-
+  {
+    kusaklar.map((k, i) => (
+      <section class="kusak" data-kusak={k.t}>
+        <h2 class="kusak-baslik"><span class="sira">{i + 1}. kuşak</span> {k.ad}</h2>
+        <ul class="liste">
+          {k.kisiler.map((r) => <RaviKart ravi={r} bolge={v.bolge.get(r.data.bolge)!} />)}
+        </ul>
+      </section>
+    ))
+  }
+  <p class="bos" id="bos" hidden>Bu ölçütlere uyan kimse yok. Aramayı kısaltın ya da bölge seçimini kaldırın.</p>
 </Site>
 
 <script>
   const ara = document.querySelector<HTMLInputElement>('#ara')!;
   const bolge = document.querySelector<HTMLSelectElement>('#bolge')!;
-  const tabaka = document.querySelector<HTMLSelectElement>('#tabaka')!;
-  const kartlar = [...document.querySelectorAll<HTMLElement>('#liste > a')];
+  const cipler = [...document.querySelectorAll<HTMLButtonElement>('.kusak-sec .cip')];
+  const satirlar = [...document.querySelectorAll<HTMLElement>('.ravi-satir')];
+  const bolumler = [...document.querySelectorAll<HTMLElement>('.kusak')];
+  const sadele = (s: string) => s.toLocaleLowerCase('tr').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ı/g, 'i').replace(/[‘’'`ʿʾ-]/g, '');
+  satirlar.forEach((s) => (s.dataset.ara = sadele(s.dataset.ara!)));
+  let tabaka = '';
+
+  const p = new URLSearchParams(location.search);
+  if (p.get('tabaka')) tabaka = p.get('tabaka')!;
+  if (p.get('bolge')) bolge.value = p.get('bolge')!;
 
   function suz() {
-    const q = ara.value.trim().toLocaleLowerCase('tr');
+    const q = sadele(ara.value.trim());
     let gorunen = 0;
-    for (const k of kartlar) {
+    for (const s of satirlar) {
       const uygun =
-        (!q || k.dataset.ara!.includes(q)) &&
-        (!bolge.value || k.dataset.bolge!.split(' ').includes(bolge.value)) &&
-        (!tabaka.value || k.dataset.tabaka === tabaka.value);
-      k.hidden = !uygun;
+        (!q || s.dataset.ara!.includes(q)) &&
+        (!bolge.value || s.dataset.bolge!.split(' ').includes(bolge.value)) &&
+        (!tabaka || s.dataset.tabaka === tabaka);
+      s.hidden = !uygun;
       if (uygun) gorunen++;
     }
-    document.querySelector('#sayac')!.textContent = `${gorunen} râvî`;
+    for (const b of bolumler) b.hidden = !b.querySelector('.ravi-satir:not([hidden])');
+    cipler.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.tabaka === tabaka)));
+    document.querySelector('#sayac')!.textContent = `${gorunen} kişi`;
     document.querySelector<HTMLElement>('#bos')!.hidden = gorunen > 0;
+    const u = new URL(location.href);
+    tabaka ? u.searchParams.set('tabaka', tabaka) : u.searchParams.delete('tabaka');
+    bolge.value ? u.searchParams.set('bolge', bolge.value) : u.searchParams.delete('bolge');
+    history.replaceState(null, '', u);
   }
-  [ara, bolge, tabaka].forEach((el) => el.addEventListener('input', suz));
+  cipler.forEach((c) => c.addEventListener('click', () => { tabaka = c.dataset.tabaka!; suz(); }));
+  [ara, bolge].forEach((el) => el.addEventListener('input', suz));
   suz();
 </script>
 
 <style>
-  .suzgec { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 1.5rem 0; }
+  .giris-not { color: var(--murekkep-2); margin: 0 0 1.25rem; }
+  .suzgec {
+    position: sticky; top: var(--ust-yukseklik); z-index: 5;
+    display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center;
+    padding: 12px 0; background: var(--kagit); border-bottom: 1px solid var(--cizgi);
+  }
   .suzgec input { flex: 1 1 220px; }
-  #sayac { font-size: 0.85rem; margin-left: auto; }
-  .izgara :global(a[hidden]) { display: none; }
+  .kusak-sec { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; order: 3; }
+  .cip {
+    border: 1px solid var(--cizgi); background: var(--kart); border-radius: 999px; padding: 4px 12px;
+    font-size: 0.85rem; cursor: pointer; color: var(--murekkep-2);
+  }
+  .cip:hover { color: var(--murekkep); border-color: var(--murekkep-2); }
+  .cip[aria-pressed='true'] { background: var(--murekkep); border-color: var(--murekkep); color: var(--kart); }
+  .sayac { font-size: 0.85rem; color: var(--murekkep-2); margin-left: auto; }
+  .kusak[hidden] { display: none; }
+  .kusak-baslik {
+    display: flex; align-items: baseline; gap: 10px; font-size: 1.1rem; margin: 2rem 0 0.2rem;
+    padding-bottom: 8px; border-bottom: 2px solid var(--murekkep);
+  }
+  .sira { font-size: 0.82rem; font-weight: 500; color: var(--murekkep-2); }
+  .liste { margin: 0; padding: 0; }
+  .liste :global(.ravi-satir[hidden]) { display: none; }
+  .bos { color: var(--murekkep-2); padding: 2rem 0; }
+  @media (max-width: 760px) {
+    .suzgec { position: static; }
+    .kusak-sec { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -14px; padding: 0 14px; }
+    .cip { white-space: nowrap; }
+  }
 </style>

@@ -6,18 +6,27 @@ import { grafVerisi, veriYukle } from '../lib/veri';
 const v = await veriYukle();
 ---
 
-<Site baslik="Bağlantı Ağı" genis>
-  <p class="ust-baslik">Hoca → talebe</p>
-  <h1>Bağlantı Ağı</h1>
-  <p class="soluk aciklama">
-    <b>Zaman × Bölge</b> görünümünde her sütun bir bölge, dikey eksen vefat yılıdır (hicrî); ilim yukarıdan aşağıya
-    akar. <b>Kişi seç</b> menüsünden bir isim seçtiğinizde yalnızca onun bağları görünür: doğrudan hocaları ve
-    talebeleri ya da sahâbeden imamlara uzanan bütün zinciri. Bir kişiye tıklayınca bağlantıları vurgulanır, çift
-    tıklayınca sayfası açılır. İki kişi seçip aralarındaki en kısa yolu görebilirsiniz.
-  </p>
+<Site baslik="Bağlantı ağı" genis>
+  <div class="ag-bas">
+    <h1>Bağlantı ağı</h1>
+    <details class="nasil">
+      <summary>Nasıl okunur?</summary>
+      <ul>
+        <li>Her sütun bir bölge; yukarıdan aşağıya vefat yılı ilerler. İlim yukarıdan aşağıya, hocadan talebeye akar.</li>
+        <li>Bir kişiye dokununca yalnızca onun bağları öne çıkar. Çift tıklayınca sayfası açılır.</li>
+        <li>Odaklan menüsünden kişi seçerek yalnız onun hoca ve talebelerini ya da imamlara uzanan zincirini görebilirsiniz.</li>
+        <li>Yol bul ile iki kişi arasındaki en kısa hoca-talebe zincirini çizebilirsiniz.</li>
+      </ul>
+    </details>
+  </div>
   <Ag veri={grafVerisi(v)} mod="tam" />
 </Site>
 
 <style>
-  .aciklama { max-width: 760px; margin-bottom: 1.5rem; }
+  .ag-bas { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1.5rem; margin-bottom: 1rem; }
+  .ag-bas h1 { margin: 0; }
+  .nasil { font-size: 0.9rem; max-width: 62ch; }
+  .nasil summary { cursor: pointer; color: var(--vurgu); }
+  .nasil ul { margin: 0.5rem 0 0; padding-left: 1.1rem; color: var(--murekkep-2); }
+  .nasil li { margin: 0.25rem 0; }
 </style>

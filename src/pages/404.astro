@@ -5,15 +5,12 @@ import { yol } from '../lib/veri';
 
 <Site baslik="Sayfa bulunamadı" aciklama="Aradığınız sayfa bulunamadı.">
   <section class="bulunamadi">
-    <p class="ust-baslik sans">404</p>
-    <h1>Sayfa bulunamadı</h1>
-    <p class="soluk">
-      Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir. Aşağıdaki bağlantılardan devam edebilirsiniz.
-    </p>
-    <div class="eylem sans">
-      <a class="dugme ana" href={yol()}>Ana sayfa</a>
+    <h1>Bu adreste bir sayfa yok</h1>
+    <p class="soluk">Sayfa taşınmış ya da adres yanlış yazılmış olabilir. Bir isim arayarak ya da aşağıdan devam edebilirsiniz.</p>
+    <div class="eylem">
+      <button type="button" class="dugme ana" data-ara-ac>İsim ara</button>
+      <a class="dugme" href={yol()}>Ana sayfa</a>
       <a class="dugme" href={yol('raviler/')}>Râvîler</a>
-      <a class="dugme" href={yol('ag/')}>Bağlantı ağı</a>
     </div>
   </section>
 </Site>

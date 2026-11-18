@@ -10,14 +10,10 @@ export async function getStaticPaths() {
 
 const v = await veriYukle();
 const bolge = v.bolge.get(Astro.props.id)!;
-const buradaMi = (id: string) => {
-  const r = v.ravi.get(id)!.data;
-  return r.bolge === bolge.id;
-};
+const buradaMi = (id: string) => v.ravi.get(id)!.data.bolge === bolge.id;
 const anaBolgede = v.raviler.filter((r) => r.data.bolge === bolge.id);
 const ugrayanlar = v.raviler.filter((r) => r.data.diger_bolgeler.includes(bolge.id));
 
-// Bölge dışına giden ve dışarıdan gelen bağlantılar
 const giden = v.kenarlar.filter((k) => ilimBagi(k) && buradaMi(k.hoca) && !buradaMi(k.talebe));
 const gelen = v.kenarlar.filter((k) => ilimBagi(k) && !buradaMi(k.hoca) && buradaMi(k.talebe));
 const isim = (id: string) => adVefat(v.ravi.get(id)!);
@@ -25,72 +21,74 @@ const bolgeAdi = (id: string) => v.bolge.get(v.ravi.get(id)!.data.bolge)!.data.i
 ---
 
 <Site baslik={bolge.data.isim} genis>
-  <a href={yol('bolgeler/')} class="geri sans">← Bölgeler</a>
+  <nav class="iz" aria-label="Konum"><a href={yol('bolgeler/')}>Bölgeler</a> / <span>{bolge.data.isim}</span></nav>
   <header style={`--renk:${bolge.data.renk};--renk-koyu:${bolge.data.renk_koyu}`}>
     <h1><span class="nokta buyuk" /> {bolge.data.isim}</h1>
     <p class="aciklama">{bolge.data.aciklama}</p>
-    <p class="sans"><a href={yol(`ag/?bolge=${bolge.id}`)}>Bu bölgeye gelen ve giden ilmi bağlantı ağında göster →</a></p>
+    <a class="dugme" href={yol(`ag/?bolge=${bolge.id}`)}>Bağlantı ağında göster</a>
   </header>
 
-  <h2>Bu bölgenin râvîleri</h2>
+  <h2>Bu bölgenin râvîleri <span class="adet">{anaBolgede.length}</span></h2>
   {anaBolgede.length === 0 && <p class="soluk">Bu bölgeye kayıtlı râvî yok.</p>}
-  <div class="izgara">
-    {anaBolgede.map((r) => <RaviKart ravi={r} bolge={bolge} />)}
-  </div>
+  <ul class="liste">{anaBolgede.map((r) => <RaviKart ravi={r} bolge={bolge} bolgesiz />)}</ul>
 
   {
     ugrayanlar.length > 0 && (
       <>
-        <h2>Bu bölgede bulunmuş diğerleri</h2>
-        <div class="izgara">
-          {ugrayanlar.map((r) => <RaviKart ravi={r} bolge={v.bolge.get(r.data.bolge)!} />)}
-        </div>
+        <h2>Bu bölgede bulunmuş diğerleri <span class="adet">{ugrayanlar.length}</span></h2>
+        <ul class="liste">{ugrayanlar.map((r) => <RaviKart ravi={r} bolge={v.bolge.get(r.data.bolge)!} />)}</ul>
       </>
     )
   }
 
   <div class="akis">
     <section>
-      <h2>Buradan dışarı</h2>
-      <p class="soluk sans kucuk">Bu bölgenin hocalarından ilim alan, başka bölgelerdeki talebeler</p>
+      <h2>Buradan dışarı <span class="adet">{giden.length}</span></h2>
+      <p class="not">Bu bölgedeki hocalardan ilim alan, başka bölgelerdeki talebeler</p>
       {giden.length === 0 && <p class="soluk">Kayıt yok.</p>}
-      <ul>
-        {
-          giden.map((k) => (
-            <li>
-              <a href={yol(`raviler/${k.hoca}/`)}>{isim(k.hoca)}</a> → <a href={yol(`raviler/${k.talebe}/`)}>{isim(k.talebe)}</a>
-              <span class="soluk sans"> ({bolgeAdi(k.talebe)}{k.araci ? `, ${k.araci} üzerinden` : ''})</span>
-            </li>
-          ))
-        }
+      <ul class="baglar">
+        {giden.map((k) => (
+          <li>
+            <a href={yol(`raviler/${k.hoca}/`)}>{isim(k.hoca)}</a>
+            <span class="ok" aria-label="hocası olduğu">→</span>
+            <a href={yol(`raviler/${k.talebe}/`)}>{isim(k.talebe)}</a>
+            <span class="yer">{bolgeAdi(k.talebe)}{k.araci ? `, ${k.araci} üzerinden` : ''}</span>
+          </li>
+        ))}
       </ul>
     </section>
     <section>
-      <h2>Dışarıdan buraya</h2>
-      <p class="soluk sans kucuk">Başka bölgelerden bu bölgedekilere ilim verenler</p>
+      <h2>Dışarıdan buraya <span class="adet">{gelen.length}</span></h2>
+      <p class="not">Başka bölgelerden bu bölgedekilere ilim verenler</p>
       {gelen.length === 0 && <p class="soluk">Kayıt yok.</p>}
-      <ul>
-        {
-          gelen.map((k) => (
-            <li>
-              <a href={yol(`raviler/${k.hoca}/`)}>{isim(k.hoca)}</a>
-              <span class="soluk sans"> ({bolgeAdi(k.hoca)}{k.araci ? `, ${k.araci} üzerinden` : ''})</span> →{' '}
-              <a href={yol(`raviler/${k.talebe}/`)}>{isim(k.talebe)}</a>
-            </li>
-          ))
-        }
+      <ul class="baglar">
+        {gelen.map((k) => (
+          <li>
+            <a href={yol(`raviler/${k.hoca}/`)}>{isim(k.hoca)}</a>
+            <span class="ok" aria-label="hocası olduğu">→</span>
+            <a href={yol(`raviler/${k.talebe}/`)}>{isim(k.talebe)}</a>
+            <span class="yer">{bolgeAdi(k.hoca)}'dan{k.araci ? `, ${k.araci} üzerinden` : ''}</span>
+          </li>
+        ))}
       </ul>
     </section>
   </div>
 </Site>
 
 <style>
-  .geri { font-size: 0.85rem; text-decoration: none; }
-  h1 { display: flex; align-items: center; gap: 14px; margin-top: 1rem; }
-  .buyuk { width: 18px; height: 18px; }
-  .aciklama { font-size: 1.15rem; color: var(--murekkep-2); max-width: 720px; }
-  .akis { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 2.5rem; }
-  .akis ul { padding-left: 1.1rem; }
-  .akis li { margin: 0.35rem 0; }
-  .kucuk { font-size: 0.85rem; margin-top: -0.6rem; }
+  .iz { font-size: 0.85rem; color: var(--murekkep-2); }
+  .iz a { color: var(--murekkep-2); }
+  header { padding-bottom: 1.5rem; border-bottom: 1px solid var(--cizgi); }
+  h1 { display: flex; align-items: center; gap: 14px; margin-top: 0.75rem; }
+  .buyuk { width: 16px; height: 16px; }
+  .aciklama { font-size: 1.08rem; color: var(--murekkep-2); max-width: 68ch; }
+  h2 { display: flex; align-items: baseline; gap: 10px; }
+  .adet { font-size: 0.85rem; font-weight: 500; color: var(--murekkep-2); font-variant-numeric: tabular-nums; }
+  .liste { margin: 0; padding: 0; border-top: 1px solid var(--cizgi); }
+  .akis { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 0 3rem; margin-top: 1rem; }
+  .not { font-size: 0.88rem; color: var(--murekkep-2); margin-top: -0.5rem; }
+  .baglar { list-style: none; padding: 0; margin: 0; }
+  .baglar li { padding: 8px 0; border-bottom: 1px solid var(--cizgi); line-height: 1.5; }
+  .ok { color: var(--murekkep-2); margin: 0 6px; }
+  .yer { display: block; font-size: 0.82rem; color: var(--murekkep-2); }
 </style>

@@ -25,7 +25,7 @@ const kisiGruplari = [
 
   {
     mod === 'tam' && (
-      <div class="arac sans">
+      <div class="arac sans" data-arac>
         <div class="bolum">
           <span class="bolum-baslik">Odaklan</span>
           <div class="grup">
@@ -50,7 +50,11 @@ const kisiGruplari = [
           </div>
         </div>
 
-        <div class="bolum">
+        <button type="button" class="dugme arac-ac" data-arac-ac aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          Görünüm ve filtreler
+        </button>
+        <div class="bolum ikincil">
           <span class="bolum-baslik">Göster / gizle</span>
           <div class="filtre-kap">
             <button class="dugme" data-filtre-ac aria-expanded="false" aria-haspopup="true" title="Sahâbe, aracılı ve ihtilaflı bağlantıları göster/gizle">
@@ -76,7 +80,7 @@ const kisiGruplari = [
           </div>
         </div>
 
-        <div class="bolum">
+        <div class="bolum ikincil">
           <span class="bolum-baslik">Görünüm</span>
           <div class="grup">
             <div class="segment" role="group" aria-label="Yerleşim">
@@ -123,17 +127,17 @@ const kisiGruplari = [
   {
     mod === 'tam' && (
       <>
-        <div class="lejant sans">
+        <details class="lejant sans" data-lejant>
+          <summary>İşaretlerin anlamı</summary>
           <div class="satir">
-            <span class="bolum-baslik">İşaretler</span>
             <span class="etiket imam">◉ Dört mezheb imamı</span>
             <span class="etiket imam kesik">◌ Günümüze ulaşmayan mezheb imamı</span>
             <span class="etiket kesik">- - - aracılı bağlantı</span>
             <span class="etiket ihtilaf-lejant">╌ ihtilaflı bağlantı</span>
             <span class="etiket">··· akrabalık</span>
-            <span class="soluk kucuk">Bir kişiye tıklayın: bağlantıları vurgulanır · çift tıklayın: sayfası açılır</span>
+            <span class="soluk kucuk">Bir kişiye dokunun, bağları öne çıksın. Çift tıklayınca sayfası açılır.</span>
           </div>
-        </div>
+        </details>
       </>
     )
   }
@@ -175,18 +179,19 @@ const kisiGruplari = [
           width: 22, height: 22,
           label: 'data(isim)',
           color: r.murekkep,
-          'font-family': 'Inter Variable, system-ui, sans-serif',
-          'font-size': 11,
+          'font-family': "'IBM Plex Sans Variable', system-ui, sans-serif",
+          'font-size': 12,
           'text-valign': 'bottom', 'text-margin-y': 5,
           'text-wrap': 'wrap', 'text-max-width': '86px',
           'text-background-color': r.kagit, 'text-background-opacity': 0.85, 'text-background-padding': '2px',
           'text-background-shape': 'roundrectangle',
           'border-width': 2, 'border-color': r.kagit,
+          'min-zoomed-font-size': 5,
         },
       },
       {
         selector: 'node.ravi[imam = "yasayan"]',
-        style: { width: 34, height: 34, 'border-width': 4, 'border-color': r.altin, 'font-weight': 700, 'font-size': 12.5 },
+        style: { width: 34, height: 34, 'border-width': 4, 'border-color': r.altin, 'font-weight': 700, 'font-size': 12.5, 'min-zoomed-font-size': 2 },
       },
       {
         selector: 'node.ravi[imam = "diger"]',
@@ -197,15 +202,15 @@ const kisiGruplari = [
       {
         selector: 'edge',
         style: {
-          width: 1.6, 'line-color': r.soluk, 'target-arrow-color': r.soluk, 'target-arrow-shape': 'triangle',
-          'arrow-scale': 0.9, 'curve-style': 'bezier', opacity: 0.55,
+          width: 1.2, 'line-color': r.soluk, 'target-arrow-color': r.soluk, 'target-arrow-shape': 'triangle',
+          'arrow-scale': 0.75, 'curve-style': 'bezier', opacity: 0.3,
         },
       },
       { selector: 'edge[araci]', style: { 'line-style': 'dashed', 'line-dash-pattern': [6, 4] } },
       // İhtilaflı: kırmızı, aracılı bağlantılardan (6-4) daha seyrek kesik çizgi
       {
         selector: 'edge[?ihtilafli]',
-        style: { 'line-color': r.ihtilaf, 'target-arrow-color': r.ihtilaf, opacity: 0.6, 'line-style': 'dashed', 'line-dash-pattern': [14, 8] },
+        style: { 'line-color': r.ihtilaf, 'target-arrow-color': r.ihtilaf, opacity: 0.5, 'line-style': 'dashed', 'line-dash-pattern': [14, 8] },
       },
       {
         selector: 'edge[tur = "akrabalik"]',
@@ -216,7 +221,7 @@ const kisiGruplari = [
         style: {
           label: 'data(isim)', 'background-opacity': 0, 'border-width': 0, width: 1, height: 1,
           color: (n: any) => bolgeRenk.get(n.data('id').slice(2)) ?? r.soluk,
-          'font-family': 'Inter Variable, system-ui, sans-serif', 'font-size': 16, 'font-weight': 600,
+          'font-family': "'IBM Plex Sans Variable', system-ui, sans-serif", 'font-size': 16, 'font-weight': 600,
           events: 'no',
         },
       },
@@ -233,7 +238,7 @@ const kisiGruplari = [
         selector: 'node.satir-etiket',
         style: {
           label: 'data(isim)', 'background-opacity': 0, 'border-width': 0, width: 1, height: 1,
-          color: r.soluk, 'font-family': 'Inter Variable, system-ui, sans-serif', 'font-size': 11, 'font-style': 'italic',
+          color: r.soluk, 'font-family': "'IBM Plex Sans Variable', system-ui, sans-serif", 'font-size': 11, 'font-style': 'italic',
           'text-halign': 'right', 'text-valign': 'center', events: 'no',
         },
       },
@@ -241,13 +246,17 @@ const kisiGruplari = [
         selector: 'node.yil',
         style: {
           label: 'data(isim)', 'background-opacity': 0, 'border-width': 0, width: 1, height: 1,
-          color: r.soluk, 'font-family': 'Inter Variable, system-ui, sans-serif', 'font-size': 10, events: 'no',
+          color: r.soluk, 'font-family': "'IBM Plex Sans Variable', system-ui, sans-serif", 'font-size': 10, events: 'no',
           'text-halign': 'left',
         },
       },
+      { selector: 'edge.odak-kenar', style: { opacity: 0.7, width: 1.6 } },
       { selector: '.gizli, .sahabe-gizli, .odak-disi, .araci-gizli, .ihtilaf-gizli', style: { display: 'none' } },
       { selector: '.soluk', style: { opacity: 0.12 } },
-      { selector: 'edge.odakta', style: { width: 2.8, opacity: 1 } },
+      { selector: 'edge.odakta', style: { width: 2.4, opacity: 0.95, 'line-color': r.murekkep, 'target-arrow-color': r.murekkep } },
+      { selector: '.hover-soluk', style: { opacity: 0.1 } },
+      { selector: 'edge.hover-odak', style: { width: 2.2, opacity: 0.95, 'line-color': r.murekkep, 'target-arrow-color': r.murekkep } },
+      { selector: 'node.hover-odak', style: { 'min-zoomed-font-size': 0, 'z-index': 10 } },
       { selector: 'edge.sinir', style: { width: 2.6, opacity: 0.85 } },
       { selector: 'node.secili', style: { 'border-color': r.vurgu, 'border-width': 4 } },
       { selector: 'edge.yol', style: { 'line-color': r.vurgu, 'target-arrow-color': r.vurgu, width: 3.5, opacity: 1, 'line-style': 'solid' } },
@@ -691,7 +700,7 @@ const kisiGruplari = [
     });
 
     window.addEventListener('tema-degisti', () => cy.style(stil(veri)));
-    // Etiketler Inter yüklenmeden ölçülürse çok satırlı isimlerin son satırı kesilir; yazı tipi gelince yeniden ölçülür
+    // Etiketler yazı tipi yüklenmeden ölçülürse çok satırlı isimlerin son satırı kesilir; yazı tipi gelince yeniden ölçülür
     // Küçük ağ yeni etiket ölçülerine göre yeniden sığdırılır
     // Sade küçük ağda kutu yüksekliği içeriğe göre ayarlanır: geniş ve basık ağlarda üstte/altta boşluk kalmaz
     // Sade küçük ağın çizimden sonraki son ayarları (yazı tipi yüklenince yeniden çalışır, bu yüzden ilk konumlardan başlar)
@@ -912,6 +921,20 @@ const kisiGruplari = [
       goster(baslik + (d.ihtilafli ? ' (ihtilaflı)' : ''), `${kenarMetni(e.target)}${ekler ? '. ' + ekler : ''}`);
     });
     cy.on('dbltap', 'node.ravi', (e) => (location.href = sayfa(e.target.id())));
+    // Fareyle üzerine gelinen kişinin bağları, başka bir seçim yokken geçici olarak öne çıkar
+    const fareVar = matchMedia('(hover: hover)').matches;
+    cy.on('mouseover', 'node.ravi', (e) => {
+      kap.style.cursor = 'pointer';
+      if (!fareVar || cy.$('.soluk, .secili, .yol').length) return;
+      const komsu = e.target.closedNeighborhood();
+      cy.elements('.ravi, edge').not(komsu).addClass('hover-soluk');
+      komsu.addClass('hover-odak');
+    });
+    cy.on('mouseout', 'node.ravi', () => {
+      kap.style.cursor = '';
+      cy.elements().removeClass('hover-soluk hover-odak');
+    });
+    cy.on('tap', () => cy.elements().removeClass('hover-soluk hover-odak'));
     cy.on('tap', (e) => { if (e.target === cy) temizle(); });
 
     // Sahâbe gizliyken zaman × bölge yerleşimi onlarsız yeniden hesaplanır; boş kalan üst satırlar kapanır
@@ -1128,6 +1151,10 @@ const kisiGruplari = [
         kume.edges().filter((e: any) => odakta(e.source()) !== odakta(e.target())).addClass('sinir');
       }
 
+      // Odaktayken az sayıda bağ kalır; bunlar soluk değil belirgin çizilir
+      cy.edges().removeClass('odak-kenar');
+      kume.edges().addClass('odak-kenar');
+
       if (serbestMi()) serbesteYerlestir();
       else zamanaYerlestir(animasyon);
     }
@@ -1147,7 +1174,7 @@ const kisiGruplari = [
       odak = null;
       odakDugumleri = null;
       temizle();
-      cy.elements().removeClass('odak-disi sinir');
+      cy.elements().removeClass('odak-disi sinir odak-kenar');
       // Sahâbe filtresi tekrar uygulanır
       if (sahabeGizli) cy.nodes('.ravi[tabaka = "sahabe"]').addClass('sahabe-gizli');
       odakSecim.value = bolgeSecim.value = '';
@@ -1256,6 +1283,17 @@ const kisiGruplari = [
   }
 
   document.querySelectorAll<HTMLElement>('[data-ag]').forEach(kur);
+
+  // Telefonda araç çubuğunun ikincil bölümleri ve işaret açıklaması katlanır
+  const genisEkran = matchMedia('(min-width: 761px)');
+  document.querySelectorAll<HTMLDetailsElement>('[data-lejant]').forEach((d) => (d.open = genisEkran.matches));
+  document.querySelectorAll<HTMLElement>('[data-arac]').forEach((arac) => {
+    const dugme = arac.querySelector<HTMLButtonElement>('[data-arac-ac]')!;
+    dugme.addEventListener('click', () => {
+      const acik = arac.classList.toggle('acik');
+      dugme.setAttribute('aria-expanded', String(acik));
+    });
+  });
 </script>
 
 <style>
@@ -1268,7 +1306,7 @@ const kisiGruplari = [
   .ag.tam-ekran .tuval-kap { flex: 1; min-height: 0; display: flex; }
   .ag.tam-ekran .tuval { flex: 1; min-height: 0; height: auto; }
   :global(html.kaydirma-yok) { overflow: hidden; }
-  .tuval { width: 100%; background: var(--kart); border: 1px solid var(--cizgi); border-radius: 12px; }
+  .tuval { width: 100%; background: var(--kart); border: 1px solid var(--cizgi); border-radius: var(--yaricap, 10px); }
   .tam .tuval { height: min(78vh, 760px); }
   .mini .tuval { height: 340px; }
   .arac {
@@ -1276,9 +1314,8 @@ const kisiGruplari = [
     gap: 12px 28px; margin-bottom: 12px;
   }
   .bolum { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
-  .bolum-baslik {
-    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--murekkep-2);
-  }
+  .bolum-baslik { font-size: 0.78rem; font-weight: 500; color: var(--murekkep-2); }
+  .arac-ac { display: none; }
   .grup { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .kucuk { font-size: 0.78rem; }
   .odak select, .bolum select { max-width: 210px; }
@@ -1306,8 +1343,7 @@ const kisiGruplari = [
   .ag :global(.acilir-ara) { width: 100%; box-sizing: border-box; }
   .ag :global(.acilir-liste) { max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 1px; }
   .ag :global(.acilir-grup) {
-    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
-    color: var(--murekkep-2); padding: 8px 10px 3px;
+    font-size: 0.78rem; font-weight: 600; color: var(--murekkep-2); padding: 8px 10px 3px;
   }
   .ag :global(.acilir-oge) {
     display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; cursor: pointer;
@@ -1367,7 +1403,10 @@ const kisiGruplari = [
   .bilgi { position: absolute; right: 14px; bottom: 14px; width: min(320px, calc(100% - 28px)); font-size: 0.88rem; }
   .bilgi :global(h3) { font-family: var(--sans); }
   .bilgi :global(p) { margin: 0.3rem 0 0.5rem; color: var(--murekkep-2); }
-  .lejant { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+  .lejant { margin-top: 12px; font-size: 0.85rem; }
+  .lejant summary { cursor: pointer; color: var(--murekkep-2); width: max-content; }
+  .lejant summary:hover { color: var(--murekkep); }
+  .lejant .satir { margin-top: 8px; }
   .lejant .satir { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .lejant .bolum-baslik { margin-right: 4px; }
   .lejant button { cursor: pointer; }
@@ -1377,4 +1416,19 @@ const kisiGruplari = [
   .lejant .imam { color: var(--altin); }
   .lejant .kesik { border-style: dashed; }
   .lejant .ihtilaf-lejant { color: var(--ihtilaf); border-color: var(--ihtilaf); border-style: dashed; }
+  @media (max-width: 760px) {
+    .arac { gap: 10px; }
+    .bolum, .grup { width: 100%; }
+    .bolum > .bolum-baslik { display: none; }
+    .grup > .soluk.kucuk { display: none; }
+    .ag :global(.acilir) { flex: 1 1 0; min-width: 0; }
+    .ag :global(.acilir-dugme) { width: 100%; min-width: 0; }
+    .ag :global(.acilir-etiket) { max-width: none; }
+    .arac-ac { display: inline-flex; }
+    .arac:not(.acik) .ikincil { display: none; }
+    .arac.acik .ikincil > .bolum-baslik { display: block; }
+    .tam .tuval { height: calc(100svh - var(--ust-yukseklik) - 210px); min-height: 380px; }
+    .mini .tuval { height: 300px; }
+    .bilgi { left: 8px; right: 8px; bottom: 8px; width: auto; }
+  }
 </style>
