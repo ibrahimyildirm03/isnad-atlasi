@@ -63,9 +63,9 @@ const onceki = sira > 0 ? v.liste[sira - 1] : undefined;
 const sonraki = sira < v.liste.length - 1 ? v.liste[sira + 1] : undefined;
 const bolumler = [
   ['hayati', 'Hayatı'],
+  ...(d.eserleri.length ? [['eserleri', 'Eserleri']] : []),
   ['baglantilar', 'Hoca ve talebeleri'],
   ['imamlar', 'İmamlarla bağı'],
-  ...(d.eserleri.length ? [['eserleri', 'Eserleri']] : []),
   ...(d.rical || d.cerh_tadil ? [['rical', 'Rical kitaplarında']] : []),
   ['kaynaklar', 'Kaynaklar'],
 ];
@@ -122,6 +122,13 @@ const ib = d.isim_bilgisi;
         {ib?.aciklama && <p class="isim-aciklama">{ib.aciklama}</p>}
         {d.biyografi ? d.biyografi.trim().split(/\n\s*\n/).map((p) => <p class="biyo">{p}</p>) : <p class="biyo">{d.ozet}</p>}
       </section>
+
+      {d.eserleri.length > 0 && (
+        <section id="eserleri">
+          <h2>Eserleri</h2>
+          <ul class="duz-liste">{d.eserleri.map((e) => <li><i>{e}</i></li>)}</ul>
+        </section>
+      )}
 
       <section id="baglantilar">
         <h2>Hoca ve talebeleri</h2>
@@ -181,13 +188,6 @@ const ib = d.isim_bilgisi;
         )}
         {yok.length > 0 && <p class="kucuk">Bağlantı bulunamayan imamlar: {yok.map((b) => b.imam.data.isim).join(', ')}</p>}
       </section>
-
-      {d.eserleri.length > 0 && (
-        <section id="eserleri">
-          <h2>Eserleri</h2>
-          <ul class="duz-liste">{d.eserleri.map((e) => <li><i>{e}</i></li>)}</ul>
-        </section>
-      )}
 
       {d.rical && (
         <section id="rical">

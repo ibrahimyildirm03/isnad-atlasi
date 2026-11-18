@@ -18,7 +18,13 @@ const kusaklar = (Object.keys(TABAKALAR) as (keyof typeof TABAKALAR)[]).map((t) 
 const bagSayisi = v.kenarlar.filter(ilimBagi).length;
 
 const bolgedekiler = (id: string) => v.liste.filter((r) => r.data.bolge === id);
-const musannifler = v.raviler.filter((r) => r.data.kutub_i_tisa);
+// Geleneksel sıra: önce Kütüb-i Sitte, sonra Tis'a'yı tamamlayan üç eser
+const SITTE = ['buhari', 'muslim', 'ebu-davud', 'tirmizi', 'nesai', 'ibn-mace'];
+const UC_ESER = ['malik-b-enes', 'ahmed-b-hanbel', 'darimi'];
+const sirala = (ids: string[]) => ids.map((id) => v.ravi.get(id)).filter((r) => r?.data.kutub_i_tisa) as typeof v.raviler;
+const sitte = sirala(SITTE);
+const ucEser = sirala(UC_ESER);
+const eserAdi = (r: (typeof v.raviler)[number]) => r.data.kutub_i_tisa!.replace(/^Kütüb-i (Sitte|Tis'a): /, '');
 const dortMezheb = v.imamlar.filter((r) => r.data.imam!.yasayan);
 const digerMezhepler = v.imamlar.filter((r) => !r.data.imam!.yasayan);
 const bolgeAdi = (r: Ravi) => v.bolge.get(r.data.bolge)!.data.isim;
@@ -120,13 +126,22 @@ const bolgeAdi = (r: Ravi) => v.bolge.get(r.data.bolge)!.data.isim;
 
     <section aria-labelledby="musannifler">
       <h2 id="musannifler">Kütüb-i Tis'a müellifleri</h2>
-      <ul class="kisi-listesi">
-        {musannifler.map((r) => (
+      <p class="alt-baslik">Kütüb-i Sitte</p>
+      <ol class="kisi-listesi">
+        {sitte.map((r, i) => (
           <li>
-            <a href={yol(`raviler/${r.id}/`)}><span class="ad">{r.data.isim}</span><span class="ek">{r.data.kutub_i_tisa}, ö. {tarihYaz(r.data.vefat)}</span></a>
+            <a href={yol(`raviler/${r.id}/`)}><span class="ad"><span class="no">{i + 1}</span>{r.data.isim}</span><span class="ek">{eserAdi(r)}, ö. {tarihYaz(r.data.vefat)}</span></a>
           </li>
         ))}
-      </ul>
+      </ol>
+      <p class="alt-baslik">Kütüb-i Tis'a'yı tamamlayan üç eser</p>
+      <ol class="kisi-listesi" start="7">
+        {ucEser.map((r, i) => (
+          <li>
+            <a href={yol(`raviler/${r.id}/`)}><span class="ad"><span class="no">{i + 7}</span>{r.data.isim}</span><span class="ek">{eserAdi(r)}, ö. {tarihYaz(r.data.vefat)}</span></a>
+          </li>
+        ))}
+      </ol>
       <p class="not">Kütüb-i Sitte'ye Mâlik'in <i>Muvatta'</i>ı, Ahmed b. Hanbel'in <i>Müsned</i>'i ve Dârimî'nin <i>Sünen</i>'i eklenerek oluşan dokuz temel hadis kitabı.</p>
     </section>
   </div>
@@ -193,6 +208,7 @@ const bolgeAdi = (r: Ravi) => v.bolge.get(r.data.bolge)!.data.isim;
   }
   .kisi-listesi a:hover .ad { color: var(--vurgu); }
   .kisi-listesi .ad { font-weight: 500; }
+  .no { display: inline-block; width: 1.4rem; color: var(--murekkep-2); font-weight: 400; font-variant-numeric: tabular-nums; }
   .kisi-listesi .ek { font-size: 0.85rem; color: var(--murekkep-2); text-align: right; }
   .soluk-liste .ad { font-weight: 400; color: var(--murekkep-2); }
   .alt-baslik { font-weight: 600; margin: 1.6rem 0 0.2rem; font-size: 0.95rem; }
