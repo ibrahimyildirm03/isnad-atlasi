@@ -12,7 +12,7 @@ interface Props {
   genis?: boolean;
 }
 const { baslik, aciklama = 'Sahâbeden mezheb imamlarına ve Kütüb-i Sitte müelliflerine, hicrî üç asırda ilmin aktarımı.', genis = false } = Astro.props;
-const tamBaslik = baslik ? `${baslik} | Tabakât Atlası` : 'Tabakât Atlası';
+const tamBaslik = baslik ? `${baslik} | İsnad Atlası` : 'İsnad Atlası';
 const simdiki = Astro.url.pathname;
 const kok = yol();
 const menu = [
@@ -42,7 +42,7 @@ const aramaListesi = v.liste.map((r) => ({
     <title>{tamBaslik}</title>
     <meta name="description" content={aciklama} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Tabakât Atlası" />
+    <meta property="og:site_name" content="İsnad Atlası" />
     <meta property="og:locale" content="tr_TR" />
     <meta property="og:title" content={tamBaslik} />
     <meta property="og:description" content={aciklama} />
@@ -65,14 +65,14 @@ const aramaListesi = v.liste.map((r) => ({
     <a class="atla" href="#icerik">İçeriğe geç</a>
     <header class="ust">
       <div class="kap ust-ic">
-        <a href={kok} class="logo" aria-label="Tabakât Atlası ana sayfa">
+        <a href={kok} class="logo" aria-label="İsnad Atlası ana sayfa">
           <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
             <circle cx="12" cy="4" r="2.6" fill="currentColor" />
             <circle cx="12" cy="12" r="2.6" fill="currentColor" opacity="0.7" />
             <circle cx="12" cy="20" r="2.6" fill="var(--altin)" />
             <path d="M12 6.6v2.8M12 14.6v2.8" stroke="currentColor" stroke-width="1.6" />
           </svg>
-          <span>Tabakât Atlası</span>
+          <span>İsnad Atlası</span>
         </a>
 
         <button class="ara-tetik" type="button" data-ara-ac aria-haspopup="dialog">

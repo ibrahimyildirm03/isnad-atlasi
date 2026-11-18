@@ -30,7 +30,7 @@ hocalari:
     kaynak: {ad: "TDV İslâm Ansiklopedisi, \"Saîd b. Müseyyeb\"", url: "https://islamansiklopedisi.org.tr/said-b-museyyeb"}
     not: Medine valiliğinde ona danışmadan hüküm vermezdi
   - kisi: ubeydullah-b-abdullah
-    kaynak: {ad: "Tabakât Atlası, \"Ubeydullah b. Abdullah\" kaydı (TDV'ye dayanır)"}
+    kaynak: {ad: "İsnad Atlası, \"Ubeydullah b. Abdullah\" kaydı (TDV'ye dayanır)"}
 kaynaklar:
   - {ad: "TDV İslâm Ansiklopedisi, \"Ömer b. Abdülazîz\"", url: "https://islamansiklopedisi.org.tr/omer-b-abdulaziz"}
 dogrulandi: kismi

@@ -1,12 +1,13 @@
-# Tabakât Atlası
+# İsnad Atlası
 
 **Sahâbeden mezheb imamlarına ve Kütüb-i Sitte müelliflerine, hicrî üç asırda kuşak kuşak ve bölge bölge hoca-talebe bağları.**
 
-🔗 **https://ibrahimyildirm03.github.io/tabakat-atlasi/**
+🔗 **https://ibrahimyildirm03.github.io/isnad-atlasi/**
 
-Tabakât Atlası; sahâbe, tâbiîn ve sonraki kuşaklardan âlimlerin hayatlarını, kimlerden ilim aldıklarını ve bu ilmin
-mezheb imamlarına hangi yollarla ulaştığını gösteren bir çalışmadır. Adını, râvîleri kuşaklarına (tabaka) ve
-yaşadıkları ilim merkezlerine göre düzenleyen klasik **tabakât** geleneğinden alır.
+İsnad Atlası; sahâbe, tâbiîn ve sonraki kuşaklardan âlimlerin hayatlarını, kimlerden ilim aldıklarını ve bu ilmin
+mezheb imamlarına hangi yollarla ulaştığını gösteren bir çalışmadır. Râvîleri, klasik **tabakât** geleneğinde
+olduğu gibi kuşaklarına (tabaka) ve yaşadıkları ilim merkezlerine göre düzenler; hoca-talebe halkalarını
+**isnad** zincirleri gibi izlenebilir kılar.
 
 ---
 
@@ -47,7 +48,7 @@ sahâbîden bizzat işitip işitmediği) "ihtilaflı" olarak işaretlenmiş ve n
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321/tabakat-atlasi/
+npm run dev      # http://localhost:4321/isnad-atlasi/
 npm run build    # siteyi dist/ klasörüne üretir
 ```
 
